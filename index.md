@@ -1,2 +1,2 @@
-# Heleonix.Docs
+# Heleonix
 Documentation, wiki, media, images, etc.
