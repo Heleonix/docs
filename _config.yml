@@ -1,7 +1,6 @@
 theme: jekyll-theme-cayman
-markdown: kramdown
-kramdown:
-  input: GFM
+markdown: GFM
+highlighter: rouge
 plugins:
   - jekyll-relative-links
 relative-links:
