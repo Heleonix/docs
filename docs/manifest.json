@@ -1,0 +1,217 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Dev/Projects/Heleonix/documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/Heleonix.Execution/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Execution/intro.html",
+          "hash": "+LtoBXufOTq9Gz/NykNq3tWP7Rnj1ZYOHxsBk9yvEDM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/Heleonix.Extensions/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Extensions/intro.html",
+          "hash": "WIwM1HeE/GqTqvbi3FFFlHQUZJBPD8Kw6c3CcJhYbCc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/Heleonix.Guard/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Guard/intro.html",
+          "hash": "qw1hTM5a+XGLJt5J2UidhFGdOYgEAjshV+Sshc9+LD8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/Heleonix.Reflection/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Reflection/intro.html",
+          "hash": "5u9Pm1MmYlRIQMHxgfxQr8GFPuJqsXdeiC12ec24/5g="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/Heleonix.Testing.NUnit/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing.NUnit/intro.html",
+          "hash": "MUie6jInbcB9kAxoxsLcj9sqTNp2WKNEoZICpJr1R94="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/Heleonix.Validation/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Validation/intro.html",
+          "hash": "wpDw3PYYWY+KPKUU2dlgVueCFoIQ0AsMR0FD9zQ2+x0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/heleonix-logos/Heleonix-2048x2048.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/heleonix-logos/Heleonix-2048x2048.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/heleonix-logos/Heleonix-256x128.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/heleonix-logos/Heleonix-256x128.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/heleonix-logos/Heleonix-256x256.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/heleonix-logos/Heleonix-256x256.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/heleonix-logos/Heleonix-64x64.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/heleonix-logos/Heleonix-64x64.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/heleonix-logos/Heleonix-logo-2048x1024.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/heleonix-logos/Heleonix-logo-2048x1024.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/heleonix-logos/Heleonix-logo-2048x2048.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/heleonix-logos/Heleonix-logo-2048x2048.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "YJppXLFHPmv2ycsywU4wL6cKOyyAWCGPovlJ3SXWAs4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "68DHyLF6IT8hunaICLvyPeECBikEI6tLKMZsFKxMP60="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 7,
+          "skipped_file_count": 7
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

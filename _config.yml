@@ -1,8 +1,0 @@
-theme: jekyll-theme-cayman
-markdown: GFM
-highlighter: rouge
-plugins:
-  - jekyll-relative-links
-relative-links:
-  enabled: true
-  collections: true
