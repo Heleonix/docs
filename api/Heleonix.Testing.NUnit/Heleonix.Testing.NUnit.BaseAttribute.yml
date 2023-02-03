@@ -1,0 +1,289 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.NUnit.BaseAttribute
+  commentId: T:Heleonix.Testing.NUnit.BaseAttribute
+  id: BaseAttribute
+  parent: Heleonix.Testing.NUnit
+  children:
+  - Heleonix.Testing.NUnit.BaseAttribute.#ctor
+  - Heleonix.Testing.NUnit.BaseAttribute.Properties
+  - Heleonix.Testing.NUnit.BaseAttribute.TestName
+  langs:
+  - csharp
+  - vb
+  name: BaseAttribute
+  nameWithType: BaseAttribute
+  fullName: Heleonix.Testing.NUnit.BaseAttribute
+  type: Class
+  source:
+    path: Heleonix.Testing.NUnit
+    isExternal: true
+  assemblies:
+  - Heleonix.Testing.NUnit
+  namespace: Heleonix.Testing.NUnit
+  summary: "\nRepresents the base attribute for all other tests attributes.\n"
+  syntax:
+    content: 'public abstract class BaseAttribute : Attribute'
+    content.vb: >-
+      Public MustInherit Class BaseAttribute
+
+          Inherits Attribute
+  seealso:
+  - linkId: System.Attribute
+    commentId: T:System.Attribute
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Heleonix.Testing.NUnit.FixtureAttribute
+  - Heleonix.Testing.NUnit.TestAttribute
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Heleonix.Testing.NUnit.BaseAttribute.#ctor
+  commentId: M:Heleonix.Testing.NUnit.BaseAttribute.#ctor
+  id: '#ctor'
+  parent: Heleonix.Testing.NUnit.BaseAttribute
+  langs:
+  - csharp
+  - vb
+  name: BaseAttribute()
+  nameWithType: BaseAttribute.BaseAttribute()
+  fullName: Heleonix.Testing.NUnit.BaseAttribute.BaseAttribute()
+  type: Constructor
+  source:
+    path: Heleonix.Testing.NUnit
+    isExternal: true
+  assemblies:
+  - Heleonix.Testing.NUnit
+  namespace: Heleonix.Testing.NUnit
+  syntax:
+    content: protected BaseAttribute()
+    content.vb: Protected Sub New
+  overload: Heleonix.Testing.NUnit.BaseAttribute.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Heleonix.Testing.NUnit.BaseAttribute.Properties
+  commentId: P:Heleonix.Testing.NUnit.BaseAttribute.Properties
+  id: Properties
+  parent: Heleonix.Testing.NUnit.BaseAttribute
+  langs:
+  - csharp
+  - vb
+  name: Properties
+  nameWithType: BaseAttribute.Properties
+  fullName: Heleonix.Testing.NUnit.BaseAttribute.Properties
+  type: Property
+  source:
+    path: Heleonix.Testing.NUnit
+    isExternal: true
+  assemblies:
+  - Heleonix.Testing.NUnit
+  namespace: Heleonix.Testing.NUnit
+  summary: "\nGets the properties.\n"
+  syntax:
+    content: protected virtual IDictionary<string, object> Properties { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IDictionary{System.String,System.Object}
+      description: "\nThe properties.\n"
+    content.vb: Protected Overridable ReadOnly Property Properties As IDictionary(Of String, Object)
+  overload: Heleonix.Testing.NUnit.BaseAttribute.Properties*
+  modifiers.csharp:
+  - protected
+  - virtual
+  - get
+  modifiers.vb:
+  - Protected
+  - Overridable
+  - ReadOnly
+- uid: Heleonix.Testing.NUnit.BaseAttribute.TestName
+  commentId: P:Heleonix.Testing.NUnit.BaseAttribute.TestName
+  id: TestName
+  parent: Heleonix.Testing.NUnit.BaseAttribute
+  langs:
+  - csharp
+  - vb
+  name: TestName
+  nameWithType: BaseAttribute.TestName
+  fullName: Heleonix.Testing.NUnit.BaseAttribute.TestName
+  type: Property
+  source:
+    path: Heleonix.Testing.NUnit
+    isExternal: true
+  assemblies:
+  - Heleonix.Testing.NUnit
+  namespace: Heleonix.Testing.NUnit
+  summary: "\nGets the name of the test.\n"
+  syntax:
+    content: protected abstract string TestName { get; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nThe name of the test.\n"
+    content.vb: Protected MustOverride ReadOnly Property TestName As String
+  overload: Heleonix.Testing.NUnit.BaseAttribute.TestName*
+  modifiers.csharp:
+  - protected
+  - abstract
+  - get
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  - ReadOnly
+references:
+- uid: Heleonix.Testing.NUnit
+  commentId: N:Heleonix.Testing.NUnit
+  isExternal: true
+  name: Heleonix.Testing.NUnit
+  nameWithType: Heleonix.Testing.NUnit
+  fullName: Heleonix.Testing.NUnit
+- uid: System.Attribute
+  commentId: T:System.Attribute
+  isExternal: true
+- uid: Heleonix.Testing.NUnit.BaseAttribute.#ctor*
+  commentId: Overload:Heleonix.Testing.NUnit.BaseAttribute.#ctor
+  isExternal: true
+  name: BaseAttribute
+  nameWithType: BaseAttribute.BaseAttribute
+  fullName: Heleonix.Testing.NUnit.BaseAttribute.BaseAttribute
+- uid: Heleonix.Testing.NUnit.BaseAttribute.Properties*
+  commentId: Overload:Heleonix.Testing.NUnit.BaseAttribute.Properties
+  isExternal: true
+  name: Properties
+  nameWithType: BaseAttribute.Properties
+  fullName: Heleonix.Testing.NUnit.BaseAttribute.Properties
+- uid: System.Collections.Generic.IDictionary{System.String,System.Object}
+  commentId: '!:System.Collections.Generic.IDictionary{System.String,System.Object}'
+  definition: System.Collections.Generic.IDictionary`2
+  name: IDictionary<String, Object>
+  nameWithType: IDictionary<String, Object>
+  fullName: System.Collections.Generic.IDictionary<System.String, System.Object>
+  nameWithType.vb: IDictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.IDictionary(Of System.String, System.Object)
+  name.vb: IDictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IDictionary`2
+  isExternal: true
+  name: IDictionary<, >
+  nameWithType: IDictionary<, >
+  fullName: System.Collections.Generic.IDictionary<, >
+  nameWithType.vb: IDictionary(Of , )
+  fullName.vb: System.Collections.Generic.IDictionary(Of , )
+  name.vb: IDictionary(Of , )
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Heleonix.Testing.NUnit.BaseAttribute.TestName*
+  commentId: Overload:Heleonix.Testing.NUnit.BaseAttribute.TestName
+  isExternal: true
+  name: TestName
+  nameWithType: BaseAttribute.TestName
+  fullName: Heleonix.Testing.NUnit.BaseAttribute.TestName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

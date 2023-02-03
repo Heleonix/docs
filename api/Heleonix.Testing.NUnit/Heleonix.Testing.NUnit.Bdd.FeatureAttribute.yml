@@ -1,0 +1,372 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.NUnit.Bdd.FeatureAttribute
+  commentId: T:Heleonix.Testing.NUnit.Bdd.FeatureAttribute
+  id: FeatureAttribute
+  parent: Heleonix.Testing.NUnit.Bdd
+  children:
+  - Heleonix.Testing.NUnit.Bdd.FeatureAttribute.#ctor
+  - Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Name
+  - Heleonix.Testing.NUnit.Bdd.FeatureAttribute.TestName
+  langs:
+  - csharp
+  - vb
+  name: FeatureAttribute
+  nameWithType: FeatureAttribute
+  fullName: Heleonix.Testing.NUnit.Bdd.FeatureAttribute
+  type: Class
+  source:
+    path: Heleonix.Testing.NUnit
+    isExternal: true
+  assemblies:
+  - Heleonix.Testing.NUnit
+  namespace: Heleonix.Testing.NUnit.Bdd
+  summary: "\nMarks a test fixture as a feature tests.\n"
+  syntax:
+    content: 'public sealed class FeatureAttribute : FixtureAttribute'
+    content.vb: >-
+      Public NotInheritable Class FeatureAttribute
+
+          Inherits FixtureAttribute
+  seealso:
+  - linkId: Heleonix.Testing.NUnit.FixtureAttribute
+    commentId: T:Heleonix.Testing.NUnit.FixtureAttribute
+  inheritance:
+  - System.Object
+  - Heleonix.Testing.NUnit.BaseAttribute
+  - Heleonix.Testing.NUnit.FixtureAttribute
+  implements:
+  - NUnit.Framework.Interfaces.IFixtureBuilder2
+  - NUnit.Framework.Interfaces.IFixtureBuilder
+  - NUnit.Framework.Interfaces.IApplyToTest
+  inheritedMembers:
+  - Heleonix.Testing.NUnit.FixtureAttribute.ApplyToTest(NUnit.Framework.Internal.Test)
+  - Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom(NUnit.Framework.Interfaces.ITypeInfo)
+  - Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom(NUnit.Framework.Interfaces.ITypeInfo,NUnit.Framework.Interfaces.IPreFilter)
+  - Heleonix.Testing.NUnit.BaseAttribute.Properties
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.#ctor
+  commentId: M:Heleonix.Testing.NUnit.Bdd.FeatureAttribute.#ctor
+  id: '#ctor'
+  parent: Heleonix.Testing.NUnit.Bdd.FeatureAttribute
+  langs:
+  - csharp
+  - vb
+  name: FeatureAttribute()
+  nameWithType: FeatureAttribute.FeatureAttribute()
+  fullName: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.FeatureAttribute()
+  type: Constructor
+  source:
+    path: Heleonix.Testing.NUnit
+    isExternal: true
+  assemblies:
+  - Heleonix.Testing.NUnit
+  namespace: Heleonix.Testing.NUnit.Bdd
+  syntax:
+    content: public FeatureAttribute()
+    content.vb: Public Sub New
+  overload: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Name
+  commentId: P:Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Name
+  id: Name
+  parent: Heleonix.Testing.NUnit.Bdd.FeatureAttribute
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: FeatureAttribute.Name
+  fullName: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Name
+  type: Property
+  source:
+    path: Heleonix.Testing.NUnit
+    isExternal: true
+  assemblies:
+  - Heleonix.Testing.NUnit
+  namespace: Heleonix.Testing.NUnit.Bdd
+  summary: "\nGets or sets the name.\n"
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nThe name.\n"
+    content.vb: Public Property Name As String
+  overload: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.TestName
+  commentId: P:Heleonix.Testing.NUnit.Bdd.FeatureAttribute.TestName
+  id: TestName
+  parent: Heleonix.Testing.NUnit.Bdd.FeatureAttribute
+  langs:
+  - csharp
+  - vb
+  name: TestName
+  nameWithType: FeatureAttribute.TestName
+  fullName: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.TestName
+  type: Property
+  source:
+    path: Heleonix.Testing.NUnit
+    isExternal: true
+  assemblies:
+  - Heleonix.Testing.NUnit
+  namespace: Heleonix.Testing.NUnit.Bdd
+  summary: "\nGets the name of the test.\n"
+  syntax:
+    content: protected override string TestName { get; }
+    parameters: []
+    return:
+      type: System.String
+      description: "\nThe name of the test.\n"
+    content.vb: Protected Overrides ReadOnly Property TestName As String
+  overridden: Heleonix.Testing.NUnit.BaseAttribute.TestName
+  overload: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.TestName*
+  modifiers.csharp:
+  - protected
+  - override
+  - get
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - ReadOnly
+references:
+- uid: Heleonix.Testing.NUnit.Bdd
+  commentId: N:Heleonix.Testing.NUnit.Bdd
+  isExternal: true
+  name: Heleonix.Testing.NUnit.Bdd
+  nameWithType: Heleonix.Testing.NUnit.Bdd
+  fullName: Heleonix.Testing.NUnit.Bdd
+- uid: Heleonix.Testing.NUnit.BaseAttribute
+  commentId: T:Heleonix.Testing.NUnit.BaseAttribute
+  parent: Heleonix.Testing.NUnit
+  isExternal: true
+  name: BaseAttribute
+  nameWithType: BaseAttribute
+  fullName: Heleonix.Testing.NUnit.BaseAttribute
+- uid: Heleonix.Testing.NUnit.FixtureAttribute
+  commentId: T:Heleonix.Testing.NUnit.FixtureAttribute
+  parent: Heleonix.Testing.NUnit
+  isExternal: true
+  name: FixtureAttribute
+  nameWithType: FixtureAttribute
+  fullName: Heleonix.Testing.NUnit.FixtureAttribute
+- uid: NUnit.Framework.Interfaces.IFixtureBuilder2
+  isExternal: true
+  name: IFixtureBuilder2
+  nameWithType: IFixtureBuilder2
+  fullName: NUnit.Framework.Interfaces.IFixtureBuilder2
+- uid: NUnit.Framework.Interfaces.IFixtureBuilder
+  isExternal: true
+  name: IFixtureBuilder
+  nameWithType: IFixtureBuilder
+  fullName: NUnit.Framework.Interfaces.IFixtureBuilder
+- uid: NUnit.Framework.Interfaces.IApplyToTest
+  isExternal: true
+  name: IApplyToTest
+  nameWithType: IApplyToTest
+  fullName: NUnit.Framework.Interfaces.IApplyToTest
+- uid: Heleonix.Testing.NUnit.FixtureAttribute.ApplyToTest(NUnit.Framework.Internal.Test)
+  commentId: M:Heleonix.Testing.NUnit.FixtureAttribute.ApplyToTest(NUnit.Framework.Internal.Test)
+  parent: Heleonix.Testing.NUnit.FixtureAttribute
+  isExternal: true
+  name: ApplyToTest(Test)
+  nameWithType: FixtureAttribute.ApplyToTest(Test)
+  fullName: Heleonix.Testing.NUnit.FixtureAttribute.ApplyToTest(NUnit.Framework.Internal.Test)
+  spec.csharp:
+  - uid: Heleonix.Testing.NUnit.FixtureAttribute.ApplyToTest(NUnit.Framework.Internal.Test)
+    name: ApplyToTest
+    nameWithType: FixtureAttribute.ApplyToTest
+    fullName: Heleonix.Testing.NUnit.FixtureAttribute.ApplyToTest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: NUnit.Framework.Internal.Test
+    name: Test
+    nameWithType: Test
+    fullName: NUnit.Framework.Internal.Test
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Heleonix.Testing.NUnit.FixtureAttribute.ApplyToTest(NUnit.Framework.Internal.Test)
+    name: ApplyToTest
+    nameWithType: FixtureAttribute.ApplyToTest
+    fullName: Heleonix.Testing.NUnit.FixtureAttribute.ApplyToTest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: NUnit.Framework.Internal.Test
+    name: Test
+    nameWithType: Test
+    fullName: NUnit.Framework.Internal.Test
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom(NUnit.Framework.Interfaces.ITypeInfo)
+  commentId: M:Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom(NUnit.Framework.Interfaces.ITypeInfo)
+  parent: Heleonix.Testing.NUnit.FixtureAttribute
+  isExternal: true
+  name: BuildFrom(ITypeInfo)
+  nameWithType: FixtureAttribute.BuildFrom(ITypeInfo)
+  fullName: Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom(NUnit.Framework.Interfaces.ITypeInfo)
+  spec.csharp:
+  - uid: Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom(NUnit.Framework.Interfaces.ITypeInfo)
+    name: BuildFrom
+    nameWithType: FixtureAttribute.BuildFrom
+    fullName: Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: NUnit.Framework.Interfaces.ITypeInfo
+    name: ITypeInfo
+    nameWithType: ITypeInfo
+    fullName: NUnit.Framework.Interfaces.ITypeInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom(NUnit.Framework.Interfaces.ITypeInfo)
+    name: BuildFrom
+    nameWithType: FixtureAttribute.BuildFrom
+    fullName: Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: NUnit.Framework.Interfaces.ITypeInfo
+    name: ITypeInfo
+    nameWithType: ITypeInfo
+    fullName: NUnit.Framework.Interfaces.ITypeInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom(NUnit.Framework.Interfaces.ITypeInfo,NUnit.Framework.Interfaces.IPreFilter)
+  commentId: M:Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom(NUnit.Framework.Interfaces.ITypeInfo,NUnit.Framework.Interfaces.IPreFilter)
+  parent: Heleonix.Testing.NUnit.FixtureAttribute
+  isExternal: true
+  name: BuildFrom(ITypeInfo, IPreFilter)
+  nameWithType: FixtureAttribute.BuildFrom(ITypeInfo, IPreFilter)
+  fullName: Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom(NUnit.Framework.Interfaces.ITypeInfo, NUnit.Framework.Interfaces.IPreFilter)
+  spec.csharp:
+  - uid: Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom(NUnit.Framework.Interfaces.ITypeInfo,NUnit.Framework.Interfaces.IPreFilter)
+    name: BuildFrom
+    nameWithType: FixtureAttribute.BuildFrom
+    fullName: Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: NUnit.Framework.Interfaces.ITypeInfo
+    name: ITypeInfo
+    nameWithType: ITypeInfo
+    fullName: NUnit.Framework.Interfaces.ITypeInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: NUnit.Framework.Interfaces.IPreFilter
+    name: IPreFilter
+    nameWithType: IPreFilter
+    fullName: NUnit.Framework.Interfaces.IPreFilter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom(NUnit.Framework.Interfaces.ITypeInfo,NUnit.Framework.Interfaces.IPreFilter)
+    name: BuildFrom
+    nameWithType: FixtureAttribute.BuildFrom
+    fullName: Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: NUnit.Framework.Interfaces.ITypeInfo
+    name: ITypeInfo
+    nameWithType: ITypeInfo
+    fullName: NUnit.Framework.Interfaces.ITypeInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: NUnit.Framework.Interfaces.IPreFilter
+    name: IPreFilter
+    nameWithType: IPreFilter
+    fullName: NUnit.Framework.Interfaces.IPreFilter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Heleonix.Testing.NUnit.BaseAttribute.Properties
+  commentId: P:Heleonix.Testing.NUnit.BaseAttribute.Properties
+  parent: Heleonix.Testing.NUnit.BaseAttribute
+  isExternal: true
+  name: Properties
+  nameWithType: BaseAttribute.Properties
+  fullName: Heleonix.Testing.NUnit.BaseAttribute.Properties
+- uid: Heleonix.Testing.NUnit
+  commentId: N:Heleonix.Testing.NUnit
+  isExternal: true
+  name: Heleonix.Testing.NUnit
+  nameWithType: Heleonix.Testing.NUnit
+  fullName: Heleonix.Testing.NUnit
+- uid: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.#ctor*
+  commentId: Overload:Heleonix.Testing.NUnit.Bdd.FeatureAttribute.#ctor
+  isExternal: true
+  name: FeatureAttribute
+  nameWithType: FeatureAttribute.FeatureAttribute
+  fullName: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.FeatureAttribute
+- uid: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Name*
+  commentId: Overload:Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Name
+  isExternal: true
+  name: Name
+  nameWithType: FeatureAttribute.Name
+  fullName: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Heleonix.Testing.NUnit.BaseAttribute.TestName
+  commentId: P:Heleonix.Testing.NUnit.BaseAttribute.TestName
+  parent: Heleonix.Testing.NUnit.BaseAttribute
+  isExternal: true
+  name: TestName
+  nameWithType: BaseAttribute.TestName
+  fullName: Heleonix.Testing.NUnit.BaseAttribute.TestName
+- uid: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.TestName*
+  commentId: Overload:Heleonix.Testing.NUnit.Bdd.FeatureAttribute.TestName
+  isExternal: true
+  name: TestName
+  nameWithType: FeatureAttribute.TestName
+  fullName: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.TestName

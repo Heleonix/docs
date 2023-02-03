@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.NUnit
+  commentId: N:Heleonix.Testing.NUnit
+  id: Heleonix.Testing.NUnit
+  children:
+  - Heleonix.Testing.NUnit.BaseAttribute
+  - Heleonix.Testing.NUnit.FixtureAttribute
+  - Heleonix.Testing.NUnit.TestAttribute
+  langs:
+  - csharp
+  - vb
+  name: Heleonix.Testing.NUnit
+  nameWithType: Heleonix.Testing.NUnit
+  fullName: Heleonix.Testing.NUnit
+  type: Namespace
+  assemblies:
+  - Heleonix.Testing.NUnit
+references:
+- uid: Heleonix.Testing.NUnit.BaseAttribute
+  commentId: T:Heleonix.Testing.NUnit.BaseAttribute
+  parent: Heleonix.Testing.NUnit
+  isExternal: true
+  name: BaseAttribute
+  nameWithType: BaseAttribute
+  fullName: Heleonix.Testing.NUnit.BaseAttribute
+- uid: Heleonix.Testing.NUnit.FixtureAttribute
+  commentId: T:Heleonix.Testing.NUnit.FixtureAttribute
+  parent: Heleonix.Testing.NUnit
+  isExternal: true
+  name: FixtureAttribute
+  nameWithType: FixtureAttribute
+  fullName: Heleonix.Testing.NUnit.FixtureAttribute
+- uid: Heleonix.Testing.NUnit.TestAttribute
+  commentId: T:Heleonix.Testing.NUnit.TestAttribute
+  parent: Heleonix.Testing.NUnit
+  isExternal: true
+  name: TestAttribute
+  nameWithType: TestAttribute
+  fullName: Heleonix.Testing.NUnit.TestAttribute
+- uid: Heleonix.Testing.NUnit
+  commentId: N:Heleonix.Testing.NUnit
+  isExternal: true
+  name: Heleonix.Testing.NUnit
+  nameWithType: Heleonix.Testing.NUnit
+  fullName: Heleonix.Testing.NUnit

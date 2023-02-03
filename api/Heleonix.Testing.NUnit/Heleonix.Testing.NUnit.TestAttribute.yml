@@ -1,0 +1,176 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.NUnit.TestAttribute
+  commentId: T:Heleonix.Testing.NUnit.TestAttribute
+  id: TestAttribute
+  parent: Heleonix.Testing.NUnit
+  children:
+  - Heleonix.Testing.NUnit.TestAttribute.#ctor
+  - Heleonix.Testing.NUnit.TestAttribute.BuildFrom(NUnit.Framework.Interfaces.IMethodInfo,NUnit.Framework.Internal.Test)
+  langs:
+  - csharp
+  - vb
+  name: TestAttribute
+  nameWithType: TestAttribute
+  fullName: Heleonix.Testing.NUnit.TestAttribute
+  type: Class
+  source:
+    path: Heleonix.Testing.NUnit
+    isExternal: true
+  assemblies:
+  - Heleonix.Testing.NUnit
+  namespace: Heleonix.Testing.NUnit
+  summary: "\nRepresents the base class test attributes.\n"
+  syntax:
+    content: 'public abstract class TestAttribute : BaseAttribute'
+    content.vb: >-
+      Public MustInherit Class TestAttribute
+
+          Inherits BaseAttribute
+  seealso:
+  - linkId: Heleonix.Testing.NUnit.BaseAttribute
+    commentId: T:Heleonix.Testing.NUnit.BaseAttribute
+  - linkId: NUnit.Framework.Interfaces.ISimpleTestBuilder
+    commentId: T:NUnit.Framework.Interfaces.ISimpleTestBuilder
+  inheritance:
+  - System.Object
+  - Heleonix.Testing.NUnit.BaseAttribute
+  derivedClasses:
+  - Heleonix.Testing.NUnit.Aaa.MemberTestAttribute
+  - Heleonix.Testing.NUnit.Bdd.ScenarioAttribute
+  implements:
+  - NUnit.Framework.Interfaces.ISimpleTestBuilder
+  inheritedMembers:
+  - Heleonix.Testing.NUnit.BaseAttribute.Properties
+  - Heleonix.Testing.NUnit.BaseAttribute.TestName
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Heleonix.Testing.NUnit.TestAttribute.BuildFrom(NUnit.Framework.Interfaces.IMethodInfo,NUnit.Framework.Internal.Test)
+  commentId: M:Heleonix.Testing.NUnit.TestAttribute.BuildFrom(NUnit.Framework.Interfaces.IMethodInfo,NUnit.Framework.Internal.Test)
+  id: BuildFrom(NUnit.Framework.Interfaces.IMethodInfo,NUnit.Framework.Internal.Test)
+  parent: Heleonix.Testing.NUnit.TestAttribute
+  langs:
+  - csharp
+  - vb
+  name: BuildFrom(IMethodInfo, Test)
+  nameWithType: TestAttribute.BuildFrom(IMethodInfo, Test)
+  fullName: Heleonix.Testing.NUnit.TestAttribute.BuildFrom(NUnit.Framework.Interfaces.IMethodInfo, NUnit.Framework.Internal.Test)
+  type: Method
+  source:
+    path: Heleonix.Testing.NUnit
+    isExternal: true
+  assemblies:
+  - Heleonix.Testing.NUnit
+  namespace: Heleonix.Testing.NUnit
+  summary: "\nBuild a TestMethod from the provided MethodInfo.\n"
+  syntax:
+    content: public virtual TestMethod BuildFrom(IMethodInfo method, Test suite)
+    parameters:
+    - id: method
+      type: NUnit.Framework.Interfaces.IMethodInfo
+      description: The method to be used as a test.
+    - id: suite
+      type: NUnit.Framework.Internal.Test
+      description: The TestSuite to which the method will be added.
+    return:
+      type: NUnit.Framework.Internal.TestMethod
+      description: "\nA TestMethod object.\n"
+    content.vb: Public Overridable Function BuildFrom(method As IMethodInfo, suite As Test) As TestMethod
+  overload: Heleonix.Testing.NUnit.TestAttribute.BuildFrom*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Heleonix.Testing.NUnit.TestAttribute.#ctor
+  commentId: M:Heleonix.Testing.NUnit.TestAttribute.#ctor
+  id: '#ctor'
+  parent: Heleonix.Testing.NUnit.TestAttribute
+  langs:
+  - csharp
+  - vb
+  name: TestAttribute()
+  nameWithType: TestAttribute.TestAttribute()
+  fullName: Heleonix.Testing.NUnit.TestAttribute.TestAttribute()
+  type: Constructor
+  source:
+    path: Heleonix.Testing.NUnit
+    isExternal: true
+  assemblies:
+  - Heleonix.Testing.NUnit
+  namespace: Heleonix.Testing.NUnit
+  syntax:
+    content: protected TestAttribute()
+    content.vb: Protected Sub New
+  overload: Heleonix.Testing.NUnit.TestAttribute.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Heleonix.Testing.NUnit
+  commentId: N:Heleonix.Testing.NUnit
+  isExternal: true
+  name: Heleonix.Testing.NUnit
+  nameWithType: Heleonix.Testing.NUnit
+  fullName: Heleonix.Testing.NUnit
+- uid: Heleonix.Testing.NUnit.BaseAttribute
+  commentId: T:Heleonix.Testing.NUnit.BaseAttribute
+  parent: Heleonix.Testing.NUnit
+  isExternal: true
+  name: BaseAttribute
+  nameWithType: BaseAttribute
+  fullName: Heleonix.Testing.NUnit.BaseAttribute
+- uid: NUnit.Framework.Interfaces.ISimpleTestBuilder
+  isExternal: true
+  name: ISimpleTestBuilder
+  nameWithType: ISimpleTestBuilder
+  fullName: NUnit.Framework.Interfaces.ISimpleTestBuilder
+- uid: Heleonix.Testing.NUnit.BaseAttribute.Properties
+  commentId: P:Heleonix.Testing.NUnit.BaseAttribute.Properties
+  parent: Heleonix.Testing.NUnit.BaseAttribute
+  isExternal: true
+  name: Properties
+  nameWithType: BaseAttribute.Properties
+  fullName: Heleonix.Testing.NUnit.BaseAttribute.Properties
+- uid: Heleonix.Testing.NUnit.BaseAttribute.TestName
+  commentId: P:Heleonix.Testing.NUnit.BaseAttribute.TestName
+  parent: Heleonix.Testing.NUnit.BaseAttribute
+  isExternal: true
+  name: TestName
+  nameWithType: BaseAttribute.TestName
+  fullName: Heleonix.Testing.NUnit.BaseAttribute.TestName
+- uid: Heleonix.Testing.NUnit.TestAttribute.BuildFrom*
+  commentId: Overload:Heleonix.Testing.NUnit.TestAttribute.BuildFrom
+  isExternal: true
+  name: BuildFrom
+  nameWithType: TestAttribute.BuildFrom
+  fullName: Heleonix.Testing.NUnit.TestAttribute.BuildFrom
+- uid: NUnit.Framework.Interfaces.IMethodInfo
+  isExternal: true
+  name: IMethodInfo
+  nameWithType: IMethodInfo
+  fullName: NUnit.Framework.Interfaces.IMethodInfo
+- uid: NUnit.Framework.Internal.Test
+  isExternal: true
+  name: Test
+  nameWithType: Test
+  fullName: NUnit.Framework.Internal.Test
+- uid: NUnit.Framework.Internal.TestMethod
+  isExternal: true
+  name: TestMethod
+  nameWithType: TestMethod
+  fullName: NUnit.Framework.Internal.TestMethod
+- uid: Heleonix.Testing.NUnit.TestAttribute.#ctor*
+  commentId: Overload:Heleonix.Testing.NUnit.TestAttribute.#ctor
+  isExternal: true
+  name: TestAttribute
+  nameWithType: TestAttribute.TestAttribute
+  fullName: Heleonix.Testing.NUnit.TestAttribute.TestAttribute
