@@ -16,3 +16,6 @@
 - name: Heleonix.Extensions
   href: api/Heleonix.Extensions/
   homepage: api/Heleonix.Extensions/intro.md
+- name: Heleonix.Build
+  href: api/Heleonix.Build/
+  homepage: api/Heleonix.Build/intro.md

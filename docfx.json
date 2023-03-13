@@ -3,53 +3,62 @@
     {
       "src": [
         {
-          "files": [ "Heleonix.Testing.NUnit/bin/Release/netstandard2.0/Heleonix.Testing.NUnit.dll" ],
-          "src": "../../"
+          "files": [ "src/Heleonix.Testing.NUnit/bin/Release/netstandard2.0/Heleonix.Testing.NUnit.dll" ],
+          "src": "../Hx_NetBuild/"
         }
       ],
       "dest": "api/Heleonix.Testing.NUnit"
     },
-	{
+    {
       "src": [
         {
-          "files": [ "Heleonix.Execution/bin/Release/netstandard2.0/Heleonix.Execution.dll" ],
-          "src": "../../"
+          "files": [ "src/Heleonix.Execution/bin/Release/netstandard2.0/Heleonix.Execution.dll" ],
+          "src": "../Hx_NetBuild/"
         }
       ],
       "dest": "api/Heleonix.Execution"
     },
-	{
+    {
       "src": [
         {
-          "files": [ "Heleonix.Guard/bin/Release/netstandard2.0/Heleonix.Guard.dll" ],
-          "src": "../../"
+          "files": [ "src/Heleonix.Guard/bin/Release/netstandard2.0/Heleonix.Guard.dll" ],
+          "src": "../Hx_NetBuild/"
         }
       ],
       "dest": "api/Heleonix.Guard"
     },
-	{
+    {
       "src": [
         {
-          "files": [ "Heleonix.Reflection/bin/Release/netstandard2.0/Heleonix.Reflection.dll" ],
-          "src": "../../"
+          "files": [ "src/Heleonix.Reflection/bin/Release/netstandard2.0/Heleonix.Reflection.dll" ],
+          "src": "../Hx_NetBuild/"
         }
       ],
       "dest": "api/Heleonix.Reflection"
     },
-	{
+    {
       "src": [
         {
-          "files": [ "Heleonix.Validation/bin/Release/netstandard2.0/Heleonix.Validation.dll" ],
-          "src": "../../"
+          "files": [ "src/Heleonix.Validation/bin/Release/netstandard2.0/Heleonix.Validation.dll" ],
+          "src": "../Hx_NetBuild/"
         }
       ],
       "dest": "api/Heleonix.Validation"
     },
-	{
+    {
       "src": [
         {
-          "files": [ "Heleonix.Extensions/bin/Release/netstandard2.0/Heleonix.Extensions.dll" ],
-          "src": "../../"
+          "files": [ "src/Heleonix.Extensions/bin/Release/netstandard2.0/Heleonix.Extensions.dll" ],
+          "src": "../Hx_NetBuild/"
+        }
+      ],
+      "dest": "api/Heleonix.Extensions"
+    },
+    {
+      "src": [
+        {
+          "files": [ "src/Heleonix.Build/bin/Release/netstandard2.0/Heleonix.Build.dll" ],
+          "src": "../Hx_NetBuild/"
         }
       ],
       "dest": "api/Heleonix.Extensions"
@@ -94,7 +103,7 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-	  "default",
+      "default",
       "templates/heleonix"
     ],
     "postProcessors": [],
