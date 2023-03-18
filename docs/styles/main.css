@@ -1,0 +1,70 @@
+body {
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #312697;
+}
+
+article a {
+    color: #1D52DE;
+    text-decoration: underline;
+}
+
+.navbar-inverse {
+    background-color: #113E70;
+    border-color: #062C57;
+}
+
+    .navbar-inverse .navbar-toggle {
+        border-color: #062C57;
+    }
+
+        .navbar-inverse .navbar-toggle:focus,
+        .navbar-inverse .navbar-toggle:hover {
+            background-color: #062C57;
+        }
+
+.footer {
+    border-top: 1px solid #062C57;
+    background-color: #062C57;
+    color: lightgray;
+}
+
+    .footer button:hover,
+    .footer button:focus {
+        color: white;
+    }
+
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-text {
+    color: white;
+}
+
+.sidefilter,
+.sidetoc {
+    background-color: #097252;
+    border-left: 1px solid #00583D;
+    border-right: 1px solid #00583D;
+}
+
+body .toc {
+    background-color: #097252;
+}
+
+.toc .nav > li > .expand-stub,
+.toc .nav > li > a {
+    color: white;
+}
+
+    .toc .nav > li > .expand-stub:hover,
+    .toc .nav > li > .expand-stub:focus,
+    .toc .nav > li > a:hover,
+    .toc .nav > li > a:focus {
+        color: lightgray;
+    }
+
+.toc-filter > input {
+    color: black;
+}
