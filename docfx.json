@@ -65,6 +65,9 @@
     }
   ],
   "build": {
+    "globalMetadata": {
+      "_appLogoPath": "images/heleonix-logos/Heleonix-logo-64x64.jpg"
+    },
     "content": [
       {
         "files": [

@@ -25,17 +25,26 @@ article a {
             background-color: #062C57;
         }
 
-.footer {
-    border-top: 1px solid #062C57;
-    background-color: #062C57;
-    color: lightgray;
-}
+    .navbar-inverse .navbar-nav > .active > a,
+    .navbar-inverse .navbar-nav > .active > a:focus,
+    .navbar-inverse .navbar-nav > .active > a:hover {
+        background-color: #062C57;
+    }
+
+    .footer {
+        border-top: 1px solid #062C57;
+        background-color: #062C57;
+        color: lightgray;
+    }
 
     .footer button:hover,
     .footer button:focus {
         color: white;
     }
 
+    .footer .pull-right a {
+        color: lightgray;
+    }
 
 .navbar-inverse .navbar-nav > li > a,
 .navbar-inverse .navbar-text {
@@ -67,4 +76,9 @@ body .toc {
 
 .toc-filter > input {
     color: black;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
 }
