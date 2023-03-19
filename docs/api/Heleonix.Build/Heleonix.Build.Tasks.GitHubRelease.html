@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class StoryAttribute
+    <title>Class GitHubRelease
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class StoryAttribute
+    <meta name="title" content="Class GitHubRelease
    ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -68,69 +68,56 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute">
+            <article class="content wrap" id="_content" data-uid="Heleonix.Build.Tasks.GitHubRelease">
   
   
-  <h1 id="Heleonix_Testing_NUnit_Bdd_StoryAttribute" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute" class="text-break">Class StoryAttribute
+  <h1 id="Heleonix_Build_Tasks_GitHubRelease" data-uid="Heleonix.Build.Tasks.GitHubRelease" class="text-break">Class GitHubRelease
   </h1>
-  <div class="markdown level0 summary"><p>Marks test fixture as a story tests.</p>
+  <div class="markdown level0 summary"><p>Creates a release on GitHub using the GitHub API.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Heleonix.Testing.NUnit.BaseAttribute.html">BaseAttribute</a></div>
-    <div class="level2"><a class="xref" href="Heleonix.Testing.NUnit.FixtureAttribute.html">FixtureAttribute</a></div>
-    <div class="level3"><span class="xref">StoryAttribute</span></div>
-  </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">NUnit.Framework.Interfaces.IFixtureBuilder2</span></div>
-    <div><span class="xref">NUnit.Framework.Interfaces.IFixtureBuilder</span></div>
-    <div><span class="xref">NUnit.Framework.Interfaces.IApplyToTest</span></div>
+    <div class="level1"><a class="xref" href="Heleonix.Build.Tasks.BaseTask.html">BaseTask</a></div>
+    <div class="level2"><span class="xref">GitHubRelease</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Heleonix.Testing.NUnit.FixtureAttribute.html#Heleonix_Testing_NUnit_FixtureAttribute_ApplyToTest_NUnit_Framework_Internal_Test_">FixtureAttribute.ApplyToTest(Test)</a>
-    </div>
-    <div>
-      <a class="xref" href="Heleonix.Testing.NUnit.FixtureAttribute.html#Heleonix_Testing_NUnit_FixtureAttribute_BuildFrom_NUnit_Framework_Interfaces_ITypeInfo_">FixtureAttribute.BuildFrom(ITypeInfo)</a>
-    </div>
-    <div>
-      <a class="xref" href="Heleonix.Testing.NUnit.FixtureAttribute.html#Heleonix_Testing_NUnit_FixtureAttribute_BuildFrom_NUnit_Framework_Interfaces_ITypeInfo_NUnit_Framework_Interfaces_IPreFilter_">FixtureAttribute.BuildFrom(ITypeInfo, IPreFilter)</a>
+      <a class="xref" href="Heleonix.Build.Tasks.BaseTask.html#Heleonix_Build_Tasks_BaseTask_Execute">BaseTask.Execute()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Heleonix.Testing.NUnit.Bdd.html">Heleonix.Testing.NUnit.Bdd</a></h6>
-  <h6><strong>Assembly</strong>: Heleonix.Testing.NUnit.dll</h6>
-  <h5 id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Heleonix.Build.Tasks.html">Heleonix.Build.Tasks</a></h6>
+  <h6><strong>Assembly</strong>: Heleonix.Build.dll</h6>
+  <h5 id="Heleonix_Build_Tasks_GitHubRelease_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class StoryAttribute : FixtureAttribute</code></pre>
+    <pre><code class="lang-csharp hljs">public class GitHubRelease : BaseTask</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="Heleonix_Testing_NUnit_Bdd_StoryAttribute__ctor_" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.#ctor*"></a>
-  <h4 id="Heleonix_Testing_NUnit_Bdd_StoryAttribute__ctor" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.#ctor">StoryAttribute()</h4>
+  <a id="Heleonix_Build_Tasks_GitHubRelease__ctor_" data-uid="Heleonix.Build.Tasks.GitHubRelease.#ctor*"></a>
+  <h4 id="Heleonix_Build_Tasks_GitHubRelease__ctor" data-uid="Heleonix.Build.Tasks.GitHubRelease.#ctor">GitHubRelease()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public StoryAttribute()</code></pre>
+    <pre><code class="lang-csharp hljs">public GitHubRelease()</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_AsA_" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.AsA*"></a>
-  <h4 id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_AsA" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.AsA">AsA</h4>
-  <div class="markdown level1 summary"><p>Gets or sets an 'As a...' description.</p>
+  <a id="Heleonix_Build_Tasks_GitHubRelease_Body_" data-uid="Heleonix.Build.Tasks.GitHubRelease.Body*"></a>
+  <h4 id="Heleonix_Build_Tasks_GitHubRelease_Body" data-uid="Heleonix.Build.Tasks.GitHubRelease.Body">Body</h4>
+  <div class="markdown level1 summary"><p>Gets or sets release notes as a text string.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string AsA { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Body { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -143,21 +130,20 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>The 'As a...' description.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_Id_" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.Id*"></a>
-  <h4 id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_Id" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.Id">Id</h4>
-  <div class="markdown level1 summary"><p>Gets or sets an id of the story.</p>
+  <a id="Heleonix_Build_Tasks_GitHubRelease_GitHubRepositoryApiUrl_" data-uid="Heleonix.Build.Tasks.GitHubRelease.GitHubRepositoryApiUrl*"></a>
+  <h4 id="Heleonix_Build_Tasks_GitHubRelease_GitHubRepositoryApiUrl" data-uid="Heleonix.Build.Tasks.GitHubRelease.GitHubRepositoryApiUrl">GitHubRepositoryApiUrl</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the url of the GitHub API for the repository.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Id { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string GitHubRepositoryApiUrl { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -170,21 +156,72 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>The id of the story.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_IWant_" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.IWant*"></a>
-  <h4 id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_IWant" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.IWant">IWant</h4>
-  <div class="markdown level1 summary"><p>Gets or sets an 'I want...' description.</p>
+  <a id="Heleonix_Build_Tasks_GitHubRelease_IsDraft_" data-uid="Heleonix.Build.Tasks.GitHubRelease.IsDraft*"></a>
+  <h4 id="Heleonix_Build_Tasks_GitHubRelease_IsDraft" data-uid="Heleonix.Build.Tasks.GitHubRelease.IsDraft">IsDraft</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether to create a draft (unpublished) release, or a published one.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string IWant { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsDraft { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Heleonix_Build_Tasks_GitHubRelease_IsPrerelease_" data-uid="Heleonix.Build.Tasks.GitHubRelease.IsPrerelease*"></a>
+  <h4 id="Heleonix_Build_Tasks_GitHubRelease_IsPrerelease" data-uid="Heleonix.Build.Tasks.GitHubRelease.IsPrerelease">IsPrerelease</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether to identify the release as a prerelease, or as a full release.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPrerelease { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Heleonix_Build_Tasks_GitHubRelease_Name_" data-uid="Heleonix.Build.Tasks.GitHubRelease.Name*"></a>
+  <h4 id="Heleonix_Build_Tasks_GitHubRelease_Name" data-uid="Heleonix.Build.Tasks.GitHubRelease.Name">Name</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a name of the release. If not specified, the tag name is used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -197,21 +234,20 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>The 'I want..' description.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_Properties_" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.Properties*"></a>
-  <h4 id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_Properties" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.Properties">Properties</h4>
-  <div class="markdown level1 summary"><p>Gets the properties.</p>
+  <a id="Heleonix_Build_Tasks_GitHubRelease_TagName_" data-uid="Heleonix.Build.Tasks.GitHubRelease.TagName*"></a>
+  <h4 id="Heleonix_Build_Tasks_GitHubRelease_TagName" data-uid="Heleonix.Build.Tasks.GitHubRelease.TagName">TagName</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a name of the tag to create and/or from which the release should be created.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override IDictionary&lt;string, object&gt; Properties { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string TagName { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -223,111 +259,105 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
-        <td><p>The properties.</p>
-</td>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Heleonix_Build_Tasks_GitHubRelease_TagSource_" data-uid="Heleonix.Build.Tasks.GitHubRelease.TagSource*"></a>
+  <h4 id="Heleonix_Build_Tasks_GitHubRelease_TagSource" data-uid="Heleonix.Build.Tasks.GitHubRelease.TagSource">TagSource</h4>
+  <div class="markdown level1 summary"><p>Gets or sets any branch or commit SHA from which the tag should be created.
+It is ignored if the tag already exists. Otherwise, name of the default branch (usually master) is used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TagSource { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Heleonix_Build_Tasks_GitHubRelease_Token_" data-uid="Heleonix.Build.Tasks.GitHubRelease.Token*"></a>
+  <h4 id="Heleonix_Build_Tasks_GitHubRelease_Token" data-uid="Heleonix.Build.Tasks.GitHubRelease.Token">Token</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a personal access token to authorize to the GitHub API.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Token { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Heleonix_Build_Tasks_GitHubRelease_UserAgent_" data-uid="Heleonix.Build.Tasks.GitHubRelease.UserAgent*"></a>
+  <h4 id="Heleonix_Build_Tasks_GitHubRelease_UserAgent" data-uid="Heleonix.Build.Tasks.GitHubRelease.UserAgent">UserAgent</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the User-Agent request header.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string UserAgent { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Heleonix_Build_Tasks_GitHubRelease_ExecuteInternal_" data-uid="Heleonix.Build.Tasks.GitHubRelease.ExecuteInternal*"></a>
+  <h4 id="Heleonix_Build_Tasks_GitHubRelease_ExecuteInternal" data-uid="Heleonix.Build.Tasks.GitHubRelease.ExecuteInternal">ExecuteInternal()</h4>
+  <div class="markdown level1 summary"><p>Executes the GitHubRelease.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void ExecuteInternal()</code></pre>
+  </div>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Heleonix.Testing.NUnit.BaseAttribute.html#Heleonix_Testing_NUnit_BaseAttribute_Properties">BaseAttribute.Properties</a></div>
-  
-  
-  <a id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_SoThat_" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.SoThat*"></a>
-  <h4 id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_SoThat" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.SoThat">SoThat</h4>
-  <div class="markdown level1 summary"><p>Gets or sets an 'So that...' description.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string SoThat { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The 'So that...' description.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_Summary_" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.Summary*"></a>
-  <h4 id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_Summary" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.Summary">Summary</h4>
-  <div class="markdown level1 summary"><p>Gets or sets a summary of a story.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Summary { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>A summary of a story.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_TestName_" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.TestName*"></a>
-  <h4 id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_TestName" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.TestName">TestName</h4>
-  <div class="markdown level1 summary"><p>Gets the name of the test.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override string TestName { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The name of the test.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Heleonix.Testing.NUnit.BaseAttribute.html#Heleonix_Testing_NUnit_BaseAttribute_TestName">BaseAttribute.TestName</a></div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">NUnit.Framework.Interfaces.IFixtureBuilder2</span>
-  </div>
-  <div>
-      <span class="xref">NUnit.Framework.Interfaces.IFixtureBuilder</span>
-  </div>
-  <div>
-      <span class="xref">NUnit.Framework.Interfaces.IApplyToTest</span>
-  </div>
-  <h3 id="seealso">See Also</h3>
-  <div class="seealso">
-      <div><a class="xref" href="Heleonix.Testing.NUnit.FixtureAttribute.html">FixtureAttribute</a></div>
-  </div>
+  <div><a class="xref" href="Heleonix.Build.Tasks.BaseTask.html#Heleonix_Build_Tasks_BaseTask_ExecuteInternal">BaseTask.ExecuteInternal()</a></div>
 </article>
           </div>
           

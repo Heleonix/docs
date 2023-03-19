@@ -4,12 +4,228 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.BaseTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.BaseTask.html",
+          "hash": "sF9eiDI9yZKO7+m1QU73XuUqgXN/Zv/vXbrTtOr6sqQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.DirectoryClean.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.DirectoryClean.html",
+          "hash": "sVYGXXStyq9ClSvRaiCg99XAPVVWCaFMU5v8CBUTDJo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileCopy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileCopy.html",
+          "hash": "bO2t7RrYI8accwQ3TQLVWLFYZSHa8nei1R8jHLQPPi8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileRead.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileRead.html",
+          "hash": "e4joTPcyUKKbQur23Zw4ufmFMUEkfWbdaQbjv6giF8c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileSystemSearch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileSystemSearch.html",
+          "hash": "cu5mlk81WfVI+BXB2GuEWVzA9IJd18uGn0U7U9zaerI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileT4Generate.FileT4GenerateHost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileT4Generate.FileT4GenerateHost.html",
+          "hash": "K2vFzfvloM3Wqd6iHGwKjT9Fo/gFvjRmLb7WSzsdPRg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileT4Generate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileT4Generate.html",
+          "hash": "E+9fsT+FLNdMLmZsaLOBSu2tF9qIal7C+zt7w45EYpw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileUpdate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileUpdate.html",
+          "hash": "nnq1p+850MN3A0Cvj/GsrI6ic6l4Nf8QJjJGfwdwSfU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileValidate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileValidate.html",
+          "hash": "BHyO2PhQM2VYkYlUjlC1rAe4w9fI4NG4L1MaV7wAMHg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.GitHubCommitChangeLog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.GitHubCommitChangeLog.html",
+          "hash": "UJyycE9bfEJkzNmqWLkaeRIgFvN/lBcryxyGEe+K8JA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.GitHubRelease.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.GitHubRelease.html",
+          "hash": "6tP/2ZAEjl1kFL4bL2Sncb3V9mJdvgXCUs55t1fgix0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.NUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.NUnit.html",
+          "hash": "3WbP5AmQ3E5CstcCC/vgeaVKlSkCSzp8VqxIN+jmeMU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.NugetPush.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.NugetPush.html",
+          "hash": "9oAF+rxXbdpH2qFc7ixjnHfECkOxmzk6+K5Cy0XIRUo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.OpenCover.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.OpenCover.html",
+          "hash": "Cudv4aDPpWxf7br/7CUnHq0Vxi0x278jQDHnMwCIhkU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.ReportGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.ReportGenerator.html",
+          "hash": "WKfxEqeMA2x/Mej5cXlUXamgw1SvWaPKFRja0+DClyQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.ReportUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.ReportUnit.html",
+          "hash": "+R5LqFVcxwluK+oyPp10SZWck2i5WIbCMtH4U1zQdMM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.html",
+          "hash": "xL3w3A2VK5Sx/iTDw/xrMw4/FlF2hYKX/40KDvU0YBw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/Heleonix.Build/intro.md",
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/intro.html",
-          "hash": "P9isEsE4Fn3JNs7lbifzTZ84H9gNuO/UZoWqaKbT/Wk="
+          "hash": "K6XN6p9wMGehQegfDT6kfNR8i1aBhazHQIcuLWlhaC8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/Heleonix.Build/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/toc.html",
+          "hash": "gBsTLVmrn1CQJeHkosrX6r9uCOtslx6CwmiNRN9tSmE="
         }
       },
       "is_incremental": false,
@@ -64,12 +280,180 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.AaaSpec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.AaaSpec.html",
+          "hash": "spA8CkHEkhxKelJXlgENTUJ2OFoAfzQ7kKwSInocTm4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html",
+          "hash": "S0A27metbl07dVRxjrVGl16RTtu7QL2pygintdxS7n0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html",
+          "hash": "m9pi1JksQTpr5AAEXCwrB93CMD3jgMjUOZqIzzY2DbI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.html",
+          "hash": "oEI6zXe/C/0yCSbEegQxDJWXkHnaX/BW0bZsZEvy+CY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.BaseAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.BaseAttribute.html",
+          "hash": "YMNqEuo8s2raAoF1Z8UmBk4RbgneVOCT0ypOTM/3NqA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.BddSpec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.BddSpec.html",
+          "hash": "aIj1QuN7R8f/WFVhY3B1kmQ6ZQQN+5NpWHjehV9wLHo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html",
+          "hash": "bAqeLSVHQVALNPGlRd4deJu3oSAyQlQf6wWyBTzIhjM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html",
+          "hash": "/Nf6y6rR3hPHRY4F63V9zK6xk3j8Ld/9sgpwIqz1DVM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html",
+          "hash": "U/qPdsHY/+GgxX/O2DnQFqESCntJBw+Wx1gGp72fmcw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.html",
+          "hash": "cRr4fSjiC2uZrps10Xtuf4LtJZNLEiQ302K3bP8FSEs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.FixtureAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.FixtureAttribute.html",
+          "hash": "t1VlvWVE0pQh659KAVeFfJpwzRZewIhIpO4vzBIOD2U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.TestAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.TestAttribute.html",
+          "hash": "NFdA15yXEYuPAy3c/FIcbIGCLbLhk/Q1koLtFvjX18U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.html",
+          "hash": "gtMm1ScY5GJniqJmpQ31aP70MSWYKBIezhUyqTOGGnI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/Heleonix.Testing.NUnit/intro.md",
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Testing.NUnit/intro.html",
-          "hash": "AJfh4WccPrLzhujrOoxmrIhi9hKU29dj1ucEaResPZk="
+          "hash": "nnSRPi2mWXcqNDm37TUfz2OPQ2oMbfKLxPkHv+8SiPI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/Heleonix.Testing.NUnit/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing.NUnit/toc.html",
+          "hash": "yMqq1DQueV8Rc61FODxtW2qqEJXHydYkYfSFHfgGJto="
         }
       },
       "is_incremental": false,
@@ -171,7 +555,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "OBHXm0tt9wThcC0SZicXtQK92JMOooP+ODfllGS9yDE="
+          "hash": "qoYwSwz+gtRh/tZVrYKtx2/QkRXtyikx8u/jqCzk/AQ="
         }
       },
       "is_incremental": false,
@@ -181,19 +565,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 8,
-          "skipped_file_count": 0
+          "skipped_file_count": 8
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 30,
+          "skipped_file_count": 30
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
@@ -213,8 +601,8 @@
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0

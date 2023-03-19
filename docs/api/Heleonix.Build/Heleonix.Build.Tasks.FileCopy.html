@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ScenarioAttribute
+    <title>Class FileCopy
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ScenarioAttribute
+    <meta name="title" content="Class FileCopy
    ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -68,61 +68,56 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute">
+            <article class="content wrap" id="_content" data-uid="Heleonix.Build.Tasks.FileCopy">
   
   
-  <h1 id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute" class="text-break">Class ScenarioAttribute
+  <h1 id="Heleonix_Build_Tasks_FileCopy" data-uid="Heleonix.Build.Tasks.FileCopy" class="text-break">Class FileCopy
   </h1>
-  <div class="markdown level0 summary"><p>Marks a test a a scenario test.</p>
+  <div class="markdown level0 summary"><p>Copies files from sources into destinations.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Heleonix.Testing.NUnit.BaseAttribute.html">BaseAttribute</a></div>
-    <div class="level2"><a class="xref" href="Heleonix.Testing.NUnit.TestAttribute.html">TestAttribute</a></div>
-    <div class="level3"><span class="xref">ScenarioAttribute</span></div>
-  </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">NUnit.Framework.Interfaces.ISimpleTestBuilder</span></div>
+    <div class="level1"><a class="xref" href="Heleonix.Build.Tasks.BaseTask.html">BaseTask</a></div>
+    <div class="level2"><span class="xref">FileCopy</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Heleonix.Testing.NUnit.BaseAttribute.html#Heleonix_Testing_NUnit_BaseAttribute_Properties">BaseAttribute.Properties</a>
+      <a class="xref" href="Heleonix.Build.Tasks.BaseTask.html#Heleonix_Build_Tasks_BaseTask_Execute">BaseTask.Execute()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Heleonix.Testing.NUnit.Bdd.html">Heleonix.Testing.NUnit.Bdd</a></h6>
-  <h6><strong>Assembly</strong>: Heleonix.Testing.NUnit.dll</h6>
-  <h5 id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Heleonix.Build.Tasks.html">Heleonix.Build.Tasks</a></h6>
+  <h6><strong>Assembly</strong>: Heleonix.Build.dll</h6>
+  <h5 id="Heleonix_Build_Tasks_FileCopy_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class ScenarioAttribute : TestAttribute</code></pre>
+    <pre><code class="lang-csharp hljs">public class FileCopy : BaseTask</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute__ctor_" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.#ctor*"></a>
-  <h4 id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute__ctor" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.#ctor">ScenarioAttribute()</h4>
+  <a id="Heleonix_Build_Tasks_FileCopy__ctor_" data-uid="Heleonix.Build.Tasks.FileCopy.#ctor*"></a>
+  <h4 id="Heleonix_Build_Tasks_FileCopy__ctor" data-uid="Heleonix.Build.Tasks.FileCopy.#ctor">FileCopy()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ScenarioAttribute()</code></pre>
+    <pre><code class="lang-csharp hljs">public FileCopy()</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_Name_" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.Name*"></a>
-  <h4 id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_Name" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.Name">Name</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the name of the scenario.</p>
+  <a id="Heleonix_Build_Tasks_FileCopy_CopiedFiles_" data-uid="Heleonix.Build.Tasks.FileCopy.CopiedFiles*"></a>
+  <h4 id="Heleonix_Build_Tasks_FileCopy_CopiedFiles" data-uid="Heleonix.Build.Tasks.FileCopy.CopiedFiles">CopiedFiles</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a list of successfully copied files [Output].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ITaskItem[] CopiedFiles { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -134,22 +129,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The name of the scenario.</p>
-</td>
+        <td><span class="xref">Microsoft.Build.Framework.ITaskItem</span>[]</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_TestName_" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.TestName*"></a>
-  <h4 id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_TestName" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.TestName">TestName</h4>
-  <div class="markdown level1 summary"><p>Gets the name of the test.</p>
+  <a id="Heleonix_Build_Tasks_FileCopy_DestinationDirs_" data-uid="Heleonix.Build.Tasks.FileCopy.DestinationDirs*"></a>
+  <h4 id="Heleonix_Build_Tasks_FileCopy_DestinationDirs" data-uid="Heleonix.Build.Tasks.FileCopy.DestinationDirs">DestinationDirs</h4>
+  <div class="markdown level1 summary"><p>Gets or sets destinations to copy files to.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override string TestName { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ITaskItem[] DestinationDirs { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -161,77 +155,92 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The name of the test.</p>
-</td>
+        <td><span class="xref">Microsoft.Build.Framework.ITaskItem</span>[]</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Heleonix.Testing.NUnit.BaseAttribute.html#Heleonix_Testing_NUnit_BaseAttribute_TestName">BaseAttribute.TestName</a></div>
+  <h5 id="Heleonix_Build_Tasks_FileCopy_DestinationDirs_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If number of destinations equals to number of files, then files are copied into those directories.
+If destination is a single directory, then files are copied into that directory.</p>
+</div>
+  
+  
+  <a id="Heleonix_Build_Tasks_FileCopy_Files_" data-uid="Heleonix.Build.Tasks.FileCopy.Files*"></a>
+  <h4 id="Heleonix_Build_Tasks_FileCopy_Files" data-uid="Heleonix.Build.Tasks.FileCopy.Files">Files</h4>
+  <div class="markdown level1 summary"><p>Gets or sets files to copy.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITaskItem[] Files { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.Build.Framework.ITaskItem</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Heleonix_Build_Tasks_FileCopy_Files_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Metadata: 'WithSubDirsFrom' - if defined, copies a file into sub folders
+starting from the end of the defined root path. It is used to keep folders hierarchy.</p>
+</div>
+  <h5 id="Heleonix_Build_Tasks_FileCopy_Files_examples">Examples</h5>
+  <p>File path: C:\Files\SubDir1\SubDir2\SubDir3\file.txt
+WithSubDirsFrom: C:\Files\SubDir1
+Destination: D:\Destination
+Result: file is copied into D:\Destination\SubDir2\SubDir3\file.txt.</p>
+
+  
+  
+  <a id="Heleonix_Build_Tasks_FileCopy_Overwrite_" data-uid="Heleonix.Build.Tasks.FileCopy.Overwrite*"></a>
+  <h4 id="Heleonix_Build_Tasks_FileCopy_Overwrite" data-uid="Heleonix.Build.Tasks.FileCopy.Overwrite">Overwrite</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether determines whether to overwrite destination file or ignore.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Overwrite { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_BuildFrom_" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.BuildFrom*"></a>
-  <h4 id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_BuildFrom_NUnit_Framework_Interfaces_IMethodInfo_NUnit_Framework_Internal_Test_" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.BuildFrom(NUnit.Framework.Interfaces.IMethodInfo,NUnit.Framework.Internal.Test)">BuildFrom(IMethodInfo, Test)</h4>
-  <div class="markdown level1 summary"><p>Build a TestMethod from the provided MethodInfo.</p>
+  <a id="Heleonix_Build_Tasks_FileCopy_ExecuteInternal_" data-uid="Heleonix.Build.Tasks.FileCopy.ExecuteInternal*"></a>
+  <h4 id="Heleonix_Build_Tasks_FileCopy_ExecuteInternal" data-uid="Heleonix.Build.Tasks.FileCopy.ExecuteInternal">ExecuteInternal()</h4>
+  <div class="markdown level1 summary"><p>Updates a file with specified regular expression and content.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override TestMethod BuildFrom(IMethodInfo method, Test suite)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void ExecuteInternal()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">NUnit.Framework.Interfaces.IMethodInfo</span></td>
-        <td><span class="parametername">method</span></td>
-        <td><p>The method to be used as a test.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">NUnit.Framework.Internal.Test</span></td>
-        <td><span class="parametername">suite</span></td>
-        <td><p>The TestSuite to which the method will be added.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">NUnit.Framework.Internal.TestMethod</span></td>
-        <td><p>A TestMethod object.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Heleonix.Testing.NUnit.TestAttribute.html#Heleonix_Testing_NUnit_TestAttribute_BuildFrom_NUnit_Framework_Interfaces_IMethodInfo_NUnit_Framework_Internal_Test_">TestAttribute.BuildFrom(IMethodInfo, Test)</a></div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">NUnit.Framework.Interfaces.ISimpleTestBuilder</span>
-  </div>
-  <h3 id="seealso">See Also</h3>
-  <div class="seealso">
-      <div><a class="xref" href="Heleonix.Testing.NUnit.TestAttribute.html">TestAttribute</a></div>
-  </div>
+  <div><a class="xref" href="Heleonix.Build.Tasks.BaseTask.html#Heleonix_Build_Tasks_BaseTask_ExecuteInternal">BaseTask.ExecuteInternal()</a></div>
 </article>
           </div>
           

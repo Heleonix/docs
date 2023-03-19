@@ -61,7 +61,7 @@
           "src": "../Hx_NetBuild/"
         }
       ],
-      "dest": "api/Heleonix.Extensions"
+      "dest": "api/Heleonix.Build"
     }
   ],
   "build": {

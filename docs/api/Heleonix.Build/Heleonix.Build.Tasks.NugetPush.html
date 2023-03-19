@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class BddSpec
+    <title>Class NugetPush
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class BddSpec
+    <meta name="title" content="Class NugetPush
    ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -68,225 +68,221 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Heleonix.Testing.NUnit.Bdd.BddSpec">
+            <article class="content wrap" id="_content" data-uid="Heleonix.Build.Tasks.NugetPush">
   
   
-  <h1 id="Heleonix_Testing_NUnit_Bdd_BddSpec" data-uid="Heleonix.Testing.NUnit.Bdd.BddSpec" class="text-break">Class BddSpec
+  <h1 id="Heleonix_Build_Tasks_NugetPush" data-uid="Heleonix.Build.Tasks.NugetPush" class="text-break">Class NugetPush
   </h1>
-  <div class="markdown level0 summary"><p>Represents the specification for the BDD tests pattern.</p>
+  <div class="markdown level0 summary"><p>Runs the Nuget push command.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">BddSpec</span></div>
+    <div class="level1"><a class="xref" href="Heleonix.Build.Tasks.BaseTask.html">BaseTask</a></div>
+    <div class="level2"><span class="xref">NugetPush</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Heleonix.Testing.NUnit.Bdd.html">Heleonix.Testing.NUnit.Bdd</a></h6>
-  <h6><strong>Assembly</strong>: Heleonix.Testing.NUnit.dll</h6>
-  <h5 id="Heleonix_Testing_NUnit_Bdd_BddSpec_syntax">Syntax</h5>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Heleonix.Build.Tasks.BaseTask.html#Heleonix_Build_Tasks_BaseTask_Execute">BaseTask.Execute()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Heleonix.Build.Tasks.html">Heleonix.Build.Tasks</a></h6>
+  <h6><strong>Assembly</strong>: Heleonix.Build.dll</h6>
+  <h5 id="Heleonix_Build_Tasks_NugetPush_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class BddSpec : Object</code></pre>
+    <pre><code class="lang-csharp hljs">public class NugetPush : BaseTask</code></pre>
   </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Heleonix_Build_Tasks_NugetPush__ctor_" data-uid="Heleonix.Build.Tasks.NugetPush.#ctor*"></a>
+  <h4 id="Heleonix_Build_Tasks_NugetPush__ctor" data-uid="Heleonix.Build.Tasks.NugetPush.#ctor">NugetPush()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NugetPush()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Heleonix_Build_Tasks_NugetPush_APIKey_" data-uid="Heleonix.Build.Tasks.NugetPush.APIKey*"></a>
+  <h4 id="Heleonix_Build_Tasks_NugetPush_APIKey" data-uid="Heleonix.Build.Tasks.NugetPush.APIKey">APIKey</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the API key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string APIKey { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Heleonix_Build_Tasks_NugetPush_ConfigFile_" data-uid="Heleonix.Build.Tasks.NugetPush.ConfigFile*"></a>
+  <h4 id="Heleonix_Build_Tasks_NugetPush_ConfigFile" data-uid="Heleonix.Build.Tasks.NugetPush.ConfigFile">ConfigFile</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the configuration file path.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ConfigFile { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Heleonix_Build_Tasks_NugetPush_NugetExe_" data-uid="Heleonix.Build.Tasks.NugetPush.NugetExe*"></a>
+  <h4 id="Heleonix_Build_Tasks_NugetPush_NugetExe" data-uid="Heleonix.Build.Tasks.NugetPush.NugetExe">NugetExe</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the Nuget executable path.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string NugetExe { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Heleonix_Build_Tasks_NugetPush_PackageFile_" data-uid="Heleonix.Build.Tasks.NugetPush.PackageFile*"></a>
+  <h4 id="Heleonix_Build_Tasks_NugetPush_PackageFile" data-uid="Heleonix.Build.Tasks.NugetPush.PackageFile">PackageFile</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the package file path.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PackageFile { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Heleonix_Build_Tasks_NugetPush_SourceURL_" data-uid="Heleonix.Build.Tasks.NugetPush.SourceURL*"></a>
+  <h4 id="Heleonix_Build_Tasks_NugetPush_SourceURL" data-uid="Heleonix.Build.Tasks.NugetPush.SourceURL">SourceURL</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the source path.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SourceURL { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Heleonix_Build_Tasks_NugetPush_Verbosity_" data-uid="Heleonix.Build.Tasks.NugetPush.Verbosity*"></a>
+  <h4 id="Heleonix_Build_Tasks_NugetPush_Verbosity" data-uid="Heleonix.Build.Tasks.NugetPush.Verbosity">Verbosity</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the verbosity of the command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Verbosity { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Heleonix_Build_Tasks_NugetPush_Verbosity_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Possible values:</p>
+<ul><li>normal</li><li>quiet</li><li>detailed</li></ul>
+</div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Heleonix_Testing_NUnit_Bdd_BddSpec_AfterEach_" data-uid="Heleonix.Testing.NUnit.Bdd.BddSpec.AfterEach*"></a>
-  <h4 id="Heleonix_Testing_NUnit_Bdd_BddSpec_AfterEach_System_Action_" data-uid="Heleonix.Testing.NUnit.Bdd.BddSpec.AfterEach(System.Action)">AfterEach(Action)</h4>
-  <div class="markdown level1 summary"><p>Builds the 'AfterEach' step of the test.</p>
+  <a id="Heleonix_Build_Tasks_NugetPush_ExecuteInternal_" data-uid="Heleonix.Build.Tasks.NugetPush.ExecuteInternal*"></a>
+  <h4 id="Heleonix_Build_Tasks_NugetPush_ExecuteInternal" data-uid="Heleonix.Build.Tasks.NugetPush.ExecuteInternal">ExecuteInternal()</h4>
+  <div class="markdown level1 summary"><p>Executes the Nuget &quot;push&quot; command.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void AfterEach(Action action)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void ExecuteInternal()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Action</span></td>
-        <td><span class="parametername">action</span></td>
-        <td><p>The action.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Heleonix_Testing_NUnit_Bdd_BddSpec_And_" data-uid="Heleonix.Testing.NUnit.Bdd.BddSpec.And*"></a>
-  <h4 id="Heleonix_Testing_NUnit_Bdd_BddSpec_And_System_String_System_Action_" data-uid="Heleonix.Testing.NUnit.Bdd.BddSpec.And(System.String,System.Action)">And(String, Action)</h4>
-  <div class="markdown level1 summary"><p>Builds the 'And' step of the test.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void And(string description, Action action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">description</span></td>
-        <td><p>The description.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Action</span></td>
-        <td><span class="parametername">action</span></td>
-        <td><p>The action.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Heleonix_Testing_NUnit_Bdd_BddSpec_BeforeEach_" data-uid="Heleonix.Testing.NUnit.Bdd.BddSpec.BeforeEach*"></a>
-  <h4 id="Heleonix_Testing_NUnit_Bdd_BddSpec_BeforeEach_System_Action_" data-uid="Heleonix.Testing.NUnit.Bdd.BddSpec.BeforeEach(System.Action)">BeforeEach(Action)</h4>
-  <div class="markdown level1 summary"><p>Builds the 'BeforeEach' step of the test.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void BeforeEach(Action action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Action</span></td>
-        <td><span class="parametername">action</span></td>
-        <td><p>The action.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Heleonix_Testing_NUnit_Bdd_BddSpec_Given_" data-uid="Heleonix.Testing.NUnit.Bdd.BddSpec.Given*"></a>
-  <h4 id="Heleonix_Testing_NUnit_Bdd_BddSpec_Given_System_String_System_Action_" data-uid="Heleonix.Testing.NUnit.Bdd.BddSpec.Given(System.String,System.Action)">Given(String, Action)</h4>
-  <div class="markdown level1 summary"><p>Builds the 'Given' step of the test.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Given(string description, Action action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">description</span></td>
-        <td><p>The description.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Action</span></td>
-        <td><span class="parametername">action</span></td>
-        <td><p>The action.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Heleonix_Testing_NUnit_Bdd_BddSpec_Then_" data-uid="Heleonix.Testing.NUnit.Bdd.BddSpec.Then*"></a>
-  <h4 id="Heleonix_Testing_NUnit_Bdd_BddSpec_Then_System_String_System_Action_" data-uid="Heleonix.Testing.NUnit.Bdd.BddSpec.Then(System.String,System.Action)">Then(String, Action)</h4>
-  <div class="markdown level1 summary"><p>Builds the 'Then' step of the test.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Then(string description, Action action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">description</span></td>
-        <td><p>The description.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Action</span></td>
-        <td><span class="parametername">action</span></td>
-        <td><p>The action.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Heleonix_Testing_NUnit_Bdd_BddSpec_When_" data-uid="Heleonix.Testing.NUnit.Bdd.BddSpec.When*"></a>
-  <h4 id="Heleonix_Testing_NUnit_Bdd_BddSpec_When_System_String_System_Action_" data-uid="Heleonix.Testing.NUnit.Bdd.BddSpec.When(System.String,System.Action)">When(String, Action)</h4>
-  <div class="markdown level1 summary"><p>Builds the 'When' step of the test.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void When(string description, Action action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">description</span></td>
-        <td><p>The description.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Action</span></td>
-        <td><span class="parametername">action</span></td>
-        <td><p>The action.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Heleonix.Build.Tasks.BaseTask.html#Heleonix_Build_Tasks_BaseTask_ExecuteInternal">BaseTask.ExecuteInternal()</a></div>
 </article>
           </div>
           

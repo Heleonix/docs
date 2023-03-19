@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class BaseAttribute
+    <title>Class FileValidate
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class BaseAttribute
+    <meta name="title" content="Class FileValidate
    ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -68,51 +68,56 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Heleonix.Testing.NUnit.BaseAttribute">
+            <article class="content wrap" id="_content" data-uid="Heleonix.Build.Tasks.FileValidate">
   
   
-  <h1 id="Heleonix_Testing_NUnit_BaseAttribute" data-uid="Heleonix.Testing.NUnit.BaseAttribute" class="text-break">Class BaseAttribute
+  <h1 id="Heleonix_Build_Tasks_FileValidate" data-uid="Heleonix.Build.Tasks.FileValidate" class="text-break">Class FileValidate
   </h1>
-  <div class="markdown level0 summary"><p>Represents the base attribute for all other tests attributes.</p>
+  <div class="markdown level0 summary"><p>Validates that contents of specified files corresponds to specified regex patterns.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">BaseAttribute</span></div>
-      <div class="level2"><a class="xref" href="Heleonix.Testing.NUnit.FixtureAttribute.html">FixtureAttribute</a></div>
-      <div class="level2"><a class="xref" href="Heleonix.Testing.NUnit.TestAttribute.html">TestAttribute</a></div>
+    <div class="level1"><a class="xref" href="Heleonix.Build.Tasks.BaseTask.html">BaseTask</a></div>
+    <div class="level2"><span class="xref">FileValidate</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Heleonix.Testing.NUnit.html">Heleonix.Testing.NUnit</a></h6>
-  <h6><strong>Assembly</strong>: Heleonix.Testing.NUnit.dll</h6>
-  <h5 id="Heleonix_Testing_NUnit_BaseAttribute_syntax">Syntax</h5>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Heleonix.Build.Tasks.BaseTask.html#Heleonix_Build_Tasks_BaseTask_Execute">BaseTask.Execute()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Heleonix.Build.Tasks.html">Heleonix.Build.Tasks</a></h6>
+  <h6><strong>Assembly</strong>: Heleonix.Build.dll</h6>
+  <h5 id="Heleonix_Build_Tasks_FileValidate_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class BaseAttribute : Attribute</code></pre>
+    <pre><code class="lang-csharp hljs">public class FileValidate : BaseTask</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="Heleonix_Testing_NUnit_BaseAttribute__ctor_" data-uid="Heleonix.Testing.NUnit.BaseAttribute.#ctor*"></a>
-  <h4 id="Heleonix_Testing_NUnit_BaseAttribute__ctor" data-uid="Heleonix.Testing.NUnit.BaseAttribute.#ctor">BaseAttribute()</h4>
+  <a id="Heleonix_Build_Tasks_FileValidate__ctor_" data-uid="Heleonix.Build.Tasks.FileValidate.#ctor*"></a>
+  <h4 id="Heleonix_Build_Tasks_FileValidate__ctor" data-uid="Heleonix.Build.Tasks.FileValidate.#ctor">FileValidate()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected BaseAttribute()</code></pre>
+    <pre><code class="lang-csharp hljs">public FileValidate()</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Heleonix_Testing_NUnit_BaseAttribute_Properties_" data-uid="Heleonix.Testing.NUnit.BaseAttribute.Properties*"></a>
-  <h4 id="Heleonix_Testing_NUnit_BaseAttribute_Properties" data-uid="Heleonix.Testing.NUnit.BaseAttribute.Properties">Properties</h4>
-  <div class="markdown level1 summary"><p>Gets the properties.</p>
+  <a id="Heleonix_Build_Tasks_FileValidate_Files_" data-uid="Heleonix.Build.Tasks.FileValidate.Files*"></a>
+  <h4 id="Heleonix_Build_Tasks_FileValidate_Files" data-uid="Heleonix.Build.Tasks.FileValidate.Files">Files</h4>
+  <div class="markdown level1 summary"><p>Gets or sets file paths with regex patterns in custom metadata to validate.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual IDictionary&lt;string, object&gt; Properties { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ITaskItem[] Files { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -124,22 +129,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
-        <td><p>The properties.</p>
-</td>
+        <td><span class="xref">Microsoft.Build.Framework.ITaskItem</span>[]</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Heleonix_Testing_NUnit_BaseAttribute_TestName_" data-uid="Heleonix.Testing.NUnit.BaseAttribute.TestName*"></a>
-  <h4 id="Heleonix_Testing_NUnit_BaseAttribute_TestName" data-uid="Heleonix.Testing.NUnit.BaseAttribute.TestName">TestName</h4>
-  <div class="markdown level1 summary"><p>Gets the name of the test.</p>
+  <a id="Heleonix_Build_Tasks_FileValidate_RegExpOptions_" data-uid="Heleonix.Build.Tasks.FileValidate.RegExpOptions*"></a>
+  <h4 id="Heleonix_Build_Tasks_FileValidate_RegExpOptions" data-uid="Heleonix.Build.Tasks.FileValidate.RegExpOptions">RegExpOptions</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the .NET regular expression options.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract string TestName { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string RegExpOptions { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -152,15 +156,25 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>The name of the test.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="seealso">See Also</h3>
-  <div class="seealso">
-      <div><span class="xref">System.Attribute</span></div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Heleonix_Build_Tasks_FileValidate_ExecuteInternal_" data-uid="Heleonix.Build.Tasks.FileValidate.ExecuteInternal*"></a>
+  <h4 id="Heleonix_Build_Tasks_FileValidate_ExecuteInternal" data-uid="Heleonix.Build.Tasks.FileValidate.ExecuteInternal">ExecuteInternal()</h4>
+  <div class="markdown level1 summary"><p>Reads a file with specified regular expression and content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void ExecuteInternal()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Heleonix.Build.Tasks.BaseTask.html#Heleonix_Build_Tasks_BaseTask_ExecuteInternal">BaseTask.ExecuteInternal()</a></div>
 </article>
           </div>
           

@@ -1,21 +1,21 @@
-- name: Heleonix.Testing.NUnit
+- name: Testing.NUnit
   href: api/Heleonix.Testing.NUnit/
   homepage: api/Heleonix.Testing.NUnit/intro.md
-- name: Heleonix.Validation
+- name: Validation
   href: api/Heleonix.Validation/
   homepage: api/Heleonix.Validation/intro.md
-- name: Heleonix.Execution
+- name: Execution
   href: api/Heleonix.Execution/
   homepage: api/Heleonix.Execution/intro.md
-- name: Heleonix.Guard
+- name: Guard
   href: api/Heleonix.Guard/
   homepage: api/Heleonix.Guard/intro.md
-- name: Heleonix.Reflection
+- name: Reflection
   href: api/Heleonix.Reflection/
   homepage: api/Heleonix.Reflection/intro.md
-- name: Heleonix.Extensions
+- name: Extensions
   href: api/Heleonix.Extensions/
   homepage: api/Heleonix.Extensions/intro.md
-- name: Heleonix.Build
+- name: Build
   href: api/Heleonix.Build/
   homepage: api/Heleonix.Build/intro.md
