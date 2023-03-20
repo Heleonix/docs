@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.BaseTask.html",
-          "hash": "sF9eiDI9yZKO7+m1QU73XuUqgXN/Zv/vXbrTtOr6sqQ="
+          "hash": "jRyrPF2a0HskQahLryhGEBqx0plI1qYtuHllBYfUobo="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.DirectoryClean.html",
-          "hash": "sVYGXXStyq9ClSvRaiCg99XAPVVWCaFMU5v8CBUTDJo="
+          "hash": "KbtZ31TjUFx58j2k/GR9H8aQXJVkjXS2qoyRWPMlmgs="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -33,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileCopy.html",
-          "hash": "bO2t7RrYI8accwQ3TQLVWLFYZSHa8nei1R8jHLQPPi8="
+          "hash": "bc7CERMZGG+e+6MprNv2olX4gc0FM4CgYnnGAOicDNg="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileRead.html",
-          "hash": "e4joTPcyUKKbQur23Zw4ufmFMUEkfWbdaQbjv6giF8c="
+          "hash": "G8VBxECfooQbevfZay4USlp0aWyc+E7mssNGy7xZuWk="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileSystemSearch.html",
-          "hash": "cu5mlk81WfVI+BXB2GuEWVzA9IJd18uGn0U7U9zaerI="
+          "hash": "Ve9jtSL1AG47xWxQXYYAynJoW6Dd2iRLFevTgG/nic4="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileT4Generate.FileT4GenerateHost.html",
-          "hash": "K2vFzfvloM3Wqd6iHGwKjT9Fo/gFvjRmLb7WSzsdPRg="
+          "hash": "vwTA/JdVcjb3lOgFlkudvwap+b7qm2X+W0q/ROzyfnU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileT4Generate.html",
-          "hash": "E+9fsT+FLNdMLmZsaLOBSu2tF9qIal7C+zt7w45EYpw="
+          "hash": "WghmB96sUZtymnbXipbtifcRs9VbXfHTTKRoHOi4dtE="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileUpdate.html",
-          "hash": "nnq1p+850MN3A0Cvj/GsrI6ic6l4Nf8QJjJGfwdwSfU="
+          "hash": "fq4VKifl4Hg42H4ARv/0teGRseGVMl3DylRlkSFJ3lU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileValidate.html",
-          "hash": "BHyO2PhQM2VYkYlUjlC1rAe4w9fI4NG4L1MaV7wAMHg="
+          "hash": "j0gBvisxUByOr6YHJ3phmHhGEndZf+nn6DADBW51lfI="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -117,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.GitHubCommitChangeLog.html",
-          "hash": "UJyycE9bfEJkzNmqWLkaeRIgFvN/lBcryxyGEe+K8JA="
+          "hash": "ComjQ9m3dt4Dmg6M2N8+hJhCppvt4udQK72y4ERj9Ys="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.GitHubRelease.html",
-          "hash": "6tP/2ZAEjl1kFL4bL2Sncb3V9mJdvgXCUs55t1fgix0="
+          "hash": "Weh2NNCKd8d57S7xj/oiZbCO59NDfVsFtdVeob2Uxhk="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -141,10 +141,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.NUnit.html",
-          "hash": "3WbP5AmQ3E5CstcCC/vgeaVKlSkCSzp8VqxIN+jmeMU="
+          "hash": "R8hIyPc53b7jnnKLHKnT+GPSj/c/sM0xJiVCg2kwz7w="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -153,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.NugetPush.html",
-          "hash": "9oAF+rxXbdpH2qFc7ixjnHfECkOxmzk6+K5Cy0XIRUo="
+          "hash": "I6flRlXmNywBWg9aGl2hIAdbu69QT2S6uaTpdCgckSg="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -165,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.OpenCover.html",
-          "hash": "Cudv4aDPpWxf7br/7CUnHq0Vxi0x278jQDHnMwCIhkU="
+          "hash": "87dOI1fcm4nrRzugz6zVGyWgBBaPFD7cESWY+idSuQY="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -177,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.ReportGenerator.html",
-          "hash": "WKfxEqeMA2x/Mej5cXlUXamgw1SvWaPKFRja0+DClyQ="
+          "hash": "1760AesFqMgUzHgUP95l4z+hIWuP4dZw3IqUsDnYszs="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -189,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.ReportUnit.html",
-          "hash": "+R5LqFVcxwluK+oyPp10SZWck2i5WIbCMtH4U1zQdMM="
+          "hash": "xii3X4DjQeuIyZSOaFn1JEpS17ye8lskXZ7AiwVFDiQ="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -201,10 +201,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.html",
-          "hash": "xL3w3A2VK5Sx/iTDw/xrMw4/FlF2hYKX/40KDvU0YBw="
+          "hash": "dBpXHx4HN1NPlKM9YTYrGsJ3f0AWMpPSJTumQ4QZJyw="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -213,10 +213,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/intro.html",
-          "hash": "K6XN6p9wMGehQegfDT6kfNR8i1aBhazHQIcuLWlhaC8="
+          "hash": "ILLlAT4s5mTcruWo2z5ya5BzewCI7XcOlcUWPc7yzTM="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -237,10 +237,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Execution/intro.html",
-          "hash": "Vjg3UQ1qMRB/n9T3AQsNUiBk2Jpgp1osizuQsiuHgI0="
+          "hash": "WI/tmxpZDFeRaA7WMF/3SBs8ja/zm4CYUI7FlgAkjrA="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -249,10 +249,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Extensions/intro.html",
-          "hash": "rN2BcD/UtuZxQw39DxH4dKOAUU7njz+1oHP0TugdVMY="
+          "hash": "3RYYITZBfNNwX9I0fRoTDUfVRfSthWe67TNHmLiI8mc="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -261,10 +261,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Guard/intro.html",
-          "hash": "uN4TwFLJCeuFgKziCm774CH2HxWFoxQyP+pgbJhbWFo="
+          "hash": "6OQMxHw78Ff1B9PjosLuyDGn1FZTJXTKoW7UhU/ZFc8="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -273,10 +273,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Reflection/intro.html",
-          "hash": "fQ2q1D3EPYiR1ZElYI6I8Xnn/ItsNvJtbtMo6RAYrQw="
+          "hash": "5GSO3Ce3X1gp2/bDlyqapN4ok0yWPsUK/naZiriVu/k="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -285,10 +285,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.AaaSpec.html",
-          "hash": "spA8CkHEkhxKelJXlgENTUJ2OFoAfzQ7kKwSInocTm4="
+          "hash": "VCspwIDPb1cMKjoqPLrulPKcS3PVbE2RjFxf+XdIr8k="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -297,10 +297,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html",
-          "hash": "S0A27metbl07dVRxjrVGl16RTtu7QL2pygintdxS7n0="
+          "hash": "YPebX5sl8hKeWJwIYg87eWZbWDviXInWQ2XVpwVFsPc="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -309,10 +309,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html",
-          "hash": "m9pi1JksQTpr5AAEXCwrB93CMD3jgMjUOZqIzzY2DbI="
+          "hash": "1xFp/eHbzFza+1h1L2xAO2zX3FJhr+xJZi3THqPSUVE="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -321,10 +321,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.html",
-          "hash": "oEI6zXe/C/0yCSbEegQxDJWXkHnaX/BW0bZsZEvy+CY="
+          "hash": "CPaf/sDRxycfOySfUsmFHSL84yG8xMeP8l9/yi9abeg="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -333,10 +333,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.BaseAttribute.html",
-          "hash": "YMNqEuo8s2raAoF1Z8UmBk4RbgneVOCT0ypOTM/3NqA="
+          "hash": "n8JNqLn0rweTVW97waqVYKgXDNFWv3v0WnkIkOkPGKw="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -345,10 +345,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.BddSpec.html",
-          "hash": "aIj1QuN7R8f/WFVhY3B1kmQ6ZQQN+5NpWHjehV9wLHo="
+          "hash": "LIYnorwkhHKNB8CsKU+0uYFTxZnBrdQraN0EjqX8tQU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -357,10 +357,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html",
-          "hash": "bAqeLSVHQVALNPGlRd4deJu3oSAyQlQf6wWyBTzIhjM="
+          "hash": "ikA5BrhyLb2YPP11wFmRI2/2duOWXejoKuLR1bPcGlo="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -369,10 +369,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html",
-          "hash": "/Nf6y6rR3hPHRY4F63V9zK6xk3j8Ld/9sgpwIqz1DVM="
+          "hash": "0LlRDIPAe987L6vtLjnU1T1BgDJp/+hs9xrDB6yi1vM="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -381,10 +381,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html",
-          "hash": "U/qPdsHY/+GgxX/O2DnQFqESCntJBw+Wx1gGp72fmcw="
+          "hash": "Z5MVc68N70oymT4YFBAyAi4ay7YJd14n4hjS0LrG/bY="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -393,10 +393,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.html",
-          "hash": "cRr4fSjiC2uZrps10Xtuf4LtJZNLEiQ302K3bP8FSEs="
+          "hash": "o4YSLrnhLV2wCQCZys8legKkQpyZXdXA7ZhP1s68Abo="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -405,10 +405,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.FixtureAttribute.html",
-          "hash": "t1VlvWVE0pQh659KAVeFfJpwzRZewIhIpO4vzBIOD2U="
+          "hash": "QjZ1jZI/7MlN2GBmV2F0GFr2oBIEQ9ZSz5TsSPrCgN4="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -417,10 +417,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.TestAttribute.html",
-          "hash": "NFdA15yXEYuPAy3c/FIcbIGCLbLhk/Q1koLtFvjX18U="
+          "hash": "1HYnS1xAT75IK9iMbMyChTIju4E7LPq5D7N6SNOcplE="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -429,10 +429,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.html",
-          "hash": "gtMm1ScY5GJniqJmpQ31aP70MSWYKBIezhUyqTOGGnI="
+          "hash": "ZLSi1U4dbHyiLXJYvbl8lzHOOs4zrZbJ98BED88ZKvg="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -441,10 +441,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Testing.NUnit/intro.html",
-          "hash": "nnSRPi2mWXcqNDm37TUfz2OPQ2oMbfKLxPkHv+8SiPI="
+          "hash": "zgbYt8FxtZ8ZsLcBZQclZXbPt1HZId8dfXkDI0JB3Xo="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -465,10 +465,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Validation/intro.html",
-          "hash": "z9lo9AbS6tgLgHx/ZbXwKvaGE/PV4C6e87jVhoYguQQ="
+          "hash": "1VARHfEOeQMEiojUHMtuwOQ0r+KZjvCbi6mdBIYknTQ="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -477,6 +477,17 @@
       "output": {
         "resource": {
           "relative_path": "images/heleonix-logos/Heleonix-2048x2048.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/heleonix-logos/Heleonix-favicon-128x128.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/heleonix-logos/Heleonix-favicon-128x128.ico"
         }
       },
       "is_incremental": false,
@@ -543,10 +554,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "3xHPRvLBLN0I7KDo622CFtbOXMZJbnBQfxhERwTonGg="
+          "hash": "Ki+VqImLc90ysDavDjp3EG2v4rwxRDNlQWMIylrh08I="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
