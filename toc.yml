@@ -1,6 +1,6 @@
-- name: Testing.NUnit
-  href: api/Heleonix.Testing.NUnit/
-  homepage: api/Heleonix.Testing.NUnit/intro.md
+- name: Testing
+  href: api/Heleonix.Testing/
+  homepage: api/Heleonix.Testing/intro.md
 - name: Validation
   href: api/Heleonix.Validation/
   homepage: api/Heleonix.Validation/intro.md

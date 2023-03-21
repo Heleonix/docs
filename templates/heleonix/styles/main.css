@@ -89,6 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 
         .sidetoc .toc .level1 > li {
             margin-top: 0;
+            font-size: 14px;
         }
 
         /* List of sub-items (classes) */

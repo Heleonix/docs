@@ -1,0 +1,10 @@
+apiRules:
+  - exclude:
+      uidRegex: \.Base\w+$
+      type: Type
+  - exclude:
+      uidRegex: \.FixtureAttribute$
+      type: Type
+  - exclude:
+      uidRegex: \.TestAttribute$
+      type: Type

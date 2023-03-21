@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class DirectoryClean
+    <title>Class BaseAttribute
    | Heleonix </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class DirectoryClean
+    <meta name="title" content="Class BaseAttribute
    | Heleonix ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -68,50 +68,51 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Heleonix.Build.Tasks.DirectoryClean">
+            <article class="content wrap" id="_content" data-uid="Heleonix.Testing.NUnit.BaseAttribute">
   
   
-  <h1 id="Heleonix_Build_Tasks_DirectoryClean" data-uid="Heleonix.Build.Tasks.DirectoryClean" class="text-break">Class DirectoryClean
+  <h1 id="Heleonix_Testing_NUnit_BaseAttribute" data-uid="Heleonix.Testing.NUnit.BaseAttribute" class="text-break">Class BaseAttribute
   </h1>
-  <div class="markdown level0 summary"><p>Deletes contents of a directory, but not the directory itself.</p>
+  <div class="markdown level0 summary"><p>Represents the base attribute for all other tests attributes.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Heleonix.Build.Tasks.BaseTask.html">BaseTask</a></div>
-    <div class="level2"><span class="xref">DirectoryClean</span></div>
+    <div class="level1"><span class="xref">BaseAttribute</span></div>
+      <div class="level2"><a class="xref" href="Heleonix.Testing.NUnit.FixtureAttribute.html">FixtureAttribute</a></div>
+      <div class="level2"><a class="xref" href="Heleonix.Testing.NUnit.TestAttribute.html">TestAttribute</a></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Heleonix.Build.Tasks.html">Heleonix.Build.Tasks</a></h6>
-  <h6><strong>Assembly</strong>: Heleonix.Build.dll</h6>
-  <h5 id="Heleonix_Build_Tasks_DirectoryClean_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Heleonix.Testing.NUnit.html">Heleonix.Testing.NUnit</a></h6>
+  <h6><strong>Assembly</strong>: Heleonix.Testing.NUnit.dll</h6>
+  <h5 id="Heleonix_Testing_NUnit_BaseAttribute_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DirectoryClean : BaseTask</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class BaseAttribute : Attribute</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="Heleonix_Build_Tasks_DirectoryClean__ctor_" data-uid="Heleonix.Build.Tasks.DirectoryClean.#ctor*"></a>
-  <h4 id="Heleonix_Build_Tasks_DirectoryClean__ctor" data-uid="Heleonix.Build.Tasks.DirectoryClean.#ctor">DirectoryClean()</h4>
+  <a id="Heleonix_Testing_NUnit_BaseAttribute__ctor_" data-uid="Heleonix.Testing.NUnit.BaseAttribute.#ctor*"></a>
+  <h4 id="Heleonix_Testing_NUnit_BaseAttribute__ctor" data-uid="Heleonix.Testing.NUnit.BaseAttribute.#ctor">BaseAttribute()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DirectoryClean()</code></pre>
+    <pre><code class="lang-csharp hljs">protected BaseAttribute()</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Heleonix_Build_Tasks_DirectoryClean_CleanedDirs_" data-uid="Heleonix.Build.Tasks.DirectoryClean.CleanedDirs*"></a>
-  <h4 id="Heleonix_Build_Tasks_DirectoryClean_CleanedDirs" data-uid="Heleonix.Build.Tasks.DirectoryClean.CleanedDirs">CleanedDirs</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the cleaned directories paths [Output].</p>
+  <a id="Heleonix_Testing_NUnit_BaseAttribute_Properties_" data-uid="Heleonix.Testing.NUnit.BaseAttribute.Properties*"></a>
+  <h4 id="Heleonix_Testing_NUnit_BaseAttribute_Properties" data-uid="Heleonix.Testing.NUnit.BaseAttribute.Properties">Properties</h4>
+  <div class="markdown level1 summary"><p>Gets the properties.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ITaskItem[] CleanedDirs { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual IDictionary&lt;string, object&gt; Properties { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -123,21 +124,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.Build.Framework.ITaskItem</span>[]</td>
-        <td></td>
+        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td><p>The properties.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Heleonix_Build_Tasks_DirectoryClean_Dirs_" data-uid="Heleonix.Build.Tasks.DirectoryClean.Dirs*"></a>
-  <h4 id="Heleonix_Build_Tasks_DirectoryClean_Dirs" data-uid="Heleonix.Build.Tasks.DirectoryClean.Dirs">Dirs</h4>
-  <div class="markdown level1 summary"><p>Gets or sets directories to clean.</p>
+  <a id="Heleonix_Testing_NUnit_BaseAttribute_TestName_" data-uid="Heleonix.Testing.NUnit.BaseAttribute.TestName*"></a>
+  <h4 id="Heleonix_Testing_NUnit_BaseAttribute_TestName" data-uid="Heleonix.Testing.NUnit.BaseAttribute.TestName">TestName</h4>
+  <div class="markdown level1 summary"><p>Gets the name of the test.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ITaskItem[] Dirs { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected abstract string TestName { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -149,26 +151,16 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.Build.Framework.ITaskItem</span>[]</td>
-        <td></td>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The name of the test.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="Heleonix_Build_Tasks_DirectoryClean_ExecuteInternal_" data-uid="Heleonix.Build.Tasks.DirectoryClean.ExecuteInternal*"></a>
-  <h4 id="Heleonix_Build_Tasks_DirectoryClean_ExecuteInternal" data-uid="Heleonix.Build.Tasks.DirectoryClean.ExecuteInternal">ExecuteInternal()</h4>
-  <div class="markdown level1 summary"><p>Deletes contents of a directory, but not the directory itself.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void ExecuteInternal()</code></pre>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><span class="xref">System.Attribute</span></div>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Heleonix.Build.Tasks.BaseTask.html#Heleonix_Build_Tasks_BaseTask_ExecuteInternal">BaseTask.ExecuteInternal()</a></div>
 </article>
           </div>
           

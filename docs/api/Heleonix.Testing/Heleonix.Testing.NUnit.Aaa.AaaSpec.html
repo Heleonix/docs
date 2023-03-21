@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ReportGenerator
+    <title>Class AaaSpec
    | Heleonix </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ReportGenerator
+    <meta name="title" content="Class AaaSpec
    | Heleonix ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -68,193 +68,219 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Heleonix.Build.Tasks.ReportGenerator">
+            <article class="content wrap" id="_content" data-uid="Heleonix.Testing.NUnit.Aaa.AaaSpec">
   
   
-  <h1 id="Heleonix_Build_Tasks_ReportGenerator" data-uid="Heleonix.Build.Tasks.ReportGenerator" class="text-break">Class ReportGenerator
+  <h1 id="Heleonix_Testing_NUnit_Aaa_AaaSpec" data-uid="Heleonix.Testing.NUnit.Aaa.AaaSpec" class="text-break">Class AaaSpec
   </h1>
-  <div class="markdown level0 summary"><p>Generates HTML report using the ReportGenerator tool.</p>
+  <div class="markdown level0 summary"><p>Represents the specification for the AAA tests pattern.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Heleonix.Build.Tasks.BaseTask.html">BaseTask</a></div>
-    <div class="level2"><span class="xref">ReportGenerator</span></div>
+    <div class="level1"><span class="xref">AaaSpec</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Heleonix.Build.Tasks.html">Heleonix.Build.Tasks</a></h6>
-  <h6><strong>Assembly</strong>: Heleonix.Build.dll</h6>
-  <h5 id="Heleonix_Build_Tasks_ReportGenerator_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Heleonix.Testing.NUnit.Aaa.html">Heleonix.Testing.NUnit.Aaa</a></h6>
+  <h6><strong>Assembly</strong>: Heleonix.Testing.NUnit.dll</h6>
+  <h5 id="Heleonix_Testing_NUnit_Aaa_AaaSpec_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ReportGenerator : BaseTask</code></pre>
+    <pre><code class="lang-csharp hljs">public static class AaaSpec : Object</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  
-  
-  <a id="Heleonix_Build_Tasks_ReportGenerator__ctor_" data-uid="Heleonix.Build.Tasks.ReportGenerator.#ctor*"></a>
-  <h4 id="Heleonix_Build_Tasks_ReportGenerator__ctor" data-uid="Heleonix.Build.Tasks.ReportGenerator.#ctor">ReportGenerator()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ReportGenerator()</code></pre>
-  </div>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="Heleonix_Build_Tasks_ReportGenerator_ReportDir_" data-uid="Heleonix.Build.Tasks.ReportGenerator.ReportDir*"></a>
-  <h4 id="Heleonix_Build_Tasks_ReportGenerator_ReportDir" data-uid="Heleonix.Build.Tasks.ReportGenerator.ReportDir">ReportDir</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the report directory path to save report to.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ReportDir { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Heleonix_Build_Tasks_ReportGenerator_ReportGeneratorExe_" data-uid="Heleonix.Build.Tasks.ReportGenerator.ReportGeneratorExe*"></a>
-  <h4 id="Heleonix_Build_Tasks_ReportGenerator_ReportGeneratorExe" data-uid="Heleonix.Build.Tasks.ReportGenerator.ReportGeneratorExe">ReportGeneratorExe</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the ReportGenerator executable path.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ReportGeneratorExe { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Heleonix_Build_Tasks_ReportGenerator_ReportTypes_" data-uid="Heleonix.Build.Tasks.ReportGenerator.ReportTypes*"></a>
-  <h4 id="Heleonix_Build_Tasks_ReportGenerator_ReportTypes" data-uid="Heleonix.Build.Tasks.ReportGenerator.ReportTypes">ReportTypes</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the report types, separated by semicolon.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ReportTypes { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="Heleonix_Build_Tasks_ReportGenerator_ReportTypes_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>Possible values:</p>
-<ul><li>Badges</li><li>Html</li><li>HtmlSummary</li><li>Latex</li><li>LatexSummary</li><li>TextSummary</li><li>Xml</li><li>XmlSummary</li></ul>
-</div>
-  
-  
-  <a id="Heleonix_Build_Tasks_ReportGenerator_ResultFiles_" data-uid="Heleonix.Build.Tasks.ReportGenerator.ResultFiles*"></a>
-  <h4 id="Heleonix_Build_Tasks_ReportGenerator_ResultFiles" data-uid="Heleonix.Build.Tasks.ReportGenerator.ResultFiles">ResultFiles</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the results files paths.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ITaskItem[] ResultFiles { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Microsoft.Build.Framework.ITaskItem</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Heleonix_Build_Tasks_ReportGenerator_Verbosity_" data-uid="Heleonix.Build.Tasks.ReportGenerator.Verbosity*"></a>
-  <h4 id="Heleonix_Build_Tasks_ReportGenerator_Verbosity" data-uid="Heleonix.Build.Tasks.ReportGenerator.Verbosity">Verbosity</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the verbosity.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Verbosity { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="Heleonix_Build_Tasks_ReportGenerator_Verbosity_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>Possible values:</p>
-<ul><li>Error</li><li>Info</li><li>Verbose</li></ul>
-</div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Heleonix_Build_Tasks_ReportGenerator_ExecuteInternal_" data-uid="Heleonix.Build.Tasks.ReportGenerator.ExecuteInternal*"></a>
-  <h4 id="Heleonix_Build_Tasks_ReportGenerator_ExecuteInternal" data-uid="Heleonix.Build.Tasks.ReportGenerator.ExecuteInternal">ExecuteInternal()</h4>
-  <div class="markdown level1 summary"><p>Executes the ReportUnit.</p>
+  <a id="Heleonix_Testing_NUnit_Aaa_AaaSpec_Act_" data-uid="Heleonix.Testing.NUnit.Aaa.AaaSpec.Act*"></a>
+  <h4 id="Heleonix_Testing_NUnit_Aaa_AaaSpec_Act_System_Action_" data-uid="Heleonix.Testing.NUnit.Aaa.AaaSpec.Act(System.Action)">Act(Action)</h4>
+  <div class="markdown level1 summary"><p>Builds the 'Act' step of the test.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void ExecuteInternal()</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Act(Action action)</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Heleonix.Build.Tasks.BaseTask.html#Heleonix_Build_Tasks_BaseTask_ExecuteInternal">BaseTask.ExecuteInternal()</a></div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Heleonix_Testing_NUnit_Aaa_AaaSpec_And_" data-uid="Heleonix.Testing.NUnit.Aaa.AaaSpec.And*"></a>
+  <h4 id="Heleonix_Testing_NUnit_Aaa_AaaSpec_And_System_String_System_Action_" data-uid="Heleonix.Testing.NUnit.Aaa.AaaSpec.And(System.String,System.Action)">And(String, Action)</h4>
+  <div class="markdown level1 summary"><p>Builds the 'And' step of the test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void And(string description, Action action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>The description.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Heleonix_Testing_NUnit_Aaa_AaaSpec_Arrange_" data-uid="Heleonix.Testing.NUnit.Aaa.AaaSpec.Arrange*"></a>
+  <h4 id="Heleonix_Testing_NUnit_Aaa_AaaSpec_Arrange_System_Action_" data-uid="Heleonix.Testing.NUnit.Aaa.AaaSpec.Arrange(System.Action)">Arrange(Action)</h4>
+  <div class="markdown level1 summary"><p>Builds the 'Arrange' step of the test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Arrange(Action action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Heleonix_Testing_NUnit_Aaa_AaaSpec_Should_" data-uid="Heleonix.Testing.NUnit.Aaa.AaaSpec.Should*"></a>
+  <h4 id="Heleonix_Testing_NUnit_Aaa_AaaSpec_Should_System_String_System_Action_" data-uid="Heleonix.Testing.NUnit.Aaa.AaaSpec.Should(System.String,System.Action)">Should(String, Action)</h4>
+  <div class="markdown level1 summary"><p>Builds the 'Should' step of the test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Should(string description, Action action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>The description.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Heleonix_Testing_NUnit_Aaa_AaaSpec_Teardown_" data-uid="Heleonix.Testing.NUnit.Aaa.AaaSpec.Teardown*"></a>
+  <h4 id="Heleonix_Testing_NUnit_Aaa_AaaSpec_Teardown_System_Action_" data-uid="Heleonix.Testing.NUnit.Aaa.AaaSpec.Teardown(System.Action)">Teardown(Action)</h4>
+  <div class="markdown level1 summary"><p>Builds the 'Teardown' step of the test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Teardown(Action action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Heleonix_Testing_NUnit_Aaa_AaaSpec_When_" data-uid="Heleonix.Testing.NUnit.Aaa.AaaSpec.When*"></a>
+  <h4 id="Heleonix_Testing_NUnit_Aaa_AaaSpec_When_System_String_System_Action_" data-uid="Heleonix.Testing.NUnit.Aaa.AaaSpec.When(System.String,System.Action)">When(String, Action)</h4>
+  <div class="markdown level1 summary"><p>Builds the 'When' step of the test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void When(string description, Action action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>The description.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
