@@ -967,6 +967,18 @@ references:
   commentId: Overload:Heleonix.Build.Tasks.NugetPush.Verbosity
   fullName: Heleonix.Build.Tasks.NugetPush.Verbosity
   nameWithType: NugetPush.Verbosity
+- uid: Heleonix.Build.Tasks.NugetPush.WorkingDir
+  name: WorkingDir
+  href: api/Heleonix.Build/Heleonix.Build.Tasks.NugetPush.html#Heleonix_Build_Tasks_NugetPush_WorkingDir
+  commentId: P:Heleonix.Build.Tasks.NugetPush.WorkingDir
+  fullName: Heleonix.Build.Tasks.NugetPush.WorkingDir
+  nameWithType: NugetPush.WorkingDir
+- uid: Heleonix.Build.Tasks.NugetPush.WorkingDir*
+  name: WorkingDir
+  href: api/Heleonix.Build/Heleonix.Build.Tasks.NugetPush.html#Heleonix_Build_Tasks_NugetPush_WorkingDir_
+  commentId: Overload:Heleonix.Build.Tasks.NugetPush.WorkingDir
+  fullName: Heleonix.Build.Tasks.NugetPush.WorkingDir
+  nameWithType: NugetPush.WorkingDir
 - uid: Heleonix.Build.Tasks.NUnit
   name: NUnit
   href: api/Heleonix.Build/Heleonix.Build.Tasks.NUnit.html
@@ -1297,6 +1309,18 @@ references:
   commentId: Overload:Heleonix.Build.Tasks.NUnit.UseTeamCityServiceMessages
   fullName: Heleonix.Build.Tasks.NUnit.UseTeamCityServiceMessages
   nameWithType: NUnit.UseTeamCityServiceMessages
+- uid: Heleonix.Build.Tasks.NUnit.WorkingDir
+  name: WorkingDir
+  href: api/Heleonix.Build/Heleonix.Build.Tasks.NUnit.html#Heleonix_Build_Tasks_NUnit_WorkingDir
+  commentId: P:Heleonix.Build.Tasks.NUnit.WorkingDir
+  fullName: Heleonix.Build.Tasks.NUnit.WorkingDir
+  nameWithType: NUnit.WorkingDir
+- uid: Heleonix.Build.Tasks.NUnit.WorkingDir*
+  name: WorkingDir
+  href: api/Heleonix.Build/Heleonix.Build.Tasks.NUnit.html#Heleonix_Build_Tasks_NUnit_WorkingDir_
+  commentId: Overload:Heleonix.Build.Tasks.NUnit.WorkingDir
+  fullName: Heleonix.Build.Tasks.NUnit.WorkingDir
+  nameWithType: NUnit.WorkingDir
 - uid: Heleonix.Build.Tasks.OpenCover
   name: OpenCover
   href: api/Heleonix.Build/Heleonix.Build.Tasks.OpenCover.html
@@ -1687,6 +1711,18 @@ references:
   commentId: Overload:Heleonix.Build.Tasks.OpenCover.VisitedMethods
   fullName: Heleonix.Build.Tasks.OpenCover.VisitedMethods
   nameWithType: OpenCover.VisitedMethods
+- uid: Heleonix.Build.Tasks.OpenCover.WorkingDir
+  name: WorkingDir
+  href: api/Heleonix.Build/Heleonix.Build.Tasks.OpenCover.html#Heleonix_Build_Tasks_OpenCover_WorkingDir
+  commentId: P:Heleonix.Build.Tasks.OpenCover.WorkingDir
+  fullName: Heleonix.Build.Tasks.OpenCover.WorkingDir
+  nameWithType: OpenCover.WorkingDir
+- uid: Heleonix.Build.Tasks.OpenCover.WorkingDir*
+  name: WorkingDir
+  href: api/Heleonix.Build/Heleonix.Build.Tasks.OpenCover.html#Heleonix_Build_Tasks_OpenCover_WorkingDir_
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.WorkingDir
+  fullName: Heleonix.Build.Tasks.OpenCover.WorkingDir
+  nameWithType: OpenCover.WorkingDir
 - uid: Heleonix.Build.Tasks.ReportGenerator
   name: ReportGenerator
   href: api/Heleonix.Build/Heleonix.Build.Tasks.ReportGenerator.html
@@ -1777,6 +1813,18 @@ references:
   commentId: Overload:Heleonix.Build.Tasks.ReportGenerator.Verbosity
   fullName: Heleonix.Build.Tasks.ReportGenerator.Verbosity
   nameWithType: ReportGenerator.Verbosity
+- uid: Heleonix.Build.Tasks.ReportGenerator.WorkingDir
+  name: WorkingDir
+  href: api/Heleonix.Build/Heleonix.Build.Tasks.ReportGenerator.html#Heleonix_Build_Tasks_ReportGenerator_WorkingDir
+  commentId: P:Heleonix.Build.Tasks.ReportGenerator.WorkingDir
+  fullName: Heleonix.Build.Tasks.ReportGenerator.WorkingDir
+  nameWithType: ReportGenerator.WorkingDir
+- uid: Heleonix.Build.Tasks.ReportGenerator.WorkingDir*
+  name: WorkingDir
+  href: api/Heleonix.Build/Heleonix.Build.Tasks.ReportGenerator.html#Heleonix_Build_Tasks_ReportGenerator_WorkingDir_
+  commentId: Overload:Heleonix.Build.Tasks.ReportGenerator.WorkingDir
+  fullName: Heleonix.Build.Tasks.ReportGenerator.WorkingDir
+  nameWithType: ReportGenerator.WorkingDir
 - uid: Heleonix.Build.Tasks.ReportUnit
   name: ReportUnit
   href: api/Heleonix.Build/Heleonix.Build.Tasks.ReportUnit.html
@@ -1843,3 +1891,15 @@ references:
   commentId: Overload:Heleonix.Build.Tasks.ReportUnit.TestResultFile
   fullName: Heleonix.Build.Tasks.ReportUnit.TestResultFile
   nameWithType: ReportUnit.TestResultFile
+- uid: Heleonix.Build.Tasks.ReportUnit.WorkingDir
+  name: WorkingDir
+  href: api/Heleonix.Build/Heleonix.Build.Tasks.ReportUnit.html#Heleonix_Build_Tasks_ReportUnit_WorkingDir
+  commentId: P:Heleonix.Build.Tasks.ReportUnit.WorkingDir
+  fullName: Heleonix.Build.Tasks.ReportUnit.WorkingDir
+  nameWithType: ReportUnit.WorkingDir
+- uid: Heleonix.Build.Tasks.ReportUnit.WorkingDir*
+  name: WorkingDir
+  href: api/Heleonix.Build/Heleonix.Build.Tasks.ReportUnit.html#Heleonix_Build_Tasks_ReportUnit_WorkingDir_
+  commentId: Overload:Heleonix.Build.Tasks.ReportUnit.WorkingDir
+  fullName: Heleonix.Build.Tasks.ReportUnit.WorkingDir
+  nameWithType: ReportUnit.WorkingDir
