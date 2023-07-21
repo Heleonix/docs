@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.NUnit.html",
-          "hash": "p3E5Lp6jmxTyU/b49eASGCA6kEjG5usCBm6aC5+wDQM="
+          "hash": "cXO+22Z86emv6WBXPjEjw+XCOX2pgQ3sdpDr4xPtpRw="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.NugetPush.html",
-          "hash": "uguLPbOcZh0U7imWKsyOq+d+YOibwJuzeipV9j8Rt2Q="
+          "hash": "yxadu6mwWda8fibRJVw72y9Z3UtBknP6O16bnHH638I="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.ReportGenerator.html",
-          "hash": "yqdofU3xINwnDBh0bjf5YbTW9EHqkBK4yPtzz4Ehc6w="
+          "hash": "zC/Vm7FOB6XSzDuIZJMQYbq76o4vwezTzCyZTOhyypw="
         }
       },
       "is_incremental": false,
