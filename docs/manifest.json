@@ -1,15 +1,207 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Program Files (x86)/Go Agent/pipelines/Heleonix.Testing/Hx_Artifacts/Hx_DocFX",
+  "source_base_path": "C:/Program Files (x86)/Go Agent/pipelines/Heleonix.Build/Hx_Artifacts/Hx_DocFX",
   "xrefmap": "xrefmap.yml",
   "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.DirectoryClean.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.DirectoryClean.html",
+          "hash": "HIJOsXMpXPp4pANAyEqgg70/NKvOGfEslQVMY5BVbgY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileCopy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileCopy.html",
+          "hash": "8xnxbdvb9g6DczSyc5WLiB7jXP+7G0mF2RtpxvNBTfc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileRazorGenerate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileRazorGenerate.html",
+          "hash": "qatKrdaIJTsjmhYJrFBIgnxhNciu7fCJJHoF+VIYQr8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileRead.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileRead.html",
+          "hash": "uI4bSaFf4rn6fSu32uTZ8BNkdmjJkC1ll04HM7Zjx7k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileSystemSearch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileSystemSearch.html",
+          "hash": "6MBEKLBqE7j30r3wwFz/fSSbBoF4PxkBZNV82RUAecM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileUpdate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileUpdate.html",
+          "hash": "tPkfsm2621gUC415ZtBoZwU0ziusaKHVf8BO/smce9g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileValidate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.FileValidate.html",
+          "hash": "M3UW7KooVU39b3FycNPjm4HYQwhAmcNO9vtGaGjd3qI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.GitHubCommitChangeLog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.GitHubCommitChangeLog.html",
+          "hash": "HIvblgOB/nUUJsFzb8LEtQuCzraykt7gTbPmotrsMh0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.GitHubRelease.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.GitHubRelease.html",
+          "hash": "zPpP219JdaVeoj72MpbOStygO6nqUwjBkYCxCpEM5KU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.NUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.NUnit.html",
+          "hash": "cXO+22Z86emv6WBXPjEjw+XCOX2pgQ3sdpDr4xPtpRw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.NugetPush.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.NugetPush.html",
+          "hash": "yxadu6mwWda8fibRJVw72y9Z3UtBknP6O16bnHH638I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.OpenCover.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.OpenCover.html",
+          "hash": "6zOXEmw3IlXOt7NC6FcE4K9xKv/6AAmewCh1OhwAQuE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.ReportGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.ReportGenerator.html",
+          "hash": "zC/Vm7FOB6XSzDuIZJMQYbq76o4vwezTzCyZTOhyypw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.ReportUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.ReportUnit.html",
+          "hash": "58nGoHDHFwtQnBtoSLPaHToWgQRJlYDpY//Qsj0U9Ys="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.html",
+          "hash": "RyM9J+IFYADl+a9MKZgaR5ol6JP1CZaY8FImOQXigzc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
     {
       "type": "Conceptual",
       "source_relative_path": "api/Heleonix.Build/intro.md",
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/intro.html",
-          "hash": "f8PBaIasySHd4emsfH/SisQlJDFirHDCQvJUJHliuNw="
+          "hash": "ILLlAT4s5mTcruWo2z5ya5BzewCI7XcOlcUWPc7yzTM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/Heleonix.Build/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Build/toc.html",
+          "hash": "RvwE0C6tdyIjOoXTjO4kHyQNiGvlpXvonZfq/lsCJIM="
         }
       },
       "is_incremental": false,
@@ -64,132 +256,12 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.AaaSpec.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.AaaSpec.html",
-          "hash": "6SPvWNOgO8LW+vcyOxCjByv5NfIJMia1w7m6+sWOI18="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html",
-          "hash": "FRktsuaD/GjVVlSWzHUDFrxzQphG+Z3c6W8k2HtSDBo="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html",
-          "hash": "F4MSpUaDyo1QINAYbVy6hptnVmhZ0ayZJNfLbnQPp1I="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.html",
-          "hash": "8MO1r9yXNlg982UC8mqEh7/dhUbKGwXgPi2KAgrfhUA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.BddSpec.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.BddSpec.html",
-          "hash": "uru45r8hfFYDOUsRjNN4JRkPEPbbQ7qtC84TdIou3UQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html",
-          "hash": "RVfJWsh3VwSEWVDCfi0Jgk2syNw3kMrRvEN67md2KZM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html",
-          "hash": "Vc09+dtMULvBdY6zj1jes5UH21WDpsb+QR5wuuvQiwI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html",
-          "hash": "iXx7CHriDDRSkxW6ZzXlbLIWb34/Z7A0UWSZCs9WufQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.html",
-          "hash": "C8zns40+/El5BOmVCMd+VSN5fMPJ2EHzuGQ5D4cDYO4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "api/Heleonix.Testing/intro.md",
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Testing/intro.html",
-          "hash": "2HuLpzRX9WxqK68MMxJAKLE1r3JLylNfL+JraGyMejI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "api/Heleonix.Testing/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Heleonix.Testing/toc.html",
-          "hash": "q3qqkecRIO9kcrTNVgn1CacKmK7Ej9wEQWxHOnB717A="
+          "hash": "Ceay9ckaBbfmH6L9smjhAeuvxMJDIXPr4wqJVqQn5BQ="
         }
       },
       "is_incremental": false,
@@ -302,7 +374,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "20J9COT/EyPTGihJMtpG73XmLP+FEcNcz5vJor1LxNw="
+          "hash": "K5ClwwmNRMyXzwtxo1pyGbqBTq+qQ0vP11taSrBkUa0="
         }
       },
       "is_incremental": false,
@@ -329,7 +401,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 9,
+          "total_file_count": 15,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
