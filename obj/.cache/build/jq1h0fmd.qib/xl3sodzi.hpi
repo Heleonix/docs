@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace Heleonix.Build.Tasks
+   | Heleonix </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace Heleonix.Build.Tasks
+   | Heleonix ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../images/heleonix-logos/Heleonix-favicon-128x128.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/heleonix-logos/Heleonix-logo-64x64.jpg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Heleonix.Build.Tasks">
+  
+  <h1 id="Heleonix_Build_Tasks" data-uid="Heleonix.Build.Tasks" class="text-break">Namespace Heleonix.Build.Tasks
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="Heleonix.Build.Tasks.DirectoryClean.html">DirectoryClean</a></h4>
+      <section><p>Deletes contents of a directory, but not the directory itself.</p>
+</section>
+      <h4><a class="xref" href="Heleonix.Build.Tasks.FileCopy.html">FileCopy</a></h4>
+      <section><p>Copies files from sources into destinations.</p>
+</section>
+      <h4><a class="xref" href="Heleonix.Build.Tasks.FileRazorGenerate.html">FileRazorGenerate</a></h4>
+      <section><p>Generates a file using the passed Razor template file and passed list of data items.</p>
+</section>
+      <h4><a class="xref" href="Heleonix.Build.Tasks.FileRead.html">FileRead</a></h4>
+      <section><p>Gets content from file by specified regular expression.</p>
+</section>
+      <h4><a class="xref" href="Heleonix.Build.Tasks.FileSystemSearch.html">FileSystemSearch</a></h4>
+      <section><p>Searches items in the file system.</p>
+</section>
+      <h4><a class="xref" href="Heleonix.Build.Tasks.FileUpdate.html">FileUpdate</a></h4>
+      <section><p>Updates a file with specified regular expression and content.</p>
+</section>
+      <h4><a class="xref" href="Heleonix.Build.Tasks.FileValidate.html">FileValidate</a></h4>
+      <section><p>Validates that contents of specified files corresponds to specified regex patterns.</p>
+</section>
+      <h4><a class="xref" href="Heleonix.Build.Tasks.GitHubCommitChangeLog.html">GitHubCommitChangeLog</a></h4>
+      <section><p>Collects a changelog from a GitHub repository using the GitHub API.</p>
+</section>
+      <h4><a class="xref" href="Heleonix.Build.Tasks.GitHubRelease.html">GitHubRelease</a></h4>
+      <section><p>Creates a release on GitHub using the GitHub API.</p>
+</section>
+      <h4><a class="xref" href="Heleonix.Build.Tasks.NugetPush.html">NugetPush</a></h4>
+      <section><p>Runs the Nuget push command.</p>
+</section>
+      <h4><a class="xref" href="Heleonix.Build.Tasks.NUnit.html">NUnit</a></h4>
+      <section><p>Runs the NUnit.</p>
+</section>
+      <h4><a class="xref" href="Heleonix.Build.Tasks.OpenCover.html">OpenCover</a></h4>
+      <section><p>Runs the OpenCover.</p>
+</section>
+      <h4><a class="xref" href="Heleonix.Build.Tasks.ReportGenerator.html">ReportGenerator</a></h4>
+      <section><p>Generates HTML report using the ReportGenerator tool.</p>
+</section>
+      <h4><a class="xref" href="Heleonix.Build.Tasks.ReportUnit.html">ReportUnit</a></h4>
+      <section><p>Generates HTML report using the ReportUnit tool.</p>
+</section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Heleonix.Testing | Heleonix </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Heleonix.Testing | Heleonix ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../images/heleonix-logos/Heleonix-favicon-128x128.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../images/heleonix-logos/Heleonix-logo-64x64.jpg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="heleonixtesting" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="1">Heleonix.Testing</h1>
+
+<p sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="2">The library for writing tests in BDD and AAA styles</p>
+<h2 id="install" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="4">Install</h2>
+<p sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="5"><a href="https://www.nuget.org/packages/Heleonix.Testing.NUnit" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="5">https://www.nuget.org/packages/Heleonix.Testing.NUnit</a></p>
+<h2 id="aaa-arrange-act-assert" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="7">AAA: Arrange Act Assert</h2>
+<h3 id="structure" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="9">Structure</h3>
+<pre><code class="lang-csharp" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="10">using global::NUnit.Framework;
+using Heleonix.Testing.NUnit.Aaa;
+using static Heleonix.Testing.NUnit.Aaa.AaaSpec;
+
+/// &lt;summary&gt;
+/// Tests the &lt;see cref=&quot;MyComponent&quot;/&gt;.
+/// &lt;/summary&gt;
+[ComponentTest(Type = typeof(MyComponent))]
+public static class MyComponentTests
+{
+    /// &lt;summary&gt;
+    /// Tests the &lt;see cref=&quot;MyComponent.Member1&quot;/&gt;.
+    /// &lt;/summary&gt;
+    [MemberTest(Name = nameof(MyComponent.Member1))]
+    public static void Member1()
+    {
+        Arrange(() =&gt;
+        {
+        });
+
+        Act(() =&gt;
+        {
+        });
+
+        Teardown(() =&gt;
+        {
+        });
+
+        When(&quot;the condition #1 is true&quot;, () =&gt;
+        {
+            Arrange(() =&gt;
+            {
+            });
+
+            Act(() =&gt;
+            {
+            });
+
+            Teardown(() =&gt;
+            {
+            });
+
+            Should(&quot;lead to the result #1&quot;, () =&gt;
+            {
+            });
+        });
+
+        When(&quot;the condition #2 is true&quot;, () =&gt;
+        {
+            Arrange(() =&gt;
+            {
+            });
+
+            Act(() =&gt;
+            {
+            });
+
+            Teardown(() =&gt;
+            {
+            });
+
+            Should(&quot;lead to the result #2&quot;, () =&gt;
+            {
+            });
+        });
+    }
+
+    /// &lt;summary&gt;
+    /// Tests the &lt;see cref=&quot;MyComponent.Member2&quot;/&gt;.
+    /// &lt;/summary&gt;
+    [MemberTest(Name = nameof(MyComponent.Member2))]
+    public static void Member2()
+    {
+        Arrange(() =&gt;
+        {
+        });
+
+        Act(() =&gt;
+        {
+        });
+
+        Teardown(() =&gt;
+        {
+        });
+
+        When(&quot;the action #1 is executed&quot;, () =&gt;
+        {
+            Arrange(() =&gt;
+            {
+            });
+
+            Act(() =&gt;
+            {
+            });
+
+            Teardown(() =&gt;
+            {
+            });
+
+            Should(&quot;lead to the result #1&quot;, () =&gt;
+            {
+                Assert.Fail();
+            });
+
+            And(&quot;the condition #1 is true&quot;, () =&gt;
+            {
+                Arrange(() =&gt;
+                {
+                });
+
+                Act(() =&gt;
+                {
+                });
+
+                Teardown(() =&gt;
+                {
+                });
+
+                Should(&quot;lead to the result #2&quot;, () =&gt;
+                {
+                });
+            });
+        });
+    }
+}
+</code></pre>
+<h3 id="tests-output" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="138">Tests Output</h3>
+<p sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="139"><img src="../../images/Heleonix.Testing/AAA.png" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="139" alt="AAA"></p>
+<h2 id="bdd-behavior-driven-development" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="141">BDD: Behavior Driven Development</h2>
+<h3 id="structure-1" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="143">Structure</h3>
+<pre><code class="lang-csharp" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="144">using global::NUnit.Framework;
+using Heleonix.Testing.NUnit.Bdd;
+using static Heleonix.Testing.NUnit.Bdd.BddSpec;
+
+/// &lt;summary&gt;
+/// Tests the TheCoolStory.
+/// &lt;/summary&gt;
+[Feature(Name = &quot;The Cool Feature&quot;)]
+OR
+[Story(
+    Id = &quot;111&quot;,
+    Summary = &quot;The cool story&quot;,
+    AsA = &quot;Product owner&quot;,
+    IWant = &quot;a cool story&quot;,
+    SoThat = &quot;I earn a lot of money&quot;)]
+public static class TheCoolStory
+{
+    /// &lt;summary&gt;
+    /// Tests the Scenario.
+    /// &lt;/summary&gt;
+    [Scenario(Name = &quot;Earn a lot of money in the story&quot;)]
+    public static void Scenario()
+    {
+        Given(&quot;the precondition #1&quot;, () =&gt;
+        {
+            BeforeEach(() =&gt; { });
+
+            AfterEach(() =&gt; { });
+
+            When(&quot;the action #1 is executed&quot;, () =&gt;
+            {
+                BeforeEach(() =&gt; { });
+
+                AfterEach(() =&gt; { });
+
+                Then(&quot;the result #1 happens&quot;, () =&gt; { });
+
+                And(&quot;the condition #1 is true&quot;, () =&gt;
+                {
+                    BeforeEach(() =&gt; { });
+
+                    AfterEach(() =&gt; { });
+
+                    Then(&quot;the result #2 happens&quot;, () =&gt; { Assert.Fail(); });
+                });
+            });
+
+            And(&quot;condition #2 is true&quot;, () =&gt;
+            {
+                BeforeEach(() =&gt; { });
+
+                AfterEach(() =&gt; { });
+
+                When(&quot;the action #2 is executed&quot;, () =&gt;
+                {
+                    BeforeEach(() =&gt; { });
+
+                    AfterEach(() =&gt; { });
+
+                    Then(&quot;the result #3 happens&quot;, () =&gt; { });
+
+                    And(&quot;the condition #3 is true&quot;, () =&gt;
+                    {
+                        BeforeEach(() =&gt; { });
+
+                        AfterEach(() =&gt; { });
+
+                        Then(&quot;the result #4 happens&quot;, () =&gt; { });
+                    });
+                });
+            });
+        });
+    }
+}
+</code></pre>
+<h3 id="tests-output-1" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="221">Tests Output</h3>
+<p sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="222"><img src="../../images/Heleonix.Testing/BDD.png" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="222" alt="BDD"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/hennadiilu/Heleonix.Build/blob/master/Hx_Artifacts/hx_docfx/api/Heleonix.Testing/intro.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

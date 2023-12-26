@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "D:/a/Heleonix.Build/Heleonix.Build/Hx_Artifacts/Hx_DocFX",
+  "source_base_path": "D:/Dev/projects/heleonix/heleonix.testing/Hx_Artifacts/hx_docfx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -12,7 +12,7 @@
           "hash": "HIJOsXMpXPp4pANAyEqgg70/NKvOGfEslQVMY5BVbgY="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -24,7 +24,7 @@
           "hash": "8xnxbdvb9g6DczSyc5WLiB7jXP+7G0mF2RtpxvNBTfc="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -36,7 +36,7 @@
           "hash": "qatKrdaIJTsjmhYJrFBIgnxhNciu7fCJJHoF+VIYQr8="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -48,7 +48,7 @@
           "hash": "uI4bSaFf4rn6fSu32uTZ8BNkdmjJkC1ll04HM7Zjx7k="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -60,7 +60,7 @@
           "hash": "6MBEKLBqE7j30r3wwFz/fSSbBoF4PxkBZNV82RUAecM="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -72,7 +72,7 @@
           "hash": "tPkfsm2621gUC415ZtBoZwU0ziusaKHVf8BO/smce9g="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -84,7 +84,7 @@
           "hash": "M3UW7KooVU39b3FycNPjm4HYQwhAmcNO9vtGaGjd3qI="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -96,7 +96,7 @@
           "hash": "HIvblgOB/nUUJsFzb8LEtQuCzraykt7gTbPmotrsMh0="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -108,7 +108,7 @@
           "hash": "zPpP219JdaVeoj72MpbOStygO6nqUwjBkYCxCpEM5KU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -120,7 +120,7 @@
           "hash": "cXO+22Z86emv6WBXPjEjw+XCOX2pgQ3sdpDr4xPtpRw="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -132,7 +132,7 @@
           "hash": "yxadu6mwWda8fibRJVw72y9Z3UtBknP6O16bnHH638I="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -144,7 +144,7 @@
           "hash": "6zOXEmw3IlXOt7NC6FcE4K9xKv/6AAmewCh1OhwAQuE="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -156,7 +156,7 @@
           "hash": "zC/Vm7FOB6XSzDuIZJMQYbq76o4vwezTzCyZTOhyypw="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -168,7 +168,7 @@
           "hash": "58nGoHDHFwtQnBtoSLPaHToWgQRJlYDpY//Qsj0U9Ys="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -180,7 +180,7 @@
           "hash": "RyM9J+IFYADl+a9MKZgaR5ol6JP1CZaY8FImOQXigzc="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -189,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/intro.html",
-          "hash": "ILLlAT4s5mTcruWo2z5ya5BzewCI7XcOlcUWPc7yzTM="
+          "hash": "gW7+dvSh74Ue2p8sQVdEsVtbu3L6POJaK4fRyuSresM="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -213,10 +213,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Execution/intro.html",
-          "hash": "WI/tmxpZDFeRaA7WMF/3SBs8ja/zm4CYUI7FlgAkjrA="
+          "hash": "uV+ipOtK66eWnqcUExWJThFpTuLqhWOflJTqa7ILJh0="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -225,10 +225,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Extensions/intro.html",
-          "hash": "3RYYITZBfNNwX9I0fRoTDUfVRfSthWe67TNHmLiI8mc="
+          "hash": "fAIwez9QWWA+3YLxU71TMLebaZ9kASC9qgP17VNlcJA="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -237,10 +237,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Guard/intro.html",
-          "hash": "6OQMxHw78Ff1B9PjosLuyDGn1FZTJXTKoW7UhU/ZFc8="
+          "hash": "vXsmnaUu2qNWZBM8wn8iJ9tLzqwgcyjHWTBTAZfMJWo="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -249,7 +249,115 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Reflection/intro.html",
-          "hash": "5GSO3Ce3X1gp2/bDlyqapN4ok0yWPsUK/naZiriVu/k="
+          "hash": "aC11wYje6hBMC0nQFUALyFWhxL7euu9CrR/lyusmPNo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.AaaSpec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.AaaSpec.html",
+          "hash": "6SPvWNOgO8LW+vcyOxCjByv5NfIJMia1w7m6+sWOI18="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html",
+          "hash": "FRktsuaD/GjVVlSWzHUDFrxzQphG+Z3c6W8k2HtSDBo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html",
+          "hash": "F4MSpUaDyo1QINAYbVy6hptnVmhZ0ayZJNfLbnQPp1I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.html",
+          "hash": "8MO1r9yXNlg982UC8mqEh7/dhUbKGwXgPi2KAgrfhUA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.BddSpec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.BddSpec.html",
+          "hash": "uru45r8hfFYDOUsRjNN4JRkPEPbbQ7qtC84TdIou3UQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html",
+          "hash": "RVfJWsh3VwSEWVDCfi0Jgk2syNw3kMrRvEN67md2KZM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html",
+          "hash": "Vc09+dtMULvBdY6zj1jes5UH21WDpsb+QR5wuuvQiwI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html",
+          "hash": "iXx7CHriDDRSkxW6ZzXlbLIWb34/Z7A0UWSZCs9WufQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.html",
+          "hash": "C8zns40+/El5BOmVCMd+VSN5fMPJ2EHzuGQ5D4cDYO4="
         }
       },
       "is_incremental": false,
@@ -261,7 +369,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Testing/intro.html",
-          "hash": "Ceay9ckaBbfmH6L9smjhAeuvxMJDIXPr4wqJVqQn5BQ="
+          "hash": "LnMiMjX/qC14ff4Kgh2fRc0XvDQ9yZqAb7KE3d7HtcA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/Heleonix.Testing/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Heleonix.Testing/toc.html",
+          "hash": "q3qqkecRIO9kcrTNVgn1CacKmK7Ej9wEQWxHOnB717A="
         }
       },
       "is_incremental": false,
@@ -273,7 +393,29 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Validation/intro.html",
-          "hash": "1VARHfEOeQMEiojUHMtuwOQ0r+KZjvCbi6mdBIYknTQ="
+          "hash": "2K9BvwA5ynJ+jQnBq/APQq+YZqtWRLoi+z7J9qKmCi0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Heleonix.Testing/AAA.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Heleonix.Testing/AAA.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Heleonix.Testing/BDD.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Heleonix.Testing/BDD.png"
         }
       },
       "is_incremental": false,
@@ -362,10 +504,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "Ki+VqImLc90ysDavDjp3EG2v4rwxRDNlQWMIylrh08I="
+          "hash": "oNTiPbOphiZDlWI6elklPUtnUoqjXyPMQGpa5/eq7vw="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -374,7 +516,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "K5ClwwmNRMyXzwtxo1pyGbqBTq+qQ0vP11taSrBkUa0="
+          "hash": "m+kk/rnUFHdHBzxlYfsyfAy8qEtcevomRAOcK/JelcI="
         }
       },
       "is_incremental": false,
@@ -384,25 +526,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 8,
-          "skipped_file_count": 0
+          "skipped_file_count": 8
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 15,
-          "skipped_file_count": 0
+          "total_file_count": 24,
+          "skipped_file_count": 15
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
@@ -422,8 +562,8 @@
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
