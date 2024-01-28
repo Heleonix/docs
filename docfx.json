@@ -4,7 +4,7 @@
       "src": [
         {
           "files": [ "src/Heleonix.Testing.NUnit/bin/Release/netstandard2.0/Heleonix.Testing.NUnit.dll" ],
-          "src": "../Hx_NetBuild/"
+          "src": "../NetBuild/"
         }
       ],
       "dest": "api/Heleonix.Testing",
@@ -14,7 +14,7 @@
       "src": [
         {
           "files": [ "src/Heleonix.Execution/bin/Release/netstandard2.0/Heleonix.Execution.dll" ],
-          "src": "../Hx_NetBuild/"
+          "src": "../NetBuild/"
         }
       ],
       "dest": "api/Heleonix.Execution",
@@ -24,7 +24,7 @@
       "src": [
         {
           "files": [ "src/Heleonix.Guard/bin/Release/netstandard2.0/Heleonix.Guard.dll" ],
-          "src": "../Hx_NetBuild/"
+          "src": "../NetBuild/"
         }
       ],
       "dest": "api/Heleonix.Guard",
@@ -34,7 +34,7 @@
       "src": [
         {
           "files": [ "src/Heleonix.Reflection/bin/Release/netstandard2.0/Heleonix.Reflection.dll" ],
-          "src": "../Hx_NetBuild/"
+          "src": "../NetBuild/"
         }
       ],
       "dest": "api/Heleonix.Reflection",
@@ -44,7 +44,7 @@
       "src": [
         {
           "files": [ "src/Heleonix.Validation/bin/Release/netstandard2.0/Heleonix.Validation.dll" ],
-          "src": "../Hx_NetBuild/"
+          "src": "../NetBuild/"
         }
       ],
       "dest": "api/Heleonix.Validation",
@@ -54,7 +54,7 @@
       "src": [
         {
           "files": [ "src/Heleonix.Extensions/bin/Release/netstandard2.0/Heleonix.Extensions.dll" ],
-          "src": "../Hx_NetBuild/"
+          "src": "../NetBuild/"
         }
       ],
       "dest": "api/Heleonix.Extensions",
@@ -63,8 +63,8 @@
     {
       "src": [
         {
-          "files": [ "src/Heleonix.Build/bin/Release/netstandard2.0/Heleonix.Build.dll" ],
-          "src": "../Hx_NetBuild/"
+          "files": [ "src/Heleonix.Build/bin/Release/net6.0/Heleonix.Build.dll" ],
+          "src": "../NetBuild/"
         }
       ],
       "dest": "api/Heleonix.Build",
