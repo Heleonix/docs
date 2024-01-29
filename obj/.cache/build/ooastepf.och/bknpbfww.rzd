@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
   
@@ -60,14 +60,14 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="heleonixtesting">Heleonix.Testing</h1>
+<h1 id="heleonixtesting" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="1">Heleonix.Testing</h1>
 
-<p>The library for writing tests in BDD and AAA styles</p>
-<h2 id="install">Install</h2>
-<p><a href="https://www.nuget.org/packages/Heleonix.Testing.NUnit">https://www.nuget.org/packages/Heleonix.Testing.NUnit</a></p>
-<h2 id="aaa-arrange-act-assert">AAA: Arrange Act Assert</h2>
-<h3 id="structure">Structure</h3>
-<pre><code class="lang-csharp">using global::NUnit.Framework;
+<p sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="2">The library for writing tests in BDD and AAA styles</p>
+<h2 id="install" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="4">Install</h2>
+<p sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="5"><a href="https://www.nuget.org/packages/Heleonix.Testing.NUnit" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="5">https://www.nuget.org/packages/Heleonix.Testing.NUnit</a></p>
+<h2 id="aaa-arrange-act-assert" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="7">AAA: Arrange Act Assert</h2>
+<h3 id="structure" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="9">Structure</h3>
+<pre><code class="lang-csharp" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="10">using global::NUnit.Framework;
 using Heleonix.Testing.NUnit.Aaa;
 using static Heleonix.Testing.NUnit.Aaa.AaaSpec;
 
@@ -193,11 +193,11 @@ public static class MyComponentTests
     }
 }
 </code></pre>
-<h3 id="tests-output">Tests Output</h3>
-<p><img src="../../images/Heleonix.Testing/AAA.png" alt="AAA"></p>
-<h2 id="bdd-behavior-driven-development">BDD: Behavior Driven Development</h2>
-<h3 id="structure-1">Structure</h3>
-<pre><code class="lang-csharp">using global::NUnit.Framework;
+<h3 id="tests-output" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="138">Tests Output</h3>
+<p sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="139"><img src="../../images/Heleonix.Testing/AAA.png" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="139" alt="AAA"></p>
+<h2 id="bdd-behavior-driven-development" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="141">BDD: Behavior Driven Development</h2>
+<h3 id="structure-1" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="143">Structure</h3>
+<pre><code class="lang-csharp" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="144">using global::NUnit.Framework;
 using Heleonix.Testing.NUnit.Bdd;
 using static Heleonix.Testing.NUnit.Bdd.BddSpec;
 
@@ -272,8 +272,8 @@ public static class TheCoolStory
     }
 }
 </code></pre>
-<h3 id="tests-output-1">Tests Output</h3>
-<p><img src="../../images/Heleonix.Testing/BDD.png" alt="BDD"></p>
+<h3 id="tests-output-1" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="221">Tests Output</h3>
+<p sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="222"><img src="../../images/Heleonix.Testing/BDD.png" sourcefile="api/Heleonix.Testing/intro.md" sourcestartlinenumber="222" alt="BDD"></p>
 </article>
           </div>
           
