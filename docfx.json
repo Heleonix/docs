@@ -7,8 +7,7 @@
           "src": "../NetBuild/"
         }
       ],
-      "dest": "api/Heleonix.Testing",
-      "filter": "./filterConfig.yml"
+      "dest": "api/Heleonix.Testing"
     },
     {
       "src": [
@@ -17,8 +16,7 @@
           "src": "../NetBuild/"
         }
       ],
-      "dest": "api/Heleonix.Execution",
-      "filter": "./filterConfig.yml"
+      "dest": "api/Heleonix.Execution"
     },
     {
       "src": [
@@ -27,8 +25,7 @@
           "src": "../NetBuild/"
         }
       ],
-      "dest": "api/Heleonix.Guard",
-      "filter": "./filterConfig.yml"
+      "dest": "api/Heleonix.Guard"
     },
     {
       "src": [
@@ -37,8 +34,7 @@
           "src": "../NetBuild/"
         }
       ],
-      "dest": "api/Heleonix.Reflection",
-      "filter": "./filterConfig.yml"
+      "dest": "api/Heleonix.Reflection"
     },
     {
       "src": [
@@ -47,8 +43,7 @@
           "src": "../NetBuild/"
         }
       ],
-      "dest": "api/Heleonix.Validation",
-      "filter": "./filterConfig.yml"
+      "dest": "api/Heleonix.Validation"
     },
     {
       "src": [
@@ -57,8 +52,7 @@
           "src": "../NetBuild/"
         }
       ],
-      "dest": "api/Heleonix.Extensions",
-      "filter": "./filterConfig.yml"
+      "dest": "api/Heleonix.Extensions"
     },
     {
       "src": [
@@ -67,8 +61,7 @@
           "src": "../NetBuild/"
         }
       ],
-      "dest": "api/Heleonix.Build",
-      "filter": "./filterConfig.yml"
+      "dest": "api/Heleonix.Build"
     }
   ],
   "build": {
