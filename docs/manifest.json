@@ -4,16 +4,6 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Program.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Heleonix.Build/Heleonix.Build.Program.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.Hx_DirectoryClean.yml",
       "output": {
         ".html": {
@@ -158,16 +148,6 @@
       "output": {
         ".html": {
           "relative_path": "api/Heleonix.Build/Heleonix.Build.Tasks.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Heleonix.Build/Heleonix.Build.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Heleonix.Build/Heleonix.Build.html"
         }
       },
       "version": ""

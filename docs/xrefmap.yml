@@ -1,33 +1,6 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: Heleonix.Build
-  name: Heleonix.Build
-  href: api/Heleonix.Build/Heleonix.Build.html
-  commentId: N:Heleonix.Build
-  fullName: Heleonix.Build
-  nameWithType: Heleonix.Build
-- uid: Heleonix.Build.Program
-  name: Program
-  href: api/Heleonix.Build/Heleonix.Build.Program.html
-  commentId: T:Heleonix.Build.Program
-  fullName: Heleonix.Build.Program
-  nameWithType: Program
-- uid: Heleonix.Build.Program.Main(System.String[])
-  name: Main(string[])
-  href: api/Heleonix.Build/Heleonix.Build.Program.html#Heleonix_Build_Program_Main_System_String___
-  commentId: M:Heleonix.Build.Program.Main(System.String[])
-  name.vb: Main(String())
-  fullName: Heleonix.Build.Program.Main(string[])
-  fullName.vb: Heleonix.Build.Program.Main(String())
-  nameWithType: Program.Main(string[])
-  nameWithType.vb: Program.Main(String())
-- uid: Heleonix.Build.Program.Main*
-  name: Main
-  href: api/Heleonix.Build/Heleonix.Build.Program.html#Heleonix_Build_Program_Main_
-  commentId: Overload:Heleonix.Build.Program.Main
-  fullName: Heleonix.Build.Program.Main
-  nameWithType: Program.Main
 - uid: Heleonix.Build.Tasks
   name: Heleonix.Build.Tasks
   href: api/Heleonix.Build/Heleonix.Build.Tasks.html
