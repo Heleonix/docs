@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Extensibility | Heleonix </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Extensibility | Heleonix ">
+      
+      
+      <link rel="icon" href="../images/heleonix-logos/Heleonix-favicon-128x128.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/hennadiilu/docs/blob/master/Heleonix.Build/extensibility.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/heleonix-logos/Heleonix-logo-64x64.jpg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="extensibility">Extensibility</h1>
+
+<h2 id="global-properties">Global properties</h2>
+<p>Global properties are defined out of targets, so they can be overriden in your custom *.hxbproj files out of targets
+or from the command line.</p>
+<h3 id="naming-convention">Naming convention</h3>
+<p><code>&lt;Ns&gt;&lt;_Sys | _WS | _Run&gt;_&lt;PropertyName&gt;[Dir(s) | File(s) | Url(s) | &lt;Ext&gt;]</code></p>
+<p><code>Ns</code> - namespace abbreviation of your project/company etc.</p>
+<p><code>Sys</code> - system property, like path to the <code>dotnet.exe</code>.</p>
+<p><code>WS</code> - workspace-level or workspace-related property, i.e. property related to the repository being built.</p>
+<p><code>Run</code> - property related to a particular pipeline run (execution, iteration, increment etc.), i.e. build counter etc.</p>
+<h3 id="integration">Integration</h3>
+<p>A new global property should have defined default value (if applicable) in the
+<a href="https://github.com/Heleonix/Heleonix.Build/blob/master/src/Heleonix.Build/Heleonix.Build.hxbproj">Heleonix.Build.hxbproj</a>
+and printed to the output (if applicable) in the <a href="https://github.com/Heleonix/Heleonix.Build/blob/master/src/Heleonix.Build/Heleonix.Build.hxbproj#L57">Hx_Initialize</a> target.</p>
+<h3 id="documentation-and-intellisense">Documentation and IntelliSense</h3>
+<p>A new global property should be documented in the
+<a href="https://github.com/Heleonix/Heleonix.Build/blob/master/src/Heleonix.Build/Schemas/Heleonix.Build.xsd">Heleonix.Build.xsd</a>.</p>
+<h2 id="targets">Targets</h2>
+<p>It is possible to create custom targets in addition to those provided by the build framework.
+They can be created as contribution to the build framework or can be used in your own pipelines.</p>
+<h3 id="naming-convention-1">Naming convention</h3>
+<h4 id="target-name">Target name</h4>
+<p><code>&lt;Ns&gt;_&lt;TargetName&gt;[_Variation]</code></p>
+<p><code>Variation</code> in the name allows to define multiple real targets with some specific implementations under the same virtual <code>&lt;Ns&gt;_&lt;TargetName&gt;</code>.</p>
+<p>For example, <a class="xref" href="api/Hx_DocFX_Git.html">Hx_DocFX_Git</a> is the real target, which checks out, builds and commits documentation using git,
+but the artifacts directory is <code>Hx_DocFX</code>. Also, there is no real target <code>Hx_DocFX</code>,
+but in the future the target <code>Hx_DocFX_Svn</code> might be created.</p>
+<p>There can be, however, properties or items defined with the name of the virtual target,
+i.e <code>Hx_DocFX_Message</code>. In this case they are common for all the real targets.</p>
+<p>Artifacts directory for all variations is the same</p>
+<h4 id="target-parameters">Target parameters</h4>
+<p><code>&lt;TargetName&gt;_&lt;ParameterName&gt;[Dir(s) | File(s) | Url(s) | &lt;Ext&gt;]</code></p>
+<p>If a parameter represents a single instance of something, then it should be defined as an MSBuild property.</p>
+<p>If a parameter represents multiple instances of something, then it should be defined as an MSBuild item and
+the name usually should end with (s), if that makes sense.</p>
+<h4 id="target-private-parameters">Target private parameters</h4>
+<p><code>_&lt;TargetName&gt;_&lt;ParameterName&gt;[Dir(s) | File(s) | &lt;Ext&gt;]</code></p>
+<h3 id="target-artifacts">Target artifacts</h3>
+<p>The properties <code>&lt;TargetName&gt;_ArtifactsDir</code> define paths to artifacts directories and are defined outside of targets,
+as the global properties, because targets can depend on each other via artifacts.
+I.e. <code>Hx_ChangeLog_ArtifactsDir</code> is used by <a class="xref" href="api/Hx_NetBuild.html">Hx_NetBuild</a>, <a class="xref" href="api/Hx_NetNugetPush.html">Hx_NetNugetPush</a> etc.</p>
+<p>Targets can depend on each other only via artifacts directories, because if every target is executed in a standalone <code>hxbuild</code> run,
+then their properties and items are defined only within that particular <code>hxbuild</code> run. Artifacts directories can, however,
+be uploaded and re-used between standalone <code>hxbuild</code> runs.</p>
+<h3 id="integration-1">Integration</h3>
+<p>In case of contribution, a new target needs to be placed in the
+<a href="https://github.com/Heleonix/Heleonix.Build/tree/master/src/Heleonix.Build/Targets">Targets</a> folder and included into the
+<a href="https://github.com/Heleonix/Heleonix.Build/blob/master/src/Heleonix.Build/Targets/Targets.targets">Targets</a> list.</p>
+<p>Also, some unit test should be written to test key scenarios of usage and place in the
+<a href="https://github.com/Heleonix/Heleonix.Build/tree/master/test/Heleonix.Build.Tests/Targets">Targets tests</a>.</p>
+<h3 id="documentation-and-intellisense-1">Documentation and IntelliSense</h3>
+<p>In case of contribution, the new target should be described in the <code>xsd</code> schema file and added to the existing
+<a href="https://github.com/Heleonix/Heleonix.Build/tree/master/src/Heleonix.Build/Schemas/Targets">Schemas</a>
+and included into the <a href="https://github.com/Heleonix/Heleonix.Build/blob/master/src/Heleonix.Build/Schemas/Targets/Targets.xsd">list of target schemas</a>.
+An example can be taken from any existing target, i.e. <a href="https://github.com/Heleonix/Heleonix.Build/blob/master/src/Heleonix.Build/Schemas/Targets/Hx_NetBuild.xsd">Hx_NetBuild.xsd</a>.</p>
+<h3 id="custom-target-template">Custom target template</h3>
+<pre><code class="lang-xml">&lt;Project xmlns=&quot;http://schemas.microsoft.com/developer/msbuild/2003&quot;&gt;
+  &lt;PropertyGroup&gt;
+    &lt;Ns_TargetName_ArtifactsDir&gt;$(Hx_Run_ArtifactsDir)/TargetName&lt;/Ns_TargetName_ArtifactsDir&gt;
+  &lt;/PropertyGroup&gt;
+
+  &lt;Target Name=&quot;Ns_TargetName&quot;&gt;
+    &lt;Message Text=&quot;&gt; RUNNING Ns_TargetName ...&quot; Importance=&quot;high&quot;/&gt;
+
+    &lt;Hx_NetSetupTool DotnetExe=&quot;$(Hx_Sys_DotnetExe)&quot; Name=&quot;NameOfFile&quot;&gt;
+      &lt;Output TaskParameter=&quot;ToolPath&quot; PropertyName=&quot;_Ns_TargetName_NameOfFileExe&quot;/&gt;
+    &lt;/Hx_NetSetupTool&gt;
+
+    &lt;!--Validation of required parameters--&gt;
+
+    &lt;!--Target property groups, setting default vaues--&gt;
+
+    &lt;!--Target item groups, setting default values--&gt;
+
+    &lt;Message Text=&quot;&gt; 1/3: Doing step one&quot; Importance=&quot;high&quot;/&gt;
+    &lt;!--tasks, targets etc.--&gt;
+    &lt;!--tasks, targets etc.--&gt;
+
+    &lt;Message Text=&quot;&gt; 2/3: Doing step two&quot; Importance=&quot;high&quot;/&gt;
+    &lt;!--tasks, targets etc.--&gt;
+    &lt;!--tasks, targets etc.--&gt;
+
+    &lt;Message Text=&quot;&gt; 3/3: Doing step three&quot; Importance=&quot;high&quot;/&gt;
+    &lt;!--tasks, targets etc.--&gt;
+    &lt;!--tasks, targets etc.--&gt;
+
+    &lt;Message Text=&quot;&gt; DONE Ns_TargetName&quot; Importance=&quot;high&quot;/&gt;
+
+    &lt;OnError ExecuteTargets=&quot;Hx_OnError&quot;/&gt;
+  &lt;/Target&gt;
+&lt;/Project&gt;
+</code></pre>
+<h2 id="tasks">Tasks</h2>
+<p>It is possible to contribute to the build framework with a custom task.</p>
+<h3 id="naming-convention-2">Naming convention</h3>
+<p><code>&lt;Ns&gt;_&lt;TaskName&gt;</code></p>
+<p><code>&lt;TaskName&gt;</code> is named in the format <code>Noun</code> <code>Verb</code>.</p>
+<p>For example <code>Hx_FileCopy</code>, <code>Hx_FileRead</code>, <code>Hx_DirectoryClean</code> etc. Such naming approach is handy when the list of tasks
+is alphabetically sorted in the Solution Expllorer, or when IntelliSense displays list of available tasks while typing a task name.</p>
+<h3 id="integration-2">Integration</h3>
+<p>A new task should inherit the &lt;xref:Heleonix.Build.Tasks.BaseTask&gt;.</p>
+<p>A new task should be placed in the <a href="https://github.com/Heleonix/Heleonix.Build/tree/master/src/Heleonix.Build/Tasks">Tasks</a>
+folder and listed in the <a href="https://github.com/Heleonix/Heleonix.Build/blob/master/src/Heleonix.Build/Tasks/Tasks.tasks">Tasks.tasks</a>.</p>
+<p>A new task should be covered with a unit test with 100% of code coverage. The unit test should be placed in the
+<a href="https://github.com/Heleonix/Heleonix.Build/tree/master/test/Heleonix.Build.Tests/Tasks">Tasks tests</a>.</p>
+<h3 id="documentation-and-intellisense-2">Documentation and IntelliSense</h3>
+<p>A new task should be documented in the <code>xsd</code> schema file and placed in the
+<a href="https://github.com/Heleonix/Heleonix.Build/tree/master/src/Heleonix.Build/Schemas/Tasks">Tasks schemas</a> folder.</p>
+<p>The newly added task schema should be listed in the
+<a href="https://github.com/Heleonix/Heleonix.Build/blob/master/src/Heleonix.Build/Schemas/Tasks/Tasks.xsd">Tasks.xsd</a>.</p>
+
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

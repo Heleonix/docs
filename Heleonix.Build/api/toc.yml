@@ -1,0 +1,32 @@
+### YamlMime:TableOfContent
+- uid: Heleonix.Build.Tasks
+  name: Heleonix.Build.Tasks
+  items:
+  - uid: Heleonix.Build.Tasks.DirectoryClean
+    name: DirectoryClean
+  - uid: Heleonix.Build.Tasks.FileCopy
+    name: FileCopy
+  - uid: Heleonix.Build.Tasks.FileRazorGenerate
+    name: FileRazorGenerate
+  - uid: Heleonix.Build.Tasks.FileRead
+    name: FileRead
+  - uid: Heleonix.Build.Tasks.FileSystemSearch
+    name: FileSystemSearch
+  - uid: Heleonix.Build.Tasks.FileUpdate
+    name: FileUpdate
+  - uid: Heleonix.Build.Tasks.FileValidate
+    name: FileValidate
+  - uid: Heleonix.Build.Tasks.GitHubCommitChangeLog
+    name: GitHubCommitChangeLog
+  - uid: Heleonix.Build.Tasks.GitHubRelease
+    name: GitHubRelease
+  - uid: Heleonix.Build.Tasks.NugetPush
+    name: NugetPush
+  - uid: Heleonix.Build.Tasks.NUnit
+    name: NUnit
+  - uid: Heleonix.Build.Tasks.OpenCover
+    name: OpenCover
+  - uid: Heleonix.Build.Tasks.ReportGenerator
+    name: ReportGenerator
+  - uid: Heleonix.Build.Tasks.ReportUnit
+    name: ReportUnit

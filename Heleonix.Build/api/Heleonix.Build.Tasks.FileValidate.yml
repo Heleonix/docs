@@ -1,0 +1,263 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Build.Tasks.FileValidate
+  commentId: T:Heleonix.Build.Tasks.FileValidate
+  id: FileValidate
+  parent: Heleonix.Build.Tasks
+  children:
+  - Heleonix.Build.Tasks.FileValidate.#ctor
+  - Heleonix.Build.Tasks.FileValidate.ExecuteInternal
+  - Heleonix.Build.Tasks.FileValidate.Files
+  - Heleonix.Build.Tasks.FileValidate.RegExpOptions
+  langs:
+  - csharp
+  - vb
+  name: FileValidate
+  nameWithType: FileValidate
+  fullName: Heleonix.Build.Tasks.FileValidate
+  type: Class
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nValidates that contents of specified files corresponds to specified regex patterns.\n"
+  syntax:
+    content: 'public class FileValidate : BaseTask'
+    content.vb: >-
+      Public Class FileValidate
+          Inherits BaseTask
+  inheritance:
+  - System.Object
+  - Heleonix.Build.Tasks.BaseTask
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Heleonix.Build.Tasks.FileValidate.ExecuteInternal
+  commentId: M:Heleonix.Build.Tasks.FileValidate.ExecuteInternal
+  id: ExecuteInternal
+  parent: Heleonix.Build.Tasks.FileValidate
+  langs:
+  - csharp
+  - vb
+  name: ExecuteInternal()
+  nameWithType: FileValidate.ExecuteInternal()
+  fullName: Heleonix.Build.Tasks.FileValidate.ExecuteInternal()
+  type: Method
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nReads a file with specified regular expression and content.\n"
+  syntax:
+    content: protected override void ExecuteInternal()
+    content.vb: Protected Overrides Sub ExecuteInternal
+  overridden: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+  overload: Heleonix.Build.Tasks.FileValidate.ExecuteInternal*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Heleonix.Build.Tasks.FileValidate.#ctor
+  commentId: M:Heleonix.Build.Tasks.FileValidate.#ctor
+  id: '#ctor'
+  parent: Heleonix.Build.Tasks.FileValidate
+  langs:
+  - csharp
+  - vb
+  name: FileValidate()
+  nameWithType: FileValidate.FileValidate()
+  fullName: Heleonix.Build.Tasks.FileValidate.FileValidate()
+  type: Constructor
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  syntax:
+    content: public FileValidate()
+    content.vb: Public Sub New
+  overload: Heleonix.Build.Tasks.FileValidate.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.FileValidate.Files
+  commentId: P:Heleonix.Build.Tasks.FileValidate.Files
+  id: Files
+  parent: Heleonix.Build.Tasks.FileValidate
+  langs:
+  - csharp
+  - vb
+  name: Files
+  nameWithType: FileValidate.Files
+  fullName: Heleonix.Build.Tasks.FileValidate.Files
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets file paths with regex patterns in custom metadata to validate.\n"
+  syntax:
+    content: public ITaskItem[] Files { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.Build.Framework.ITaskItem[]
+    content.vb: Public Property Files As ITaskItem()
+  overload: Heleonix.Build.Tasks.FileValidate.Files*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.FileValidate.RegExpOptions
+  commentId: P:Heleonix.Build.Tasks.FileValidate.RegExpOptions
+  id: RegExpOptions
+  parent: Heleonix.Build.Tasks.FileValidate
+  langs:
+  - csharp
+  - vb
+  name: RegExpOptions
+  nameWithType: FileValidate.RegExpOptions
+  fullName: Heleonix.Build.Tasks.FileValidate.RegExpOptions
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the .NET regular expression options. Default value is &quot;IgnoreCase&quot;.\n"
+  syntax:
+    content: public string RegExpOptions { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RegExpOptions As String
+  overload: Heleonix.Build.Tasks.FileValidate.RegExpOptions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Heleonix.Build.Tasks
+  commentId: N:Heleonix.Build.Tasks
+  isExternal: true
+  name: Heleonix.Build.Tasks
+  nameWithType: Heleonix.Build.Tasks
+  fullName: Heleonix.Build.Tasks
+- uid: Heleonix.Build.Tasks.BaseTask
+  commentId: T:Heleonix.Build.Tasks.BaseTask
+  parent: Heleonix.Build.Tasks
+  isExternal: true
+  name: BaseTask
+  nameWithType: BaseTask
+  fullName: Heleonix.Build.Tasks.BaseTask
+- uid: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+  commentId: M:Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+  parent: Heleonix.Build.Tasks.BaseTask
+  isExternal: true
+  name: ExecuteInternal()
+  nameWithType: BaseTask.ExecuteInternal()
+  fullName: Heleonix.Build.Tasks.BaseTask.ExecuteInternal()
+  spec.csharp:
+  - uid: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+    name: ExecuteInternal
+    nameWithType: BaseTask.ExecuteInternal
+    fullName: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+    name: ExecuteInternal
+    nameWithType: BaseTask.ExecuteInternal
+    fullName: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Heleonix.Build.Tasks.FileValidate.ExecuteInternal*
+  commentId: Overload:Heleonix.Build.Tasks.FileValidate.ExecuteInternal
+  isExternal: true
+  name: ExecuteInternal
+  nameWithType: FileValidate.ExecuteInternal
+  fullName: Heleonix.Build.Tasks.FileValidate.ExecuteInternal
+- uid: Heleonix.Build.Tasks.FileValidate.#ctor*
+  commentId: Overload:Heleonix.Build.Tasks.FileValidate.#ctor
+  isExternal: true
+  name: FileValidate
+  nameWithType: FileValidate.FileValidate
+  fullName: Heleonix.Build.Tasks.FileValidate.FileValidate
+- uid: Heleonix.Build.Tasks.FileValidate.Files*
+  commentId: Overload:Heleonix.Build.Tasks.FileValidate.Files
+  isExternal: true
+  name: Files
+  nameWithType: FileValidate.Files
+  fullName: Heleonix.Build.Tasks.FileValidate.Files
+- uid: Microsoft.Build.Framework.ITaskItem[]
+  isExternal: true
+  name: ITaskItem[]
+  nameWithType: ITaskItem[]
+  fullName: Microsoft.Build.Framework.ITaskItem[]
+  nameWithType.vb: ITaskItem()
+  fullName.vb: Microsoft.Build.Framework.ITaskItem()
+  name.vb: ITaskItem()
+  spec.csharp:
+  - uid: Microsoft.Build.Framework.ITaskItem
+    name: ITaskItem
+    nameWithType: ITaskItem
+    fullName: Microsoft.Build.Framework.ITaskItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Microsoft.Build.Framework.ITaskItem
+    name: ITaskItem
+    nameWithType: ITaskItem
+    fullName: Microsoft.Build.Framework.ITaskItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Heleonix.Build.Tasks.FileValidate.RegExpOptions*
+  commentId: Overload:Heleonix.Build.Tasks.FileValidate.RegExpOptions
+  isExternal: true
+  name: RegExpOptions
+  nameWithType: FileValidate.RegExpOptions
+  fullName: Heleonix.Build.Tasks.FileValidate.RegExpOptions
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

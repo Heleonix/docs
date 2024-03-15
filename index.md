@@ -1,4 +1,4 @@
-# This is the **HOMEPAGE**.
-Refer to [Markdown](http://daringfireball.net/projects/markdown/) for how to write markdown files.
-## Quick Start Notes:
-1. Add images to the *images* folder if the file is referencing an image.
+# Heleonix
+
+Heleonix is a common name for a set of free open source libraries to speed up
+and simplify routine development.

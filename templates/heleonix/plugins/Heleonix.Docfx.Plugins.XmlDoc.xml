@@ -1,0 +1,245 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Heleonix.Docfx.Plugins.XmlDoc</name>
+    </assembly>
+    <members>
+        <member name="T:Heleonix.Docfx.Plugins.XmlDoc.FileMetadata">
+            <summary>
+            Represents the model of the supported <c>fileMetadata</c> specified for content files to be processed by this plugin.
+            </summary>
+            <example>
+            An example of the docfx.json:
+            <code>
+            {
+              "build": {
+                "content": [
+                  {
+                    "files": [ "**/*.{md,yml}" ],
+                    "exclude": [ "_site/**" ]
+                  },
+                  {
+                    "files": [ "*.xsd" ],
+                    "src": "../../some-external-location"
+                  },
+                  {
+                    "files": [ "internal-store-folder/*.xsd" ]
+                  }
+                ],
+                "resource": [
+                  {
+                    "files": [ "images/**" ]
+                  }
+                ],
+                "output": "_site",
+                "template": [
+                  "default",
+                  "templates/your-template-with"
+                ],
+                "fileMetadata": {
+                  "hx.xmldoc.xslt": { "**.xsd": "./xml-to-md.xslt" },
+                  "hx.xmldoc.store": { "../../some-external-location/*.xsd": "internal-store-folder" }
+                  "hx.xmldoc.toc": {
+                    "**/*-some.xsd": { "action": "InsertAfter", "key": "~/articles/introduction.md" },
+                    "**/*-other.xsd": { "action": "AppendChild", "key": "Namespace.Class.whatever.uid" }
+                  }
+                }
+              }
+            }
+            </code>
+            </example>
+        </member>
+        <member name="F:Heleonix.Docfx.Plugins.XmlDoc.FileMetadata.StoreKey">
+            <summary>
+            The name of the store key in the <c>fileMetadata</c>  of content files.
+            </summary>
+        </member>
+        <member name="F:Heleonix.Docfx.Plugins.XmlDoc.FileMetadata.XsltKey">
+            <summary>
+            The name of the xslt key in the <c>fileMetadata</c> of content files.
+            </summary>
+        </member>
+        <member name="F:Heleonix.Docfx.Plugins.XmlDoc.FileMetadata.TocKey">
+            <summary>
+            The name of the Table Of Contents key in the <c>fileMetadata</c>  of content files.
+            </summary>
+        </member>
+        <member name="P:Heleonix.Docfx.Plugins.XmlDoc.FileMetadata.Store">
+            <summary>
+            The <c>hx.xmldoc.store</c> relative path to the store to copy files before processing,
+            so that they are available if the original files are absent,
+            i.e. if documentation is rebuild in another location.
+            This can be considered similarly to the metadata yml files generated from external *.csproj files
+            and then are stored in the documentation folder.
+            </summary>
+        </member>
+        <member name="P:Heleonix.Docfx.Plugins.XmlDoc.FileMetadata.Xslt">
+            <summary>
+            The <c>hx.xmldoc.xslt</c> file metadata to specify a path to an XSLT file to transform XML-based content files
+            into Markdown for further generation of HTML output files styled with the documentation templates.
+            </summary>
+        </member>
+        <member name="P:Heleonix.Docfx.Plugins.XmlDoc.FileMetadata.Toc">
+            <summary>
+            The <c>hx.xmldoc.toc</c> file metadata to specify a configuration for
+            Table Of Contents in the <see cref="P:Heleonix.Docfx.Plugins.XmlDoc.FileMetadata.Toc"/> format.
+            </summary>
+        </member>
+        <member name="M:Heleonix.Docfx.Plugins.XmlDoc.FileMetadata.From(System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Creates instance of the <see cref="T:Heleonix.Docfx.Plugins.XmlDoc.FileMetadata.TocMetadata"/> crom the untyped contents.
+            </summary>
+            <param name="dictionary">The untyped contents.</param>
+            <returns>The instance of the <see cref="T:Heleonix.Docfx.Plugins.XmlDoc.FileMetadata.TocMetadata"/> parsed from the <paramref name="dictionary"/>.</returns>
+            <exclude/>
+        </member>
+        <member name="T:Heleonix.Docfx.Plugins.XmlDoc.FileMetadata.TocMetadata">
+            <summary>
+            This metadata represents configuration to add the content file into a Table OF Contents.
+            </summary>
+        </member>
+        <member name="P:Heleonix.Docfx.Plugins.XmlDoc.FileMetadata.TocMetadata.Action">
+            <summary>
+            Specifies <c>action</c> in file metadata to add the content file.
+            See <see cref="T:Docfx.Plugins.TreeItemActionType"/> for possible actions.
+            The <see cref="F:Docfx.Plugins.TreeItemActionType.DeleteSelf"/>, however, does not make much sense.
+            </summary>
+        </member>
+        <member name="P:Heleonix.Docfx.Plugins.XmlDoc.FileMetadata.TocMetadata.Key">
+            <summary>
+            The <c>key</c> of a Table OF Contents to add the content file with the specified <see cref="P:Heleonix.Docfx.Plugins.XmlDoc.FileMetadata.TocMetadata.Action"/>.
+            </summary>
+        </member>
+        <member name="M:Heleonix.Docfx.Plugins.XmlDoc.FileMetadata.TocMetadata.From(System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Creates instance of the <see cref="T:Heleonix.Docfx.Plugins.XmlDoc.FileMetadata.TocMetadata"/> crom the untyped contents.
+            </summary>
+            <param name="dictionary">The untyped contents.</param>
+            <returns>The instance of the <see cref="T:Heleonix.Docfx.Plugins.XmlDoc.FileMetadata.TocMetadata"/> parsed from the <paramref name="dictionary"/>.</returns>
+            <exclude/>
+        </member>
+        <member name="T:Heleonix.Docfx.Plugins.XmlDoc.Settings">
+            <summary>
+            Represents the settings of this plugin, specified in the <c>Heleonix.Docfx.Plugins.XmlDoc.settings.json</c>.
+            </summary>
+        </member>
+        <member name="P:Heleonix.Docfx.Plugins.XmlDoc.Settings.SupportedFormats">
+            <summary>
+            Represents the list of file extensions to be recognized and processed by this plugin.
+            </summary>
+            <example>
+            <code>
+            {
+              "SupportedFormats": [ ".xml", ".xsd", ".yourformat" ]
+            }
+            </code>
+            </example>
+        </member>
+        <member name="T:Heleonix.Docfx.Plugins.XmlDoc.XmlDocBuildStep">
+            <summary>
+            The build step to generate html documentation from the xml-based content files.
+            </summary>
+            <exclude />
+        </member>
+        <member name="M:Heleonix.Docfx.Plugins.XmlDoc.XmlDocBuildStep.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Heleonix.Docfx.Plugins.XmlDoc.XmlDocBuildStep"/> class.
+            </summary>
+        </member>
+        <member name="P:Heleonix.Docfx.Plugins.XmlDoc.XmlDocBuildStep.BuildOrder">
+            <summary>
+            Gets the order of the build step to be executed with.
+            </summary>
+        </member>
+        <member name="P:Heleonix.Docfx.Plugins.XmlDoc.XmlDocBuildStep.Name">
+            <summary>
+            Gets the name of the build step.
+            </summary>
+        </member>
+        <member name="M:Heleonix.Docfx.Plugins.XmlDoc.XmlDocBuildStep.Build(Docfx.Plugins.FileModel,Docfx.Plugins.IHostService)">
+            <summary>
+            Does nothing.
+            </summary>
+            <param name="model">The model to be built.</param>
+            <param name="host">The host to be used for common tasks.</param>
+        </member>
+        <member name="M:Heleonix.Docfx.Plugins.XmlDoc.XmlDocBuildStep.Postbuild(System.Collections.Immutable.ImmutableList{Docfx.Plugins.FileModel},Docfx.Plugins.IHostService)">
+            <summary>
+            Does nothing.
+            </summary>
+            <param name="models">The models of content files to process after build.</param>
+            <param name="host">The host to be used for common tasks.</param>
+        </member>
+        <member name="M:Heleonix.Docfx.Plugins.XmlDoc.XmlDocBuildStep.Prebuild(System.Collections.Immutable.ImmutableList{Docfx.Plugins.FileModel},Docfx.Plugins.IHostService)">
+            <summary>
+            Builds the xml-based contents via Markdown XSLT transformation into HTML output.
+            </summary>
+            <param name="models">The models to transform from XML into HTML output.</param>
+            <param name="host">The host to be used for common tasks.</param>
+            <returns>The processed models.</returns>
+        </member>
+        <member name="T:Heleonix.Docfx.Plugins.XmlDoc.XmlDocProcessor">
+            <summary>
+            The XmlDocument Processor.
+            </summary>
+            <exclude />
+        </member>
+        <member name="M:Heleonix.Docfx.Plugins.XmlDoc.XmlDocProcessor.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Heleonix.Docfx.Plugins.XmlDoc.XmlDocProcessor"/> class.
+            </summary>
+        </member>
+        <member name="P:Heleonix.Docfx.Plugins.XmlDoc.XmlDocProcessor.Settings">
+            <summary>
+            Gets settings loaded from the plugin's .settings.json file.
+            </summary>
+        </member>
+        <member name="P:Heleonix.Docfx.Plugins.XmlDoc.XmlDocProcessor.BuildSteps">
+            <summary>
+            Gets or sets the list of build steps assigned to this processor.
+            </summary>
+        </member>
+        <member name="P:Heleonix.Docfx.Plugins.XmlDoc.XmlDocProcessor.Name">
+            <summary>
+            The name of the processor.
+            </summary>
+        </member>
+        <member name="P:Heleonix.Docfx.Plugins.XmlDoc.XmlDocProcessor.ContentFiles">
+            <summary>
+            Gets the list of content files recognized for further processing
+            registered during evaluation of processing priorities.
+            </summary>
+        </member>
+        <member name="M:Heleonix.Docfx.Plugins.XmlDoc.XmlDocProcessor.GetProcessingPriority(Docfx.Plugins.FileAndType)">
+            <summary>
+            Identifies whether the proposed <paramref name="file"/> is one of supported to be processed by this plugin.
+            </summary>
+            <param name="file">A file to identify if it can be processed by thi plugin.</param>
+            <returns>The <see cref="F:Docfx.Plugins.ProcessingPriority.Normal"/> if the <paramref name="file"/> is supported,
+            otherwise <see cref="F:Docfx.Plugins.ProcessingPriority.NotSupported"/>.</returns>
+        </member>
+        <member name="M:Heleonix.Docfx.Plugins.XmlDoc.XmlDocProcessor.Load(Docfx.Plugins.FileAndType,System.Collections.Immutable.ImmutableDictionary{System.String,System.Object})">
+            <summary>
+            If <c>hx.xmldoc.store</c> is specified, copies the <paramref name="file"/> into the store.
+            Creates the FileModel instance for further processing.
+            </summary>
+            <param name="file">The content file information to create <see cref="T:Docfx.Plugins.FileModel"/> for.</param>
+            <param name="metadata">The <c>fileMetadata</c> specified for this <paramref name="file"/> in the <c>docfx.json</c>.</param>
+            <returns>The FileModel instance for further processing.</returns>
+        </member>
+        <member name="M:Heleonix.Docfx.Plugins.XmlDoc.XmlDocProcessor.Save(Docfx.Plugins.FileModel)">
+            <summary>
+            Creates a <see cref="T:Docfx.Plugins.SaveResult"/> instance to save the <see cref="T:Docfx.Plugins.FileModel"/> build.
+            </summary>
+            <param name="model">The build model with the HTML output to render.</param>
+            <returns>The saved result with HTML content to render.</returns>
+        </member>
+        <member name="M:Heleonix.Docfx.Plugins.XmlDoc.XmlDocProcessor.UpdateHref(Docfx.Plugins.FileModel,Docfx.Plugins.IDocumentBuildContext)">
+            <summary>
+            Updates references in the <paramref name="model"/> file model.
+            </summary>
+            <param name="model">The model to update references for.</param>
+            <param name="context">The context with common functionality to update references for <paramref name="model"/>.</param>
+        </member>
+    </members>
+</doc>

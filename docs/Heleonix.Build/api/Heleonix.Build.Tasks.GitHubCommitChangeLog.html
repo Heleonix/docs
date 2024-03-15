@@ -1,0 +1,567 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class GitHubCommitChangeLog | Heleonix </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class GitHubCommitChangeLog | Heleonix ">
+      
+      <meta name="description" content="Collects a changelog from a GitHub repository using the GitHub API.">
+      <link rel="icon" href="../../images/heleonix-logos/Heleonix-favicon-128x128.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../images/heleonix-logos/Heleonix-logo-64x64.jpg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog">
+
+
+
+  <h1 id="Heleonix_Build_Tasks_GitHubCommitChangeLog" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog" class="text-break">
+Class GitHubCommitChangeLog  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Heleonix.Build.Tasks.html">Heleonix.Build.Tasks</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Heleonix.Build.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Collects a changelog from a GitHub repository using the GitHub API.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class GitHubCommitChangeLog : BaseTask</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><span class="xref">System.Object</span></div>
+      <div><span class="xref">BaseTask</span></div>
+      <div><span class="xref">GitHubCommitChangeLog</span></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Heleonix_Build_Tasks_GitHubCommitChangeLog__ctor_" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.#ctor*"></a>
+
+  <h3 id="Heleonix_Build_Tasks_GitHubCommitChangeLog__ctor" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.#ctor">
+  GitHubCommitChangeLog()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GitHubCommitChangeLog()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Heleonix_Build_Tasks_GitHubCommitChangeLog_ChangeLogRegExp_" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.ChangeLogRegExp*"></a>
+
+  <h3 id="Heleonix_Build_Tasks_GitHubCommitChangeLog_ChangeLogRegExp" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.ChangeLogRegExp">
+  ChangeLogRegExp
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets a regular expression to capture a change for the change log.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ChangeLogRegExp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Build_Tasks_GitHubCommitChangeLog_Changes_" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.Changes*"></a>
+
+  <h3 id="Heleonix_Build_Tasks_GitHubCommitChangeLog_Changes" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.Changes">
+  Changes
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the list of changes with metadata as captured groups names and values [Output].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITaskItem[] Changes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ITaskItem</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Build_Tasks_GitHubCommitChangeLog_GitHubRepositoryApiUrl_" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.GitHubRepositoryApiUrl*"></a>
+
+  <h3 id="Heleonix_Build_Tasks_GitHubCommitChangeLog_GitHubRepositoryApiUrl" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.GitHubRepositoryApiUrl">
+  GitHubRepositoryApiUrl
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the url of the GitHub API for the repository.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GitHubRepositoryApiUrl { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Build_Tasks_GitHubCommitChangeLog_MajorChangeRegExp_" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.MajorChangeRegExp*"></a>
+
+  <h3 id="Heleonix_Build_Tasks_GitHubCommitChangeLog_MajorChangeRegExp" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.MajorChangeRegExp">
+  MajorChangeRegExp
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets a regular expression to identify a major change.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string MajorChangeRegExp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Build_Tasks_GitHubCommitChangeLog_MinorChangeRegExp_" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.MinorChangeRegExp*"></a>
+
+  <h3 id="Heleonix_Build_Tasks_GitHubCommitChangeLog_MinorChangeRegExp" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.MinorChangeRegExp">
+  MinorChangeRegExp
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets a regular expression to identify a minor change.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string MinorChangeRegExp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Build_Tasks_GitHubCommitChangeLog_PatchChangeRegExp_" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.PatchChangeRegExp*"></a>
+
+  <h3 id="Heleonix_Build_Tasks_GitHubCommitChangeLog_PatchChangeRegExp" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.PatchChangeRegExp">
+  PatchChangeRegExp
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets a regular expression to identify a patch change.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PatchChangeRegExp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Build_Tasks_GitHubCommitChangeLog_RegExpOptions_" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.RegExpOptions*"></a>
+
+  <h3 id="Heleonix_Build_Tasks_GitHubCommitChangeLog_RegExpOptions" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.RegExpOptions">
+  RegExpOptions
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the .NET regular expression options for regexp patterns.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string RegExpOptions { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Build_Tasks_GitHubCommitChangeLog_Token_" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.Token*"></a>
+
+  <h3 id="Heleonix_Build_Tasks_GitHubCommitChangeLog_Token" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.Token">
+  Token
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets a personal access token to authorize to the GitHub API.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Token { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Build_Tasks_GitHubCommitChangeLog_UserAgent_" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.UserAgent*"></a>
+
+  <h3 id="Heleonix_Build_Tasks_GitHubCommitChangeLog_UserAgent" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.UserAgent">
+  UserAgent
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the User-Agent request header.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string UserAgent { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Build_Tasks_GitHubCommitChangeLog_Version_" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.Version*"></a>
+
+  <h3 id="Heleonix_Build_Tasks_GitHubCommitChangeLog_Version" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.Version">
+  Version
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the calculated version based on the change conventions [Output].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Build_Tasks_GitHubCommitChangeLog_VersionTagRegExp_" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.VersionTagRegExp*"></a>
+
+  <h3 id="Heleonix_Build_Tasks_GitHubCommitChangeLog_VersionTagRegExp" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.VersionTagRegExp">
+  VersionTagRegExp
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets a regular expression to extract a version from a tag name of the latest release in format 11.22.33.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string VersionTagRegExp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">String</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Heleonix_Build_Tasks_GitHubCommitChangeLog_ExecuteInternal_" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.ExecuteInternal*"></a>
+
+  <h3 id="Heleonix_Build_Tasks_GitHubCommitChangeLog_ExecuteInternal" data-uid="Heleonix.Build.Tasks.GitHubCommitChangeLog.ExecuteInternal">
+  ExecuteInternal()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Executes the task.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void ExecuteInternal()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
