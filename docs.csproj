@@ -11,6 +11,8 @@
   <ItemGroup>
     <UpToDateCheckInput Include="./**/*.md;./**/*.yml" Exclude="./docs/**/*" Set="Articles"/>
     <UpToDateCheckOutput Include="./docs/**/*.md;./docs/**/*.yml" Set="Articles"/>
+    <UpToDateCheckInput Include="./**/main.css" Exclude="./docs/**/*" Set="Styles"/>
+    <UpToDateCheckOutput Include="./docs/**/main.css" Set="Styles"/>
   </ItemGroup>
 
   <Target Name="DocfxRestore" AfterTargets="Restore">
