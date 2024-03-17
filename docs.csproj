@@ -24,7 +24,7 @@
   </Target>
 
   <Target Name="DocBuild" AfterTargets="Build">
-    <Exec Command="docfx build docfx.json" />
+    <Exec Command="dotnet docfx build docfx.json" />
   </Target>
 
   <Target Name="DocClean" AfterTargets="Clean">

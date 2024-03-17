@@ -1,9 +1,6 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: Heleonix.Build
-  name: Heleonix.Build
-  href: Heleonix.Build/api/Heleonix.Build.html
 - uid: Heleonix.Build.Tasks
   name: Heleonix.Build.Tasks
   href: Heleonix.Build/api/Heleonix.Build.Tasks.html
@@ -2452,39 +2449,3 @@ references:
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.StoryAttribute.TestName
   fullName: Heleonix.Testing.NUnit.Bdd.StoryAttribute.TestName
   nameWithType: StoryAttribute.TestName
-- uid: Hx_ChangeLog
-  name: Hx_ChangeLog
-  href: Heleonix.Build/api/Hx_ChangeLog.html
-- uid: Hx_ChangeLog_GitHubCommit
-  name: Hx_ChangeLog_GitHubCommit
-  href: Heleonix.Build/api/Hx_ChangeLog_GitHubCommit.html
-- uid: Hx_DocFX
-  name: Hx_DocFX
-  href: Heleonix.Build/api/Hx_DocFX.html
-- uid: Hx_DocFX_Git
-  name: Hx_DocFX_Git
-  href: Heleonix.Build/api/Hx_DocFX_Git.html
-- uid: Hx_ExtentReport
-  name: Hx_ExtentReport
-  href: Heleonix.Build/api/Hx_ExtentReport.html
-- uid: Hx_NetBuild
-  name: Hx_NetBuild
-  href: Heleonix.Build/api/Hx_NetBuild.html
-- uid: Hx_NetNugetPush
-  name: Hx_NetNugetPush
-  href: Heleonix.Build/api/Hx_NetNugetPush.html
-- uid: Hx_NetTest
-  name: Hx_NetTest
-  href: Heleonix.Build/api/Hx_NetTest.html
-- uid: Hx_NetValidate
-  name: Hx_NetValidate
-  href: Heleonix.Build/api/Hx_NetValidate.html
-- uid: Hx_Release_GitHub
-  name: Hx_Release_GitHub
-  href: Heleonix.Build/api/Hx_Release_GitHub.html
-- uid: Hx_ReportGenerator
-  name: Hx_ReportGenerator
-  href: Heleonix.Build/api/Hx_ReportGenerator.html
-- uid: Hx_TrxReport
-  name: Hx_TrxReport
-  href: Heleonix.Build/api/Hx_TrxReport.html

@@ -6,7 +6,6 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Usage | Heleonix ">
       
-      
       <link rel="icon" href="../images/heleonix-logos/Heleonix-favicon-128x128.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -115,11 +114,11 @@ command, because it runs MSBuild under the hood.</p>
 </table>
 <p>Examples:</p>
 <p><code>hxbuild -h</code> displays detailed information about the <code>hxbuild</code> tool.</p>
-<p><code>hxbuild -t:Hx_NetBuild</code> runs the <a class="xref" href="api/Hx_NetBuild.html">Hx_NetBuild</a> target.</p>
+<p><code>hxbuild -t:Hx_NetBuild</code> runs the &lt;xref:Hx_NetBuild&gt; target.</p>
 <p><code>hxbuild --exe &quot;C:\Program Files\dotnet\dotnet.exe&quot; -t:Hx_NetValidate;Hx_NetBuild -p:Hx_Run_Number=123</code>
-runs the <a class="xref" href="api/Hx_NetValidate.html">Hx_NetValidate</a> and then the <a class="xref" href="api/Hx_NetBuild.html">Hx_NetBuild</a> targets with the <code>Hx_Run_Number</code> 123 (see <a class="xref" href="api/Heleonix.Build.html">Heleonix.Build</a>).</p>
+runs the &lt;xref:Hx_NetValidate&gt; and then the &lt;xref:Hx_NetBuild&gt; targets with the <code>Hx_Run_Number</code> 123 (see &lt;xref:Heleonix.Build&gt;).</p>
 <h2 id="properties-and-items">Properties and Items</h2>
-<p>The build framework provides ability to specify <a class="xref" href="api/Heleonix.Build.html">global properties</a> and target-specific properties and items
+<p>The build framework provides ability to specify <a href="xref:Heleonix.Build">global properties</a> and target-specific properties and items
 in the following priority order:</p>
 <ol>
 <li><p>Command-line input properties, for example: <code>hxbuild -t:Hx_NetBuild -p:Hx_Run_Number=123 -p:Hx_NetBuild_SlnFile=&quot;./src/MyApp.sln&quot;</code></p>
@@ -164,7 +163,7 @@ for certain properties or items. For example: <code>hxbuild -t:Hx_NetBuild -p:Hx
 <p>Targets can produce artifacts - files, which are generated in the target-specific artifacts directories.
 Every target has the <code>Hx_&lt;TargetName&gt;_ArtifactsDir</code> property, which specifies its artifacts location.
 The default location is the <code>$(Hx_Run_ArtifactsDir)/&lt;TargetName&gt;</code>, where <code>&lt;TargetName&gt;</code> is the name of the target without
-namespace. See also <a class="xref" href="api/Heleonix.Build.html#hx_run_artifactsdir">Hx_Run_ArtifactsDir</a>.</p>
+namespace. See also <a href="xref:Heleonix.Build#hx_run_artifactsdir">Hx_Run_ArtifactsDir</a>.</p>
 <p><strong>Targets can depend on other targets, but only on their artifacts and not their properties or items</strong>,
 because targets can be run as standalone <code>hxbuild</code> runs, and in these cases properties and items are defined
 only within a standalone run. Artifacts, on the other hand, can be stored and re-used between different <code>hxbuild</code> runs.</p>
