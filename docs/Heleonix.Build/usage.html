@@ -1,0 +1,243 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Usage | Heleonix </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Usage | Heleonix ">
+      
+      <link rel="icon" href="../images/heleonix-logos/Heleonix-favicon-128x128.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/hennadiilu/docs/blob/master/Heleonix.Build/usage.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/heleonix-logos/Heleonix-logo-64x64.jpg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="usage">Usage</h1>
+
+<p>The framework is used as a .NET CLI tool <code>hxbuild</code>.</p>
+<p>It accepts the same arguments as the <a href="https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-msbuild">dotnet msbuild</a>
+command, because it runs MSBuild under the hood.</p>
+<h2 id="command-line-interface">Command-line interface</h2>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-h, --help</td>
+<td>Displays help with possible CLI arguments</td>
+</tr>
+<tr>
+<td>--exe</td>
+<td>Custom <code>dotnet.exe</code> installation. By default, a globally available <code>dotnet</code> CLI installation is used</td>
+</tr>
+<tr>
+<td>MSBuild CLI args</td>
+<td>CLI arguments of the <code>dotnet msbuild</code> command: <a href="https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-msbuild%7C">https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-msbuild|</a></td>
+</tr>
+</tbody>
+</table>
+<p>Examples:</p>
+<p><code>hxbuild -h</code> displays detailed information about the <code>hxbuild</code> tool.</p>
+<p><code>hxbuild -t:Hx_NetBuild</code> runs the &lt;xref:Hx_NetBuild&gt; target.</p>
+<p><code>hxbuild --exe &quot;C:\Program Files\dotnet\dotnet.exe&quot; -t:Hx_NetValidate;Hx_NetBuild -p:Hx_Run_Number=123</code>
+runs the &lt;xref:Hx_NetValidate&gt; and then the &lt;xref:Hx_NetBuild&gt; targets with the <code>Hx_Run_Number</code> 123 (see &lt;xref:Heleonix.Build&gt;).</p>
+<h2 id="properties-and-items">Properties and Items</h2>
+<p>The build framework provides ability to specify <a href="xref:Heleonix.Build">global properties</a> and target-specific properties and items
+in the following priority order:</p>
+<ol>
+<li><p>Command-line input properties, for example: <code>hxbuild -t:Hx_NetBuild -p:Hx_Run_Number=123 -p:Hx_NetBuild_SlnFile=&quot;./src/MyApp.sln&quot;</code></p>
+</li>
+<li><p>Workspace-level <code>*.hxbproj</code> file. Create a <code>*.hxbproj</code> file in the format of
+<a href="https://learn.microsoft.com/en-us/visualstudio/msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch#create-a-minimal-msbuild-project-file">MSBuild project file</a>
+in the working directory, where the <code>hxbuild</code> tool is running. Usually it is the directory, where your repository was checked out,
+or a working directory of the CI/CD agent etc. Use the <code>Hx_WS_BuildProjFile</code> CLI property to customize location
+of the workspace-level <code>*.hxbproj</code> file starting from the working directory.
+For example: <code>hxbuild -t:Hx_NetBuild -p:Hx_WS_BuildProjFile=&quot;some/where/in/the/working/directory/Build.hxbproj&quot;</code>.</p>
+</li>
+<li><p>Run-level <code>*.hxbproj</code> file, which is specified as the CLI property <code>-p:Hx_Run_BuildProjFile=&quot;D:\company\wide\file.hxbproj&quot;</code>
+This way can be used i.e. if your DevOps engineers want to specify common (project-wide or company-wide) values
+for certain properties or items. For example: <code>hxbuild -t:Hx_NetBuild -p:Hx_Run_BuildProjFile=&quot;D:\company\wide\file.hxbproj&quot;</code></p>
+</li>
+</ol>
+<h3 id="custom-hxbproj-file">Custom <code>.hxbproj</code> file</h3>
+<p>An example of a <code>Build.hxbproj</code>, which could be used in the <em>p.2</em> and <em>p.3</em> in [Properties and Items] might look as below:</p>
+<pre><code class="lang-xml">﻿﻿&lt;Project xmlns=&quot;http://schemas.microsoft.com/developer/msbuild/2003&quot;&gt;
+  &lt;PropertyGroup&gt;
+    &lt;Hx_NetBuild_SlnFile&gt;./src/MyApp.sln&lt;/Hx_NetBuild_SlnFile&gt;
+  &lt;/PropertyGroup&gt;
+
+  &lt;ItemGroup&gt;
+    &lt;Hx_NetBuild_DeleteFiles Include=&quot;./extra-file.txt&quot; /&gt;
+  &lt;/ItemGroup&gt;
+
+  &lt;Target Name=&quot;My_Custom_Pre_Target&quot; BeforeTargets=&quot;Hx_NetBuild&quot;&gt;
+    &lt;Message Text=&quot;Values of properties and items specified at the execution phase override values specified at the evaluation phase&quot; Importance=&quot;high&quot; /&gt;
+
+    &lt;PropertyGroup&gt;
+      &lt;Hx_NetBuild_Version&gt;./src/MyApp.sln&lt;/Hx_NetBuild_SlnFile&gt;
+    &lt;/PropertyGroup&gt;
+  &lt;/Taarget&gt;
+
+  &lt;Target Name=&quot;My_Custom_Post_Target&quot; AfterTargets=&quot;Hx_NetBuild&quot;&gt;
+    &lt;Message Text=&quot;Do something after the Hx_NetBuild target&quot; Importance=&quot;high&quot; /&gt;
+  &lt;/Target&gt;
+&lt;/Project&gt;
+</code></pre>
+<h2 id="artifacts">Artifacts</h2>
+<p>Targets can produce artifacts - files, which are generated in the target-specific artifacts directories.
+Every target has the <code>Hx_&lt;TargetName&gt;_ArtifactsDir</code> property, which specifies its artifacts location.
+The default location is the <code>$(Hx_Run_ArtifactsDir)/&lt;TargetName&gt;</code>, where <code>&lt;TargetName&gt;</code> is the name of the target without
+namespace. See also <a href="xref:Heleonix.Build#hx_run_artifactsdir">Hx_Run_ArtifactsDir</a>.</p>
+<p><strong>Targets can depend on other targets, but only on their artifacts and not their properties or items</strong>,
+because targets can be run as standalone <code>hxbuild</code> runs, and in these cases properties and items are defined
+only within a standalone run. Artifacts, on the other hand, can be stored and re-used between different <code>hxbuild</code> runs.</p>
+<h2 id="github-actions">Github actions</h2>
+<p>Example below shows how the build framework could be used in your custom Github actions:</p>
+<pre><code class="lang-yaml">name: &quot;Pull Request Checks&quot;
+
+on:
+  pull_request:
+
+jobs:
+  Validate-Build-Test:
+    runs-on: 'windows-latest'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: HxBuild
+        run: dotnet tool install Heleonix.Build --version 7.0.3 -g
+      - name: Validate
+        run: hxbuild -t:Hx_NetValidate
+      - name: Build
+        run: hxbuild -t:Hx_NetBuild
+      - name: Test
+        run: hxbuild -t:Hx_NetTest
+</code></pre>
+<h2 id="intellisense">IntelliSense</h2>
+<p>The build framework provides XSD schemas to use intellisense while crafting your custom <code>*.hxbproj</code> files.</p>
+<p>Example:</p>
+<p><img src="images/IntellisenseExample.png" alt="IntelliSenseExample"></p>
+<p>The <a href="https://github.com/Heleonix/Heleonix.Build/blob/master/src/Heleonix.Build/Schemas/Heleonix.Build.xsd">Heleonix.Build.xsd</a>
+file needs to be specified as the additional XML validation schema for MSBuild projects in your IDE or editor.</p>
+<p>For Visual Studio, it should be done as below:</p>
+<ol>
+<li><p>Open the <code>Microsoft.Build.xsd</code> file in the Visual Studio installation folder:
+<code>&lt;Visual Studio Installation Directory&gt;\Xml\Schemas\1033\Microsoft.Build.xsd</code>.
+On Windows, it is usually <code>C:\Program Files\Microsoft Visual Studio\2022\Community\Xml\Schemas\1033\Microsoft.Build.xsd</code>.</p>
+</li>
+<li><p>Add additional schema location pointing to installation path of the <code>Heleonix.Build.xsd</code>. If the build framework is
+installed as a global .NET tool, the path might be:
+<code>C:\Users\&lt;USER-NAME&gt;\.dotnet\tools\.store\heleonix.build\7.0.2\heleonix.build\7.0.2\tools\net6.0\any\Schemas\Heleonix.Build.xsd</code>.</p>
+<p><img src="images/IntellisenseRegistration.png" alt="IntelliSenseRegistration"></p>
+</li>
+<li><p>Reload Visual Studio IDE.</p>
+</li>
+</ol>
+<p>All your <code>*.hxbproj</code> files, as well as other MSBuild projects files will have the Schemas list automatically defined,
+as shown below:</p>
+<p><img src="images/IntellisenseSchemas.png" alt="IntelliSenseSchemas"></p>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>Use slash <code>/</code> in paths in MSBuild properties and items, not backslash <code>\</code>. MSBuild replaces them on *nix OSs anyway.</li>
+<li>Use slash <code>/</code> in path-related regular expressions in <a class="xref" href="api/Heleonix.Build.Tasks.html">Heleonix.Build.Tasks</a>.</li>
+</ul>
+
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

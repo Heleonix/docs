@@ -7,7 +7,7 @@
           "src": "../NetBuild/"
         }
       ],
-      "dest": "api/Heleonix.Testing"
+      "dest": "Heleonix.Testing"
     },
     {
       "src": [
@@ -16,7 +16,7 @@
           "src": "../NetBuild/"
         }
       ],
-      "dest": "api/Heleonix.Execution"
+      "dest": "Heleonix.Execution"
     },
     {
       "src": [
@@ -25,7 +25,7 @@
           "src": "../NetBuild/"
         }
       ],
-      "dest": "api/Heleonix.Guard"
+      "dest": "Heleonix.Guard"
     },
     {
       "src": [
@@ -34,7 +34,7 @@
           "src": "../NetBuild/"
         }
       ],
-      "dest": "api/Heleonix.Reflection"
+      "dest": "Heleonix.Reflection"
     },
     {
       "src": [
@@ -43,7 +43,7 @@
           "src": "../NetBuild/"
         }
       ],
-      "dest": "api/Heleonix.Validation"
+      "dest": "Heleonix.Validation"
     },
     {
       "src": [
@@ -52,7 +52,7 @@
           "src": "../NetBuild/"
         }
       ],
-      "dest": "api/Heleonix.Extensions"
+      "dest": "Heleonix.Extensions"
     },
     {
       "src": [
@@ -61,57 +61,59 @@
           "src": "../NetBuild/"
         }
       ],
-      "dest": "api/Heleonix.Build"
+      "dest": "Heleonix.Build/api"
     }
   ],
   "build": {
     "globalMetadata": {
+      "_appName": "",
       "_appTitle": "Heleonix",
       "_appLogoPath": "images/heleonix-logos/Heleonix-logo-64x64.jpg",
-      "_appFaviconPath": "images/heleonix-logos/Heleonix-favicon-128x128.ico"
+      "_appFaviconPath": "images/heleonix-logos/Heleonix-favicon-128x128.ico",
+      "_enableSearch": true,
+      "_disableContribution": true
     },
     "content": [
       {
         "files": [
-          "api/**/*.yml",
-          "api/**/*.md"
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "docs/**"
         ]
       },
       {
-        "files": [
-          "articles/**/*.md",
-          "articles/**/toc.yml",
-          "toc.yml",
-          "*.md"
-        ]
+        "files": [ "*.xsd", "Targets/Hx_*.xsd" ],
+        "src": "../NetBuild/src/Heleonix.Build/bin/Release/net6.0/Schemas"
+      },
+      {
+        "files": [ "Heleonix.Build/api/*.xsd" ]
       }
     ],
     "resource": [
       {
         "files": [
-          "images/**"
+          "images/**",
+          "Heleonix.*/images/**"
         ]
-      }
-    ],
-    "overwrite": [
-      {
-        "files": [
-          "apidoc/**.md"
-        ],
-        "exclude": [
-          "obj/**",
-          "docs/**"
-        ]
-      }
+      },
     ],
     "dest": "docs",
-    "globalMetadataFiles": [],
-    "fileMetadataFiles": [],
+    "fileMetadata": {
+      "hx.xmldoc.xslt": { "**/Heleonix.Build/**.xsd": "./Heleonix.Build/xsd-to-md.xslt" },
+      "hx.xmldoc.store": { "../NetBuild/src/Heleonix.Build/bin/Release/net6.0/Schemas/**.xsd": "Heleonix.Build/api" },
+      "hx.xmldoc.toc": {
+        "**/Heleonix.Build/**.xsd": {
+          "action": "InsertBefore",
+          "key": "Heleonix.Build.Tasks"
+        }
+      }
+    },
     "template": [
       "default",
+      "modern",
       "templates/heleonix"
     ],
-    "postProcessors": [],
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
     "keepFileLink": false,

@@ -1,0 +1,339 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Build.Tasks.FileRead
+  commentId: T:Heleonix.Build.Tasks.FileRead
+  id: FileRead
+  parent: Heleonix.Build.Tasks
+  children:
+  - Heleonix.Build.Tasks.FileRead.#ctor
+  - Heleonix.Build.Tasks.FileRead.ExecuteInternal
+  - Heleonix.Build.Tasks.FileRead.File
+  - Heleonix.Build.Tasks.FileRead.Matches
+  - Heleonix.Build.Tasks.FileRead.RegExp
+  - Heleonix.Build.Tasks.FileRead.RegExpOptions
+  langs:
+  - csharp
+  - vb
+  name: FileRead
+  nameWithType: FileRead
+  fullName: Heleonix.Build.Tasks.FileRead
+  type: Class
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets content from file by specified regular expression.\n"
+  syntax:
+    content: 'public class FileRead : BaseTask'
+    content.vb: >-
+      Public Class FileRead
+          Inherits BaseTask
+  inheritance:
+  - System.Object
+  - Heleonix.Build.Tasks.BaseTask
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Heleonix.Build.Tasks.FileRead.ExecuteInternal
+  commentId: M:Heleonix.Build.Tasks.FileRead.ExecuteInternal
+  id: ExecuteInternal
+  parent: Heleonix.Build.Tasks.FileRead
+  langs:
+  - csharp
+  - vb
+  name: ExecuteInternal()
+  nameWithType: FileRead.ExecuteInternal()
+  fullName: Heleonix.Build.Tasks.FileRead.ExecuteInternal()
+  type: Method
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nReads a file with specified regular expression and content.\n"
+  syntax:
+    content: protected override void ExecuteInternal()
+    content.vb: Protected Overrides Sub ExecuteInternal
+  overridden: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+  overload: Heleonix.Build.Tasks.FileRead.ExecuteInternal*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Heleonix.Build.Tasks.FileRead.#ctor
+  commentId: M:Heleonix.Build.Tasks.FileRead.#ctor
+  id: '#ctor'
+  parent: Heleonix.Build.Tasks.FileRead
+  langs:
+  - csharp
+  - vb
+  name: FileRead()
+  nameWithType: FileRead.FileRead()
+  fullName: Heleonix.Build.Tasks.FileRead.FileRead()
+  type: Constructor
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  syntax:
+    content: public FileRead()
+    content.vb: Public Sub New
+  overload: Heleonix.Build.Tasks.FileRead.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.FileRead.File
+  commentId: P:Heleonix.Build.Tasks.FileRead.File
+  id: File
+  parent: Heleonix.Build.Tasks.FileRead
+  langs:
+  - csharp
+  - vb
+  name: File
+  nameWithType: FileRead.File
+  fullName: Heleonix.Build.Tasks.FileRead.File
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the file path.\n"
+  syntax:
+    content: public string File { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property File As String
+  overload: Heleonix.Build.Tasks.FileRead.File*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.FileRead.RegExp
+  commentId: P:Heleonix.Build.Tasks.FileRead.RegExp
+  id: RegExp
+  parent: Heleonix.Build.Tasks.FileRead
+  langs:
+  - csharp
+  - vb
+  name: RegExp
+  nameWithType: FileRead.RegExp
+  fullName: Heleonix.Build.Tasks.FileRead.RegExp
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the .NET regular expression to find content.\n"
+  syntax:
+    content: public string RegExp { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RegExp As String
+  overload: Heleonix.Build.Tasks.FileRead.RegExp*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.FileRead.RegExpOptions
+  commentId: P:Heleonix.Build.Tasks.FileRead.RegExpOptions
+  id: RegExpOptions
+  parent: Heleonix.Build.Tasks.FileRead
+  langs:
+  - csharp
+  - vb
+  name: RegExpOptions
+  nameWithType: FileRead.RegExpOptions
+  fullName: Heleonix.Build.Tasks.FileRead.RegExpOptions
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the .NET regular expression options.\n"
+  syntax:
+    content: public string RegExpOptions { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RegExpOptions As String
+  overload: Heleonix.Build.Tasks.FileRead.RegExpOptions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.FileRead.Matches
+  commentId: P:Heleonix.Build.Tasks.FileRead.Matches
+  id: Matches
+  parent: Heleonix.Build.Tasks.FileRead
+  langs:
+  - csharp
+  - vb
+  name: Matches
+  nameWithType: FileRead.Matches
+  fullName: Heleonix.Build.Tasks.FileRead.Matches
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets found matches [Output].\n"
+  syntax:
+    content: public ITaskItem[] Matches { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.Build.Framework.ITaskItem[]
+    content.vb: Public Property Matches As ITaskItem()
+  overload: Heleonix.Build.Tasks.FileRead.Matches*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Heleonix.Build.Tasks
+  commentId: N:Heleonix.Build.Tasks
+  isExternal: true
+  name: Heleonix.Build.Tasks
+  nameWithType: Heleonix.Build.Tasks
+  fullName: Heleonix.Build.Tasks
+- uid: Heleonix.Build.Tasks.BaseTask
+  commentId: T:Heleonix.Build.Tasks.BaseTask
+  parent: Heleonix.Build.Tasks
+  isExternal: true
+  name: BaseTask
+  nameWithType: BaseTask
+  fullName: Heleonix.Build.Tasks.BaseTask
+- uid: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+  commentId: M:Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+  parent: Heleonix.Build.Tasks.BaseTask
+  isExternal: true
+  name: ExecuteInternal()
+  nameWithType: BaseTask.ExecuteInternal()
+  fullName: Heleonix.Build.Tasks.BaseTask.ExecuteInternal()
+  spec.csharp:
+  - uid: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+    name: ExecuteInternal
+    nameWithType: BaseTask.ExecuteInternal
+    fullName: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+    name: ExecuteInternal
+    nameWithType: BaseTask.ExecuteInternal
+    fullName: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Heleonix.Build.Tasks.FileRead.ExecuteInternal*
+  commentId: Overload:Heleonix.Build.Tasks.FileRead.ExecuteInternal
+  isExternal: true
+  name: ExecuteInternal
+  nameWithType: FileRead.ExecuteInternal
+  fullName: Heleonix.Build.Tasks.FileRead.ExecuteInternal
+- uid: Heleonix.Build.Tasks.FileRead.#ctor*
+  commentId: Overload:Heleonix.Build.Tasks.FileRead.#ctor
+  isExternal: true
+  name: FileRead
+  nameWithType: FileRead.FileRead
+  fullName: Heleonix.Build.Tasks.FileRead.FileRead
+- uid: Heleonix.Build.Tasks.FileRead.File*
+  commentId: Overload:Heleonix.Build.Tasks.FileRead.File
+  isExternal: true
+  name: File
+  nameWithType: FileRead.File
+  fullName: Heleonix.Build.Tasks.FileRead.File
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Heleonix.Build.Tasks.FileRead.RegExp*
+  commentId: Overload:Heleonix.Build.Tasks.FileRead.RegExp
+  isExternal: true
+  name: RegExp
+  nameWithType: FileRead.RegExp
+  fullName: Heleonix.Build.Tasks.FileRead.RegExp
+- uid: Heleonix.Build.Tasks.FileRead.RegExpOptions*
+  commentId: Overload:Heleonix.Build.Tasks.FileRead.RegExpOptions
+  isExternal: true
+  name: RegExpOptions
+  nameWithType: FileRead.RegExpOptions
+  fullName: Heleonix.Build.Tasks.FileRead.RegExpOptions
+- uid: Heleonix.Build.Tasks.FileRead.Matches*
+  commentId: Overload:Heleonix.Build.Tasks.FileRead.Matches
+  isExternal: true
+  name: Matches
+  nameWithType: FileRead.Matches
+  fullName: Heleonix.Build.Tasks.FileRead.Matches
+- uid: Microsoft.Build.Framework.ITaskItem[]
+  isExternal: true
+  name: ITaskItem[]
+  nameWithType: ITaskItem[]
+  fullName: Microsoft.Build.Framework.ITaskItem[]
+  nameWithType.vb: ITaskItem()
+  fullName.vb: Microsoft.Build.Framework.ITaskItem()
+  name.vb: ITaskItem()
+  spec.csharp:
+  - uid: Microsoft.Build.Framework.ITaskItem
+    name: ITaskItem
+    nameWithType: ITaskItem
+    fullName: Microsoft.Build.Framework.ITaskItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Microsoft.Build.Framework.ITaskItem
+    name: ITaskItem
+    nameWithType: ITaskItem
+    fullName: Microsoft.Build.Framework.ITaskItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

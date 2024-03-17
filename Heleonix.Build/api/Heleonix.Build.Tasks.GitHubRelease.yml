@@ -1,0 +1,510 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Build.Tasks.GitHubRelease
+  commentId: T:Heleonix.Build.Tasks.GitHubRelease
+  id: GitHubRelease
+  parent: Heleonix.Build.Tasks
+  children:
+  - Heleonix.Build.Tasks.GitHubRelease.#ctor
+  - Heleonix.Build.Tasks.GitHubRelease.Body
+  - Heleonix.Build.Tasks.GitHubRelease.ExecuteInternal
+  - Heleonix.Build.Tasks.GitHubRelease.GitHubRepositoryApiUrl
+  - Heleonix.Build.Tasks.GitHubRelease.IsDraft
+  - Heleonix.Build.Tasks.GitHubRelease.IsPrerelease
+  - Heleonix.Build.Tasks.GitHubRelease.Name
+  - Heleonix.Build.Tasks.GitHubRelease.TagName
+  - Heleonix.Build.Tasks.GitHubRelease.TagSource
+  - Heleonix.Build.Tasks.GitHubRelease.Token
+  - Heleonix.Build.Tasks.GitHubRelease.UserAgent
+  langs:
+  - csharp
+  - vb
+  name: GitHubRelease
+  nameWithType: GitHubRelease
+  fullName: Heleonix.Build.Tasks.GitHubRelease
+  type: Class
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nCreates a release on GitHub using the GitHub API.\n"
+  syntax:
+    content: 'public class GitHubRelease : BaseTask'
+    content.vb: >-
+      Public Class GitHubRelease
+          Inherits BaseTask
+  inheritance:
+  - System.Object
+  - Heleonix.Build.Tasks.BaseTask
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Heleonix.Build.Tasks.GitHubRelease.ExecuteInternal
+  commentId: M:Heleonix.Build.Tasks.GitHubRelease.ExecuteInternal
+  id: ExecuteInternal
+  parent: Heleonix.Build.Tasks.GitHubRelease
+  langs:
+  - csharp
+  - vb
+  name: ExecuteInternal()
+  nameWithType: GitHubRelease.ExecuteInternal()
+  fullName: Heleonix.Build.Tasks.GitHubRelease.ExecuteInternal()
+  type: Method
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nExecutes the GitHubRelease.\n"
+  syntax:
+    content: protected override void ExecuteInternal()
+    content.vb: Protected Overrides Sub ExecuteInternal
+  overridden: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+  overload: Heleonix.Build.Tasks.GitHubRelease.ExecuteInternal*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Heleonix.Build.Tasks.GitHubRelease.#ctor
+  commentId: M:Heleonix.Build.Tasks.GitHubRelease.#ctor
+  id: '#ctor'
+  parent: Heleonix.Build.Tasks.GitHubRelease
+  langs:
+  - csharp
+  - vb
+  name: GitHubRelease()
+  nameWithType: GitHubRelease.GitHubRelease()
+  fullName: Heleonix.Build.Tasks.GitHubRelease.GitHubRelease()
+  type: Constructor
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  syntax:
+    content: public GitHubRelease()
+    content.vb: Public Sub New
+  overload: Heleonix.Build.Tasks.GitHubRelease.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.GitHubRelease.GitHubRepositoryApiUrl
+  commentId: P:Heleonix.Build.Tasks.GitHubRelease.GitHubRepositoryApiUrl
+  id: GitHubRepositoryApiUrl
+  parent: Heleonix.Build.Tasks.GitHubRelease
+  langs:
+  - csharp
+  - vb
+  name: GitHubRepositoryApiUrl
+  nameWithType: GitHubRelease.GitHubRepositoryApiUrl
+  fullName: Heleonix.Build.Tasks.GitHubRelease.GitHubRepositoryApiUrl
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the url of the GitHub API for the repository.\n"
+  syntax:
+    content: public string GitHubRepositoryApiUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property GitHubRepositoryApiUrl As String
+  overload: Heleonix.Build.Tasks.GitHubRelease.GitHubRepositoryApiUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.GitHubRelease.Token
+  commentId: P:Heleonix.Build.Tasks.GitHubRelease.Token
+  id: Token
+  parent: Heleonix.Build.Tasks.GitHubRelease
+  langs:
+  - csharp
+  - vb
+  name: Token
+  nameWithType: GitHubRelease.Token
+  fullName: Heleonix.Build.Tasks.GitHubRelease.Token
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets a personal access token to authorize to the GitHub API.\n"
+  syntax:
+    content: public string Token { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Token As String
+  overload: Heleonix.Build.Tasks.GitHubRelease.Token*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.GitHubRelease.UserAgent
+  commentId: P:Heleonix.Build.Tasks.GitHubRelease.UserAgent
+  id: UserAgent
+  parent: Heleonix.Build.Tasks.GitHubRelease
+  langs:
+  - csharp
+  - vb
+  name: UserAgent
+  nameWithType: GitHubRelease.UserAgent
+  fullName: Heleonix.Build.Tasks.GitHubRelease.UserAgent
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the User-Agent request header.\n"
+  syntax:
+    content: public string UserAgent { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserAgent As String
+  overload: Heleonix.Build.Tasks.GitHubRelease.UserAgent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.GitHubRelease.TagName
+  commentId: P:Heleonix.Build.Tasks.GitHubRelease.TagName
+  id: TagName
+  parent: Heleonix.Build.Tasks.GitHubRelease
+  langs:
+  - csharp
+  - vb
+  name: TagName
+  nameWithType: GitHubRelease.TagName
+  fullName: Heleonix.Build.Tasks.GitHubRelease.TagName
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets a name of the tag to create and/or from which the release should be created.\n"
+  syntax:
+    content: public string TagName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TagName As String
+  overload: Heleonix.Build.Tasks.GitHubRelease.TagName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.GitHubRelease.TagSource
+  commentId: P:Heleonix.Build.Tasks.GitHubRelease.TagSource
+  id: TagSource
+  parent: Heleonix.Build.Tasks.GitHubRelease
+  langs:
+  - csharp
+  - vb
+  name: TagSource
+  nameWithType: GitHubRelease.TagSource
+  fullName: Heleonix.Build.Tasks.GitHubRelease.TagSource
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets any branch or commit SHA from which the tag should be created.\nIt is ignored if the tag already exists. Otherwise, name of the default branch (usually master) is used.\n"
+  syntax:
+    content: public string TagSource { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TagSource As String
+  overload: Heleonix.Build.Tasks.GitHubRelease.TagSource*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.GitHubRelease.Name
+  commentId: P:Heleonix.Build.Tasks.GitHubRelease.Name
+  id: Name
+  parent: Heleonix.Build.Tasks.GitHubRelease
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: GitHubRelease.Name
+  fullName: Heleonix.Build.Tasks.GitHubRelease.Name
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets a name of the release. If not specified, the tag name is used.\n"
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Heleonix.Build.Tasks.GitHubRelease.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.GitHubRelease.Body
+  commentId: P:Heleonix.Build.Tasks.GitHubRelease.Body
+  id: Body
+  parent: Heleonix.Build.Tasks.GitHubRelease
+  langs:
+  - csharp
+  - vb
+  name: Body
+  nameWithType: GitHubRelease.Body
+  fullName: Heleonix.Build.Tasks.GitHubRelease.Body
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets release notes as a text string.\n"
+  syntax:
+    content: public string Body { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Body As String
+  overload: Heleonix.Build.Tasks.GitHubRelease.Body*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.GitHubRelease.IsDraft
+  commentId: P:Heleonix.Build.Tasks.GitHubRelease.IsDraft
+  id: IsDraft
+  parent: Heleonix.Build.Tasks.GitHubRelease
+  langs:
+  - csharp
+  - vb
+  name: IsDraft
+  nameWithType: GitHubRelease.IsDraft
+  fullName: Heleonix.Build.Tasks.GitHubRelease.IsDraft
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets a value indicating whether to create a draft (unpublished) release, or a published one.\n"
+  syntax:
+    content: public bool IsDraft { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsDraft As Boolean
+  overload: Heleonix.Build.Tasks.GitHubRelease.IsDraft*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.GitHubRelease.IsPrerelease
+  commentId: P:Heleonix.Build.Tasks.GitHubRelease.IsPrerelease
+  id: IsPrerelease
+  parent: Heleonix.Build.Tasks.GitHubRelease
+  langs:
+  - csharp
+  - vb
+  name: IsPrerelease
+  nameWithType: GitHubRelease.IsPrerelease
+  fullName: Heleonix.Build.Tasks.GitHubRelease.IsPrerelease
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets a value indicating whether to identify the release as a prerelease, or as a full release.\n"
+  syntax:
+    content: public bool IsPrerelease { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsPrerelease As Boolean
+  overload: Heleonix.Build.Tasks.GitHubRelease.IsPrerelease*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Heleonix.Build.Tasks
+  commentId: N:Heleonix.Build.Tasks
+  isExternal: true
+  name: Heleonix.Build.Tasks
+  nameWithType: Heleonix.Build.Tasks
+  fullName: Heleonix.Build.Tasks
+- uid: Heleonix.Build.Tasks.BaseTask
+  commentId: T:Heleonix.Build.Tasks.BaseTask
+  parent: Heleonix.Build.Tasks
+  isExternal: true
+  name: BaseTask
+  nameWithType: BaseTask
+  fullName: Heleonix.Build.Tasks.BaseTask
+- uid: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+  commentId: M:Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+  parent: Heleonix.Build.Tasks.BaseTask
+  isExternal: true
+  name: ExecuteInternal()
+  nameWithType: BaseTask.ExecuteInternal()
+  fullName: Heleonix.Build.Tasks.BaseTask.ExecuteInternal()
+  spec.csharp:
+  - uid: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+    name: ExecuteInternal
+    nameWithType: BaseTask.ExecuteInternal
+    fullName: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+    name: ExecuteInternal
+    nameWithType: BaseTask.ExecuteInternal
+    fullName: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Heleonix.Build.Tasks.GitHubRelease.ExecuteInternal*
+  commentId: Overload:Heleonix.Build.Tasks.GitHubRelease.ExecuteInternal
+  isExternal: true
+  name: ExecuteInternal
+  nameWithType: GitHubRelease.ExecuteInternal
+  fullName: Heleonix.Build.Tasks.GitHubRelease.ExecuteInternal
+- uid: Heleonix.Build.Tasks.GitHubRelease.#ctor*
+  commentId: Overload:Heleonix.Build.Tasks.GitHubRelease.#ctor
+  isExternal: true
+  name: GitHubRelease
+  nameWithType: GitHubRelease.GitHubRelease
+  fullName: Heleonix.Build.Tasks.GitHubRelease.GitHubRelease
+- uid: Heleonix.Build.Tasks.GitHubRelease.GitHubRepositoryApiUrl*
+  commentId: Overload:Heleonix.Build.Tasks.GitHubRelease.GitHubRepositoryApiUrl
+  isExternal: true
+  name: GitHubRepositoryApiUrl
+  nameWithType: GitHubRelease.GitHubRepositoryApiUrl
+  fullName: Heleonix.Build.Tasks.GitHubRelease.GitHubRepositoryApiUrl
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Heleonix.Build.Tasks.GitHubRelease.Token*
+  commentId: Overload:Heleonix.Build.Tasks.GitHubRelease.Token
+  isExternal: true
+  name: Token
+  nameWithType: GitHubRelease.Token
+  fullName: Heleonix.Build.Tasks.GitHubRelease.Token
+- uid: Heleonix.Build.Tasks.GitHubRelease.UserAgent*
+  commentId: Overload:Heleonix.Build.Tasks.GitHubRelease.UserAgent
+  isExternal: true
+  name: UserAgent
+  nameWithType: GitHubRelease.UserAgent
+  fullName: Heleonix.Build.Tasks.GitHubRelease.UserAgent
+- uid: Heleonix.Build.Tasks.GitHubRelease.TagName*
+  commentId: Overload:Heleonix.Build.Tasks.GitHubRelease.TagName
+  isExternal: true
+  name: TagName
+  nameWithType: GitHubRelease.TagName
+  fullName: Heleonix.Build.Tasks.GitHubRelease.TagName
+- uid: Heleonix.Build.Tasks.GitHubRelease.TagSource*
+  commentId: Overload:Heleonix.Build.Tasks.GitHubRelease.TagSource
+  isExternal: true
+  name: TagSource
+  nameWithType: GitHubRelease.TagSource
+  fullName: Heleonix.Build.Tasks.GitHubRelease.TagSource
+- uid: Heleonix.Build.Tasks.GitHubRelease.Name*
+  commentId: Overload:Heleonix.Build.Tasks.GitHubRelease.Name
+  isExternal: true
+  name: Name
+  nameWithType: GitHubRelease.Name
+  fullName: Heleonix.Build.Tasks.GitHubRelease.Name
+- uid: Heleonix.Build.Tasks.GitHubRelease.Body*
+  commentId: Overload:Heleonix.Build.Tasks.GitHubRelease.Body
+  isExternal: true
+  name: Body
+  nameWithType: GitHubRelease.Body
+  fullName: Heleonix.Build.Tasks.GitHubRelease.Body
+- uid: Heleonix.Build.Tasks.GitHubRelease.IsDraft*
+  commentId: Overload:Heleonix.Build.Tasks.GitHubRelease.IsDraft
+  isExternal: true
+  name: IsDraft
+  nameWithType: GitHubRelease.IsDraft
+  fullName: Heleonix.Build.Tasks.GitHubRelease.IsDraft
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Heleonix.Build.Tasks.GitHubRelease.IsPrerelease*
+  commentId: Overload:Heleonix.Build.Tasks.GitHubRelease.IsPrerelease
+  isExternal: true
+  name: IsPrerelease
+  nameWithType: GitHubRelease.IsPrerelease
+  fullName: Heleonix.Build.Tasks.GitHubRelease.IsPrerelease

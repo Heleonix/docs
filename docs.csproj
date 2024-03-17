@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <OutputType>exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Heleonix.Docfx.Plugins.XmlDoc" Version="1.0.0" GeneratePathProperty="true" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Include="./**/*.md;./**/*.yml" Exclude="./docs/**/*" Set="Articles"/>
+    <UpToDateCheckOutput Include="./docs/**/*.md;./docs/**/*.yml" Set="Articles"/>
+    <UpToDateCheckInput Include="./**/main.css" Exclude="./docs/**/*" Set="Styles"/>
+    <UpToDateCheckOutput Include="./docs/**/main.css" Set="Styles"/>
+  </ItemGroup>
+
+  <Target Name="DocfxRestore" AfterTargets="Restore">
+    <ItemGroup>
+      <XmlDocFiles Include="$(PkgHeleonix_Docfx_Plugins_XmlDoc)/template/plugins/*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(XmlDocFiles)" DestinationFolder="templates/heleonix/plugins" OverwriteReadOnlyFiles="true" />
+    <Exec Command="dotnet tool update docfx --version 2.74.1 --local" />
+  </Target>
+
+  <Target Name="DocBuild" AfterTargets="Build">
+    <Exec Command="dotnet docfx build docfx.json" />
+  </Target>
+
+  <Target Name="DocClean" AfterTargets="Clean">
+    <RemoveDir Directories="docs" />
+  </Target>
+
+  <ItemGroup>
+    <None Include=".config\dotnet-tools.json" />
+  </ItemGroup>
+</Project>

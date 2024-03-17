@@ -1,0 +1,304 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.NUnit.Aaa.AaaSpec
+  commentId: T:Heleonix.Testing.NUnit.Aaa.AaaSpec
+  id: AaaSpec
+  parent: Heleonix.Testing.NUnit.Aaa
+  children:
+  - Heleonix.Testing.NUnit.Aaa.AaaSpec.Act(System.Action)
+  - Heleonix.Testing.NUnit.Aaa.AaaSpec.And(System.String,System.Action)
+  - Heleonix.Testing.NUnit.Aaa.AaaSpec.Arrange(System.Action)
+  - Heleonix.Testing.NUnit.Aaa.AaaSpec.Should(System.String,System.Action)
+  - Heleonix.Testing.NUnit.Aaa.AaaSpec.Teardown(System.Action)
+  - Heleonix.Testing.NUnit.Aaa.AaaSpec.When(System.String,System.Action)
+  langs:
+  - csharp
+  - vb
+  name: AaaSpec
+  nameWithType: AaaSpec
+  fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec
+  type: Class
+  source:
+    path: Heleonix.Testing.NUnit
+    isExternal: true
+  assemblies:
+  - Heleonix.Testing.NUnit
+  namespace: Heleonix.Testing.NUnit.Aaa
+  summary: "\nRepresents the specification for the AAA tests pattern.\n"
+  syntax:
+    content: 'public static class AaaSpec : Object'
+    content.vb: >-
+      Public Module AaaSpec
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.Act(System.Action)
+  commentId: M:Heleonix.Testing.NUnit.Aaa.AaaSpec.Act(System.Action)
+  id: Act(System.Action)
+  parent: Heleonix.Testing.NUnit.Aaa.AaaSpec
+  langs:
+  - csharp
+  - vb
+  name: Act(Action)
+  nameWithType: AaaSpec.Act(Action)
+  fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.Act(System.Action)
+  type: Method
+  source:
+    path: Heleonix.Testing.NUnit
+    isExternal: true
+  assemblies:
+  - Heleonix.Testing.NUnit
+  namespace: Heleonix.Testing.NUnit.Aaa
+  summary: "\nBuilds the &apos;Act&apos; step of the test.\n"
+  syntax:
+    content: public static void Act(Action action)
+    parameters:
+    - id: action
+      type: System.Action
+      description: The action.
+    content.vb: Public Shared Sub Act(action As Action)
+  overload: Heleonix.Testing.NUnit.Aaa.AaaSpec.Act*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.And(System.String,System.Action)
+  commentId: M:Heleonix.Testing.NUnit.Aaa.AaaSpec.And(System.String,System.Action)
+  id: And(System.String,System.Action)
+  parent: Heleonix.Testing.NUnit.Aaa.AaaSpec
+  langs:
+  - csharp
+  - vb
+  name: And(String, Action)
+  nameWithType: AaaSpec.And(String, Action)
+  fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.And(System.String, System.Action)
+  type: Method
+  source:
+    path: Heleonix.Testing.NUnit
+    isExternal: true
+  assemblies:
+  - Heleonix.Testing.NUnit
+  namespace: Heleonix.Testing.NUnit.Aaa
+  summary: "\nBuilds the &apos;And&apos; step of the test.\n"
+  syntax:
+    content: public static void And(string description, Action action)
+    parameters:
+    - id: description
+      type: System.String
+      description: The description.
+    - id: action
+      type: System.Action
+      description: The action.
+    content.vb: Public Shared Sub And(description As String, action As Action)
+  overload: Heleonix.Testing.NUnit.Aaa.AaaSpec.And*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.Arrange(System.Action)
+  commentId: M:Heleonix.Testing.NUnit.Aaa.AaaSpec.Arrange(System.Action)
+  id: Arrange(System.Action)
+  parent: Heleonix.Testing.NUnit.Aaa.AaaSpec
+  langs:
+  - csharp
+  - vb
+  name: Arrange(Action)
+  nameWithType: AaaSpec.Arrange(Action)
+  fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.Arrange(System.Action)
+  type: Method
+  source:
+    path: Heleonix.Testing.NUnit
+    isExternal: true
+  assemblies:
+  - Heleonix.Testing.NUnit
+  namespace: Heleonix.Testing.NUnit.Aaa
+  summary: "\nBuilds the &apos;Arrange&apos; step of the test.\n"
+  syntax:
+    content: public static void Arrange(Action action)
+    parameters:
+    - id: action
+      type: System.Action
+      description: The action.
+    content.vb: Public Shared Sub Arrange(action As Action)
+  overload: Heleonix.Testing.NUnit.Aaa.AaaSpec.Arrange*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.Should(System.String,System.Action)
+  commentId: M:Heleonix.Testing.NUnit.Aaa.AaaSpec.Should(System.String,System.Action)
+  id: Should(System.String,System.Action)
+  parent: Heleonix.Testing.NUnit.Aaa.AaaSpec
+  langs:
+  - csharp
+  - vb
+  name: Should(String, Action)
+  nameWithType: AaaSpec.Should(String, Action)
+  fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.Should(System.String, System.Action)
+  type: Method
+  source:
+    path: Heleonix.Testing.NUnit
+    isExternal: true
+  assemblies:
+  - Heleonix.Testing.NUnit
+  namespace: Heleonix.Testing.NUnit.Aaa
+  summary: "\nBuilds the &apos;Should&apos; step of the test.\n"
+  syntax:
+    content: public static void Should(string description, Action action)
+    parameters:
+    - id: description
+      type: System.String
+      description: The description.
+    - id: action
+      type: System.Action
+      description: The action.
+    content.vb: Public Shared Sub Should(description As String, action As Action)
+  overload: Heleonix.Testing.NUnit.Aaa.AaaSpec.Should*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.Teardown(System.Action)
+  commentId: M:Heleonix.Testing.NUnit.Aaa.AaaSpec.Teardown(System.Action)
+  id: Teardown(System.Action)
+  parent: Heleonix.Testing.NUnit.Aaa.AaaSpec
+  langs:
+  - csharp
+  - vb
+  name: Teardown(Action)
+  nameWithType: AaaSpec.Teardown(Action)
+  fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.Teardown(System.Action)
+  type: Method
+  source:
+    path: Heleonix.Testing.NUnit
+    isExternal: true
+  assemblies:
+  - Heleonix.Testing.NUnit
+  namespace: Heleonix.Testing.NUnit.Aaa
+  summary: "\nBuilds the &apos;Teardown&apos; step of the test.\n"
+  syntax:
+    content: public static void Teardown(Action action)
+    parameters:
+    - id: action
+      type: System.Action
+      description: The action.
+    content.vb: Public Shared Sub Teardown(action As Action)
+  overload: Heleonix.Testing.NUnit.Aaa.AaaSpec.Teardown*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.When(System.String,System.Action)
+  commentId: M:Heleonix.Testing.NUnit.Aaa.AaaSpec.When(System.String,System.Action)
+  id: When(System.String,System.Action)
+  parent: Heleonix.Testing.NUnit.Aaa.AaaSpec
+  langs:
+  - csharp
+  - vb
+  name: When(String, Action)
+  nameWithType: AaaSpec.When(String, Action)
+  fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.When(System.String, System.Action)
+  type: Method
+  source:
+    path: Heleonix.Testing.NUnit
+    isExternal: true
+  assemblies:
+  - Heleonix.Testing.NUnit
+  namespace: Heleonix.Testing.NUnit.Aaa
+  summary: "\nBuilds the &apos;When&apos; step of the test.\n"
+  syntax:
+    content: public static void When(string description, Action action)
+    parameters:
+    - id: description
+      type: System.String
+      description: The description.
+    - id: action
+      type: System.Action
+      description: The action.
+    content.vb: Public Shared Sub When(description As String, action As Action)
+  overload: Heleonix.Testing.NUnit.Aaa.AaaSpec.When*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Heleonix.Testing.NUnit.Aaa
+  commentId: N:Heleonix.Testing.NUnit.Aaa
+  isExternal: true
+  name: Heleonix.Testing.NUnit.Aaa
+  nameWithType: Heleonix.Testing.NUnit.Aaa
+  fullName: Heleonix.Testing.NUnit.Aaa
+- uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.Act*
+  commentId: Overload:Heleonix.Testing.NUnit.Aaa.AaaSpec.Act
+  isExternal: true
+  name: Act
+  nameWithType: AaaSpec.Act
+  fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.Act
+- uid: System.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.And*
+  commentId: Overload:Heleonix.Testing.NUnit.Aaa.AaaSpec.And
+  isExternal: true
+  name: And
+  nameWithType: AaaSpec.And
+  fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.And
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.Arrange*
+  commentId: Overload:Heleonix.Testing.NUnit.Aaa.AaaSpec.Arrange
+  isExternal: true
+  name: Arrange
+  nameWithType: AaaSpec.Arrange
+  fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.Arrange
+- uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.Should*
+  commentId: Overload:Heleonix.Testing.NUnit.Aaa.AaaSpec.Should
+  isExternal: true
+  name: Should
+  nameWithType: AaaSpec.Should
+  fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.Should
+- uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.Teardown*
+  commentId: Overload:Heleonix.Testing.NUnit.Aaa.AaaSpec.Teardown
+  isExternal: true
+  name: Teardown
+  nameWithType: AaaSpec.Teardown
+  fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.Teardown
+- uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.When*
+  commentId: Overload:Heleonix.Testing.NUnit.Aaa.AaaSpec.When
+  isExternal: true
+  name: When
+  nameWithType: AaaSpec.When
+  fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.When

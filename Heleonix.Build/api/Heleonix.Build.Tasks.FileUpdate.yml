@@ -1,0 +1,313 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Build.Tasks.FileUpdate
+  commentId: T:Heleonix.Build.Tasks.FileUpdate
+  id: FileUpdate
+  parent: Heleonix.Build.Tasks
+  children:
+  - Heleonix.Build.Tasks.FileUpdate.#ctor
+  - Heleonix.Build.Tasks.FileUpdate.ExecuteInternal
+  - Heleonix.Build.Tasks.FileUpdate.File
+  - Heleonix.Build.Tasks.FileUpdate.RegExp
+  - Heleonix.Build.Tasks.FileUpdate.RegExpOptions
+  - Heleonix.Build.Tasks.FileUpdate.Replacement
+  langs:
+  - csharp
+  - vb
+  name: FileUpdate
+  nameWithType: FileUpdate
+  fullName: Heleonix.Build.Tasks.FileUpdate
+  type: Class
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nUpdates a file with specified regular expression and content.\n"
+  syntax:
+    content: 'public class FileUpdate : BaseTask'
+    content.vb: >-
+      Public Class FileUpdate
+          Inherits BaseTask
+  inheritance:
+  - System.Object
+  - Heleonix.Build.Tasks.BaseTask
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Heleonix.Build.Tasks.FileUpdate.ExecuteInternal
+  commentId: M:Heleonix.Build.Tasks.FileUpdate.ExecuteInternal
+  id: ExecuteInternal
+  parent: Heleonix.Build.Tasks.FileUpdate
+  langs:
+  - csharp
+  - vb
+  name: ExecuteInternal()
+  nameWithType: FileUpdate.ExecuteInternal()
+  fullName: Heleonix.Build.Tasks.FileUpdate.ExecuteInternal()
+  type: Method
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nUpdates a file with specified regular expression and content.\n"
+  syntax:
+    content: protected override void ExecuteInternal()
+    content.vb: Protected Overrides Sub ExecuteInternal
+  overridden: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+  overload: Heleonix.Build.Tasks.FileUpdate.ExecuteInternal*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Heleonix.Build.Tasks.FileUpdate.#ctor
+  commentId: M:Heleonix.Build.Tasks.FileUpdate.#ctor
+  id: '#ctor'
+  parent: Heleonix.Build.Tasks.FileUpdate
+  langs:
+  - csharp
+  - vb
+  name: FileUpdate()
+  nameWithType: FileUpdate.FileUpdate()
+  fullName: Heleonix.Build.Tasks.FileUpdate.FileUpdate()
+  type: Constructor
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  syntax:
+    content: public FileUpdate()
+    content.vb: Public Sub New
+  overload: Heleonix.Build.Tasks.FileUpdate.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.FileUpdate.File
+  commentId: P:Heleonix.Build.Tasks.FileUpdate.File
+  id: File
+  parent: Heleonix.Build.Tasks.FileUpdate
+  langs:
+  - csharp
+  - vb
+  name: File
+  nameWithType: FileUpdate.File
+  fullName: Heleonix.Build.Tasks.FileUpdate.File
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the file path.\n"
+  syntax:
+    content: public string File { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property File As String
+  overload: Heleonix.Build.Tasks.FileUpdate.File*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.FileUpdate.RegExp
+  commentId: P:Heleonix.Build.Tasks.FileUpdate.RegExp
+  id: RegExp
+  parent: Heleonix.Build.Tasks.FileUpdate
+  langs:
+  - csharp
+  - vb
+  name: RegExp
+  nameWithType: FileUpdate.RegExp
+  fullName: Heleonix.Build.Tasks.FileUpdate.RegExp
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the .NET regular expression to find content to replace.\n"
+  syntax:
+    content: public string RegExp { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RegExp As String
+  overload: Heleonix.Build.Tasks.FileUpdate.RegExp*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.FileUpdate.RegExpOptions
+  commentId: P:Heleonix.Build.Tasks.FileUpdate.RegExpOptions
+  id: RegExpOptions
+  parent: Heleonix.Build.Tasks.FileUpdate
+  langs:
+  - csharp
+  - vb
+  name: RegExpOptions
+  nameWithType: FileUpdate.RegExpOptions
+  fullName: Heleonix.Build.Tasks.FileUpdate.RegExpOptions
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the .NET regular expression options.\n"
+  syntax:
+    content: public string RegExpOptions { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RegExpOptions As String
+  overload: Heleonix.Build.Tasks.FileUpdate.RegExpOptions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.FileUpdate.Replacement
+  commentId: P:Heleonix.Build.Tasks.FileUpdate.Replacement
+  id: Replacement
+  parent: Heleonix.Build.Tasks.FileUpdate
+  langs:
+  - csharp
+  - vb
+  name: Replacement
+  nameWithType: FileUpdate.Replacement
+  fullName: Heleonix.Build.Tasks.FileUpdate.Replacement
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets content to replace with.\n"
+  syntax:
+    content: public string Replacement { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Replacement As String
+  overload: Heleonix.Build.Tasks.FileUpdate.Replacement*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Heleonix.Build.Tasks
+  commentId: N:Heleonix.Build.Tasks
+  isExternal: true
+  name: Heleonix.Build.Tasks
+  nameWithType: Heleonix.Build.Tasks
+  fullName: Heleonix.Build.Tasks
+- uid: Heleonix.Build.Tasks.BaseTask
+  commentId: T:Heleonix.Build.Tasks.BaseTask
+  parent: Heleonix.Build.Tasks
+  isExternal: true
+  name: BaseTask
+  nameWithType: BaseTask
+  fullName: Heleonix.Build.Tasks.BaseTask
+- uid: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+  commentId: M:Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+  parent: Heleonix.Build.Tasks.BaseTask
+  isExternal: true
+  name: ExecuteInternal()
+  nameWithType: BaseTask.ExecuteInternal()
+  fullName: Heleonix.Build.Tasks.BaseTask.ExecuteInternal()
+  spec.csharp:
+  - uid: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+    name: ExecuteInternal
+    nameWithType: BaseTask.ExecuteInternal
+    fullName: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+    name: ExecuteInternal
+    nameWithType: BaseTask.ExecuteInternal
+    fullName: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Heleonix.Build.Tasks.FileUpdate.ExecuteInternal*
+  commentId: Overload:Heleonix.Build.Tasks.FileUpdate.ExecuteInternal
+  isExternal: true
+  name: ExecuteInternal
+  nameWithType: FileUpdate.ExecuteInternal
+  fullName: Heleonix.Build.Tasks.FileUpdate.ExecuteInternal
+- uid: Heleonix.Build.Tasks.FileUpdate.#ctor*
+  commentId: Overload:Heleonix.Build.Tasks.FileUpdate.#ctor
+  isExternal: true
+  name: FileUpdate
+  nameWithType: FileUpdate.FileUpdate
+  fullName: Heleonix.Build.Tasks.FileUpdate.FileUpdate
+- uid: Heleonix.Build.Tasks.FileUpdate.File*
+  commentId: Overload:Heleonix.Build.Tasks.FileUpdate.File
+  isExternal: true
+  name: File
+  nameWithType: FileUpdate.File
+  fullName: Heleonix.Build.Tasks.FileUpdate.File
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Heleonix.Build.Tasks.FileUpdate.RegExp*
+  commentId: Overload:Heleonix.Build.Tasks.FileUpdate.RegExp
+  isExternal: true
+  name: RegExp
+  nameWithType: FileUpdate.RegExp
+  fullName: Heleonix.Build.Tasks.FileUpdate.RegExp
+- uid: Heleonix.Build.Tasks.FileUpdate.RegExpOptions*
+  commentId: Overload:Heleonix.Build.Tasks.FileUpdate.RegExpOptions
+  isExternal: true
+  name: RegExpOptions
+  nameWithType: FileUpdate.RegExpOptions
+  fullName: Heleonix.Build.Tasks.FileUpdate.RegExpOptions
+- uid: Heleonix.Build.Tasks.FileUpdate.Replacement*
+  commentId: Overload:Heleonix.Build.Tasks.FileUpdate.Replacement
+  isExternal: true
+  name: Replacement
+  nameWithType: FileUpdate.Replacement
+  fullName: Heleonix.Build.Tasks.FileUpdate.Replacement

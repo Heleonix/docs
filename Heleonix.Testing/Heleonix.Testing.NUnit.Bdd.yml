@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.NUnit.Bdd
+  commentId: N:Heleonix.Testing.NUnit.Bdd
+  id: Heleonix.Testing.NUnit.Bdd
+  children:
+  - Heleonix.Testing.NUnit.Bdd.BddSpec
+  - Heleonix.Testing.NUnit.Bdd.FeatureAttribute
+  - Heleonix.Testing.NUnit.Bdd.ScenarioAttribute
+  - Heleonix.Testing.NUnit.Bdd.StoryAttribute
+  langs:
+  - csharp
+  - vb
+  name: Heleonix.Testing.NUnit.Bdd
+  nameWithType: Heleonix.Testing.NUnit.Bdd
+  fullName: Heleonix.Testing.NUnit.Bdd
+  type: Namespace
+  assemblies:
+  - Heleonix.Testing.NUnit
+references:
+- uid: Heleonix.Testing.NUnit.Bdd.BddSpec
+  commentId: T:Heleonix.Testing.NUnit.Bdd.BddSpec
+  isExternal: true
+  name: BddSpec
+  nameWithType: BddSpec
+  fullName: Heleonix.Testing.NUnit.Bdd.BddSpec
+- uid: Heleonix.Testing.NUnit.Bdd.FeatureAttribute
+  commentId: T:Heleonix.Testing.NUnit.Bdd.FeatureAttribute
+  isExternal: true
+  name: FeatureAttribute
+  nameWithType: FeatureAttribute
+  fullName: Heleonix.Testing.NUnit.Bdd.FeatureAttribute
+- uid: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute
+  commentId: T:Heleonix.Testing.NUnit.Bdd.ScenarioAttribute
+  isExternal: true
+  name: ScenarioAttribute
+  nameWithType: ScenarioAttribute
+  fullName: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute
+- uid: Heleonix.Testing.NUnit.Bdd.StoryAttribute
+  commentId: T:Heleonix.Testing.NUnit.Bdd.StoryAttribute
+  isExternal: true
+  name: StoryAttribute
+  nameWithType: StoryAttribute
+  fullName: Heleonix.Testing.NUnit.Bdd.StoryAttribute

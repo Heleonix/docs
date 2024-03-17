@@ -1,0 +1,1434 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Build.Tasks.OpenCover
+  commentId: T:Heleonix.Build.Tasks.OpenCover
+  id: OpenCover
+  parent: Heleonix.Build.Tasks
+  children:
+  - Heleonix.Build.Tasks.OpenCover.#ctor
+  - Heleonix.Build.Tasks.OpenCover.BranchCoverage
+  - Heleonix.Build.Tasks.OpenCover.ClassCoverage
+  - Heleonix.Build.Tasks.OpenCover.CoverageResultFile
+  - Heleonix.Build.Tasks.OpenCover.ExcludeByAttributeFilters
+  - Heleonix.Build.Tasks.OpenCover.ExcludeDirs
+  - Heleonix.Build.Tasks.OpenCover.ExecuteInternal
+  - Heleonix.Build.Tasks.OpenCover.FilePathRegExp
+  - Heleonix.Build.Tasks.OpenCover.FilePathRegExpOptions
+  - Heleonix.Build.Tasks.OpenCover.FilePathReplacement
+  - Heleonix.Build.Tasks.OpenCover.Filters
+  - Heleonix.Build.Tasks.OpenCover.LineCoverage
+  - Heleonix.Build.Tasks.OpenCover.MaxCyclomaticComplexity
+  - Heleonix.Build.Tasks.OpenCover.MaxVisitCount
+  - Heleonix.Build.Tasks.OpenCover.MethodCoverage
+  - Heleonix.Build.Tasks.OpenCover.MinBranchCoverage
+  - Heleonix.Build.Tasks.OpenCover.MinClassCoverage
+  - Heleonix.Build.Tasks.OpenCover.MinCyclomaticComplexity
+  - Heleonix.Build.Tasks.OpenCover.MinLineCoverage
+  - Heleonix.Build.Tasks.OpenCover.MinMethodCoverage
+  - Heleonix.Build.Tasks.OpenCover.OpenCoverExe
+  - Heleonix.Build.Tasks.OpenCover.PdbSearchDirs
+  - Heleonix.Build.Tasks.OpenCover.Register
+  - Heleonix.Build.Tasks.OpenCover.ShowUnvisited
+  - Heleonix.Build.Tasks.OpenCover.Target
+  - Heleonix.Build.Tasks.OpenCover.TotalBranches
+  - Heleonix.Build.Tasks.OpenCover.TotalClasses
+  - Heleonix.Build.Tasks.OpenCover.TotalLines
+  - Heleonix.Build.Tasks.OpenCover.TotalMethods
+  - Heleonix.Build.Tasks.OpenCover.VisitedBranches
+  - Heleonix.Build.Tasks.OpenCover.VisitedClasses
+  - Heleonix.Build.Tasks.OpenCover.VisitedLines
+  - Heleonix.Build.Tasks.OpenCover.VisitedMethods
+  - Heleonix.Build.Tasks.OpenCover.WorkingDir
+  langs:
+  - csharp
+  - vb
+  name: OpenCover
+  nameWithType: OpenCover
+  fullName: Heleonix.Build.Tasks.OpenCover
+  type: Class
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nRuns the OpenCover.\n"
+  syntax:
+    content: 'public class OpenCover : BaseTask'
+    content.vb: >-
+      Public Class OpenCover
+          Inherits BaseTask
+  seealso:
+  - linkId: Heleonix.Build.Tasks.BaseTask
+    commentId: T:Heleonix.Build.Tasks.BaseTask
+  inheritance:
+  - System.Object
+  - Heleonix.Build.Tasks.BaseTask
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Heleonix.Build.Tasks.OpenCover.ExecuteInternal
+  commentId: M:Heleonix.Build.Tasks.OpenCover.ExecuteInternal
+  id: ExecuteInternal
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: ExecuteInternal()
+  nameWithType: OpenCover.ExecuteInternal()
+  fullName: Heleonix.Build.Tasks.OpenCover.ExecuteInternal()
+  type: Method
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nExecutes the OpenCover.\n"
+  syntax:
+    content: protected override void ExecuteInternal()
+    content.vb: Protected Overrides Sub ExecuteInternal
+  overridden: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+  overload: Heleonix.Build.Tasks.OpenCover.ExecuteInternal*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Heleonix.Build.Tasks.OpenCover.#ctor
+  commentId: M:Heleonix.Build.Tasks.OpenCover.#ctor
+  id: '#ctor'
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: OpenCover()
+  nameWithType: OpenCover.OpenCover()
+  fullName: Heleonix.Build.Tasks.OpenCover.OpenCover()
+  type: Constructor
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  syntax:
+    content: public OpenCover()
+    content.vb: Public Sub New
+  overload: Heleonix.Build.Tasks.OpenCover.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.OpenCoverExe
+  commentId: P:Heleonix.Build.Tasks.OpenCover.OpenCoverExe
+  id: OpenCoverExe
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: OpenCoverExe
+  nameWithType: OpenCover.OpenCoverExe
+  fullName: Heleonix.Build.Tasks.OpenCover.OpenCoverExe
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the OpenCover executable path.\n"
+  syntax:
+    content: public string OpenCoverExe { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OpenCoverExe As String
+  overload: Heleonix.Build.Tasks.OpenCover.OpenCoverExe*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.Target
+  commentId: P:Heleonix.Build.Tasks.OpenCover.Target
+  id: Target
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: Target
+  nameWithType: OpenCover.Target
+  fullName: Heleonix.Build.Tasks.OpenCover.Target
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the target executable path with command line arguments and its type in metadata.\n"
+  syntax:
+    content: public ITaskItem Target { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.Build.Framework.ITaskItem
+    content.vb: Public Property Target As ITaskItem
+  overload: Heleonix.Build.Tasks.OpenCover.Target*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.CoverageResultFile
+  commentId: P:Heleonix.Build.Tasks.OpenCover.CoverageResultFile
+  id: CoverageResultFile
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: CoverageResultFile
+  nameWithType: OpenCover.CoverageResultFile
+  fullName: Heleonix.Build.Tasks.OpenCover.CoverageResultFile
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the coverage result output file path.\n"
+  syntax:
+    content: public string CoverageResultFile { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CoverageResultFile As String
+  overload: Heleonix.Build.Tasks.OpenCover.CoverageResultFile*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.PdbSearchDirs
+  commentId: P:Heleonix.Build.Tasks.OpenCover.PdbSearchDirs
+  id: PdbSearchDirs
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: PdbSearchDirs
+  nameWithType: OpenCover.PdbSearchDirs
+  fullName: Heleonix.Build.Tasks.OpenCover.PdbSearchDirs
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the PDB search directories path.\n"
+  syntax:
+    content: public ITaskItem[] PdbSearchDirs { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.Build.Framework.ITaskItem[]
+    content.vb: Public Property PdbSearchDirs As ITaskItem()
+  overload: Heleonix.Build.Tasks.OpenCover.PdbSearchDirs*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.MinClassCoverage
+  commentId: P:Heleonix.Build.Tasks.OpenCover.MinClassCoverage
+  id: MinClassCoverage
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: MinClassCoverage
+  nameWithType: OpenCover.MinClassCoverage
+  fullName: Heleonix.Build.Tasks.OpenCover.MinClassCoverage
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the minimum class coverage, in range: 0% - 100%.\n"
+  syntax:
+    content: public int MinClassCoverage { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MinClassCoverage As Integer
+  overload: Heleonix.Build.Tasks.OpenCover.MinClassCoverage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.MinMethodCoverage
+  commentId: P:Heleonix.Build.Tasks.OpenCover.MinMethodCoverage
+  id: MinMethodCoverage
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: MinMethodCoverage
+  nameWithType: OpenCover.MinMethodCoverage
+  fullName: Heleonix.Build.Tasks.OpenCover.MinMethodCoverage
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the minimum method coverage, in range: 0% - 100%.\n"
+  syntax:
+    content: public int MinMethodCoverage { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MinMethodCoverage As Integer
+  overload: Heleonix.Build.Tasks.OpenCover.MinMethodCoverage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.MinBranchCoverage
+  commentId: P:Heleonix.Build.Tasks.OpenCover.MinBranchCoverage
+  id: MinBranchCoverage
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: MinBranchCoverage
+  nameWithType: OpenCover.MinBranchCoverage
+  fullName: Heleonix.Build.Tasks.OpenCover.MinBranchCoverage
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the minimum branch coverage, in range: 0% - 100%.\n"
+  syntax:
+    content: public int MinBranchCoverage { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MinBranchCoverage As Integer
+  overload: Heleonix.Build.Tasks.OpenCover.MinBranchCoverage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.MinLineCoverage
+  commentId: P:Heleonix.Build.Tasks.OpenCover.MinLineCoverage
+  id: MinLineCoverage
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: MinLineCoverage
+  nameWithType: OpenCover.MinLineCoverage
+  fullName: Heleonix.Build.Tasks.OpenCover.MinLineCoverage
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the minimum line coverage, in range: 0% - 100%.\n"
+  syntax:
+    content: public int MinLineCoverage { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MinLineCoverage As Integer
+  overload: Heleonix.Build.Tasks.OpenCover.MinLineCoverage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.ExcludeByAttributeFilters
+  commentId: P:Heleonix.Build.Tasks.OpenCover.ExcludeByAttributeFilters
+  id: ExcludeByAttributeFilters
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: ExcludeByAttributeFilters
+  nameWithType: OpenCover.ExcludeByAttributeFilters
+  fullName: Heleonix.Build.Tasks.OpenCover.ExcludeByAttributeFilters
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the filters to exclude code from coverage by attribute in format: Name*;*Attribute.\n"
+  syntax:
+    content: public string ExcludeByAttributeFilters { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExcludeByAttributeFilters As String
+  overload: Heleonix.Build.Tasks.OpenCover.ExcludeByAttributeFilters*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.ExcludeDirs
+  commentId: P:Heleonix.Build.Tasks.OpenCover.ExcludeDirs
+  id: ExcludeDirs
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: ExcludeDirs
+  nameWithType: OpenCover.ExcludeDirs
+  fullName: Heleonix.Build.Tasks.OpenCover.ExcludeDirs
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the directories to exclude assemblies from coverage loaded from these directories.\n"
+  syntax:
+    content: public ITaskItem[] ExcludeDirs { get; set; }
+    parameters: []
+    return:
+      type: Microsoft.Build.Framework.ITaskItem[]
+    content.vb: Public Property ExcludeDirs As ITaskItem()
+  overload: Heleonix.Build.Tasks.OpenCover.ExcludeDirs*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.Filters
+  commentId: P:Heleonix.Build.Tasks.OpenCover.Filters
+  id: Filters
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: Filters
+  nameWithType: OpenCover.Filters
+  fullName: Heleonix.Build.Tasks.OpenCover.Filters
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the filters of binaries to cover in format: +[ModuleName*]*ClassName -[ModuleName*]*ClassName.\n"
+  syntax:
+    content: public string Filters { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Filters As String
+  overload: Heleonix.Build.Tasks.OpenCover.Filters*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.ShowUnvisited
+  commentId: P:Heleonix.Build.Tasks.OpenCover.ShowUnvisited
+  id: ShowUnvisited
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: ShowUnvisited
+  nameWithType: OpenCover.ShowUnvisited
+  fullName: Heleonix.Build.Tasks.OpenCover.ShowUnvisited
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets a value indicating whether show unvisited methods and classes after coverage finishes and results are presented.\n"
+  syntax:
+    content: public bool ShowUnvisited { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShowUnvisited As Boolean
+  overload: Heleonix.Build.Tasks.OpenCover.ShowUnvisited*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.MaxVisitCount
+  commentId: P:Heleonix.Build.Tasks.OpenCover.MaxVisitCount
+  id: MaxVisitCount
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: MaxVisitCount
+  nameWithType: OpenCover.MaxVisitCount
+  fullName: Heleonix.Build.Tasks.OpenCover.MaxVisitCount
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the maximum visits count. Limiting can improve performance.\n"
+  syntax:
+    content: public int MaxVisitCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxVisitCount As Integer
+  overload: Heleonix.Build.Tasks.OpenCover.MaxVisitCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.Register
+  commentId: P:Heleonix.Build.Tasks.OpenCover.Register
+  id: Register
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: Register
+  nameWithType: OpenCover.Register
+  fullName: Heleonix.Build.Tasks.OpenCover.Register
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the type of registration of the OpenCover profiler.\n"
+  remarks: "\nPossible values:\n<ul><li>auto</li><li>user</li><li>path32</li><li>path64</li></ul>\n"
+  syntax:
+    content: public string Register { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Register As String
+  overload: Heleonix.Build.Tasks.OpenCover.Register*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.FilePathReplacement
+  commentId: P:Heleonix.Build.Tasks.OpenCover.FilePathReplacement
+  id: FilePathReplacement
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: FilePathReplacement
+  nameWithType: OpenCover.FilePathReplacement
+  fullName: Heleonix.Build.Tasks.OpenCover.FilePathReplacement
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the file path to replace the paths of covered files with.\n"
+  syntax:
+    content: public string FilePathReplacement { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FilePathReplacement As String
+  overload: Heleonix.Build.Tasks.OpenCover.FilePathReplacement*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.FilePathRegExp
+  commentId: P:Heleonix.Build.Tasks.OpenCover.FilePathRegExp
+  id: FilePathRegExp
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: FilePathRegExp
+  nameWithType: OpenCover.FilePathRegExp
+  fullName: Heleonix.Build.Tasks.OpenCover.FilePathRegExp
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the .NET regular expression to replace file paths of covered files.\n"
+  syntax:
+    content: public string FilePathRegExp { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FilePathRegExp As String
+  overload: Heleonix.Build.Tasks.OpenCover.FilePathRegExp*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.FilePathRegExpOptions
+  commentId: P:Heleonix.Build.Tasks.OpenCover.FilePathRegExpOptions
+  id: FilePathRegExpOptions
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: FilePathRegExpOptions
+  nameWithType: OpenCover.FilePathRegExpOptions
+  fullName: Heleonix.Build.Tasks.OpenCover.FilePathRegExpOptions
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the .NET regular expression options to replace paths. Default is &quot;IgnoreCase&quot;.\n"
+  syntax:
+    content: public string FilePathRegExpOptions { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FilePathRegExpOptions As String
+  overload: Heleonix.Build.Tasks.OpenCover.FilePathRegExpOptions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.WorkingDir
+  commentId: P:Heleonix.Build.Tasks.OpenCover.WorkingDir
+  id: WorkingDir
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: WorkingDir
+  nameWithType: OpenCover.WorkingDir
+  fullName: Heleonix.Build.Tasks.OpenCover.WorkingDir
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the working directory to run the executable in.\n"
+  syntax:
+    content: public string WorkingDir { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property WorkingDir As String
+  overload: Heleonix.Build.Tasks.OpenCover.WorkingDir*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.TotalLines
+  commentId: P:Heleonix.Build.Tasks.OpenCover.TotalLines
+  id: TotalLines
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: TotalLines
+  nameWithType: OpenCover.TotalLines
+  fullName: Heleonix.Build.Tasks.OpenCover.TotalLines
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the total lines count [Output].\n"
+  syntax:
+    content: public long TotalLines { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TotalLines As Long
+  overload: Heleonix.Build.Tasks.OpenCover.TotalLines*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.VisitedLines
+  commentId: P:Heleonix.Build.Tasks.OpenCover.VisitedLines
+  id: VisitedLines
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: VisitedLines
+  nameWithType: OpenCover.VisitedLines
+  fullName: Heleonix.Build.Tasks.OpenCover.VisitedLines
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the visited lines count [Output].\n"
+  syntax:
+    content: public long VisitedLines { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property VisitedLines As Long
+  overload: Heleonix.Build.Tasks.OpenCover.VisitedLines*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.TotalBranches
+  commentId: P:Heleonix.Build.Tasks.OpenCover.TotalBranches
+  id: TotalBranches
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: TotalBranches
+  nameWithType: OpenCover.TotalBranches
+  fullName: Heleonix.Build.Tasks.OpenCover.TotalBranches
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the total branches count [Output].\n"
+  syntax:
+    content: public long TotalBranches { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TotalBranches As Long
+  overload: Heleonix.Build.Tasks.OpenCover.TotalBranches*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.VisitedBranches
+  commentId: P:Heleonix.Build.Tasks.OpenCover.VisitedBranches
+  id: VisitedBranches
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: VisitedBranches
+  nameWithType: OpenCover.VisitedBranches
+  fullName: Heleonix.Build.Tasks.OpenCover.VisitedBranches
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the visited branches count [Output].\n"
+  syntax:
+    content: public long VisitedBranches { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property VisitedBranches As Long
+  overload: Heleonix.Build.Tasks.OpenCover.VisitedBranches*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.TotalClasses
+  commentId: P:Heleonix.Build.Tasks.OpenCover.TotalClasses
+  id: TotalClasses
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: TotalClasses
+  nameWithType: OpenCover.TotalClasses
+  fullName: Heleonix.Build.Tasks.OpenCover.TotalClasses
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the total classes count [Output].\n"
+  syntax:
+    content: public long TotalClasses { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TotalClasses As Long
+  overload: Heleonix.Build.Tasks.OpenCover.TotalClasses*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.VisitedClasses
+  commentId: P:Heleonix.Build.Tasks.OpenCover.VisitedClasses
+  id: VisitedClasses
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: VisitedClasses
+  nameWithType: OpenCover.VisitedClasses
+  fullName: Heleonix.Build.Tasks.OpenCover.VisitedClasses
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the visited classes count [Output].\n"
+  syntax:
+    content: public long VisitedClasses { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property VisitedClasses As Long
+  overload: Heleonix.Build.Tasks.OpenCover.VisitedClasses*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.TotalMethods
+  commentId: P:Heleonix.Build.Tasks.OpenCover.TotalMethods
+  id: TotalMethods
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: TotalMethods
+  nameWithType: OpenCover.TotalMethods
+  fullName: Heleonix.Build.Tasks.OpenCover.TotalMethods
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the total methods count [Output].\n"
+  syntax:
+    content: public long TotalMethods { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TotalMethods As Long
+  overload: Heleonix.Build.Tasks.OpenCover.TotalMethods*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.VisitedMethods
+  commentId: P:Heleonix.Build.Tasks.OpenCover.VisitedMethods
+  id: VisitedMethods
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: VisitedMethods
+  nameWithType: OpenCover.VisitedMethods
+  fullName: Heleonix.Build.Tasks.OpenCover.VisitedMethods
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the visited methods count [Output].\n"
+  syntax:
+    content: public long VisitedMethods { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property VisitedMethods As Long
+  overload: Heleonix.Build.Tasks.OpenCover.VisitedMethods*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.MinCyclomaticComplexity
+  commentId: P:Heleonix.Build.Tasks.OpenCover.MinCyclomaticComplexity
+  id: MinCyclomaticComplexity
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: MinCyclomaticComplexity
+  nameWithType: OpenCover.MinCyclomaticComplexity
+  fullName: Heleonix.Build.Tasks.OpenCover.MinCyclomaticComplexity
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the minimum cyclomatic complexity [Output].\n"
+  syntax:
+    content: public int MinCyclomaticComplexity { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MinCyclomaticComplexity As Integer
+  overload: Heleonix.Build.Tasks.OpenCover.MinCyclomaticComplexity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.MaxCyclomaticComplexity
+  commentId: P:Heleonix.Build.Tasks.OpenCover.MaxCyclomaticComplexity
+  id: MaxCyclomaticComplexity
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: MaxCyclomaticComplexity
+  nameWithType: OpenCover.MaxCyclomaticComplexity
+  fullName: Heleonix.Build.Tasks.OpenCover.MaxCyclomaticComplexity
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the maximum cyclomatic complexity [Output].\n"
+  syntax:
+    content: public int MaxCyclomaticComplexity { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxCyclomaticComplexity As Integer
+  overload: Heleonix.Build.Tasks.OpenCover.MaxCyclomaticComplexity*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.ClassCoverage
+  commentId: P:Heleonix.Build.Tasks.OpenCover.ClassCoverage
+  id: ClassCoverage
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: ClassCoverage
+  nameWithType: OpenCover.ClassCoverage
+  fullName: Heleonix.Build.Tasks.OpenCover.ClassCoverage
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the class coverage, in range: 0% - 100% [Output].\n"
+  syntax:
+    content: public int ClassCoverage { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ClassCoverage As Integer
+  overload: Heleonix.Build.Tasks.OpenCover.ClassCoverage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.MethodCoverage
+  commentId: P:Heleonix.Build.Tasks.OpenCover.MethodCoverage
+  id: MethodCoverage
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: MethodCoverage
+  nameWithType: OpenCover.MethodCoverage
+  fullName: Heleonix.Build.Tasks.OpenCover.MethodCoverage
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the method coverage, in range: 0% - 100% [Output].\n"
+  syntax:
+    content: public int MethodCoverage { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MethodCoverage As Integer
+  overload: Heleonix.Build.Tasks.OpenCover.MethodCoverage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.LineCoverage
+  commentId: P:Heleonix.Build.Tasks.OpenCover.LineCoverage
+  id: LineCoverage
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: LineCoverage
+  nameWithType: OpenCover.LineCoverage
+  fullName: Heleonix.Build.Tasks.OpenCover.LineCoverage
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the line coverage, in range: 0% - 100% [Output].\n"
+  syntax:
+    content: public int LineCoverage { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property LineCoverage As Integer
+  overload: Heleonix.Build.Tasks.OpenCover.LineCoverage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Heleonix.Build.Tasks.OpenCover.BranchCoverage
+  commentId: P:Heleonix.Build.Tasks.OpenCover.BranchCoverage
+  id: BranchCoverage
+  parent: Heleonix.Build.Tasks.OpenCover
+  langs:
+  - csharp
+  - vb
+  name: BranchCoverage
+  nameWithType: OpenCover.BranchCoverage
+  fullName: Heleonix.Build.Tasks.OpenCover.BranchCoverage
+  type: Property
+  source:
+    path: Heleonix.Build
+    isExternal: true
+  assemblies:
+  - Heleonix.Build
+  namespace: Heleonix.Build.Tasks
+  summary: "\nGets or sets the branch coverage, in range: 0% - 100% [Output].\n"
+  syntax:
+    content: public int BranchCoverage { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property BranchCoverage As Integer
+  overload: Heleonix.Build.Tasks.OpenCover.BranchCoverage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Heleonix.Build.Tasks
+  commentId: N:Heleonix.Build.Tasks
+  isExternal: true
+  name: Heleonix.Build.Tasks
+  nameWithType: Heleonix.Build.Tasks
+  fullName: Heleonix.Build.Tasks
+- uid: Heleonix.Build.Tasks.BaseTask
+  commentId: T:Heleonix.Build.Tasks.BaseTask
+  parent: Heleonix.Build.Tasks
+  isExternal: true
+  name: BaseTask
+  nameWithType: BaseTask
+  fullName: Heleonix.Build.Tasks.BaseTask
+- uid: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+  commentId: M:Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+  parent: Heleonix.Build.Tasks.BaseTask
+  isExternal: true
+  name: ExecuteInternal()
+  nameWithType: BaseTask.ExecuteInternal()
+  fullName: Heleonix.Build.Tasks.BaseTask.ExecuteInternal()
+  spec.csharp:
+  - uid: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+    name: ExecuteInternal
+    nameWithType: BaseTask.ExecuteInternal
+    fullName: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+    name: ExecuteInternal
+    nameWithType: BaseTask.ExecuteInternal
+    fullName: Heleonix.Build.Tasks.BaseTask.ExecuteInternal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Heleonix.Build.Tasks.OpenCover.ExecuteInternal*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.ExecuteInternal
+  isExternal: true
+  name: ExecuteInternal
+  nameWithType: OpenCover.ExecuteInternal
+  fullName: Heleonix.Build.Tasks.OpenCover.ExecuteInternal
+- uid: Heleonix.Build.Tasks.OpenCover.#ctor*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.#ctor
+  isExternal: true
+  name: OpenCover
+  nameWithType: OpenCover.OpenCover
+  fullName: Heleonix.Build.Tasks.OpenCover.OpenCover
+- uid: Heleonix.Build.Tasks.OpenCover.OpenCoverExe*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.OpenCoverExe
+  isExternal: true
+  name: OpenCoverExe
+  nameWithType: OpenCover.OpenCoverExe
+  fullName: Heleonix.Build.Tasks.OpenCover.OpenCoverExe
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Heleonix.Build.Tasks.OpenCover.Target*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.Target
+  isExternal: true
+  name: Target
+  nameWithType: OpenCover.Target
+  fullName: Heleonix.Build.Tasks.OpenCover.Target
+- uid: Microsoft.Build.Framework.ITaskItem
+  commentId: '!:Microsoft.Build.Framework.ITaskItem'
+  isExternal: true
+  name: ITaskItem
+  nameWithType: ITaskItem
+  fullName: Microsoft.Build.Framework.ITaskItem
+- uid: Heleonix.Build.Tasks.OpenCover.CoverageResultFile*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.CoverageResultFile
+  isExternal: true
+  name: CoverageResultFile
+  nameWithType: OpenCover.CoverageResultFile
+  fullName: Heleonix.Build.Tasks.OpenCover.CoverageResultFile
+- uid: Heleonix.Build.Tasks.OpenCover.PdbSearchDirs*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.PdbSearchDirs
+  isExternal: true
+  name: PdbSearchDirs
+  nameWithType: OpenCover.PdbSearchDirs
+  fullName: Heleonix.Build.Tasks.OpenCover.PdbSearchDirs
+- uid: Microsoft.Build.Framework.ITaskItem[]
+  isExternal: true
+  name: ITaskItem[]
+  nameWithType: ITaskItem[]
+  fullName: Microsoft.Build.Framework.ITaskItem[]
+  nameWithType.vb: ITaskItem()
+  fullName.vb: Microsoft.Build.Framework.ITaskItem()
+  name.vb: ITaskItem()
+  spec.csharp:
+  - uid: Microsoft.Build.Framework.ITaskItem
+    name: ITaskItem
+    nameWithType: ITaskItem
+    fullName: Microsoft.Build.Framework.ITaskItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Microsoft.Build.Framework.ITaskItem
+    name: ITaskItem
+    nameWithType: ITaskItem
+    fullName: Microsoft.Build.Framework.ITaskItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Heleonix.Build.Tasks.OpenCover.MinClassCoverage*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.MinClassCoverage
+  isExternal: true
+  name: MinClassCoverage
+  nameWithType: OpenCover.MinClassCoverage
+  fullName: Heleonix.Build.Tasks.OpenCover.MinClassCoverage
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Heleonix.Build.Tasks.OpenCover.MinMethodCoverage*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.MinMethodCoverage
+  isExternal: true
+  name: MinMethodCoverage
+  nameWithType: OpenCover.MinMethodCoverage
+  fullName: Heleonix.Build.Tasks.OpenCover.MinMethodCoverage
+- uid: Heleonix.Build.Tasks.OpenCover.MinBranchCoverage*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.MinBranchCoverage
+  isExternal: true
+  name: MinBranchCoverage
+  nameWithType: OpenCover.MinBranchCoverage
+  fullName: Heleonix.Build.Tasks.OpenCover.MinBranchCoverage
+- uid: Heleonix.Build.Tasks.OpenCover.MinLineCoverage*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.MinLineCoverage
+  isExternal: true
+  name: MinLineCoverage
+  nameWithType: OpenCover.MinLineCoverage
+  fullName: Heleonix.Build.Tasks.OpenCover.MinLineCoverage
+- uid: Heleonix.Build.Tasks.OpenCover.ExcludeByAttributeFilters*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.ExcludeByAttributeFilters
+  isExternal: true
+  name: ExcludeByAttributeFilters
+  nameWithType: OpenCover.ExcludeByAttributeFilters
+  fullName: Heleonix.Build.Tasks.OpenCover.ExcludeByAttributeFilters
+- uid: Heleonix.Build.Tasks.OpenCover.ExcludeDirs*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.ExcludeDirs
+  isExternal: true
+  name: ExcludeDirs
+  nameWithType: OpenCover.ExcludeDirs
+  fullName: Heleonix.Build.Tasks.OpenCover.ExcludeDirs
+- uid: Heleonix.Build.Tasks.OpenCover.Filters*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.Filters
+  isExternal: true
+  name: Filters
+  nameWithType: OpenCover.Filters
+  fullName: Heleonix.Build.Tasks.OpenCover.Filters
+- uid: Heleonix.Build.Tasks.OpenCover.ShowUnvisited*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.ShowUnvisited
+  isExternal: true
+  name: ShowUnvisited
+  nameWithType: OpenCover.ShowUnvisited
+  fullName: Heleonix.Build.Tasks.OpenCover.ShowUnvisited
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Heleonix.Build.Tasks.OpenCover.MaxVisitCount*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.MaxVisitCount
+  isExternal: true
+  name: MaxVisitCount
+  nameWithType: OpenCover.MaxVisitCount
+  fullName: Heleonix.Build.Tasks.OpenCover.MaxVisitCount
+- uid: Heleonix.Build.Tasks.OpenCover.Register*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.Register
+  isExternal: true
+  name: Register
+  nameWithType: OpenCover.Register
+  fullName: Heleonix.Build.Tasks.OpenCover.Register
+- uid: Heleonix.Build.Tasks.OpenCover.FilePathReplacement*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.FilePathReplacement
+  isExternal: true
+  name: FilePathReplacement
+  nameWithType: OpenCover.FilePathReplacement
+  fullName: Heleonix.Build.Tasks.OpenCover.FilePathReplacement
+- uid: Heleonix.Build.Tasks.OpenCover.FilePathRegExp*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.FilePathRegExp
+  isExternal: true
+  name: FilePathRegExp
+  nameWithType: OpenCover.FilePathRegExp
+  fullName: Heleonix.Build.Tasks.OpenCover.FilePathRegExp
+- uid: Heleonix.Build.Tasks.OpenCover.FilePathRegExpOptions*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.FilePathRegExpOptions
+  isExternal: true
+  name: FilePathRegExpOptions
+  nameWithType: OpenCover.FilePathRegExpOptions
+  fullName: Heleonix.Build.Tasks.OpenCover.FilePathRegExpOptions
+- uid: Heleonix.Build.Tasks.OpenCover.WorkingDir*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.WorkingDir
+  isExternal: true
+  name: WorkingDir
+  nameWithType: OpenCover.WorkingDir
+  fullName: Heleonix.Build.Tasks.OpenCover.WorkingDir
+- uid: Heleonix.Build.Tasks.OpenCover.TotalLines*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.TotalLines
+  isExternal: true
+  name: TotalLines
+  nameWithType: OpenCover.TotalLines
+  fullName: Heleonix.Build.Tasks.OpenCover.TotalLines
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Heleonix.Build.Tasks.OpenCover.VisitedLines*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.VisitedLines
+  isExternal: true
+  name: VisitedLines
+  nameWithType: OpenCover.VisitedLines
+  fullName: Heleonix.Build.Tasks.OpenCover.VisitedLines
+- uid: Heleonix.Build.Tasks.OpenCover.TotalBranches*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.TotalBranches
+  isExternal: true
+  name: TotalBranches
+  nameWithType: OpenCover.TotalBranches
+  fullName: Heleonix.Build.Tasks.OpenCover.TotalBranches
+- uid: Heleonix.Build.Tasks.OpenCover.VisitedBranches*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.VisitedBranches
+  isExternal: true
+  name: VisitedBranches
+  nameWithType: OpenCover.VisitedBranches
+  fullName: Heleonix.Build.Tasks.OpenCover.VisitedBranches
+- uid: Heleonix.Build.Tasks.OpenCover.TotalClasses*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.TotalClasses
+  isExternal: true
+  name: TotalClasses
+  nameWithType: OpenCover.TotalClasses
+  fullName: Heleonix.Build.Tasks.OpenCover.TotalClasses
+- uid: Heleonix.Build.Tasks.OpenCover.VisitedClasses*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.VisitedClasses
+  isExternal: true
+  name: VisitedClasses
+  nameWithType: OpenCover.VisitedClasses
+  fullName: Heleonix.Build.Tasks.OpenCover.VisitedClasses
+- uid: Heleonix.Build.Tasks.OpenCover.TotalMethods*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.TotalMethods
+  isExternal: true
+  name: TotalMethods
+  nameWithType: OpenCover.TotalMethods
+  fullName: Heleonix.Build.Tasks.OpenCover.TotalMethods
+- uid: Heleonix.Build.Tasks.OpenCover.VisitedMethods*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.VisitedMethods
+  isExternal: true
+  name: VisitedMethods
+  nameWithType: OpenCover.VisitedMethods
+  fullName: Heleonix.Build.Tasks.OpenCover.VisitedMethods
+- uid: Heleonix.Build.Tasks.OpenCover.MinCyclomaticComplexity*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.MinCyclomaticComplexity
+  isExternal: true
+  name: MinCyclomaticComplexity
+  nameWithType: OpenCover.MinCyclomaticComplexity
+  fullName: Heleonix.Build.Tasks.OpenCover.MinCyclomaticComplexity
+- uid: Heleonix.Build.Tasks.OpenCover.MaxCyclomaticComplexity*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.MaxCyclomaticComplexity
+  isExternal: true
+  name: MaxCyclomaticComplexity
+  nameWithType: OpenCover.MaxCyclomaticComplexity
+  fullName: Heleonix.Build.Tasks.OpenCover.MaxCyclomaticComplexity
+- uid: Heleonix.Build.Tasks.OpenCover.ClassCoverage*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.ClassCoverage
+  isExternal: true
+  name: ClassCoverage
+  nameWithType: OpenCover.ClassCoverage
+  fullName: Heleonix.Build.Tasks.OpenCover.ClassCoverage
+- uid: Heleonix.Build.Tasks.OpenCover.MethodCoverage*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.MethodCoverage
+  isExternal: true
+  name: MethodCoverage
+  nameWithType: OpenCover.MethodCoverage
+  fullName: Heleonix.Build.Tasks.OpenCover.MethodCoverage
+- uid: Heleonix.Build.Tasks.OpenCover.LineCoverage*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.LineCoverage
+  isExternal: true
+  name: LineCoverage
+  nameWithType: OpenCover.LineCoverage
+  fullName: Heleonix.Build.Tasks.OpenCover.LineCoverage
+- uid: Heleonix.Build.Tasks.OpenCover.BranchCoverage*
+  commentId: Overload:Heleonix.Build.Tasks.OpenCover.BranchCoverage
+  isExternal: true
+  name: BranchCoverage
+  nameWithType: OpenCover.BranchCoverage
+  fullName: Heleonix.Build.Tasks.OpenCover.BranchCoverage
