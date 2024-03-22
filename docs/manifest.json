@@ -1,5 +1,5 @@
 {
-  "source_base_path": "D:/Dev/Projects/Heleonix/docs",
+  "source_base_path": "D:/Dev/Projects/Heleonix/Heleonix.Build/Hx_Artifacts/DocFX",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -11,151 +11,291 @@
       }
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.DirectoryClean.yml",
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Heleonix.Build.xsd",
       "output": {
         ".html": {
-          "relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.DirectoryClean.html"
+          "relative_path": "Heleonix.Build/api/Heleonix.Build.html"
         }
       },
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.FileCopy.yml",
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Targets/Hx_ChangeLog.xsd",
       "output": {
         ".html": {
-          "relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.FileCopy.html"
+          "relative_path": "Heleonix.Build/api/Targets/Hx_ChangeLog.html"
         }
       },
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.FileRazorGenerate.yml",
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Targets/Hx_ChangeLog_GitHubCommit.xsd",
       "output": {
         ".html": {
-          "relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.FileRazorGenerate.html"
+          "relative_path": "Heleonix.Build/api/Targets/Hx_ChangeLog_GitHubCommit.html"
         }
       },
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.FileRead.yml",
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Targets/Hx_DocFX.xsd",
       "output": {
         ".html": {
-          "relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.FileRead.html"
+          "relative_path": "Heleonix.Build/api/Targets/Hx_DocFX.html"
         }
       },
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.FileSystemSearch.yml",
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Targets/Hx_DocFX_Git.xsd",
       "output": {
         ".html": {
-          "relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.FileSystemSearch.html"
+          "relative_path": "Heleonix.Build/api/Targets/Hx_DocFX_Git.html"
         }
       },
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.FileUpdate.yml",
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Targets/Hx_ExtentReport.xsd",
       "output": {
         ".html": {
-          "relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.FileUpdate.html"
+          "relative_path": "Heleonix.Build/api/Targets/Hx_ExtentReport.html"
         }
       },
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.FileValidate.yml",
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Targets/Hx_NetBuild.xsd",
       "output": {
         ".html": {
-          "relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.FileValidate.html"
+          "relative_path": "Heleonix.Build/api/Targets/Hx_NetBuild.html"
         }
       },
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.GitHubCommitChangeLog.yml",
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Targets/Hx_NetNugetPush.xsd",
       "output": {
         ".html": {
-          "relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.GitHubCommitChangeLog.html"
+          "relative_path": "Heleonix.Build/api/Targets/Hx_NetNugetPush.html"
         }
       },
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.GitHubRelease.yml",
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Targets/Hx_NetTest.xsd",
       "output": {
         ".html": {
-          "relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.GitHubRelease.html"
+          "relative_path": "Heleonix.Build/api/Targets/Hx_NetTest.html"
         }
       },
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.NUnit.yml",
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Targets/Hx_NetValidate.xsd",
       "output": {
         ".html": {
-          "relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.NUnit.html"
+          "relative_path": "Heleonix.Build/api/Targets/Hx_NetValidate.html"
         }
       },
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.NugetPush.yml",
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Targets/Hx_Release_GitHub.xsd",
       "output": {
         ".html": {
-          "relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.NugetPush.html"
+          "relative_path": "Heleonix.Build/api/Targets/Hx_Release_GitHub.html"
         }
       },
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.OpenCover.yml",
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Targets/Hx_ReportGenerator.xsd",
       "output": {
         ".html": {
-          "relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.OpenCover.html"
+          "relative_path": "Heleonix.Build/api/Targets/Hx_ReportGenerator.html"
         }
       },
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.ReportGenerator.yml",
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Targets/Hx_TrxReport.xsd",
       "output": {
         ".html": {
-          "relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.ReportGenerator.html"
+          "relative_path": "Heleonix.Build/api/Targets/Hx_TrxReport.html"
         }
       },
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.ReportUnit.yml",
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Targets/index.md",
       "output": {
         ".html": {
-          "relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.ReportUnit.html"
+          "relative_path": "Heleonix.Build/api/Targets/index.html"
         }
       },
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.yml",
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Tasks/Hx_DirectoryClean.xsd",
       "output": {
         ".html": {
-          "relative_path": "Heleonix.Build/api/Heleonix.Build.Tasks.html"
+          "relative_path": "Heleonix.Build/api/Tasks/Hx_DirectoryClean.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Tasks/Hx_FileCopy.xsd",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Build/api/Tasks/Hx_FileCopy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Tasks/Hx_FileRazorGenerate.xsd",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Build/api/Tasks/Hx_FileRazorGenerate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Tasks/Hx_FileRead.xsd",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Build/api/Tasks/Hx_FileRead.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Tasks/Hx_FileSystemSearch.xsd",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Build/api/Tasks/Hx_FileSystemSearch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Tasks/Hx_FileUpdate.xsd",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Build/api/Tasks/Hx_FileUpdate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Tasks/Hx_FileValidate.xsd",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Build/api/Tasks/Hx_FileValidate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Tasks/Hx_GitHubCommitChangeLog.xsd",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Build/api/Tasks/Hx_GitHubCommitChangeLog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Tasks/Hx_GitHubRelease.xsd",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Build/api/Tasks/Hx_GitHubRelease.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Tasks/Hx_GitParseRepoUrl.xsd",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Build/api/Tasks/Hx_GitParseRepoUrl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Tasks/Hx_MetadataToCmdArgs.xsd",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Build/api/Tasks/Hx_MetadataToCmdArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Tasks/Hx_NetFindProjects.xsd",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Build/api/Tasks/Hx_NetFindProjects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Tasks/Hx_NetFindSln.xsd",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Build/api/Tasks/Hx_NetFindSln.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Tasks/Hx_NetSetupTool.xsd",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Build/api/Tasks/Hx_NetSetupTool.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Tasks/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Build/api/Tasks/index.html"
         }
       },
       "version": ""

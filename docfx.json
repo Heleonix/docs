@@ -53,15 +53,6 @@
         }
       ],
       "dest": "Heleonix.Extensions"
-    },
-    {
-      "src": [
-        {
-          "files": [ "src/Heleonix.Build/bin/Release/net6.0/Heleonix.Build.dll" ],
-          "src": "../NetBuild/"
-        }
-      ],
-      "dest": "Heleonix.Build/api"
     }
   ],
   "build": {
@@ -83,11 +74,11 @@
         ]
       },
       {
-        "files": [ "*.xsd", "Targets/Hx_*.xsd" ],
+        "files": [ "*.xsd", "Targets/Hx_*.xsd", "Tasks/Hx_*.xsd" ],
         "src": "../NetBuild/src/Heleonix.Build/bin/Release/net6.0/Schemas"
       },
       {
-        "files": [ "Heleonix.Build/api/*.xsd" ]
+        "files": [ "Heleonix.Build/api/**.xsd" ]
       }
     ],
     "resource": [
@@ -96,16 +87,28 @@
           "images/**",
           "Heleonix.*/images/**"
         ]
-      },
+      }
     ],
     "dest": "docs",
     "fileMetadata": {
-      "hx.xmldoc.xslt": { "**/Heleonix.Build/**.xsd": "./Heleonix.Build/xsd-to-md.xslt" },
-      "hx.xmldoc.store": { "../NetBuild/src/Heleonix.Build/bin/Release/net6.0/Schemas/**.xsd": "Heleonix.Build/api" },
+      "hx.xmldoc.xslt": {
+        "**/Heleonix.Build.xsd": "./Hx_Artifacts/DocFX/Heleonix.Build/TargetsToMD.xslt",
+        "**/Targets/*.xsd": "./Hx_Artifacts/DocFX/Heleonix.Build/TargetsToMD.xslt",
+        "**/Tasks/*.xsd": "./Hx_Artifacts/DocFX/Heleonix.Build/TasksToMD.xslt"
+      },
+      "hx.xmldoc.store": {
+        "../NetBuild/src/Heleonix.Build/bin/Release/net6.0/Schemas/*.xsd": "Heleonix.Build/api",
+        "../NetBuild/src/Heleonix.Build/bin/Release/net6.0/Schemas/Targets/**.xsd": "Heleonix.Build/api/Targets",
+        "../NetBuild/src/Heleonix.Build/bin/Release/net6.0/Schemas/Tasks/**.xsd": "Heleonix.Build/api/Tasks"
+      },
       "hx.xmldoc.toc": {
-        "**/Heleonix.Build/**.xsd": {
-          "action": "InsertBefore",
-          "key": "Heleonix.Build.Tasks"
+        "Heleonix.Build/api/Targets/*.xsd": {
+          "action": "AppendChild",
+          "key": "~/Heleonix.Build/api/Targets/index.md"
+        },
+        "Heleonix.Build/api/Tasks/*.xsd": {
+          "action": "AppendChild",
+          "key": "~/Heleonix.Build/api/Tasks/index.md"
         }
       }
     },

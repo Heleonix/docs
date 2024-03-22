@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <None Update="Heleonix.Build\api\Tasks\Hx_DirectoryClean.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Heleonix.Build\api\Tasks\Hx_FileCopy.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Heleonix.Build\api\Tasks\Hx_FileRazorGenerate.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Heleonix.Build\api\Tasks\Hx_FileRead.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Heleonix.Build\api\Tasks\Hx_FileSystemSearch.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Heleonix.Build\api\Tasks\Hx_FileUpdate.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Heleonix.Build\api\Tasks\Hx_FileValidate.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Heleonix.Build\api\Tasks\Hx_GitHubCommitChangeLog.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Heleonix.Build\api\Tasks\Hx_GitHubRelease.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Heleonix.Build\api\Tasks\Hx_GitParseRepoUrl.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Heleonix.Build\api\Tasks\Hx_MetadataToCmdArgs.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Heleonix.Build\api\Tasks\Hx_NetFindProjects.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Heleonix.Build\api\Tasks\Hx_NetFindSln.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Heleonix.Build\api\Tasks\Hx_NetSetupTool.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+</Project>

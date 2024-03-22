@@ -136,4 +136,4 @@ as shown below:
 ## Notes
 
 * Use slash `/` in paths in MSBuild properties and items, not backslash `\`. MSBuild replaces them on *nix OSs anyway.
-* Use slash `/` in path-related regular expressions in <xref:Heleonix.Build.Tasks>.
+* Use slash `/` in path-related regular expressions in [Tasks](api/Tasks/index.md).

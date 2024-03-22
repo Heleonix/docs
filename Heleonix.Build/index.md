@@ -13,15 +13,15 @@ https://www.nuget.org/packages/Heleonix.Build
 This framework is aiming to simplify implementation of different CI/CD stages for applications on CI/CD systems,
 like GoCD, Jenkins, TeamCity etc.
 
-The build framework consists of parameterized MSBuild [targets](xref:Heleonix.Build), such as <xref:Hx_NetBuild>, <xref:Hx_NetTest>, <xref:Hx_NetValidate> etc.,
+The build framework consists of parameterized MSBuild [Targets](api/Targets/index.md), such as <xref:Hx_NetBuild>, <xref:Hx_NetTest>, <xref:Hx_NetValidate> etc.,
 which usually represent separate steps in CI pipelines.
 
-The build framework also provides set of reusable <xref:Heleonix.Build.Tasks>.
+The build framework also provides set of reusable [Tasks](api/Tasks/index.md).
 
 Usually source code is organized by following some well-known or custom standards, that's why this build framework
 supports solid customization. Basically it follows the "configurable conventions" approach.
 
-Default values of properties of <xref:Heleonix.Build> targets follow well-known practices of arrangement of source code.
+Default values of properties and items of [Targets](api/Targets/index.md) follow well-known practices of arrangement of source code.
 So, if you follow well-known standards too, you do not even neeed to write custom build scripts.
 
 ## More details
