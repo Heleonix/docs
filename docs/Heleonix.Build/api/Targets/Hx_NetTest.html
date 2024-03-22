@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Hx_NetTest | Heleonix </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Hx_NetTest | Heleonix ">
+      
+      
+      <link rel="icon" href="../../../images/heleonix-logos/Heleonix-favicon-128x128.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../images/heleonix-logos/Heleonix-logo-64x64.jpg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Hx_NetTest">
+<h1 id="hx_nettest">Hx_NetTest</h1>
+
+<h2 id="properties">Properties</h2>
+<h4 id="hx_nettest_artifactsdir">Hx_NetTest_ArtifactsDir</h4>
+<p>A path to the artifacts directory to store results in. Default is '$Hx_Run_ArtifactsDir/NetTest'.</p>
+<h4 id="hx_nettest_logger">Hx_NetTest_Logger</h4>
+<p>Specifies a logger for test results and switches for the logger, i.e.: &quot;trx;logfilename=TestResults.trx&quot;. Default is &quot;nunit;LogFileName=NUnitTestResults.xml&quot;.</p>
+<h4 id="hx_nettest_collect">Hx_NetTest_Collect</h4>
+<p>Specifies a data collector, i.e.: 'XPlat Code Coverage;Format=json,lcov,cobertura'. Default is 'XPlat Code Coverage' if $Hx_NetTest_VerifyCoverage is 'true' and $Hx_NetTest_RunSettingsFile is not specified/found.</p>
+<h4 id="hx_nettest_runsettingsfile">Hx_NetTest_RunSettingsFile</h4>
+<p>The *.runsettings file to use for running the tests. The $Hx_NetBuild_ArtifactsDir is discovered to find a *.runsettings file if the file is not specified.</p>
+<h4 id="hx_nettest_filter">Hx_NetTest_Filter</h4>
+<p>Filters tests using the given expression: <property>&lt;= != ~ !~&gt;<value>[ | &amp; <expression>].</expression></value></property></p>
+<h4 id="hx_nettest_adapterdir">Hx_NetTest_AdapterDir</h4>
+<p>Path to a directory to be searched for additional test adapters.</p>
+<h4 id="hx_nettest_diagfile">Hx_NetTest_DiagFile</h4>
+<p>Enables diagnostic mode for the test platform and writes diagnostic messages to the specified file and to files next to it.</p>
+<h4 id="hx_nettest_verbosity">Hx_NetTest_Verbosity</h4>
+<p>Sets the verbosity level of the command. Allowed values are q[uiet], m[inimal], n[ormal], d[etailed], diag[nostic]. Default is 'minimal'.</p>
+<h4 id="hx_nettest_sourcepathregexpoptions">Hx_NetTest_SourcePathRegExpOptions</h4>
+<p>The .NET regular expression options to apply to the $Hx_NetTest_SourcePathRegExp. Default is 'Multiline'.</p>
+<h4 id="hx_nettest_verifycoverage">Hx_NetTest_VerifyCoverage</h4>
+<p>Set 'true' to verify minimal coverage, otherwise 'false'. Default is 'true'.</p>
+<h4 id="hx_nettest_minlinecoverage">Hx_NetTest_MinLineCoverage</h4>
+<p>The minimum line coverage 0% - 100% to pass the target. Default is 100.</p>
+<h4 id="hx_nettest_minbranchcoverage">Hx_NetTest_MinBranchCoverage</h4>
+<p>The minimum branch coverage 0% - 100% to pass the target. Default is 100.</p>
+<h4 id="hx_nettest_minmethodcoverage">Hx_NetTest_MinMethodCoverage</h4>
+<p>The minimum method coverage 0% - 100% to pass the target. Default is 100.</p>
+<h2 id="items">Items</h2>
+<h4 id="hx_nettest_testfiles">Hx_NetTest_TestFiles</h4>
+<p>Inputs to run tests: .dll or .exe files containing tests, test projects .<em>proj or .sln. Default is a '$Hx_NetBuild_ArtifactsDir/</em>.sln'.</p>
+<h4 id="hx_nettest_inlinerunsettings">Hx_NetTest_InlineRunSettings</h4>
+<p>Run settings to be passed as '-- ...' arguments to override those in a .runsettings file. Specify run settings as MSBuild item metadata. Use '_' instead of dots for nested parameters. Example: metadata &lt;MSTest_CaptureTraceOutput&gt;false&lt;/MSTest_CaptureTraceOutput&gt; becomes a 'MSTest.CaptureTraceOutput=false' argument.</p>
+<h4 id="hx_nettest_sourcepathregexps">Hx_NetTest_SourcePathRegExps</h4>
+<p>.NET regular expressions to find source code paths in generated files with results and replace. Found paths are replaced with stable accessible paths, i.e. raw repository links etc. Specify stable accessible paths in the 'Replacement' metadata.</p>
+
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

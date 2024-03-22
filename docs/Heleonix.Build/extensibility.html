@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Extensibility | Heleonix ">
       
+      
       <link rel="icon" href="../images/heleonix-logos/Heleonix-favicon-128x128.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -15,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/hennadiilu/docs/blob/master/Heleonix.Build/extensibility.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/hennadiilu/Heleonix.Build/blob/master/Hx_Artifacts/DocFX/Heleonix.Build/extensibility.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -109,7 +110,7 @@ They can be created as contribution to the build framework or can be used in you
 <h4 id="target-name">Target name</h4>
 <p><code>&lt;Ns&gt;_&lt;TargetName&gt;[_Variation]</code></p>
 <p><code>Variation</code> in the name allows to define multiple real targets with some specific implementations under the same virtual <code>&lt;Ns&gt;_&lt;TargetName&gt;</code>.</p>
-<p>For example, &lt;xref:Hx_DocFX_Git&gt; is the real target, which checks out, builds and commits documentation using git,
+<p>For example, <a class="xref" href="api/Targets/Hx_DocFX_Git.html">Hx_DocFX_Git</a> is the real target, which checks out, builds and commits documentation using git,
 but the artifacts directory is <code>Hx_DocFX</code>. Also, there is no real target <code>Hx_DocFX</code>,
 but in the future the target <code>Hx_DocFX_Svn</code> might be created.</p>
 <p>There can be, however, properties or items defined with the name of the virtual target,
@@ -125,7 +126,7 @@ the name usually should end with (s), if that makes sense.</p>
 <h3 id="target-artifacts">Target artifacts</h3>
 <p>The properties <code>&lt;TargetName&gt;_ArtifactsDir</code> define paths to artifacts directories and are defined outside of targets,
 as the global properties, because targets can depend on each other via artifacts.
-I.e. <code>Hx_ChangeLog_ArtifactsDir</code> is used by &lt;xref:Hx_NetBuild&gt;, &lt;xref:Hx_NetNugetPush&gt; etc.</p>
+I.e. <code>Hx_ChangeLog_ArtifactsDir</code> is used by <a class="xref" href="api/Targets/Hx_NetBuild.html">Hx_NetBuild</a>, <a class="xref" href="api/Targets/Hx_NetNugetPush.html">Hx_NetNugetPush</a> etc.</p>
 <p>Targets can depend on each other only via artifacts directories, because if every target is executed in a standalone <code>hxbuild</code> run,
 then their properties and items are defined only within that particular <code>hxbuild</code> run. Artifacts directories can, however,
 be uploaded and re-used between standalone <code>hxbuild</code> runs.</p>
@@ -185,7 +186,7 @@ An example can be taken from any existing target, i.e. <a href="https://github.c
 <p>For example <code>Hx_FileCopy</code>, <code>Hx_FileRead</code>, <code>Hx_DirectoryClean</code> etc. Such naming approach is handy when the list of tasks
 is alphabetically sorted in the Solution Expllorer, or when IntelliSense displays list of available tasks while typing a task name.</p>
 <h3 id="integration-2">Integration</h3>
-<p>A new task should inherit the &lt;xref:Heleonix.Build.Tasks.BaseTask&gt;.</p>
+<p>A new task should inherit the <a href="https://github.com/Heleonix/Heleonix.Build/blob/master/src/Heleonix.Build/Tasks/BaseTask.cs">BaseTask</a>.</p>
 <p>A new task should be placed in the <a href="https://github.com/Heleonix/Heleonix.Build/tree/master/src/Heleonix.Build/Tasks">Tasks</a>
 folder and listed in the <a href="https://github.com/Heleonix/Heleonix.Build/blob/master/src/Heleonix.Build/Tasks/Tasks.tasks">Tasks.tasks</a>.</p>
 <p>A new task should be covered with a unit test with 100% of code coverage. The unit test should be placed in the

@@ -9,10 +9,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <UpToDateCheckInput Include="./**/*.md;./**/*.yml" Exclude="./docs/**/*" Set="Articles"/>
-    <UpToDateCheckOutput Include="./docs/**/*.md;./docs/**/*.yml" Set="Articles"/>
-    <UpToDateCheckInput Include="./**/main.css" Exclude="./docs/**/*" Set="Styles"/>
-    <UpToDateCheckOutput Include="./docs/**/main.css" Set="Styles"/>
+    <UpToDateCheckInput Include="./**/*.md;./**/*.yml" Exclude="./docs/**/*" Set="Articles" />
+    <UpToDateCheckOutput Include="./docs/**/*.md;./docs/**/*.yml" Set="Articles" />
+
+    <UpToDateCheckInput Include="./**/main.css" Exclude="./docs/**/*" Set="Styles" />
+    <UpToDateCheckOutput Include="./docs/**/main.css" Set="Styles" />
+
+    <UpToDateCheckInput Include="./**/docfx.json" Exclude="./docs/**/*" Set="Configs" />
+    <UpToDateCheckOutput Include="./docs/manifest.json" Set="Configs" />
   </ItemGroup>
 
   <Target Name="DocfxRestore" AfterTargets="Restore">
@@ -20,7 +24,7 @@
       <XmlDocFiles Include="$(PkgHeleonix_Docfx_Plugins_XmlDoc)/template/plugins/*" />
     </ItemGroup>
     <Copy SourceFiles="@(XmlDocFiles)" DestinationFolder="templates/heleonix/plugins" OverwriteReadOnlyFiles="true" />
-    <Exec Command="dotnet tool update docfx --version 2.74.1 --local" />
+    <Exec Command="dotnet tool update docfx --version 2.75.2 --local" />
   </Target>
 
   <Target Name="DocBuild" AfterTargets="Build">

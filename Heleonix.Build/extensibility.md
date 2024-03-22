@@ -144,7 +144,7 @@ is alphabetically sorted in the Solution Expllorer, or when IntelliSense display
 
 ### Integration
 
-A new task should inherit the <xref:Heleonix.Build.Tasks.BaseTask>.
+A new task should inherit the [BaseTask](https://github.com/Heleonix/Heleonix.Build/blob/master/src/Heleonix.Build/Tasks/BaseTask.cs).
 
 A new task should be placed in the [Tasks](https://github.com/Heleonix/Heleonix.Build/tree/master/src/Heleonix.Build/Tasks)
 folder and listed in the [Tasks.tasks](https://github.com/Heleonix/Heleonix.Build/blob/master/src/Heleonix.Build/Tasks/Tasks.tasks).

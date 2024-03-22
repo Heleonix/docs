@@ -11,7 +11,7 @@
       <link rel="stylesheet" href="../../public/docfx.min.css">
       <link rel="stylesheet" href="../../public/main.css">
       <meta name="docfx:navrel" content="../../toc.html">
-      <meta name="docfx:tocrel" content="toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
       
       <meta name="docfx:rel" content="../../">
       
@@ -87,26 +87,26 @@
         <article data-uid="Heleonix.Build">
 <h1 id="heleonixbuild">Heleonix.Build</h1>
 
-<h3 id="properties">Properties</h3>
+<h2 id="properties">Properties</h2>
 <h4 id="hx_sys_dotnetexe">Hx_Sys_DotnetExe</h4>
-<p>A path to the dotnet.exe to be used by the relevant targets. It is passed in from the --exe CLI parameter. Default is 'dotnet.exe', considering it is globally available.</p>
+<p>A path to the 'dotnet.exe' to be used by the relevant targets. It is passed in from the '--exe' CLI parameter. Default is 'dotnet.exe', considering it is globally available.</p>
 <h4 id="hx_ws_dir">Hx_WS_Dir</h4>
-<p>A current folder, where build is executed. Usually, it's a folder where a repository was checked out.</p>
+<p>A current working folder, where 'hxbuild' is executed. Usually, it's a folder where a repository was checked out. Default value is the $MSBuildStartupDirectory.</p>
 <h4 id="hx_ws_buildprojfile">Hx_WS_BuildProjFile</h4>
-<p>The build project file defining workspace-specific overrides.</p>
+<p>The MSBuild project file defining workspace-specific overrides. This file is imported after the $Hx_Run_BuildProjFile and overrides evaluation-phase definitions of properties and items. Default is '$Hx_WS_Dir/*.hxbproj'.</p>
 <h4 id="hx_ws_repositoryurl">Hx_WS_RepositoryUrl</h4>
-<p>A url of the repository. Depends on the VCS. For example: <a href="https://github.com/Heleonix/Heleonix.Build.git">https://github.com/Heleonix/Heleonix.Build.git</a>.</p>
+<p>A url of the repository. Depends on the VCS. For example: <a href="https://github.com/Heleonix/Heleonix.Build.git">https://github.com/Heleonix/Heleonix.Build.git</a>. Default tries to get it from: $GO_MATERIAL_URL, $GIT_URL, <span class="math">\(CI_REPOSITORY_URL, '\)</span>(GITHUB_SERVER_URL)/$(GITHUB_REPOSITORY).git'.</p>
 <h4 id="hx_ws_repositoryapiurl">Hx_WS_RepositoryAPIUrl</h4>
-<p>A url of the repository API. Depends on the VCS. Default: <a href="https://api.github.com">https://api.github.com</a></p>
+<p>A url of the repository API. Depends on the VCS. Default is <a href="https://api.github.com">https://api.github.com</a></p>
 <h4 id="hx_run_buildprojfile">Hx_Run_BuildProjFile</h4>
-<p>A file to override everything up to solution-specific definitions.</p>
+<p>The MSBuild project file defining run-specific overrides. This file is imported before the $Hx_WS_BuildProjFile.</p>
 <h4 id="hx_run_artifactsdir">Hx_Run_ArtifactsDir</h4>
-<p>A path to the root artifacts directory, where targets produce their artifacts.</p>
+<p>A path to the root artifacts directory, where targets produce their artifacts. Default is '$Hx_WS_Dir/Hx_Artifacts'.</p>
 <h4 id="hx_run_configuration">Hx_Run_Configuration</h4>
-<p>A configuration, i.e. &quot;Release&quot;, &quot;Debug&quot; etc.</p>
+<p>A configuration, i.e. 'Release', 'Debug' etc. Default is 'Release'.</p>
 <h4 id="hx_run_number">Hx_Run_Number</h4>
-<p>A unique numeric value of the incremental build from your CI/CD system (GitHub Actions, GitLab CI/CD, Jenkins, TeamCity, GoCD etc.).</p>
-<h3 id="items">Items</h3>
+<p>A numeric value of the incremental build from your CI/CD system. Default tries to take it from $GO_PIPELINE_COUNTER, $BUILD_NUMBER, $GITHUB_RUN_NUMBER, $CI_PIPELINE_ID or '0' otherwise.</p>
+<h2 id="items">Items</h2>
 
 </article>
 
