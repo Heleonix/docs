@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Extensibility | Heleonix ">
       
+      
       <link rel="icon" href="../images/heleonix-logos/Heleonix-favicon-128x128.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -109,7 +110,7 @@ They can be created as contribution to the build framework or can be used in you
 <h4 id="target-name">Target name</h4>
 <p><code>&lt;Ns&gt;_&lt;TargetName&gt;[_Variation]</code></p>
 <p><code>Variation</code> in the name allows to define multiple real targets with some specific implementations under the same virtual <code>&lt;Ns&gt;_&lt;TargetName&gt;</code>.</p>
-<p>For example, &lt;xref:Hx_DocFX_Git&gt; is the real target, which checks out, builds and commits documentation using git,
+<p>For example, <a class="xref" href="api/Targets/Hx_DocFX_Git.html">Hx_DocFX_Git</a> is the real target, which checks out, builds and commits documentation using git,
 but the artifacts directory is <code>Hx_DocFX</code>. Also, there is no real target <code>Hx_DocFX</code>,
 but in the future the target <code>Hx_DocFX_Svn</code> might be created.</p>
 <p>There can be, however, properties or items defined with the name of the virtual target,
@@ -125,7 +126,7 @@ the name usually should end with (s), if that makes sense.</p>
 <h3 id="target-artifacts">Target artifacts</h3>
 <p>The properties <code>&lt;TargetName&gt;_ArtifactsDir</code> define paths to artifacts directories and are defined outside of targets,
 as the global properties, because targets can depend on each other via artifacts.
-I.e. <code>Hx_ChangeLog_ArtifactsDir</code> is used by &lt;xref:Hx_NetBuild&gt;, &lt;xref:Hx_NetNugetPush&gt; etc.</p>
+I.e. <code>Hx_ChangeLog_ArtifactsDir</code> is used by <a class="xref" href="api/Targets/Hx_NetBuild.html">Hx_NetBuild</a>, <a class="xref" href="api/Targets/Hx_NetNugetPush.html">Hx_NetNugetPush</a> etc.</p>
 <p>Targets can depend on each other only via artifacts directories, because if every target is executed in a standalone <code>hxbuild</code> run,
 then their properties and items are defined only within that particular <code>hxbuild</code> run. Artifacts directories can, however,
 be uploaded and re-used between standalone <code>hxbuild</code> runs.</p>
