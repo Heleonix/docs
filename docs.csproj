@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Heleonix.Docfx.Plugins.XmlDoc" Version="1.0.0" GeneratePathProperty="true" />
+    <PackageReference Include="Heleonix.Docfx.Plugins.XmlDoc" Version="2.0.0" GeneratePathProperty="true" />
   </ItemGroup>
 
   <ItemGroup>
@@ -37,5 +37,9 @@
 
   <ItemGroup>
     <None Include=".config\dotnet-tools.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="templates\heleonix\plugins\" />
   </ItemGroup>
 </Project>
