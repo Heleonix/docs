@@ -92,9 +92,9 @@
     "dest": "docs",
     "fileMetadata": {
       "hx.xmldoc.xslt": {
-        "**/Heleonix.Build.xsd": "./Hx_Artifacts/DocFX/Heleonix.Build/TargetsToMD.xslt",
-        "**/Targets/*.xsd": "./Hx_Artifacts/DocFX/Heleonix.Build/TargetsToMD.xslt",
-        "**/Tasks/*.xsd": "./Hx_Artifacts/DocFX/Heleonix.Build/TasksToMD.xslt"
+        "**/Heleonix.Build.xsd": "./Heleonix.Build/TargetsToMD.xslt",
+        "**/Targets/*.xsd": "./Heleonix.Build/TargetsToMD.xslt",
+        "**/Tasks/*.xsd": "./Heleonix.Build/TasksToMD.xslt"
       },
       "hx.xmldoc.store": {
         "../NetBuild/src/Heleonix.Build/bin/Release/net6.0/Schemas/*.xsd": "Heleonix.Build/api",
