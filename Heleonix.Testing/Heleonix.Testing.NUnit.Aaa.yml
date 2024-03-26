@@ -20,18 +20,21 @@ references:
 - uid: Heleonix.Testing.NUnit.Aaa.AaaSpec
   commentId: T:Heleonix.Testing.NUnit.Aaa.AaaSpec
   isExternal: true
+  href: Heleonix.Testing.NUnit.Aaa.AaaSpec.html
   name: AaaSpec
   nameWithType: AaaSpec
   fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec
 - uid: Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute
   commentId: T:Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute
   isExternal: true
+  href: Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html
   name: ComponentTestAttribute
   nameWithType: ComponentTestAttribute
   fullName: Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute
 - uid: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute
   commentId: T:Heleonix.Testing.NUnit.Aaa.MemberTestAttribute
   isExternal: true
+  href: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html
   name: MemberTestAttribute
   nameWithType: MemberTestAttribute
   fullName: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute

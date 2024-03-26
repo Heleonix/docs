@@ -1,4 +1,14 @@
 ### YamlMime:TableOfContent
+items:
+- uid: Heleonix.Testing.NUnit
+  name: Heleonix.Testing.NUnit
+  items:
+  - uid: Heleonix.Testing.NUnit.BaseAttribute
+    name: BaseAttribute
+  - uid: Heleonix.Testing.NUnit.FixtureAttribute
+    name: FixtureAttribute
+  - uid: Heleonix.Testing.NUnit.TestAttribute
+    name: TestAttribute
 - uid: Heleonix.Testing.NUnit.Aaa
   name: Heleonix.Testing.NUnit.Aaa
   items:
@@ -19,3 +29,4 @@
     name: ScenarioAttribute
   - uid: Heleonix.Testing.NUnit.Bdd.StoryAttribute
     name: StoryAttribute
+memberLayout: SamePage
