@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class MemberTestAttribute | Heleonix </title>
+      <title>Class BaseAttribute | Heleonix </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class MemberTestAttribute | Heleonix ">
+      <meta name="title" content="Class BaseAttribute | Heleonix ">
       
-      <meta name="description" content="Represents the attribute for testing of compononts&#39; members, like methods, constructors, properties.">
+      <meta name="description" content="Represents the base attribute for all other tests attributes.">
       <link rel="icon" href="../images/heleonix-logos/Heleonix-favicon-128x128.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,26 +84,25 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute">
+        <article data-uid="Heleonix.Testing.NUnit.BaseAttribute">
 
 
 
-  <h1 id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute" class="text-break">
-Class MemberTestAttribute  
+  <h1 id="Heleonix_Testing_NUnit_BaseAttribute" data-uid="Heleonix.Testing.NUnit.BaseAttribute" class="text-break">
+Class BaseAttribute  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Heleonix.html">Heleonix</a>.<a class="xref" href="Heleonix.Testing.html">Testing</a>.<a class="xref" href="Heleonix.Testing.NUnit.html">NUnit</a>.<a class="xref" href="Heleonix.Testing.NUnit.Aaa.html">Aaa</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Heleonix.html">Heleonix</a>.<a class="xref" href="Heleonix.Testing.html">Testing</a>.<a class="xref" href="Heleonix.Testing.NUnit.html">NUnit</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Heleonix.Testing.NUnit.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Represents the attribute for testing of compononts' members, like methods, constructors, properties.</p>
+  <div class="markdown summary"><p>Represents the base attribute for all other tests attributes.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Method, AllowMultiple = false, Inherited = false)]
-public sealed class MemberTestAttribute : TestAttribute, ISimpleTestBuilder, IApplyToContext</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class BaseAttribute : Attribute</code></pre>
   </div>
 
 
@@ -114,20 +113,18 @@ public sealed class MemberTestAttribute : TestAttribute, ISimpleTestBuilder, IAp
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute">Attribute</a></div>
-      <div><a class="xref" href="Heleonix.Testing.NUnit.BaseAttribute.html">BaseAttribute</a></div>
-      <div><a class="xref" href="Heleonix.Testing.NUnit.TestAttribute.html">TestAttribute</a></div>
-      <div><span class="xref">MemberTestAttribute</span></div>
+      <div><span class="xref">BaseAttribute</span></div>
     </dd>
   </dl>
 
-  <dl class="typelist implements">
-    <dt>Implements</dt>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
     <dd>
-      <div><span class="xref">ISimpleTestBuilder</span></div>
-      <div><span class="xref">IApplyToContext</span></div>
+      <div><a class="xref" href="Heleonix.Testing.NUnit.FixtureAttribute.html">FixtureAttribute</a></div>
+      <div><a class="xref" href="Heleonix.Testing.NUnit.TestAttribute.html">TestAttribute</a></div>
     </dd>
   </dl>
-
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
@@ -247,6 +244,9 @@ public sealed class MemberTestAttribute : TestAttribute, ISimpleTestBuilder, IAp
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
     <div>
@@ -266,10 +266,10 @@ public sealed class MemberTestAttribute : TestAttribute, ISimpleTestBuilder, IAp
 </h2>
 
 
-  <a id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute__ctor_" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.#ctor*"></a>
+  <a id="Heleonix_Testing_NUnit_BaseAttribute__ctor_" data-uid="Heleonix.Testing.NUnit.BaseAttribute.#ctor*"></a>
 
-  <h3 id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute__ctor" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.#ctor">
-  MemberTestAttribute()
+  <h3 id="Heleonix_Testing_NUnit_BaseAttribute__ctor" data-uid="Heleonix.Testing.NUnit.BaseAttribute.#ctor">
+  BaseAttribute()
   
   </h3>
 
@@ -277,7 +277,7 @@ public sealed class MemberTestAttribute : TestAttribute, ISimpleTestBuilder, IAp
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MemberTestAttribute()</code></pre>
+    <pre><code class="lang-csharp hljs">protected BaseAttribute()</code></pre>
   </div>
 
 
@@ -296,42 +296,9 @@ public sealed class MemberTestAttribute : TestAttribute, ISimpleTestBuilder, IAp
 </h2>
 
 
-  <a id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_Name_" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.Name*"></a>
+  <a id="Heleonix_Testing_NUnit_BaseAttribute_Properties_" data-uid="Heleonix.Testing.NUnit.BaseAttribute.Properties*"></a>
 
-  <h3 id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_Name" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.Name">
-  Name
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Gets or sets the name.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The name.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_Properties_" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.Properties*"></a>
-
-  <h3 id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_Properties" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.Properties">
+  <h3 id="Heleonix_Testing_NUnit_BaseAttribute_Properties" data-uid="Heleonix.Testing.NUnit.BaseAttribute.Properties">
   Properties
   
   </h3>
@@ -341,7 +308,7 @@ public sealed class MemberTestAttribute : TestAttribute, ISimpleTestBuilder, IAp
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override IDictionary&lt;string, object&gt; Properties { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual IDictionary&lt;string, object&gt; Properties { get; }</code></pre>
   </div>
 
 
@@ -362,19 +329,19 @@ public sealed class MemberTestAttribute : TestAttribute, ISimpleTestBuilder, IAp
 
 
 
-  <a id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_TestName_" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.TestName*"></a>
+  <a id="Heleonix_Testing_NUnit_BaseAttribute_TestName_" data-uid="Heleonix.Testing.NUnit.BaseAttribute.TestName*"></a>
 
-  <h3 id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_TestName" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.TestName">
+  <h3 id="Heleonix_Testing_NUnit_BaseAttribute_TestName" data-uid="Heleonix.Testing.NUnit.BaseAttribute.TestName">
   TestName
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the test name.</p>
+  <div class="markdown level1 summary"><p>Gets the name of the test.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override string TestName { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected abstract string TestName { get; }</code></pre>
   </div>
 
 
@@ -384,86 +351,9 @@ public sealed class MemberTestAttribute : TestAttribute, ISimpleTestBuilder, IAp
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The test name.</p>
+    <dd><p>The name of the test.</p>
 </dd>
   </dl>
-
-
-
-
-
-
-
-
-  <h2 class="section" id="methods">Methods
-</h2>
-
-
-  <a id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_ApplyToContext_" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.ApplyToContext*"></a>
-
-  <h3 id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_ApplyToContext_NUnit_Framework_Internal_TestExecutionContext_" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.ApplyToContext(NUnit.Framework.Internal.TestExecutionContext)">
-  ApplyToContext(TestExecutionContext)
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ApplyToContext(TestExecutionContext context)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>context</code> <span class="xref">TestExecutionContext</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_BuildFrom_" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.BuildFrom*"></a>
-
-  <h3 id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_BuildFrom_NUnit_Framework_Interfaces_IMethodInfo_NUnit_Framework_Internal_Test_" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.BuildFrom(NUnit.Framework.Interfaces.IMethodInfo,NUnit.Framework.Internal.Test)">
-  BuildFrom(IMethodInfo, Test)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Builds a test method.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override TestMethod BuildFrom(IMethodInfo method, Test suite)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>method</code> <span class="xref">IMethodInfo</span></dt>
-    <dd><p>The method.</p>
-</dd>
-    <dt><code>suite</code> <span class="xref">Test</span></dt>
-    <dd><p>The suite.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">TestMethod</span></dt>
-    <dd><p>The test method.</p>
-</dd>
-  </dl>
-
-
-
 
 
 
@@ -474,7 +364,7 @@ public sealed class MemberTestAttribute : TestAttribute, ISimpleTestBuilder, IAp
 
   <h2 id="seealso">See Also</h2>
   <div class="seealso">
-      <div><a class="xref" href="Heleonix.Testing.NUnit.TestAttribute.html">TestAttribute</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute">Attribute</a></div>
   </div>
 
 </article>

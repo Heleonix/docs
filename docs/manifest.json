@@ -468,6 +468,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.BaseAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.BaseAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.BddSpec.yml",
       "output": {
         ".html": {
@@ -512,6 +522,36 @@
       "output": {
         ".html": {
           "relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.FixtureAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.FixtureAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.TestAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.TestAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.html"
         }
       },
       "version": ""
