@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>PLACEHOLDER | Heleonix </title>
+      <title>Heleonix.Execution | Heleonix </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="PLACEHOLDER | Heleonix ">
+      <meta name="title" content="Heleonix.Execution | Heleonix ">
       
       
       <link rel="icon" href="../images/heleonix-logos/Heleonix-favicon-128x128.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Heleonix/docs/blob/master/Heleonix.Execution/index.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/hennadiilu/docs/blob/master/Heleonix.Execution/index.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,9 +85,62 @@
         </div>
 
         <article data-uid="">
-<h1 id="placeholder">PLACEHOLDER</h1>
+<h1 id="heleonixexecution">Heleonix.Execution</h1>
 
-<p>TODO: Add .NET projects to the <em>src</em> folder and run <code>docfx</code> to generate <strong>REAL</strong> <em>API Documentation</em>!</p>
+<p><a href="https://github.com/Heleonix/Heleonix.Execution/actions/workflows/release-net-nuget.yml"><img src="https://github.com/Heleonix/Heleonix.Execution/actions/workflows/release-net-nuget.yml/badge.svg" alt="Release: .NET / NuGet"></a></p>
+<p>Provides a command line arguments builder, methods to run executables and extract outputs, etc.</p>
+<h2 id="install">Install</h2>
+<p><a href="https://www.nuget.org/packages/Heleonix.Execution">https://www.nuget.org/packages/Heleonix.Execution</a></p>
+<h2 id="examples">Examples</h2>
+<h3 id="exehelper">ExeHelper</h3>
+<pre><code class="lang-csharp">var result = ExeHelper.Execute(
+    @&quot;C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&quot;,
+    &quot;--app=http://www.google.com --window-size=300,300 --new-window&quot;,
+    true,
+    string.Empty,
+    2000);
+
+Console.WriteLine(result.ExitCode); // An exit code: value returned by `Main` or by `Environment.Exit(exitCode)` etc.
+Console.WriteLine(result.Output); // Output like `Console.WriteLine` is available here
+Console.WriteLine(result.Error); // Output like `Console.Error.WriteLine` is available here.
+</code></pre>
+<h3 id="argsbuilder">ArgsBuilder</h3>
+<pre><code class="lang-csharp">var canAddArguments = true;
+
+var args = ArgsBuilder.By(&quot;--&quot;, &quot;=&quot;, valueSeparator: &quot;,&quot;).AddArguments(&quot;key&quot;, new[] { &quot;111&quot;, &quot;222&quot;, false, canAddArguments);
+
+var multipleArgs = ArgsBuilder.By(&quot;--&quot;, &quot;=&quot;).AddArguments(&quot;key&quot;, new[] { &quot;111&quot;, &quot;222&quot;, true, canAddArguments);
+
+// args: &quot;--key=111,222&quot;
+
+// multipleArgs: &quot;--key=111 --key=222&quot;.
+</code></pre>
+<h2 id="contribution-guideline">Contribution Guideline</h2>
+<ol>
+<li><p><a href="https://github.com/Heleonix/Heleonix.Execution/fork">Create a fork</a> from the main repository</p>
+</li>
+<li><p>Implement whatever is needed</p>
+</li>
+<li><p><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork">Create a Pull Request</a>.
+Make sure the assigned <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks#checks">Checks</a> pass successfully.
+You can watch the progress in the <a href="https://github.com/Heleonix/Heleonix.Execution/actions/workflows/pr-net.yml">PR: .NET</a> GitHub workflows</p>
+</li>
+<li><p><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review">Request review</a> from the code owner</p>
+</li>
+<li><p>Once approved, merge your Pull Request via <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges#squash-and-merge-your-commits">Squash and merge</a></p>
+<blockquote>
+<p><strong>IMPORTANT</strong><br>
+While merging, enter a <a href="https://www.conventionalcommits.org/">Conventional Commits</a> commit message.
+This commit message will be used in automatically generated <a href="https://github.com/Heleonix/Heleonix.Execution/releases">Github Release Notes</a>
+and <a href="https://www.nuget.org/packages/Heleonix.Execution/#releasenotes-body-tab">NuGet Release Notes</a></p>
+</blockquote>
+</li>
+<li><p>Monitor the <a href="https://github.com/Heleonix/Heleonix.Execution/actions/workflows/release-net-nuget.yml">Release: .NET / NuGet</a>
+GitHub workflow to make sure your changes are delivered successfully</p>
+</li>
+<li><p>In case of any issues, please contact <a href="mailto:heleonix.sln@gmail.com">heleonix.sln@gmail.com</a></p>
+</li>
+</ol>
 
 </article>
 
