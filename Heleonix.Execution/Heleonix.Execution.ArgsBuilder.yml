@@ -1,0 +1,1072 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Execution.ArgsBuilder
+  commentId: T:Heleonix.Execution.ArgsBuilder
+  id: ArgsBuilder
+  parent: Heleonix.Execution
+  children:
+  - Heleonix.Execution.ArgsBuilder.AddArgument(System.String,System.Object,System.Boolean)
+  - Heleonix.Execution.ArgsBuilder.AddArguments(System.String,System.Collections.Generic.IEnumerable{System.Object},System.Boolean,System.Boolean)
+  - Heleonix.Execution.ArgsBuilder.AddKey(System.String,System.Boolean)
+  - Heleonix.Execution.ArgsBuilder.AddKeys(System.Collections.Generic.IEnumerable{System.String},System.Boolean)
+  - Heleonix.Execution.ArgsBuilder.AddPath(System.String,System.Boolean)
+  - Heleonix.Execution.ArgsBuilder.AddPath(System.String,System.String,System.Boolean)
+  - Heleonix.Execution.ArgsBuilder.AddPaths(System.Collections.Generic.IEnumerable{System.String},System.Boolean)
+  - Heleonix.Execution.ArgsBuilder.AddPaths(System.String,System.Collections.Generic.IEnumerable{System.String},System.Boolean,System.Boolean)
+  - Heleonix.Execution.ArgsBuilder.AddValue(System.Object,System.Boolean)
+  - Heleonix.Execution.ArgsBuilder.AddValues(System.Collections.Generic.IEnumerable{System.Object},System.Boolean)
+  - Heleonix.Execution.ArgsBuilder.By(System.String,System.String,System.String,System.String,System.String)
+  - Heleonix.Execution.ArgsBuilder.ToString
+  - Heleonix.Execution.ArgsBuilder.op_Implicit(Heleonix.Execution.ArgsBuilder)~System.String
+  langs:
+  - csharp
+  - vb
+  name: ArgsBuilder
+  nameWithType: ArgsBuilder
+  fullName: Heleonix.Execution.ArgsBuilder
+  type: Class
+  assemblies:
+  - Heleonix.Execution
+  namespace: Heleonix.Execution
+  summary: >-
+    Helps to build command line arguments to be passed in to executables.
+
+    Each method accepts a <code>condition</code> argument to determine whether to add an argument or not,
+
+    and returns <code>this</code> instance of the <xref href="Heleonix.Execution.ArgsBuilder" data-throw-if-not-resolved="false"></xref> for chaining.
+  example: []
+  syntax:
+    content: public sealed class ArgsBuilder
+    content.vb: Public NotInheritable Class ArgsBuilder
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Heleonix.Execution.ArgsBuilder.op_Implicit(Heleonix.Execution.ArgsBuilder)~System.String
+  commentId: M:Heleonix.Execution.ArgsBuilder.op_Implicit(Heleonix.Execution.ArgsBuilder)~System.String
+  id: op_Implicit(Heleonix.Execution.ArgsBuilder)~System.String
+  parent: Heleonix.Execution.ArgsBuilder
+  langs:
+  - csharp
+  - vb
+  name: implicit operator string(ArgsBuilder)
+  nameWithType: ArgsBuilder.implicit operator string(ArgsBuilder)
+  fullName: Heleonix.Execution.ArgsBuilder.implicit operator string(Heleonix.Execution.ArgsBuilder)
+  type: Operator
+  assemblies:
+  - Heleonix.Execution
+  namespace: Heleonix.Execution
+  summary: Performs an implicit conversion from <xref href="Heleonix.Execution.ArgsBuilder" data-throw-if-not-resolved="false"></xref> to <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static implicit operator string(ArgsBuilder builder)
+    parameters:
+    - id: builder
+      type: Heleonix.Execution.ArgsBuilder
+      description: The builder.
+    return:
+      type: System.String
+      description: The result of the conversion.
+    content.vb: Public Shared Widening Operator CType(builder As ArgsBuilder) As String
+  overload: Heleonix.Execution.ArgsBuilder.op_Implicit*
+  nameWithType.vb: ArgsBuilder.CType(ArgsBuilder)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.CType(Heleonix.Execution.ArgsBuilder)
+  name.vb: CType(ArgsBuilder)
+- uid: Heleonix.Execution.ArgsBuilder.By(System.String,System.String,System.String,System.String,System.String)
+  commentId: M:Heleonix.Execution.ArgsBuilder.By(System.String,System.String,System.String,System.String,System.String)
+  id: By(System.String,System.String,System.String,System.String,System.String)
+  parent: Heleonix.Execution.ArgsBuilder
+  langs:
+  - csharp
+  - vb
+  name: By(string, string, string, string, string)
+  nameWithType: ArgsBuilder.By(string, string, string, string, string)
+  fullName: Heleonix.Execution.ArgsBuilder.By(string, string, string, string, string)
+  type: Method
+  assemblies:
+  - Heleonix.Execution
+  namespace: Heleonix.Execution
+  summary: Creates a new <xref href="Heleonix.Execution.ArgsBuilder" data-throw-if-not-resolved="false"></xref> with the specified separators.
+  example: []
+  syntax:
+    content: public static ArgsBuilder By(string keyPrefix, string keyValueSeparator, string valueSeparator = ";", string pathWrapper = "\"", string argsSeparator = " ")
+    parameters:
+    - id: keyPrefix
+      type: System.String
+      description: Prepends each key.
+    - id: keyValueSeparator
+      type: System.String
+      description: Separates keys and values.
+    - id: valueSeparator
+      type: System.String
+      description: Separates multiple values or paths under a single key.
+    - id: pathWrapper
+      type: System.String
+      description: Wraps paths using `AddPath` or `AddPaths` when paths have spaces etc.
+    - id: argsSeparator
+      type: System.String
+      description: Separates key/value pairs (arguments).
+    return:
+      type: Heleonix.Execution.ArgsBuilder
+      description: A newly created <xref href="Heleonix.Execution.ArgsBuilder" data-throw-if-not-resolved="false"></xref> instance.
+    content.vb: Public Shared Function By(keyPrefix As String, keyValueSeparator As String, valueSeparator As String = ";", pathWrapper As String = """", argsSeparator As String = " ") As ArgsBuilder
+  overload: Heleonix.Execution.ArgsBuilder.By*
+  nameWithType.vb: ArgsBuilder.By(String, String, String, String, String)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.By(String, String, String, String, String)
+  name.vb: By(String, String, String, String, String)
+- uid: Heleonix.Execution.ArgsBuilder.AddKey(System.String,System.Boolean)
+  commentId: M:Heleonix.Execution.ArgsBuilder.AddKey(System.String,System.Boolean)
+  id: AddKey(System.String,System.Boolean)
+  parent: Heleonix.Execution.ArgsBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddKey(string, bool)
+  nameWithType: ArgsBuilder.AddKey(string, bool)
+  fullName: Heleonix.Execution.ArgsBuilder.AddKey(string, bool)
+  type: Method
+  assemblies:
+  - Heleonix.Execution
+  namespace: Heleonix.Execution
+  summary: Adds the specified key.
+  example:
+  - >-
+    var canAddKey = true;
+
+
+    var args = ArgsBuilder.By("--", "=").AddKey("key1", canAddKey);
+
+
+    // args: "--key1".
+  syntax:
+    content: public ArgsBuilder AddKey(string key, bool condition = true)
+    parameters:
+    - id: key
+      type: System.String
+      description: The key.
+    - id: condition
+      type: System.Boolean
+      description: A condition to add.
+    return:
+      type: Heleonix.Execution.ArgsBuilder
+      description: This <xref href="Heleonix.Execution.ArgsBuilder" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function AddKey(key As String, condition As Boolean = True) As ArgsBuilder
+  overload: Heleonix.Execution.ArgsBuilder.AddKey*
+  nameWithType.vb: ArgsBuilder.AddKey(String, Boolean)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.AddKey(String, Boolean)
+  name.vb: AddKey(String, Boolean)
+- uid: Heleonix.Execution.ArgsBuilder.AddKeys(System.Collections.Generic.IEnumerable{System.String},System.Boolean)
+  commentId: M:Heleonix.Execution.ArgsBuilder.AddKeys(System.Collections.Generic.IEnumerable{System.String},System.Boolean)
+  id: AddKeys(System.Collections.Generic.IEnumerable{System.String},System.Boolean)
+  parent: Heleonix.Execution.ArgsBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddKeys(IEnumerable<string>, bool)
+  nameWithType: ArgsBuilder.AddKeys(IEnumerable<string>, bool)
+  fullName: Heleonix.Execution.ArgsBuilder.AddKeys(System.Collections.Generic.IEnumerable<string>, bool)
+  type: Method
+  assemblies:
+  - Heleonix.Execution
+  namespace: Heleonix.Execution
+  summary: Adds the specified list of keys.
+  example:
+  - >-
+    var canAddKeys = true;
+
+
+    var args = ArgsBuilder.By("--", "=").AddKeys(new[] { "key1", "key2" }, canAddKeys);
+
+
+    // args: "--key1 --key2".
+  syntax:
+    content: public ArgsBuilder AddKeys(IEnumerable<string> keys, bool condition = true)
+    parameters:
+    - id: keys
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: The keys.
+    - id: condition
+      type: System.Boolean
+      description: A condition to add.
+    return:
+      type: Heleonix.Execution.ArgsBuilder
+      description: This instance.
+    content.vb: Public Function AddKeys(keys As IEnumerable(Of String), condition As Boolean = True) As ArgsBuilder
+  overload: Heleonix.Execution.ArgsBuilder.AddKeys*
+  nameWithType.vb: ArgsBuilder.AddKeys(IEnumerable(Of String), Boolean)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.AddKeys(System.Collections.Generic.IEnumerable(Of String), Boolean)
+  name.vb: AddKeys(IEnumerable(Of String), Boolean)
+- uid: Heleonix.Execution.ArgsBuilder.AddValue(System.Object,System.Boolean)
+  commentId: M:Heleonix.Execution.ArgsBuilder.AddValue(System.Object,System.Boolean)
+  id: AddValue(System.Object,System.Boolean)
+  parent: Heleonix.Execution.ArgsBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddValue(object, bool)
+  nameWithType: ArgsBuilder.AddValue(object, bool)
+  fullName: Heleonix.Execution.ArgsBuilder.AddValue(object, bool)
+  type: Method
+  assemblies:
+  - Heleonix.Execution
+  namespace: Heleonix.Execution
+  summary: Adds the specified value.
+  example:
+  - >-
+    var canAddValue = true;
+
+
+    var args = ArgsBuilder.By("--", "=").AddValue("12345", canAddValue);
+
+
+    // args: "12345".
+  syntax:
+    content: public ArgsBuilder AddValue(object value, bool condition = true)
+    parameters:
+    - id: value
+      type: System.Object
+      description: The value.
+    - id: condition
+      type: System.Boolean
+      description: A condition to add.
+    return:
+      type: Heleonix.Execution.ArgsBuilder
+      description: This instance.
+    content.vb: Public Function AddValue(value As Object, condition As Boolean = True) As ArgsBuilder
+  overload: Heleonix.Execution.ArgsBuilder.AddValue*
+  nameWithType.vb: ArgsBuilder.AddValue(Object, Boolean)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.AddValue(Object, Boolean)
+  name.vb: AddValue(Object, Boolean)
+- uid: Heleonix.Execution.ArgsBuilder.AddValues(System.Collections.Generic.IEnumerable{System.Object},System.Boolean)
+  commentId: M:Heleonix.Execution.ArgsBuilder.AddValues(System.Collections.Generic.IEnumerable{System.Object},System.Boolean)
+  id: AddValues(System.Collections.Generic.IEnumerable{System.Object},System.Boolean)
+  parent: Heleonix.Execution.ArgsBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddValues(IEnumerable<object>, bool)
+  nameWithType: ArgsBuilder.AddValues(IEnumerable<object>, bool)
+  fullName: Heleonix.Execution.ArgsBuilder.AddValues(System.Collections.Generic.IEnumerable<object>, bool)
+  type: Method
+  assemblies:
+  - Heleonix.Execution
+  namespace: Heleonix.Execution
+  summary: Adds the specified list of values.
+  example:
+  - >-
+    var canAddValues = true;
+
+
+    var args = ArgsBuilder.By("--", "=").AddValues(new [] { "111", "222", canAddValues);
+
+
+    // args: "111 222".
+  syntax:
+    content: public ArgsBuilder AddValues(IEnumerable<object> values, bool condition = true)
+    parameters:
+    - id: values
+      type: System.Collections.Generic.IEnumerable{System.Object}
+      description: The values.
+    - id: condition
+      type: System.Boolean
+      description: A condition to add.
+    return:
+      type: Heleonix.Execution.ArgsBuilder
+      description: This instance.
+    content.vb: Public Function AddValues(values As IEnumerable(Of Object), condition As Boolean = True) As ArgsBuilder
+  overload: Heleonix.Execution.ArgsBuilder.AddValues*
+  nameWithType.vb: ArgsBuilder.AddValues(IEnumerable(Of Object), Boolean)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.AddValues(System.Collections.Generic.IEnumerable(Of Object), Boolean)
+  name.vb: AddValues(IEnumerable(Of Object), Boolean)
+- uid: Heleonix.Execution.ArgsBuilder.AddArgument(System.String,System.Object,System.Boolean)
+  commentId: M:Heleonix.Execution.ArgsBuilder.AddArgument(System.String,System.Object,System.Boolean)
+  id: AddArgument(System.String,System.Object,System.Boolean)
+  parent: Heleonix.Execution.ArgsBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddArgument(string, object, bool)
+  nameWithType: ArgsBuilder.AddArgument(string, object, bool)
+  fullName: Heleonix.Execution.ArgsBuilder.AddArgument(string, object, bool)
+  type: Method
+  assemblies:
+  - Heleonix.Execution
+  namespace: Heleonix.Execution
+  summary: Adds the specified key and value.
+  example:
+  - >-
+    var canAddArgument = true;
+
+
+    var args = ArgsBuilder.By("--", "=").AddArgument("arg1", "value1", canAddArgument);
+
+
+    // args: "--arg1=value1".
+  syntax:
+    content: public ArgsBuilder AddArgument(string key, object value, bool condition = true)
+    parameters:
+    - id: key
+      type: System.String
+      description: The key.
+    - id: value
+      type: System.Object
+      description: The value.
+    - id: condition
+      type: System.Boolean
+      description: A condition to add.
+    return:
+      type: Heleonix.Execution.ArgsBuilder
+      description: This instance.
+    content.vb: Public Function AddArgument(key As String, value As Object, condition As Boolean = True) As ArgsBuilder
+  overload: Heleonix.Execution.ArgsBuilder.AddArgument*
+  nameWithType.vb: ArgsBuilder.AddArgument(String, Object, Boolean)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.AddArgument(String, Object, Boolean)
+  name.vb: AddArgument(String, Object, Boolean)
+- uid: Heleonix.Execution.ArgsBuilder.AddArguments(System.String,System.Collections.Generic.IEnumerable{System.Object},System.Boolean,System.Boolean)
+  commentId: M:Heleonix.Execution.ArgsBuilder.AddArguments(System.String,System.Collections.Generic.IEnumerable{System.Object},System.Boolean,System.Boolean)
+  id: AddArguments(System.String,System.Collections.Generic.IEnumerable{System.Object},System.Boolean,System.Boolean)
+  parent: Heleonix.Execution.ArgsBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddArguments(string, IEnumerable<object>, bool, bool)
+  nameWithType: ArgsBuilder.AddArguments(string, IEnumerable<object>, bool, bool)
+  fullName: Heleonix.Execution.ArgsBuilder.AddArguments(string, System.Collections.Generic.IEnumerable<object>, bool, bool)
+  type: Method
+  assemblies:
+  - Heleonix.Execution
+  namespace: Heleonix.Execution
+  summary: Adds the specified list of values with the specified key, repeating key/value pair if <code class="paramref">multipleTimes</code> is <code>true</code>.
+  example:
+  - >-
+    var canAddArguments = true;
+
+
+    var args = ArgsBuilder.By("--", "=", valueSeparator: ",").AddArguments("key", new[] { "111", "222", false, canAddArguments);
+
+
+    var multipleArgs = ArgsBuilder.By("--", "=").AddArguments("key", new[] { "111", "222", true, canAddArguments);
+
+
+    // args: "--key=111,222"
+
+
+    // multipleArgs: "--key=111 --key=222".
+  syntax:
+    content: public ArgsBuilder AddArguments(string key, IEnumerable<object> values, bool multipleTimes = false, bool condition = true)
+    parameters:
+    - id: key
+      type: System.String
+      description: The key.
+    - id: values
+      type: System.Collections.Generic.IEnumerable{System.Object}
+      description: The values.
+    - id: multipleTimes
+      type: System.Boolean
+      description: Determines whether to add each argument with a separate key.
+    - id: condition
+      type: System.Boolean
+      description: A condition to add.
+    return:
+      type: Heleonix.Execution.ArgsBuilder
+      description: This instance.
+    content.vb: Public Function AddArguments(key As String, values As IEnumerable(Of Object), multipleTimes As Boolean = False, condition As Boolean = True) As ArgsBuilder
+  overload: Heleonix.Execution.ArgsBuilder.AddArguments*
+  nameWithType.vb: ArgsBuilder.AddArguments(String, IEnumerable(Of Object), Boolean, Boolean)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.AddArguments(String, System.Collections.Generic.IEnumerable(Of Object), Boolean, Boolean)
+  name.vb: AddArguments(String, IEnumerable(Of Object), Boolean, Boolean)
+- uid: Heleonix.Execution.ArgsBuilder.AddPath(System.String,System.Boolean)
+  commentId: M:Heleonix.Execution.ArgsBuilder.AddPath(System.String,System.Boolean)
+  id: AddPath(System.String,System.Boolean)
+  parent: Heleonix.Execution.ArgsBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddPath(string, bool)
+  nameWithType: ArgsBuilder.AddPath(string, bool)
+  fullName: Heleonix.Execution.ArgsBuilder.AddPath(string, bool)
+  type: Method
+  assemblies:
+  - Heleonix.Execution
+  namespace: Heleonix.Execution
+  summary: Adds the specified path.
+  example:
+  - >-
+    var canAddPath = true;
+
+
+    var args = ArgsBuilder.By("--", "=").AddPath("C:\My Folder\my file.txt", canAddPath);
+
+
+    // args: ""C:\My Folder\my file.txt"".
+  syntax:
+    content: public ArgsBuilder AddPath(string path, bool condition = true)
+    parameters:
+    - id: path
+      type: System.String
+      description: The path.
+    - id: condition
+      type: System.Boolean
+      description: A condition to add.
+    return:
+      type: Heleonix.Execution.ArgsBuilder
+      description: This instance.
+    content.vb: Public Function AddPath(path As String, condition As Boolean = True) As ArgsBuilder
+  overload: Heleonix.Execution.ArgsBuilder.AddPath*
+  nameWithType.vb: ArgsBuilder.AddPath(String, Boolean)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.AddPath(String, Boolean)
+  name.vb: AddPath(String, Boolean)
+- uid: Heleonix.Execution.ArgsBuilder.AddPath(System.String,System.String,System.Boolean)
+  commentId: M:Heleonix.Execution.ArgsBuilder.AddPath(System.String,System.String,System.Boolean)
+  id: AddPath(System.String,System.String,System.Boolean)
+  parent: Heleonix.Execution.ArgsBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddPath(string, string, bool)
+  nameWithType: ArgsBuilder.AddPath(string, string, bool)
+  fullName: Heleonix.Execution.ArgsBuilder.AddPath(string, string, bool)
+  type: Method
+  assemblies:
+  - Heleonix.Execution
+  namespace: Heleonix.Execution
+  summary: Adds the specified path with the specified key.
+  example:
+  - >-
+    var canAddPath = true;
+
+
+    var args = ArgsBuilder.By("--", "=").AddPath("key", "C:\My Folder\my file.txt", canAddPath);
+
+
+    // args: "--key="C:\My Folder\my file.txt"".
+  syntax:
+    content: public ArgsBuilder AddPath(string key, string path, bool condition = true)
+    parameters:
+    - id: key
+      type: System.String
+      description: The key.
+    - id: path
+      type: System.String
+      description: The path.
+    - id: condition
+      type: System.Boolean
+      description: A condition to add.
+    return:
+      type: Heleonix.Execution.ArgsBuilder
+      description: This instance.
+    content.vb: Public Function AddPath(key As String, path As String, condition As Boolean = True) As ArgsBuilder
+  overload: Heleonix.Execution.ArgsBuilder.AddPath*
+  nameWithType.vb: ArgsBuilder.AddPath(String, String, Boolean)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.AddPath(String, String, Boolean)
+  name.vb: AddPath(String, String, Boolean)
+- uid: Heleonix.Execution.ArgsBuilder.AddPaths(System.Collections.Generic.IEnumerable{System.String},System.Boolean)
+  commentId: M:Heleonix.Execution.ArgsBuilder.AddPaths(System.Collections.Generic.IEnumerable{System.String},System.Boolean)
+  id: AddPaths(System.Collections.Generic.IEnumerable{System.String},System.Boolean)
+  parent: Heleonix.Execution.ArgsBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddPaths(IEnumerable<string>, bool)
+  nameWithType: ArgsBuilder.AddPaths(IEnumerable<string>, bool)
+  fullName: Heleonix.Execution.ArgsBuilder.AddPaths(System.Collections.Generic.IEnumerable<string>, bool)
+  type: Method
+  assemblies:
+  - Heleonix.Execution
+  namespace: Heleonix.Execution
+  summary: Adds the specified list of paths.
+  example:
+  - >-
+    var canAddPaths = true;
+
+
+    var args = ArgsBuilder.By("--", "=").AddPaths(new [] { "C:\my file 1.txt", "C:\my file 2.txt", canAddPaths);
+
+
+    // args: ""C:\my file 1.txt" "C:\my file 2.txt"".
+  syntax:
+    content: public ArgsBuilder AddPaths(IEnumerable<string> paths, bool condition = true)
+    parameters:
+    - id: paths
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: The paths.
+    - id: condition
+      type: System.Boolean
+      description: A condition to add.
+    return:
+      type: Heleonix.Execution.ArgsBuilder
+      description: This instance.
+    content.vb: Public Function AddPaths(paths As IEnumerable(Of String), condition As Boolean = True) As ArgsBuilder
+  overload: Heleonix.Execution.ArgsBuilder.AddPaths*
+  nameWithType.vb: ArgsBuilder.AddPaths(IEnumerable(Of String), Boolean)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.AddPaths(System.Collections.Generic.IEnumerable(Of String), Boolean)
+  name.vb: AddPaths(IEnumerable(Of String), Boolean)
+- uid: Heleonix.Execution.ArgsBuilder.AddPaths(System.String,System.Collections.Generic.IEnumerable{System.String},System.Boolean,System.Boolean)
+  commentId: M:Heleonix.Execution.ArgsBuilder.AddPaths(System.String,System.Collections.Generic.IEnumerable{System.String},System.Boolean,System.Boolean)
+  id: AddPaths(System.String,System.Collections.Generic.IEnumerable{System.String},System.Boolean,System.Boolean)
+  parent: Heleonix.Execution.ArgsBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddPaths(string, IEnumerable<string>, bool, bool)
+  nameWithType: ArgsBuilder.AddPaths(string, IEnumerable<string>, bool, bool)
+  fullName: Heleonix.Execution.ArgsBuilder.AddPaths(string, System.Collections.Generic.IEnumerable<string>, bool, bool)
+  type: Method
+  assemblies:
+  - Heleonix.Execution
+  namespace: Heleonix.Execution
+  summary: Adds the specified list of paths with the specified key, repeating key/path pair if <code class="paramref">multipleTimes</code> is <code>true</code>.
+  example:
+  - >-
+    var canAddPaths = true;
+
+
+    var args = ArgsBuilder.By("--", "=", valueSeparator: ",").AddPaths("key", new[] { "C:\my file 1.txt", "C:\my file 2.txt", false, canAddPaths);
+
+
+    var multipleArgs = ArgsBuilder.By("--", "=").AddPaths("key", new[] { "C:\my file 1.txt", "C:\my file 2.txt", true, canAddPaths);
+
+
+    // args: "--key="C:\my file 1.txt","C:\my file 2.txt""
+
+
+    // multipleArgs: "--key="C:\my file 1.txt" --key="C:\my file 2.txt"".
+  syntax:
+    content: public ArgsBuilder AddPaths(string key, IEnumerable<string> paths, bool multipleTimes = false, bool condition = true)
+    parameters:
+    - id: key
+      type: System.String
+      description: The key.
+    - id: paths
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: The paths.
+    - id: multipleTimes
+      type: System.Boolean
+      description: Determines whether to add each path with separate key.
+    - id: condition
+      type: System.Boolean
+      description: A condition to add.
+    return:
+      type: Heleonix.Execution.ArgsBuilder
+      description: This instance.
+    content.vb: Public Function AddPaths(key As String, paths As IEnumerable(Of String), multipleTimes As Boolean = False, condition As Boolean = True) As ArgsBuilder
+  overload: Heleonix.Execution.ArgsBuilder.AddPaths*
+  nameWithType.vb: ArgsBuilder.AddPaths(String, IEnumerable(Of String), Boolean, Boolean)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.AddPaths(String, System.Collections.Generic.IEnumerable(Of String), Boolean, Boolean)
+  name.vb: AddPaths(String, IEnumerable(Of String), Boolean, Boolean)
+- uid: Heleonix.Execution.ArgsBuilder.ToString
+  commentId: M:Heleonix.Execution.ArgsBuilder.ToString
+  id: ToString
+  parent: Heleonix.Execution.ArgsBuilder
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ArgsBuilder.ToString()
+  fullName: Heleonix.Execution.ArgsBuilder.ToString()
+  type: Method
+  assemblies:
+  - Heleonix.Execution
+  namespace: Heleonix.Execution
+  summary: Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: Heleonix.Execution.ArgsBuilder.ToString*
+references:
+- uid: Heleonix.Execution.ArgsBuilder
+  commentId: T:Heleonix.Execution.ArgsBuilder
+  parent: Heleonix.Execution
+  isExternal: true
+  href: Heleonix.Execution.ArgsBuilder.html
+  name: ArgsBuilder
+  nameWithType: ArgsBuilder
+  fullName: Heleonix.Execution.ArgsBuilder
+- uid: Heleonix.Execution
+  commentId: N:Heleonix.Execution
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Execution
+  nameWithType: Heleonix.Execution
+  fullName: Heleonix.Execution
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Execution
+    name: Execution
+    isExternal: true
+    href: Heleonix.Execution.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Execution
+    name: Execution
+    isExternal: true
+    href: Heleonix.Execution.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Heleonix.Execution.ArgsBuilder.op_Implicit*
+  commentId: Overload:Heleonix.Execution.ArgsBuilder.op_Implicit
+  name: implicit operator
+  nameWithType: ArgsBuilder.implicit operator
+  fullName: Heleonix.Execution.ArgsBuilder.implicit operator
+  nameWithType.vb: ArgsBuilder.CType
+  fullName.vb: Heleonix.Execution.ArgsBuilder.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: Heleonix.Execution.ArgsBuilder.By*
+  commentId: Overload:Heleonix.Execution.ArgsBuilder.By
+  isExternal: true
+  href: Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_By_System_String_System_String_System_String_System_String_System_String_
+  name: By
+  nameWithType: ArgsBuilder.By
+  fullName: Heleonix.Execution.ArgsBuilder.By
+- uid: Heleonix.Execution.ArgsBuilder.AddKey*
+  commentId: Overload:Heleonix.Execution.ArgsBuilder.AddKey
+  isExternal: true
+  href: Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddKey_System_String_System_Boolean_
+  name: AddKey
+  nameWithType: ArgsBuilder.AddKey
+  fullName: Heleonix.Execution.ArgsBuilder.AddKey
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Heleonix.Execution.ArgsBuilder.AddKeys*
+  commentId: Overload:Heleonix.Execution.ArgsBuilder.AddKeys
+  isExternal: true
+  href: Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddKeys_System_Collections_Generic_IEnumerable_System_String__System_Boolean_
+  name: AddKeys
+  nameWithType: ArgsBuilder.AddKeys
+  fullName: Heleonix.Execution.ArgsBuilder.AddKeys
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<string>
+  nameWithType: IEnumerable<string>
+  fullName: System.Collections.Generic.IEnumerable<string>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Heleonix.Execution.ArgsBuilder.AddValue*
+  commentId: Overload:Heleonix.Execution.ArgsBuilder.AddValue
+  isExternal: true
+  href: Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddValue_System_Object_System_Boolean_
+  name: AddValue
+  nameWithType: ArgsBuilder.AddValue
+  fullName: Heleonix.Execution.ArgsBuilder.AddValue
+- uid: Heleonix.Execution.ArgsBuilder.AddValues*
+  commentId: Overload:Heleonix.Execution.ArgsBuilder.AddValues
+  isExternal: true
+  href: Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddValues_System_Collections_Generic_IEnumerable_System_Object__System_Boolean_
+  name: AddValues
+  nameWithType: ArgsBuilder.AddValues
+  fullName: Heleonix.Execution.ArgsBuilder.AddValues
+- uid: System.Collections.Generic.IEnumerable{System.Object}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<object>
+  nameWithType: IEnumerable<object>
+  fullName: System.Collections.Generic.IEnumerable<object>
+  nameWithType.vb: IEnumerable(Of Object)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Object)
+  name.vb: IEnumerable(Of Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Heleonix.Execution.ArgsBuilder.AddArgument*
+  commentId: Overload:Heleonix.Execution.ArgsBuilder.AddArgument
+  isExternal: true
+  href: Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddArgument_System_String_System_Object_System_Boolean_
+  name: AddArgument
+  nameWithType: ArgsBuilder.AddArgument
+  fullName: Heleonix.Execution.ArgsBuilder.AddArgument
+- uid: Heleonix.Execution.ArgsBuilder.AddArguments*
+  commentId: Overload:Heleonix.Execution.ArgsBuilder.AddArguments
+  isExternal: true
+  href: Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddArguments_System_String_System_Collections_Generic_IEnumerable_System_Object__System_Boolean_System_Boolean_
+  name: AddArguments
+  nameWithType: ArgsBuilder.AddArguments
+  fullName: Heleonix.Execution.ArgsBuilder.AddArguments
+- uid: Heleonix.Execution.ArgsBuilder.AddPath*
+  commentId: Overload:Heleonix.Execution.ArgsBuilder.AddPath
+  isExternal: true
+  href: Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddPath_System_String_System_Boolean_
+  name: AddPath
+  nameWithType: ArgsBuilder.AddPath
+  fullName: Heleonix.Execution.ArgsBuilder.AddPath
+- uid: Heleonix.Execution.ArgsBuilder.AddPaths*
+  commentId: Overload:Heleonix.Execution.ArgsBuilder.AddPaths
+  isExternal: true
+  href: Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddPaths_System_Collections_Generic_IEnumerable_System_String__System_Boolean_
+  name: AddPaths
+  nameWithType: ArgsBuilder.AddPaths
+  fullName: Heleonix.Execution.ArgsBuilder.AddPaths
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Heleonix.Execution.ArgsBuilder.ToString*
+  commentId: Overload:Heleonix.Execution.ArgsBuilder.ToString
+  isExternal: true
+  href: Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_ToString
+  name: ToString
+  nameWithType: ArgsBuilder.ToString
+  fullName: Heleonix.Execution.ArgsBuilder.ToString

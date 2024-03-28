@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Execution
+  commentId: N:Heleonix.Execution
+  id: Heleonix.Execution
+  children:
+  - Heleonix.Execution.ArgsBuilder
+  - Heleonix.Execution.ExeHelper
+  - Heleonix.Execution.ExeResult
+  langs:
+  - csharp
+  - vb
+  name: Heleonix.Execution
+  nameWithType: Heleonix.Execution
+  fullName: Heleonix.Execution
+  type: Namespace
+  assemblies:
+  - Heleonix.Execution
+references:
+- uid: Heleonix.Execution.ArgsBuilder
+  commentId: T:Heleonix.Execution.ArgsBuilder
+  parent: Heleonix.Execution
+  isExternal: true
+  href: Heleonix.Execution.ArgsBuilder.html
+  name: ArgsBuilder
+  nameWithType: ArgsBuilder
+  fullName: Heleonix.Execution.ArgsBuilder
+- uid: Heleonix.Execution.ExeHelper
+  commentId: T:Heleonix.Execution.ExeHelper
+  isExternal: true
+  href: Heleonix.Execution.ExeHelper.html
+  name: ExeHelper
+  nameWithType: ExeHelper
+  fullName: Heleonix.Execution.ExeHelper
+- uid: Heleonix.Execution.ExeResult
+  commentId: T:Heleonix.Execution.ExeResult
+  parent: Heleonix.Execution
+  isExternal: true
+  href: Heleonix.Execution.ExeResult.html
+  name: ExeResult
+  nameWithType: ExeResult
+  fullName: Heleonix.Execution.ExeResult
+- uid: Heleonix.Execution
+  commentId: N:Heleonix.Execution
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Execution
+  nameWithType: Heleonix.Execution
+  fullName: Heleonix.Execution
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Execution
+    name: Execution
+    isExternal: true
+    href: Heleonix.Execution.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Execution
+    name: Execution
+    isExternal: true
+    href: Heleonix.Execution.html

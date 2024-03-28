@@ -1,5 +1,5 @@
 {
-  "source_base_path": "D:/a/Heleonix.Testing/Heleonix.Testing/Hx_Artifacts/DocFX",
+  "source_base_path": "D:/a/Heleonix.Execution/Heleonix.Execution/Hx_Artifacts/DocFX",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -387,11 +387,64 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "Heleonix.Execution/Heleonix.Execution.ArgsBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Heleonix.Execution/Heleonix.Execution.ExeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Execution/Heleonix.Execution.ExeHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Heleonix.Execution/Heleonix.Execution.ExeResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Execution/Heleonix.Execution.ExeResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Heleonix.Execution/Heleonix.Execution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Execution/Heleonix.Execution.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "Heleonix.Execution/index.md",
       "output": {
         ".html": {
           "relative_path": "Heleonix.Execution/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Heleonix.Execution/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Execution/toc.html"
+        },
+        ".json": {
+          "relative_path": "Heleonix.Execution/toc.json"
         }
       },
       "version": ""

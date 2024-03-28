@@ -1,0 +1,472 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Execution.ExeHelper
+  commentId: T:Heleonix.Execution.ExeHelper
+  id: ExeHelper
+  parent: Heleonix.Execution
+  children:
+  - Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.Boolean,System.String,System.Int32)
+  - Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ExeHelper
+  nameWithType: ExeHelper
+  fullName: Heleonix.Execution.ExeHelper
+  type: Class
+  assemblies:
+  - Heleonix.Execution
+  namespace: Heleonix.Execution
+  summary: Provides functionality for working with executables.
+  example: []
+  syntax:
+    content: public static class ExeHelper
+    content.vb: Public Module ExeHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.Boolean,System.String,System.Int32)
+  commentId: M:Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.Boolean,System.String,System.Int32)
+  id: Execute(System.String,System.String,System.Boolean,System.String,System.Int32)
+  parent: Heleonix.Execution.ExeHelper
+  langs:
+  - csharp
+  - vb
+  name: Execute(string, string, bool, string, int)
+  nameWithType: ExeHelper.Execute(string, string, bool, string, int)
+  fullName: Heleonix.Execution.ExeHelper.Execute(string, string, bool, string, int)
+  type: Method
+  assemblies:
+  - Heleonix.Execution
+  namespace: Heleonix.Execution
+  summary: Executes an executable by the specified <code class="paramref">exePath</code>.
+  example:
+  - >-
+    var result = ExeHelper.Execute(
+
+    @"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
+
+    "--app=http://www.google.com --window-size=300,300 --new-window",
+
+    true,
+
+    string.Empty,
+
+    2000);
+
+
+    Console.WriteLine(result.ExitCode); // An exit code: value returned by `Main` or by `Environment.Exit(exitCode)` etc.
+
+    Console.WriteLine(result.Output); // Output like `Console.WriteLine` is available here
+
+    Console.WriteLine(result.Error); // Output like `Console.Error.WriteLine` is available here.
+  syntax:
+    content: public static ExeResult Execute(string exePath, string arguments, bool extractOutput, string workingDirectory = "", int waitForExit = 2147483647)
+    parameters:
+    - id: exePath
+      type: System.String
+      description: Defines the path to executable.
+    - id: arguments
+      type: System.String
+      description: Represents the command line arguments.
+    - id: extractOutput
+      type: System.Boolean
+      description: Defines whether to redirect and extract standard output and errors or not.
+    - id: workingDirectory
+      type: System.String
+      description: >-
+        The current working directory.
+                     Relative paths inside the executable will be relative to this working directory.
+    - id: waitForExit
+      type: System.Int32
+      description: >-
+        A number of millisecoonds to wait for process ending.
+                     Use <xref href="System.Int32.MaxValue" data-throw-if-not-resolved="false"></xref> to wait infinitely.
+    return:
+      type: Heleonix.Execution.ExeResult
+      description: An exit result.
+    content.vb: Public Shared Function Execute(exePath As String, arguments As String, extractOutput As Boolean, workingDirectory As String = "", waitForExit As Integer = 2147483647) As ExeResult
+  overload: Heleonix.Execution.ExeHelper.Execute*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: See the inner exception for details.
+  nameWithType.vb: ExeHelper.Execute(String, String, Boolean, String, Integer)
+  fullName.vb: Heleonix.Execution.ExeHelper.Execute(String, String, Boolean, String, Integer)
+  name.vb: Execute(String, String, Boolean, String, Integer)
+- uid: Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.String)
+  commentId: M:Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.String)
+  id: Execute(System.String,System.String,System.String)
+  parent: Heleonix.Execution.ExeHelper
+  langs:
+  - csharp
+  - vb
+  name: Execute(string, string, string)
+  nameWithType: ExeHelper.Execute(string, string, string)
+  fullName: Heleonix.Execution.ExeHelper.Execute(string, string, string)
+  type: Method
+  assemblies:
+  - Heleonix.Execution
+  namespace: Heleonix.Execution
+  summary: Executes an executable by the specified path. Does not extract output and error streams.
+  example: []
+  syntax:
+    content: public static int Execute(string exePath, string arguments, string workingDirectory = "")
+    parameters:
+    - id: exePath
+      type: System.String
+      description: The execute path.
+    - id: arguments
+      type: System.String
+      description: The arguments.
+    - id: workingDirectory
+      type: System.String
+      description: The working directory.
+    return:
+      type: System.Int32
+      description: An executable's exit code.
+    content.vb: Public Shared Function Execute(exePath As String, arguments As String, workingDirectory As String = "") As Integer
+  overload: Heleonix.Execution.ExeHelper.Execute*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: See the inner exception for details.
+  nameWithType.vb: ExeHelper.Execute(String, String, String)
+  fullName.vb: Heleonix.Execution.ExeHelper.Execute(String, String, String)
+  name.vb: Execute(String, String, String)
+references:
+- uid: Heleonix.Execution
+  commentId: N:Heleonix.Execution
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Execution
+  nameWithType: Heleonix.Execution
+  fullName: Heleonix.Execution
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Execution
+    name: Execution
+    isExternal: true
+    href: Heleonix.Execution.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Execution
+    name: Execution
+    isExternal: true
+    href: Heleonix.Execution.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32.MaxValue
+  commentId: F:System.Int32.MaxValue
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32.maxvalue
+  name: MaxValue
+  nameWithType: int.MaxValue
+  fullName: int.MaxValue
+  nameWithType.vb: Integer.MaxValue
+  fullName.vb: Integer.MaxValue
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.invalidoperationexception
+  name: InvalidOperationException
+  nameWithType: InvalidOperationException
+  fullName: System.InvalidOperationException
+- uid: Heleonix.Execution.ExeHelper.Execute*
+  commentId: Overload:Heleonix.Execution.ExeHelper.Execute
+  isExternal: true
+  href: Heleonix.Execution.ExeHelper.html#Heleonix_Execution_ExeHelper_Execute_System_String_System_String_System_Boolean_System_String_System_Int32_
+  name: Execute
+  nameWithType: ExeHelper.Execute
+  fullName: Heleonix.Execution.ExeHelper.Execute
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Heleonix.Execution.ExeResult
+  commentId: T:Heleonix.Execution.ExeResult
+  parent: Heleonix.Execution
+  isExternal: true
+  href: Heleonix.Execution.ExeResult.html
+  name: ExeResult
+  nameWithType: ExeResult
+  fullName: Heleonix.Execution.ExeResult

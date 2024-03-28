@@ -4,6 +4,331 @@ references:
 - uid: Heleonix.Build
   name: Heleonix.Build
   href: Heleonix.Build/api/Heleonix.Build.html
+- uid: Heleonix.Execution
+  name: Heleonix.Execution
+  href: Heleonix.Execution/Heleonix.Execution.html
+  commentId: N:Heleonix.Execution
+  fullName: Heleonix.Execution
+  nameWithType: Heleonix.Execution
+- uid: Heleonix.Execution.ArgsBuilder
+  name: ArgsBuilder
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html
+  commentId: T:Heleonix.Execution.ArgsBuilder
+  fullName: Heleonix.Execution.ArgsBuilder
+  nameWithType: ArgsBuilder
+- uid: Heleonix.Execution.ArgsBuilder.AddArgument(System.String,System.Object,System.Boolean)
+  name: AddArgument(string, object, bool)
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddArgument_System_String_System_Object_System_Boolean_
+  commentId: M:Heleonix.Execution.ArgsBuilder.AddArgument(System.String,System.Object,System.Boolean)
+  name.vb: AddArgument(String, Object, Boolean)
+  fullName: Heleonix.Execution.ArgsBuilder.AddArgument(string, object, bool)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.AddArgument(String, Object, Boolean)
+  nameWithType: ArgsBuilder.AddArgument(string, object, bool)
+  nameWithType.vb: ArgsBuilder.AddArgument(String, Object, Boolean)
+- uid: Heleonix.Execution.ArgsBuilder.AddArgument*
+  name: AddArgument
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddArgument_
+  commentId: Overload:Heleonix.Execution.ArgsBuilder.AddArgument
+  fullName: Heleonix.Execution.ArgsBuilder.AddArgument
+  nameWithType: ArgsBuilder.AddArgument
+- uid: Heleonix.Execution.ArgsBuilder.AddArguments(System.String,System.Collections.Generic.IEnumerable{System.Object},System.Boolean,System.Boolean)
+  name: AddArguments(string, IEnumerable<object>, bool, bool)
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddArguments_System_String_System_Collections_Generic_IEnumerable_System_Object__System_Boolean_System_Boolean_
+  commentId: M:Heleonix.Execution.ArgsBuilder.AddArguments(System.String,System.Collections.Generic.IEnumerable{System.Object},System.Boolean,System.Boolean)
+  name.vb: AddArguments(String, IEnumerable(Of Object), Boolean, Boolean)
+  fullName: Heleonix.Execution.ArgsBuilder.AddArguments(string, System.Collections.Generic.IEnumerable<object>, bool, bool)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.AddArguments(String, System.Collections.Generic.IEnumerable(Of Object), Boolean, Boolean)
+  nameWithType: ArgsBuilder.AddArguments(string, IEnumerable<object>, bool, bool)
+  nameWithType.vb: ArgsBuilder.AddArguments(String, IEnumerable(Of Object), Boolean, Boolean)
+- uid: Heleonix.Execution.ArgsBuilder.AddArguments*
+  name: AddArguments
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddArguments_
+  commentId: Overload:Heleonix.Execution.ArgsBuilder.AddArguments
+  fullName: Heleonix.Execution.ArgsBuilder.AddArguments
+  nameWithType: ArgsBuilder.AddArguments
+- uid: Heleonix.Execution.ArgsBuilder.AddKey(System.String,System.Boolean)
+  name: AddKey(string, bool)
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddKey_System_String_System_Boolean_
+  commentId: M:Heleonix.Execution.ArgsBuilder.AddKey(System.String,System.Boolean)
+  name.vb: AddKey(String, Boolean)
+  fullName: Heleonix.Execution.ArgsBuilder.AddKey(string, bool)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.AddKey(String, Boolean)
+  nameWithType: ArgsBuilder.AddKey(string, bool)
+  nameWithType.vb: ArgsBuilder.AddKey(String, Boolean)
+- uid: Heleonix.Execution.ArgsBuilder.AddKey*
+  name: AddKey
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddKey_
+  commentId: Overload:Heleonix.Execution.ArgsBuilder.AddKey
+  fullName: Heleonix.Execution.ArgsBuilder.AddKey
+  nameWithType: ArgsBuilder.AddKey
+- uid: Heleonix.Execution.ArgsBuilder.AddKeys(System.Collections.Generic.IEnumerable{System.String},System.Boolean)
+  name: AddKeys(IEnumerable<string>, bool)
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddKeys_System_Collections_Generic_IEnumerable_System_String__System_Boolean_
+  commentId: M:Heleonix.Execution.ArgsBuilder.AddKeys(System.Collections.Generic.IEnumerable{System.String},System.Boolean)
+  name.vb: AddKeys(IEnumerable(Of String), Boolean)
+  fullName: Heleonix.Execution.ArgsBuilder.AddKeys(System.Collections.Generic.IEnumerable<string>, bool)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.AddKeys(System.Collections.Generic.IEnumerable(Of String), Boolean)
+  nameWithType: ArgsBuilder.AddKeys(IEnumerable<string>, bool)
+  nameWithType.vb: ArgsBuilder.AddKeys(IEnumerable(Of String), Boolean)
+- uid: Heleonix.Execution.ArgsBuilder.AddKeys*
+  name: AddKeys
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddKeys_
+  commentId: Overload:Heleonix.Execution.ArgsBuilder.AddKeys
+  fullName: Heleonix.Execution.ArgsBuilder.AddKeys
+  nameWithType: ArgsBuilder.AddKeys
+- uid: Heleonix.Execution.ArgsBuilder.AddPath(System.String,System.Boolean)
+  name: AddPath(string, bool)
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddPath_System_String_System_Boolean_
+  commentId: M:Heleonix.Execution.ArgsBuilder.AddPath(System.String,System.Boolean)
+  name.vb: AddPath(String, Boolean)
+  fullName: Heleonix.Execution.ArgsBuilder.AddPath(string, bool)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.AddPath(String, Boolean)
+  nameWithType: ArgsBuilder.AddPath(string, bool)
+  nameWithType.vb: ArgsBuilder.AddPath(String, Boolean)
+- uid: Heleonix.Execution.ArgsBuilder.AddPath(System.String,System.String,System.Boolean)
+  name: AddPath(string, string, bool)
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddPath_System_String_System_String_System_Boolean_
+  commentId: M:Heleonix.Execution.ArgsBuilder.AddPath(System.String,System.String,System.Boolean)
+  name.vb: AddPath(String, String, Boolean)
+  fullName: Heleonix.Execution.ArgsBuilder.AddPath(string, string, bool)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.AddPath(String, String, Boolean)
+  nameWithType: ArgsBuilder.AddPath(string, string, bool)
+  nameWithType.vb: ArgsBuilder.AddPath(String, String, Boolean)
+- uid: Heleonix.Execution.ArgsBuilder.AddPath*
+  name: AddPath
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddPath_
+  commentId: Overload:Heleonix.Execution.ArgsBuilder.AddPath
+  fullName: Heleonix.Execution.ArgsBuilder.AddPath
+  nameWithType: ArgsBuilder.AddPath
+- uid: Heleonix.Execution.ArgsBuilder.AddPaths(System.Collections.Generic.IEnumerable{System.String},System.Boolean)
+  name: AddPaths(IEnumerable<string>, bool)
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddPaths_System_Collections_Generic_IEnumerable_System_String__System_Boolean_
+  commentId: M:Heleonix.Execution.ArgsBuilder.AddPaths(System.Collections.Generic.IEnumerable{System.String},System.Boolean)
+  name.vb: AddPaths(IEnumerable(Of String), Boolean)
+  fullName: Heleonix.Execution.ArgsBuilder.AddPaths(System.Collections.Generic.IEnumerable<string>, bool)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.AddPaths(System.Collections.Generic.IEnumerable(Of String), Boolean)
+  nameWithType: ArgsBuilder.AddPaths(IEnumerable<string>, bool)
+  nameWithType.vb: ArgsBuilder.AddPaths(IEnumerable(Of String), Boolean)
+- uid: Heleonix.Execution.ArgsBuilder.AddPaths(System.String,System.Collections.Generic.IEnumerable{System.String},System.Boolean,System.Boolean)
+  name: AddPaths(string, IEnumerable<string>, bool, bool)
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddPaths_System_String_System_Collections_Generic_IEnumerable_System_String__System_Boolean_System_Boolean_
+  commentId: M:Heleonix.Execution.ArgsBuilder.AddPaths(System.String,System.Collections.Generic.IEnumerable{System.String},System.Boolean,System.Boolean)
+  name.vb: AddPaths(String, IEnumerable(Of String), Boolean, Boolean)
+  fullName: Heleonix.Execution.ArgsBuilder.AddPaths(string, System.Collections.Generic.IEnumerable<string>, bool, bool)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.AddPaths(String, System.Collections.Generic.IEnumerable(Of String), Boolean, Boolean)
+  nameWithType: ArgsBuilder.AddPaths(string, IEnumerable<string>, bool, bool)
+  nameWithType.vb: ArgsBuilder.AddPaths(String, IEnumerable(Of String), Boolean, Boolean)
+- uid: Heleonix.Execution.ArgsBuilder.AddPaths*
+  name: AddPaths
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddPaths_
+  commentId: Overload:Heleonix.Execution.ArgsBuilder.AddPaths
+  fullName: Heleonix.Execution.ArgsBuilder.AddPaths
+  nameWithType: ArgsBuilder.AddPaths
+- uid: Heleonix.Execution.ArgsBuilder.AddValue(System.Object,System.Boolean)
+  name: AddValue(object, bool)
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddValue_System_Object_System_Boolean_
+  commentId: M:Heleonix.Execution.ArgsBuilder.AddValue(System.Object,System.Boolean)
+  name.vb: AddValue(Object, Boolean)
+  fullName: Heleonix.Execution.ArgsBuilder.AddValue(object, bool)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.AddValue(Object, Boolean)
+  nameWithType: ArgsBuilder.AddValue(object, bool)
+  nameWithType.vb: ArgsBuilder.AddValue(Object, Boolean)
+- uid: Heleonix.Execution.ArgsBuilder.AddValue*
+  name: AddValue
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddValue_
+  commentId: Overload:Heleonix.Execution.ArgsBuilder.AddValue
+  fullName: Heleonix.Execution.ArgsBuilder.AddValue
+  nameWithType: ArgsBuilder.AddValue
+- uid: Heleonix.Execution.ArgsBuilder.AddValues(System.Collections.Generic.IEnumerable{System.Object},System.Boolean)
+  name: AddValues(IEnumerable<object>, bool)
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddValues_System_Collections_Generic_IEnumerable_System_Object__System_Boolean_
+  commentId: M:Heleonix.Execution.ArgsBuilder.AddValues(System.Collections.Generic.IEnumerable{System.Object},System.Boolean)
+  name.vb: AddValues(IEnumerable(Of Object), Boolean)
+  fullName: Heleonix.Execution.ArgsBuilder.AddValues(System.Collections.Generic.IEnumerable<object>, bool)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.AddValues(System.Collections.Generic.IEnumerable(Of Object), Boolean)
+  nameWithType: ArgsBuilder.AddValues(IEnumerable<object>, bool)
+  nameWithType.vb: ArgsBuilder.AddValues(IEnumerable(Of Object), Boolean)
+- uid: Heleonix.Execution.ArgsBuilder.AddValues*
+  name: AddValues
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_AddValues_
+  commentId: Overload:Heleonix.Execution.ArgsBuilder.AddValues
+  fullName: Heleonix.Execution.ArgsBuilder.AddValues
+  nameWithType: ArgsBuilder.AddValues
+- uid: Heleonix.Execution.ArgsBuilder.By(System.String,System.String,System.String,System.String,System.String)
+  name: By(string, string, string, string, string)
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_By_System_String_System_String_System_String_System_String_System_String_
+  commentId: M:Heleonix.Execution.ArgsBuilder.By(System.String,System.String,System.String,System.String,System.String)
+  name.vb: By(String, String, String, String, String)
+  fullName: Heleonix.Execution.ArgsBuilder.By(string, string, string, string, string)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.By(String, String, String, String, String)
+  nameWithType: ArgsBuilder.By(string, string, string, string, string)
+  nameWithType.vb: ArgsBuilder.By(String, String, String, String, String)
+- uid: Heleonix.Execution.ArgsBuilder.By*
+  name: By
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_By_
+  commentId: Overload:Heleonix.Execution.ArgsBuilder.By
+  fullName: Heleonix.Execution.ArgsBuilder.By
+  nameWithType: ArgsBuilder.By
+- uid: Heleonix.Execution.ArgsBuilder.ToString
+  name: ToString()
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_ToString
+  commentId: M:Heleonix.Execution.ArgsBuilder.ToString
+  fullName: Heleonix.Execution.ArgsBuilder.ToString()
+  nameWithType: ArgsBuilder.ToString()
+- uid: Heleonix.Execution.ArgsBuilder.ToString*
+  name: ToString
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_ToString_
+  commentId: Overload:Heleonix.Execution.ArgsBuilder.ToString
+  fullName: Heleonix.Execution.ArgsBuilder.ToString
+  nameWithType: ArgsBuilder.ToString
+- uid: Heleonix.Execution.ArgsBuilder.op_Implicit(Heleonix.Execution.ArgsBuilder)~System.String
+  name: implicit operator string(ArgsBuilder)
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_op_Implicit_Heleonix_Execution_ArgsBuilder__System_String
+  commentId: M:Heleonix.Execution.ArgsBuilder.op_Implicit(Heleonix.Execution.ArgsBuilder)~System.String
+  name.vb: CType(ArgsBuilder)
+  fullName: Heleonix.Execution.ArgsBuilder.implicit operator string(Heleonix.Execution.ArgsBuilder)
+  fullName.vb: Heleonix.Execution.ArgsBuilder.CType(Heleonix.Execution.ArgsBuilder)
+  nameWithType: ArgsBuilder.implicit operator string(ArgsBuilder)
+  nameWithType.vb: ArgsBuilder.CType(ArgsBuilder)
+- uid: Heleonix.Execution.ArgsBuilder.op_Implicit*
+  name: implicit operator
+  href: Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html#Heleonix_Execution_ArgsBuilder_op_Implicit_
+  commentId: Overload:Heleonix.Execution.ArgsBuilder.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: Heleonix.Execution.ArgsBuilder.implicit operator
+  fullName.vb: Heleonix.Execution.ArgsBuilder.CType
+  nameWithType: ArgsBuilder.implicit operator
+  nameWithType.vb: ArgsBuilder.CType
+- uid: Heleonix.Execution.ExeHelper
+  name: ExeHelper
+  href: Heleonix.Execution/Heleonix.Execution.ExeHelper.html
+  commentId: T:Heleonix.Execution.ExeHelper
+  fullName: Heleonix.Execution.ExeHelper
+  nameWithType: ExeHelper
+- uid: Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.Boolean,System.String,System.Int32)
+  name: Execute(string, string, bool, string, int)
+  href: Heleonix.Execution/Heleonix.Execution.ExeHelper.html#Heleonix_Execution_ExeHelper_Execute_System_String_System_String_System_Boolean_System_String_System_Int32_
+  commentId: M:Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.Boolean,System.String,System.Int32)
+  name.vb: Execute(String, String, Boolean, String, Integer)
+  fullName: Heleonix.Execution.ExeHelper.Execute(string, string, bool, string, int)
+  fullName.vb: Heleonix.Execution.ExeHelper.Execute(String, String, Boolean, String, Integer)
+  nameWithType: ExeHelper.Execute(string, string, bool, string, int)
+  nameWithType.vb: ExeHelper.Execute(String, String, Boolean, String, Integer)
+- uid: Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.String)
+  name: Execute(string, string, string)
+  href: Heleonix.Execution/Heleonix.Execution.ExeHelper.html#Heleonix_Execution_ExeHelper_Execute_System_String_System_String_System_String_
+  commentId: M:Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.String)
+  name.vb: Execute(String, String, String)
+  fullName: Heleonix.Execution.ExeHelper.Execute(string, string, string)
+  fullName.vb: Heleonix.Execution.ExeHelper.Execute(String, String, String)
+  nameWithType: ExeHelper.Execute(string, string, string)
+  nameWithType.vb: ExeHelper.Execute(String, String, String)
+- uid: Heleonix.Execution.ExeHelper.Execute*
+  name: Execute
+  href: Heleonix.Execution/Heleonix.Execution.ExeHelper.html#Heleonix_Execution_ExeHelper_Execute_
+  commentId: Overload:Heleonix.Execution.ExeHelper.Execute
+  fullName: Heleonix.Execution.ExeHelper.Execute
+  nameWithType: ExeHelper.Execute
+- uid: Heleonix.Execution.ExeResult
+  name: ExeResult
+  href: Heleonix.Execution/Heleonix.Execution.ExeResult.html
+  commentId: T:Heleonix.Execution.ExeResult
+  fullName: Heleonix.Execution.ExeResult
+  nameWithType: ExeResult
+- uid: Heleonix.Execution.ExeResult.#ctor
+  name: ExeResult()
+  href: Heleonix.Execution/Heleonix.Execution.ExeResult.html#Heleonix_Execution_ExeResult__ctor
+  commentId: M:Heleonix.Execution.ExeResult.#ctor
+  name.vb: New()
+  fullName: Heleonix.Execution.ExeResult.ExeResult()
+  fullName.vb: Heleonix.Execution.ExeResult.New()
+  nameWithType: ExeResult.ExeResult()
+  nameWithType.vb: ExeResult.New()
+- uid: Heleonix.Execution.ExeResult.#ctor*
+  name: ExeResult
+  href: Heleonix.Execution/Heleonix.Execution.ExeResult.html#Heleonix_Execution_ExeResult__ctor_
+  commentId: Overload:Heleonix.Execution.ExeResult.#ctor
+  name.vb: New
+  fullName: Heleonix.Execution.ExeResult.ExeResult
+  fullName.vb: Heleonix.Execution.ExeResult.New
+  nameWithType: ExeResult.ExeResult
+  nameWithType.vb: ExeResult.New
+- uid: Heleonix.Execution.ExeResult.Equals(System.Object)
+  name: Equals(object)
+  href: Heleonix.Execution/Heleonix.Execution.ExeResult.html#Heleonix_Execution_ExeResult_Equals_System_Object_
+  commentId: M:Heleonix.Execution.ExeResult.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Heleonix.Execution.ExeResult.Equals(object)
+  fullName.vb: Heleonix.Execution.ExeResult.Equals(Object)
+  nameWithType: ExeResult.Equals(object)
+  nameWithType.vb: ExeResult.Equals(Object)
+- uid: Heleonix.Execution.ExeResult.Equals*
+  name: Equals
+  href: Heleonix.Execution/Heleonix.Execution.ExeResult.html#Heleonix_Execution_ExeResult_Equals_
+  commentId: Overload:Heleonix.Execution.ExeResult.Equals
+  fullName: Heleonix.Execution.ExeResult.Equals
+  nameWithType: ExeResult.Equals
+- uid: Heleonix.Execution.ExeResult.Error
+  name: Error
+  href: Heleonix.Execution/Heleonix.Execution.ExeResult.html#Heleonix_Execution_ExeResult_Error
+  commentId: P:Heleonix.Execution.ExeResult.Error
+  fullName: Heleonix.Execution.ExeResult.Error
+  nameWithType: ExeResult.Error
+- uid: Heleonix.Execution.ExeResult.Error*
+  name: Error
+  href: Heleonix.Execution/Heleonix.Execution.ExeResult.html#Heleonix_Execution_ExeResult_Error_
+  commentId: Overload:Heleonix.Execution.ExeResult.Error
+  fullName: Heleonix.Execution.ExeResult.Error
+  nameWithType: ExeResult.Error
+- uid: Heleonix.Execution.ExeResult.ExitCode
+  name: ExitCode
+  href: Heleonix.Execution/Heleonix.Execution.ExeResult.html#Heleonix_Execution_ExeResult_ExitCode
+  commentId: P:Heleonix.Execution.ExeResult.ExitCode
+  fullName: Heleonix.Execution.ExeResult.ExitCode
+  nameWithType: ExeResult.ExitCode
+- uid: Heleonix.Execution.ExeResult.ExitCode*
+  name: ExitCode
+  href: Heleonix.Execution/Heleonix.Execution.ExeResult.html#Heleonix_Execution_ExeResult_ExitCode_
+  commentId: Overload:Heleonix.Execution.ExeResult.ExitCode
+  fullName: Heleonix.Execution.ExeResult.ExitCode
+  nameWithType: ExeResult.ExitCode
+- uid: Heleonix.Execution.ExeResult.GetHashCode
+  name: GetHashCode()
+  href: Heleonix.Execution/Heleonix.Execution.ExeResult.html#Heleonix_Execution_ExeResult_GetHashCode
+  commentId: M:Heleonix.Execution.ExeResult.GetHashCode
+  fullName: Heleonix.Execution.ExeResult.GetHashCode()
+  nameWithType: ExeResult.GetHashCode()
+- uid: Heleonix.Execution.ExeResult.GetHashCode*
+  name: GetHashCode
+  href: Heleonix.Execution/Heleonix.Execution.ExeResult.html#Heleonix_Execution_ExeResult_GetHashCode_
+  commentId: Overload:Heleonix.Execution.ExeResult.GetHashCode
+  fullName: Heleonix.Execution.ExeResult.GetHashCode
+  nameWithType: ExeResult.GetHashCode
+- uid: Heleonix.Execution.ExeResult.Output
+  name: Output
+  href: Heleonix.Execution/Heleonix.Execution.ExeResult.html#Heleonix_Execution_ExeResult_Output
+  commentId: P:Heleonix.Execution.ExeResult.Output
+  fullName: Heleonix.Execution.ExeResult.Output
+  nameWithType: ExeResult.Output
+- uid: Heleonix.Execution.ExeResult.Output*
+  name: Output
+  href: Heleonix.Execution/Heleonix.Execution.ExeResult.html#Heleonix_Execution_ExeResult_Output_
+  commentId: Overload:Heleonix.Execution.ExeResult.Output
+  fullName: Heleonix.Execution.ExeResult.Output
+  nameWithType: ExeResult.Output
+- uid: Heleonix.Execution.ExeResult.ToString
+  name: ToString()
+  href: Heleonix.Execution/Heleonix.Execution.ExeResult.html#Heleonix_Execution_ExeResult_ToString
+  commentId: M:Heleonix.Execution.ExeResult.ToString
+  fullName: Heleonix.Execution.ExeResult.ToString()
+  nameWithType: ExeResult.ToString()
+- uid: Heleonix.Execution.ExeResult.ToString*
+  name: ToString
+  href: Heleonix.Execution/Heleonix.Execution.ExeResult.html#Heleonix_Execution_ExeResult_ToString_
+  commentId: Overload:Heleonix.Execution.ExeResult.ToString
+  fullName: Heleonix.Execution.ExeResult.ToString
+  nameWithType: ExeResult.ToString
 - uid: Heleonix.Testing.NUnit
   name: Heleonix.Testing.NUnit
   href: Heleonix.Testing/Heleonix.Testing.NUnit.html
