@@ -329,6 +329,204 @@ references:
   commentId: Overload:Heleonix.Execution.ExeResult.ToString
   fullName: Heleonix.Execution.ExeResult.ToString
   nameWithType: ExeResult.ToString
+- uid: Heleonix.Reflection
+  name: Heleonix.Reflection
+  href: Heleonix.Reflection/Heleonix.Reflection.html
+  commentId: N:Heleonix.Reflection
+  fullName: Heleonix.Reflection
+  nameWithType: Heleonix.Reflection
+- uid: Heleonix.Reflection.Reflector
+  name: Reflector
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html
+  commentId: T:Heleonix.Reflection.Reflector
+  fullName: Heleonix.Reflection.Reflector
+  nameWithType: Reflector
+- uid: Heleonix.Reflection.Reflector.CreateGetter*
+  name: CreateGetter
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_CreateGetter_
+  commentId: Overload:Heleonix.Reflection.Reflector.CreateGetter
+  fullName: Heleonix.Reflection.Reflector.CreateGetter
+  nameWithType: Reflector.CreateGetter
+- uid: Heleonix.Reflection.Reflector.CreateGetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  name: CreateGetter<TObject, TReturn>(Expression<Func<TObject, TReturn>>)
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_CreateGetter__2_System_Linq_Expressions_Expression_System_Func___0___1___
+  commentId: M:Heleonix.Reflection.Reflector.CreateGetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  name.vb: CreateGetter(Of TObject, TReturn)(Expression(Of Func(Of TObject, TReturn)))
+  fullName: Heleonix.Reflection.Reflector.CreateGetter<TObject, TReturn>(System.Linq.Expressions.Expression<System.Func<TObject, TReturn>>)
+  fullName.vb: Heleonix.Reflection.Reflector.CreateGetter(Of TObject, TReturn)(System.Linq.Expressions.Expression(Of System.Func(Of TObject, TReturn)))
+  nameWithType: Reflector.CreateGetter<TObject, TReturn>(Expression<Func<TObject, TReturn>>)
+  nameWithType.vb: Reflector.CreateGetter(Of TObject, TReturn)(Expression(Of Func(Of TObject, TReturn)))
+- uid: Heleonix.Reflection.Reflector.CreateGetter``2(System.String,System.Type)
+  name: CreateGetter<TObject, TReturn>(string, Type)
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_CreateGetter__2_System_String_System_Type_
+  commentId: M:Heleonix.Reflection.Reflector.CreateGetter``2(System.String,System.Type)
+  name.vb: CreateGetter(Of TObject, TReturn)(String, Type)
+  fullName: Heleonix.Reflection.Reflector.CreateGetter<TObject, TReturn>(string, System.Type)
+  fullName.vb: Heleonix.Reflection.Reflector.CreateGetter(Of TObject, TReturn)(String, System.Type)
+  nameWithType: Reflector.CreateGetter<TObject, TReturn>(string, Type)
+  nameWithType.vb: Reflector.CreateGetter(Of TObject, TReturn)(String, Type)
+- uid: Heleonix.Reflection.Reflector.CreateSetter*
+  name: CreateSetter
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_CreateSetter_
+  commentId: Overload:Heleonix.Reflection.Reflector.CreateSetter
+  fullName: Heleonix.Reflection.Reflector.CreateSetter
+  nameWithType: Reflector.CreateSetter
+- uid: Heleonix.Reflection.Reflector.CreateSetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  name: CreateSetter<TObject, TValue>(Expression<Func<TObject, TValue>>)
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_CreateSetter__2_System_Linq_Expressions_Expression_System_Func___0___1___
+  commentId: M:Heleonix.Reflection.Reflector.CreateSetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  name.vb: CreateSetter(Of TObject, TValue)(Expression(Of Func(Of TObject, TValue)))
+  fullName: Heleonix.Reflection.Reflector.CreateSetter<TObject, TValue>(System.Linq.Expressions.Expression<System.Func<TObject, TValue>>)
+  fullName.vb: Heleonix.Reflection.Reflector.CreateSetter(Of TObject, TValue)(System.Linq.Expressions.Expression(Of System.Func(Of TObject, TValue)))
+  nameWithType: Reflector.CreateSetter<TObject, TValue>(Expression<Func<TObject, TValue>>)
+  nameWithType.vb: Reflector.CreateSetter(Of TObject, TValue)(Expression(Of Func(Of TObject, TValue)))
+- uid: Heleonix.Reflection.Reflector.CreateSetter``2(System.String,System.Type)
+  name: CreateSetter<TObject, TValue>(string, Type)
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_CreateSetter__2_System_String_System_Type_
+  commentId: M:Heleonix.Reflection.Reflector.CreateSetter``2(System.String,System.Type)
+  name.vb: CreateSetter(Of TObject, TValue)(String, Type)
+  fullName: Heleonix.Reflection.Reflector.CreateSetter<TObject, TValue>(string, System.Type)
+  fullName.vb: Heleonix.Reflection.Reflector.CreateSetter(Of TObject, TValue)(String, System.Type)
+  nameWithType: Reflector.CreateSetter<TObject, TValue>(string, Type)
+  nameWithType.vb: Reflector.CreateSetter(Of TObject, TValue)(String, Type)
+- uid: Heleonix.Reflection.Reflector.DefaultBindingFlags
+  name: DefaultBindingFlags
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_DefaultBindingFlags
+  commentId: F:Heleonix.Reflection.Reflector.DefaultBindingFlags
+  fullName: Heleonix.Reflection.Reflector.DefaultBindingFlags
+  nameWithType: Reflector.DefaultBindingFlags
+- uid: Heleonix.Reflection.Reflector.Get*
+  name: Get
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_Get_
+  commentId: Overload:Heleonix.Reflection.Reflector.Get
+  fullName: Heleonix.Reflection.Reflector.Get
+  nameWithType: Reflector.Get
+- uid: Heleonix.Reflection.Reflector.GetInfo(System.Object,System.Type,System.String,System.Type[],System.Reflection.BindingFlags)
+  name: GetInfo(object, Type, string, Type[], BindingFlags)
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_GetInfo_System_Object_System_Type_System_String_System_Type___System_Reflection_BindingFlags_
+  commentId: M:Heleonix.Reflection.Reflector.GetInfo(System.Object,System.Type,System.String,System.Type[],System.Reflection.BindingFlags)
+  name.vb: GetInfo(Object, Type, String, Type(), BindingFlags)
+  fullName: Heleonix.Reflection.Reflector.GetInfo(object, System.Type, string, System.Type[], System.Reflection.BindingFlags)
+  fullName.vb: Heleonix.Reflection.Reflector.GetInfo(Object, System.Type, String, System.Type(), System.Reflection.BindingFlags)
+  nameWithType: Reflector.GetInfo(object, Type, string, Type[], BindingFlags)
+  nameWithType.vb: Reflector.GetInfo(Object, Type, String, Type(), BindingFlags)
+- uid: Heleonix.Reflection.Reflector.GetInfo*
+  name: GetInfo
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_GetInfo_
+  commentId: Overload:Heleonix.Reflection.Reflector.GetInfo
+  fullName: Heleonix.Reflection.Reflector.GetInfo
+  nameWithType: Reflector.GetInfo
+- uid: Heleonix.Reflection.Reflector.GetMemberPath(System.Linq.Expressions.LambdaExpression)
+  name: GetMemberPath(LambdaExpression)
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_GetMemberPath_System_Linq_Expressions_LambdaExpression_
+  commentId: M:Heleonix.Reflection.Reflector.GetMemberPath(System.Linq.Expressions.LambdaExpression)
+  fullName: Heleonix.Reflection.Reflector.GetMemberPath(System.Linq.Expressions.LambdaExpression)
+  nameWithType: Reflector.GetMemberPath(LambdaExpression)
+- uid: Heleonix.Reflection.Reflector.GetMemberPath*
+  name: GetMemberPath
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_GetMemberPath_
+  commentId: Overload:Heleonix.Reflection.Reflector.GetMemberPath
+  fullName: Heleonix.Reflection.Reflector.GetMemberPath
+  nameWithType: Reflector.GetMemberPath
+- uid: Heleonix.Reflection.Reflector.GetMemberPath``1(System.Linq.Expressions.Expression{System.Action{``0}})
+  name: GetMemberPath<TObject>(Expression<Action<TObject>>)
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_GetMemberPath__1_System_Linq_Expressions_Expression_System_Action___0___
+  commentId: M:Heleonix.Reflection.Reflector.GetMemberPath``1(System.Linq.Expressions.Expression{System.Action{``0}})
+  name.vb: GetMemberPath(Of TObject)(Expression(Of Action(Of TObject)))
+  fullName: Heleonix.Reflection.Reflector.GetMemberPath<TObject>(System.Linq.Expressions.Expression<System.Action<TObject>>)
+  fullName.vb: Heleonix.Reflection.Reflector.GetMemberPath(Of TObject)(System.Linq.Expressions.Expression(Of System.Action(Of TObject)))
+  nameWithType: Reflector.GetMemberPath<TObject>(Expression<Action<TObject>>)
+  nameWithType.vb: Reflector.GetMemberPath(Of TObject)(Expression(Of Action(Of TObject)))
+- uid: Heleonix.Reflection.Reflector.GetMemberPath``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  name: GetMemberPath<TObject>(Expression<Func<TObject, object>>)
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_GetMemberPath__1_System_Linq_Expressions_Expression_System_Func___0_System_Object___
+  commentId: M:Heleonix.Reflection.Reflector.GetMemberPath``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  name.vb: GetMemberPath(Of TObject)(Expression(Of Func(Of TObject, Object)))
+  fullName: Heleonix.Reflection.Reflector.GetMemberPath<TObject>(System.Linq.Expressions.Expression<System.Func<TObject, object>>)
+  fullName.vb: Heleonix.Reflection.Reflector.GetMemberPath(Of TObject)(System.Linq.Expressions.Expression(Of System.Func(Of TObject, Object)))
+  nameWithType: Reflector.GetMemberPath<TObject>(Expression<Func<TObject, object>>)
+  nameWithType.vb: Reflector.GetMemberPath(Of TObject)(Expression(Of Func(Of TObject, Object)))
+- uid: Heleonix.Reflection.Reflector.GetTypes(System.String)
+  name: GetTypes(string)
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_GetTypes_System_String_
+  commentId: M:Heleonix.Reflection.Reflector.GetTypes(System.String)
+  name.vb: GetTypes(String)
+  fullName: Heleonix.Reflection.Reflector.GetTypes(string)
+  fullName.vb: Heleonix.Reflection.Reflector.GetTypes(String)
+  nameWithType: Reflector.GetTypes(string)
+  nameWithType.vb: Reflector.GetTypes(String)
+- uid: Heleonix.Reflection.Reflector.GetTypes*
+  name: GetTypes
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_GetTypes_
+  commentId: Overload:Heleonix.Reflection.Reflector.GetTypes
+  fullName: Heleonix.Reflection.Reflector.GetTypes
+  nameWithType: Reflector.GetTypes
+- uid: Heleonix.Reflection.Reflector.Get``1(System.Object,System.Type,System.String,``0@,System.Reflection.BindingFlags)
+  name: Get<TReturn>(object, Type, string, out TReturn, BindingFlags)
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_Get__1_System_Object_System_Type_System_String___0__System_Reflection_BindingFlags_
+  commentId: M:Heleonix.Reflection.Reflector.Get``1(System.Object,System.Type,System.String,``0@,System.Reflection.BindingFlags)
+  name.vb: Get(Of TReturn)(Object, Type, String, TReturn, BindingFlags)
+  fullName: Heleonix.Reflection.Reflector.Get<TReturn>(object, System.Type, string, out TReturn, System.Reflection.BindingFlags)
+  fullName.vb: Heleonix.Reflection.Reflector.Get(Of TReturn)(Object, System.Type, String, TReturn, System.Reflection.BindingFlags)
+  nameWithType: Reflector.Get<TReturn>(object, Type, string, out TReturn, BindingFlags)
+  nameWithType.vb: Reflector.Get(Of TReturn)(Object, Type, String, TReturn, BindingFlags)
+- uid: Heleonix.Reflection.Reflector.Invoke*
+  name: Invoke
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_Invoke_
+  commentId: Overload:Heleonix.Reflection.Reflector.Invoke
+  fullName: Heleonix.Reflection.Reflector.Invoke
+  nameWithType: Reflector.Invoke
+- uid: Heleonix.Reflection.Reflector.Invoke``1(System.Object,System.Type,System.String,System.Type[],``0@,System.Reflection.BindingFlags,System.Object[])
+  name: Invoke<TReturn>(object, Type, string, Type[], out TReturn, BindingFlags, params object[])
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_Invoke__1_System_Object_System_Type_System_String_System_Type_____0__System_Reflection_BindingFlags_System_Object___
+  commentId: M:Heleonix.Reflection.Reflector.Invoke``1(System.Object,System.Type,System.String,System.Type[],``0@,System.Reflection.BindingFlags,System.Object[])
+  name.vb: Invoke(Of TReturn)(Object, Type, String, Type(), TReturn, BindingFlags, ParamArray Object())
+  fullName: Heleonix.Reflection.Reflector.Invoke<TReturn>(object, System.Type, string, System.Type[], out TReturn, System.Reflection.BindingFlags, params object[])
+  fullName.vb: Heleonix.Reflection.Reflector.Invoke(Of TReturn)(Object, System.Type, String, System.Type(), TReturn, System.Reflection.BindingFlags, ParamArray Object())
+  nameWithType: Reflector.Invoke<TReturn>(object, Type, string, Type[], out TReturn, BindingFlags, params object[])
+  nameWithType.vb: Reflector.Invoke(Of TReturn)(Object, Type, String, Type(), TReturn, BindingFlags, ParamArray Object())
+- uid: Heleonix.Reflection.Reflector.IsStatic(System.Reflection.PropertyInfo)
+  name: IsStatic(PropertyInfo)
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_IsStatic_System_Reflection_PropertyInfo_
+  commentId: M:Heleonix.Reflection.Reflector.IsStatic(System.Reflection.PropertyInfo)
+  fullName: Heleonix.Reflection.Reflector.IsStatic(System.Reflection.PropertyInfo)
+  nameWithType: Reflector.IsStatic(PropertyInfo)
+- uid: Heleonix.Reflection.Reflector.IsStatic*
+  name: IsStatic
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_IsStatic_
+  commentId: Overload:Heleonix.Reflection.Reflector.IsStatic
+  fullName: Heleonix.Reflection.Reflector.IsStatic
+  nameWithType: Reflector.IsStatic
+- uid: Heleonix.Reflection.Reflector.Set(System.Object,System.Type,System.String,System.Object,System.Reflection.BindingFlags)
+  name: Set(object, Type, string, object, BindingFlags)
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_Set_System_Object_System_Type_System_String_System_Object_System_Reflection_BindingFlags_
+  commentId: M:Heleonix.Reflection.Reflector.Set(System.Object,System.Type,System.String,System.Object,System.Reflection.BindingFlags)
+  name.vb: Set(Object, Type, String, Object, BindingFlags)
+  fullName: Heleonix.Reflection.Reflector.Set(object, System.Type, string, object, System.Reflection.BindingFlags)
+  fullName.vb: Heleonix.Reflection.Reflector.Set(Object, System.Type, String, Object, System.Reflection.BindingFlags)
+  nameWithType: Reflector.Set(object, Type, string, object, BindingFlags)
+  nameWithType.vb: Reflector.Set(Object, Type, String, Object, BindingFlags)
+- uid: Heleonix.Reflection.Reflector.Set*
+  name: Set
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_Set_
+  commentId: Overload:Heleonix.Reflection.Reflector.Set
+  fullName: Heleonix.Reflection.Reflector.Set
+  nameWithType: Reflector.Set
+- uid: Heleonix.Reflection.Reflector.SetCoerced(System.Object,System.Type,System.String,System.Object,System.Reflection.BindingFlags)
+  name: SetCoerced(object, Type, string, object, BindingFlags)
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_SetCoerced_System_Object_System_Type_System_String_System_Object_System_Reflection_BindingFlags_
+  commentId: M:Heleonix.Reflection.Reflector.SetCoerced(System.Object,System.Type,System.String,System.Object,System.Reflection.BindingFlags)
+  name.vb: SetCoerced(Object, Type, String, Object, BindingFlags)
+  fullName: Heleonix.Reflection.Reflector.SetCoerced(object, System.Type, string, object, System.Reflection.BindingFlags)
+  fullName.vb: Heleonix.Reflection.Reflector.SetCoerced(Object, System.Type, String, Object, System.Reflection.BindingFlags)
+  nameWithType: Reflector.SetCoerced(object, Type, string, object, BindingFlags)
+  nameWithType.vb: Reflector.SetCoerced(Object, Type, String, Object, BindingFlags)
+- uid: Heleonix.Reflection.Reflector.SetCoerced*
+  name: SetCoerced
+  href: Heleonix.Reflection/Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_SetCoerced_
+  commentId: Overload:Heleonix.Reflection.Reflector.SetCoerced
+  fullName: Heleonix.Reflection.Reflector.SetCoerced
+  nameWithType: Reflector.SetCoerced
 - uid: Heleonix.Testing.NUnit
   name: Heleonix.Testing.NUnit
   href: Heleonix.Testing/Heleonix.Testing.NUnit.html

@@ -1,0 +1,1898 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Reflection.Reflector
+  commentId: T:Heleonix.Reflection.Reflector
+  id: Reflector
+  parent: Heleonix.Reflection
+  children:
+  - Heleonix.Reflection.Reflector.CreateGetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  - Heleonix.Reflection.Reflector.CreateGetter``2(System.String,System.Type)
+  - Heleonix.Reflection.Reflector.CreateSetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  - Heleonix.Reflection.Reflector.CreateSetter``2(System.String,System.Type)
+  - Heleonix.Reflection.Reflector.DefaultBindingFlags
+  - Heleonix.Reflection.Reflector.GetInfo(System.Object,System.Type,System.String,System.Type[],System.Reflection.BindingFlags)
+  - Heleonix.Reflection.Reflector.GetMemberPath(System.Linq.Expressions.LambdaExpression)
+  - Heleonix.Reflection.Reflector.GetMemberPath``1(System.Linq.Expressions.Expression{System.Action{``0}})
+  - Heleonix.Reflection.Reflector.GetMemberPath``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  - Heleonix.Reflection.Reflector.GetTypes(System.String)
+  - Heleonix.Reflection.Reflector.Get``1(System.Object,System.Type,System.String,``0@,System.Reflection.BindingFlags)
+  - Heleonix.Reflection.Reflector.Invoke``1(System.Object,System.Type,System.String,System.Type[],``0@,System.Reflection.BindingFlags,System.Object[])
+  - Heleonix.Reflection.Reflector.IsStatic(System.Reflection.PropertyInfo)
+  - Heleonix.Reflection.Reflector.Set(System.Object,System.Type,System.String,System.Object,System.Reflection.BindingFlags)
+  - Heleonix.Reflection.Reflector.SetCoerced(System.Object,System.Type,System.String,System.Object,System.Reflection.BindingFlags)
+  langs:
+  - csharp
+  - vb
+  name: Reflector
+  nameWithType: Reflector
+  fullName: Heleonix.Reflection.Reflector
+  type: Class
+  assemblies:
+  - Heleonix.Reflection
+  namespace: Heleonix.Reflection
+  summary: Provides functionality for working with reflection.
+  example: []
+  syntax:
+    content: public static class Reflector
+    content.vb: Public Module Reflector
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Heleonix.Reflection.Reflector.DefaultBindingFlags
+  commentId: F:Heleonix.Reflection.Reflector.DefaultBindingFlags
+  id: DefaultBindingFlags
+  parent: Heleonix.Reflection.Reflector
+  langs:
+  - csharp
+  - vb
+  name: DefaultBindingFlags
+  nameWithType: Reflector.DefaultBindingFlags
+  fullName: Heleonix.Reflection.Reflector.DefaultBindingFlags
+  type: Field
+  assemblies:
+  - Heleonix.Reflection
+  namespace: Heleonix.Reflection
+  summary: The default binding flags.
+  example: []
+  syntax:
+    content: public const BindingFlags DefaultBindingFlags = Instance | Static | Public
+    return:
+      type: System.Reflection.BindingFlags
+    content.vb: Public Const DefaultBindingFlags As BindingFlags = Instance Or Static Or Public
+- uid: Heleonix.Reflection.Reflector.CreateGetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  commentId: M:Heleonix.Reflection.Reflector.CreateGetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  id: CreateGetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  parent: Heleonix.Reflection.Reflector
+  langs:
+  - csharp
+  - vb
+  name: CreateGetter<TObject, TReturn>(Expression<Func<TObject, TReturn>>)
+  nameWithType: Reflector.CreateGetter<TObject, TReturn>(Expression<Func<TObject, TReturn>>)
+  fullName: Heleonix.Reflection.Reflector.CreateGetter<TObject, TReturn>(System.Linq.Expressions.Expression<System.Func<TObject, TReturn>>)
+  type: Method
+  assemblies:
+  - Heleonix.Reflection
+  namespace: Heleonix.Reflection
+  summary: Creates a getter. Works with exactly specified types without conversion. This is the fastest implementation.
+  example:
+  - >-
+    var getter = Reflector.CreateGetter(dt =&gt; dt.Date.Month);
+
+
+    var value = getter(DateTime.Now);
+
+
+    // value == DateTime.Now.Date.Month.
+  syntax:
+    content: public static Func<TObject, TReturn> CreateGetter<TObject, TReturn>(Expression<Func<TObject, TReturn>> memberPath)
+    parameters:
+    - id: memberPath
+      type: System.Linq.Expressions.Expression{System.Func{{TObject},{TReturn}}}
+      description: The path to a member.
+    typeParameters:
+    - id: TObject
+      description: The concrete type of the container's object.
+    - id: TReturn
+      description: The concrete type of the member.
+    return:
+      type: System.Func{{TObject},{TReturn}}
+      description: >-
+        A compiled delegate to get a value
+
+        or
+
+        <code>null</code> if the <code class="paramref">memberPath</code> is <code>null</code>.
+    content.vb: Public Shared Function CreateGetter(Of TObject, TReturn)(memberPath As Expression(Of Func(Of TObject, TReturn))) As Func(Of TObject, TReturn)
+  overload: Heleonix.Reflection.Reflector.CreateGetter*
+  nameWithType.vb: Reflector.CreateGetter(Of TObject, TReturn)(Expression(Of Func(Of TObject, TReturn)))
+  fullName.vb: Heleonix.Reflection.Reflector.CreateGetter(Of TObject, TReturn)(System.Linq.Expressions.Expression(Of System.Func(Of TObject, TReturn)))
+  name.vb: CreateGetter(Of TObject, TReturn)(Expression(Of Func(Of TObject, TReturn)))
+- uid: Heleonix.Reflection.Reflector.CreateGetter``2(System.String,System.Type)
+  commentId: M:Heleonix.Reflection.Reflector.CreateGetter``2(System.String,System.Type)
+  id: CreateGetter``2(System.String,System.Type)
+  parent: Heleonix.Reflection.Reflector
+  langs:
+  - csharp
+  - vb
+  name: CreateGetter<TObject, TReturn>(string, Type)
+  nameWithType: Reflector.CreateGetter<TObject, TReturn>(string, Type)
+  fullName: Heleonix.Reflection.Reflector.CreateGetter<TObject, TReturn>(string, System.Type)
+  type: Method
+  assemblies:
+  - Heleonix.Reflection
+  namespace: Heleonix.Reflection
+  summary: Creates a getter. Can create getters with any convertable types for polimorphic usage.
+  example:
+  - >-
+    var getter = Reflector.CreateGetter{object, object}("Date.Month", typeof(DateTime));
+
+
+    var value = getter(DateTime.Now);
+
+
+    // value == DateTime.Now.Date.Month.
+  syntax:
+    content: public static Func<TObject, TReturn> CreateGetter<TObject, TReturn>(string memberPath, Type containerType = null)
+    parameters:
+    - id: memberPath
+      type: System.String
+      description: The path to a member.
+    - id: containerType
+      type: System.Type
+      description: >-
+        A type of a container's object which contains the member.
+
+        If null is specified, then <code class="typeparamref">TObject</code> is used without conversion.
+    typeParameters:
+    - id: TObject
+      description: The type of the desired object in a delegate to create.
+    - id: TReturn
+      description: The type of the desired member in a delegate to create.
+    return:
+      type: System.Func{{TObject},{TReturn}}
+      description: >-
+        A compiled delegate to get a value
+
+        or
+
+        <code>null</code> if the <code class="paramref">memberPath</code> is <code>null</code> or empty.
+    content.vb: Public Shared Function CreateGetter(Of TObject, TReturn)(memberPath As String, containerType As Type = Nothing) As Func(Of TObject, TReturn)
+  overload: Heleonix.Reflection.Reflector.CreateGetter*
+  nameWithType.vb: Reflector.CreateGetter(Of TObject, TReturn)(String, Type)
+  fullName.vb: Heleonix.Reflection.Reflector.CreateGetter(Of TObject, TReturn)(String, System.Type)
+  name.vb: CreateGetter(Of TObject, TReturn)(String, Type)
+- uid: Heleonix.Reflection.Reflector.CreateSetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  commentId: M:Heleonix.Reflection.Reflector.CreateSetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  id: CreateSetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  parent: Heleonix.Reflection.Reflector
+  langs:
+  - csharp
+  - vb
+  name: CreateSetter<TObject, TValue>(Expression<Func<TObject, TValue>>)
+  nameWithType: Reflector.CreateSetter<TObject, TValue>(Expression<Func<TObject, TValue>>)
+  fullName: Heleonix.Reflection.Reflector.CreateSetter<TObject, TValue>(System.Linq.Expressions.Expression<System.Func<TObject, TValue>>)
+  type: Method
+  assemblies:
+  - Heleonix.Reflection
+  namespace: Heleonix.Reflection
+  summary: >-
+    Creates the setter.
+
+    Works with exactly specified types without conversion.
+
+    This is the fastest implementation.
+  example:
+  - >-
+    public class Root { public Child Child { get; set; } = new Child(); }
+
+    public class Child { public int Value { get; set; } }
+
+
+    var setter = Reflector.CreateSetter{Root, int}(r =&gt; r.Child.Value);
+
+    var root = new Root();
+
+
+    setter(root, 12345);
+
+
+    // root.Child.Value == 12345.
+  syntax:
+    content: public static Action<TObject, TValue> CreateSetter<TObject, TValue>(Expression<Func<TObject, TValue>> memberPath)
+    parameters:
+    - id: memberPath
+      type: System.Linq.Expressions.Expression{System.Func{{TObject},{TValue}}}
+      description: The path to a member.
+    typeParameters:
+    - id: TObject
+      description: The type of the object.
+    - id: TValue
+      description: The type of the final member.
+    return:
+      type: System.Action{{TObject},{TValue}}
+      description: >-
+        A compiled delegate to set a value
+                     or
+                     <code>null</code> if <code class="paramref">memberPath</code> is <code>null</code>.
+    content.vb: Public Shared Function CreateSetter(Of TObject, TValue)(memberPath As Expression(Of Func(Of TObject, TValue))) As Action(Of TObject, TValue)
+  overload: Heleonix.Reflection.Reflector.CreateSetter*
+  nameWithType.vb: Reflector.CreateSetter(Of TObject, TValue)(Expression(Of Func(Of TObject, TValue)))
+  fullName.vb: Heleonix.Reflection.Reflector.CreateSetter(Of TObject, TValue)(System.Linq.Expressions.Expression(Of System.Func(Of TObject, TValue)))
+  name.vb: CreateSetter(Of TObject, TValue)(Expression(Of Func(Of TObject, TValue)))
+- uid: Heleonix.Reflection.Reflector.CreateSetter``2(System.String,System.Type)
+  commentId: M:Heleonix.Reflection.Reflector.CreateSetter``2(System.String,System.Type)
+  id: CreateSetter``2(System.String,System.Type)
+  parent: Heleonix.Reflection.Reflector
+  langs:
+  - csharp
+  - vb
+  name: CreateSetter<TObject, TValue>(string, Type)
+  nameWithType: Reflector.CreateSetter<TObject, TValue>(string, Type)
+  fullName: Heleonix.Reflection.Reflector.CreateSetter<TObject, TValue>(string, System.Type)
+  type: Method
+  assemblies:
+  - Heleonix.Reflection
+  namespace: Heleonix.Reflection
+  summary: Creates a setter. Can create setters with any convertable types for polimorphic usage.
+  example:
+  - >-
+    public class Root { public Child Child { get; set; } = new Child(); }
+
+    public class Child { public int Value { get; set; } }
+
+
+    var setter = Reflector.CreateSetter{Root, int}("Child.Value", typeof(Root));
+
+    var root = new Root();
+
+
+    setter(root, 12345);
+
+
+    // root.Child.Value == 12345.
+  syntax:
+    content: public static Action<TObject, TValue> CreateSetter<TObject, TValue>(string memberPath, Type containerType = null)
+    parameters:
+    - id: memberPath
+      type: System.String
+      description: The path to a member.
+    - id: containerType
+      type: System.Type
+      description: >-
+        A type of a container's object which contains the member.
+
+        If null is specified, then <code class="typeparamref">TObject</code> is used without conversion.
+    typeParameters:
+    - id: TObject
+      description: The type of the desired object in a delegate to create.
+    - id: TValue
+      description: The type of the desired member in a delegate to create.
+    return:
+      type: System.Action{{TObject},{TValue}}
+      description: >-
+        A compiled delegate to set a value
+
+        or
+
+        <code>null</code> if the <code class="paramref">memberPath</code> is <code>null</code> or empty.
+    content.vb: Public Shared Function CreateSetter(Of TObject, TValue)(memberPath As String, containerType As Type = Nothing) As Action(Of TObject, TValue)
+  overload: Heleonix.Reflection.Reflector.CreateSetter*
+  nameWithType.vb: Reflector.CreateSetter(Of TObject, TValue)(String, Type)
+  fullName.vb: Heleonix.Reflection.Reflector.CreateSetter(Of TObject, TValue)(String, System.Type)
+  name.vb: CreateSetter(Of TObject, TValue)(String, Type)
+- uid: Heleonix.Reflection.Reflector.IsStatic(System.Reflection.PropertyInfo)
+  commentId: M:Heleonix.Reflection.Reflector.IsStatic(System.Reflection.PropertyInfo)
+  id: IsStatic(System.Reflection.PropertyInfo)
+  parent: Heleonix.Reflection.Reflector
+  langs:
+  - csharp
+  - vb
+  name: IsStatic(PropertyInfo)
+  nameWithType: Reflector.IsStatic(PropertyInfo)
+  fullName: Heleonix.Reflection.Reflector.IsStatic(System.Reflection.PropertyInfo)
+  type: Method
+  assemblies:
+  - Heleonix.Reflection
+  namespace: Heleonix.Reflection
+  summary: Determines whether the specified property is static by its getter (if it is defined) or by its setter (if it is defined).
+  example: []
+  syntax:
+    content: public static bool IsStatic(PropertyInfo info)
+    parameters:
+    - id: info
+      type: System.Reflection.PropertyInfo
+      description: The property information.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if the specified property is static; otherwise, <code>false</code>.
+    content.vb: Public Shared Function IsStatic(info As PropertyInfo) As Boolean
+  overload: Heleonix.Reflection.Reflector.IsStatic*
+- uid: Heleonix.Reflection.Reflector.Get``1(System.Object,System.Type,System.String,``0@,System.Reflection.BindingFlags)
+  commentId: M:Heleonix.Reflection.Reflector.Get``1(System.Object,System.Type,System.String,``0@,System.Reflection.BindingFlags)
+  id: Get``1(System.Object,System.Type,System.String,``0@,System.Reflection.BindingFlags)
+  parent: Heleonix.Reflection.Reflector
+  langs:
+  - csharp
+  - vb
+  name: Get<TReturn>(object, Type, string, out TReturn, BindingFlags)
+  nameWithType: Reflector.Get<TReturn>(object, Type, string, out TReturn, BindingFlags)
+  fullName: Heleonix.Reflection.Reflector.Get<TReturn>(object, System.Type, string, out TReturn, System.Reflection.BindingFlags)
+  type: Method
+  assemblies:
+  - Heleonix.Reflection
+  namespace: Heleonix.Reflection
+  summary: Gets a value by the provided path.
+  example:
+  - >-
+    var success = Reflector.Get(DateTime.Now, null, "TimeOfDay.Hours", out int value);
+
+
+    // success == true;
+
+    // value == DateTime.Now.TimeOfDay.Hours;
+
+
+    or
+
+
+    var success = Reflector.Get(typeof(int), null, "CustomAttributes[0].AttributeType", out int value);
+
+
+    // success == true;
+
+    // value == typeof(int).CustomAttributes.First().AttributeType;
+
+
+    or
+
+
+    var success = Reflector.Get(typeof(int), null, "CustomAttributes[0]", out int value);
+
+
+    // success == true;
+
+    // value == typeof(int).CustomAttributes.First().
+  syntax:
+    content: public static bool Get<TReturn>(object instance, Type type, string memberPath, out TReturn value, BindingFlags bindingFlags = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public)
+    parameters:
+    - id: instance
+      type: System.Object
+      description: A root object.
+    - id: type
+      type: System.Type
+      description: >-
+        A type of a root object.
+                     If <code class="paramref">instance</code> is not <code>null</code>, then its type is used instead.
+    - id: memberPath
+      type: System.String
+      description: A path to a member.
+    - id: value
+      type: '{TReturn}'
+      description: A gotten value.
+    - id: bindingFlags
+      type: System.Reflection.BindingFlags
+      description: Binding flags to find members.
+    typeParameters:
+    - id: TReturn
+      description: A type of a value to be set with the target value.
+    return:
+      type: System.Boolean
+      description: >-
+        <code>true</code> in case of success, otherwise <code>false</code> if
+
+        <code class="paramref">memberPath</code> is <code>null</code> or empty
+
+        or
+
+        <code class="paramref">instance</code> is <code>null</code> and <code class="paramref">type</code> is <code>null</code>
+
+        or
+
+        a target member or one of intermediate members was not found
+
+        or
+
+        a member is not static and its container is null
+
+        or
+
+        a target member or an intermediate member is neither <xref href="System.Reflection.PropertyInfo" data-throw-if-not-resolved="false"></xref> nor <xref href="System.Reflection.FieldInfo" data-throw-if-not-resolved="false"></xref>
+
+        or
+
+        a target value is not of type <code class="typeparamref">TReturn</code>.
+    content.vb: Public Shared Function [Get](Of TReturn)(instance As Object, type As Type, memberPath As String, value As TReturn, bindingFlags As BindingFlags = BindingFlags.Instance Or BindingFlags.Static Or BindingFlags.Public) As Boolean
+  overload: Heleonix.Reflection.Reflector.Get*
+  exceptions:
+  - type: System.Reflection.TargetException
+    commentId: T:System.Reflection.TargetException
+    description: Target thrown an exception during execution. See inner exception for details.
+  nameWithType.vb: Reflector.Get(Of TReturn)(Object, Type, String, TReturn, BindingFlags)
+  fullName.vb: Heleonix.Reflection.Reflector.Get(Of TReturn)(Object, System.Type, String, TReturn, System.Reflection.BindingFlags)
+  name.vb: Get(Of TReturn)(Object, Type, String, TReturn, BindingFlags)
+- uid: Heleonix.Reflection.Reflector.GetTypes(System.String)
+  commentId: M:Heleonix.Reflection.Reflector.GetTypes(System.String)
+  id: GetTypes(System.String)
+  parent: Heleonix.Reflection.Reflector
+  langs:
+  - csharp
+  - vb
+  name: GetTypes(string)
+  nameWithType: Reflector.GetTypes(string)
+  fullName: Heleonix.Reflection.Reflector.GetTypes(string)
+  type: Method
+  assemblies:
+  - Heleonix.Reflection
+  namespace: Heleonix.Reflection
+  summary: Gets the types by a simple name (a name without namespace) in the calling assembly and in the assemblies loaded into the current domain.
+  example: []
+  syntax:
+    content: public static Type[] GetTypes(string simpleName)
+    parameters:
+    - id: simpleName
+      type: System.String
+      description: A simple name of types to load.
+    return:
+      type: System.Type[]
+      description: An array of found types.
+    content.vb: Public Shared Function GetTypes(simpleName As String) As Type()
+  overload: Heleonix.Reflection.Reflector.GetTypes*
+  nameWithType.vb: Reflector.GetTypes(String)
+  fullName.vb: Heleonix.Reflection.Reflector.GetTypes(String)
+  name.vb: GetTypes(String)
+- uid: Heleonix.Reflection.Reflector.GetMemberPath``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  commentId: M:Heleonix.Reflection.Reflector.GetMemberPath``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  id: GetMemberPath``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  parent: Heleonix.Reflection.Reflector
+  langs:
+  - csharp
+  - vb
+  name: GetMemberPath<TObject>(Expression<Func<TObject, object>>)
+  nameWithType: Reflector.GetMemberPath<TObject>(Expression<Func<TObject, object>>)
+  fullName: Heleonix.Reflection.Reflector.GetMemberPath<TObject>(System.Linq.Expressions.Expression<System.Func<TObject, object>>)
+  type: Method
+  assemblies:
+  - Heleonix.Reflection
+  namespace: Heleonix.Reflection
+  summary: Gets a path to a member which returns some type.
+  example:
+  - >-
+    var path = Reflector.GetMemberPath{DateTime}(dt =&gt; dt.TimeOfDay.Negate());
+
+
+    // path: "TimeOfDay.Negate".
+  syntax:
+    content: public static string GetMemberPath<TObject>(Expression<Func<TObject, object>> memberPath)
+    parameters:
+    - id: memberPath
+      type: System.Linq.Expressions.Expression{System.Func{{TObject},System.Object}}
+      description: An expression to find a member.
+    typeParameters:
+    - id: TObject
+      description: A type of an object.
+    return:
+      type: System.String
+      description: A path to a member.
+    content.vb: Public Shared Function GetMemberPath(Of TObject)(memberPath As Expression(Of Func(Of TObject, Object))) As String
+  overload: Heleonix.Reflection.Reflector.GetMemberPath*
+  nameWithType.vb: Reflector.GetMemberPath(Of TObject)(Expression(Of Func(Of TObject, Object)))
+  fullName.vb: Heleonix.Reflection.Reflector.GetMemberPath(Of TObject)(System.Linq.Expressions.Expression(Of System.Func(Of TObject, Object)))
+  name.vb: GetMemberPath(Of TObject)(Expression(Of Func(Of TObject, Object)))
+- uid: Heleonix.Reflection.Reflector.GetMemberPath``1(System.Linq.Expressions.Expression{System.Action{``0}})
+  commentId: M:Heleonix.Reflection.Reflector.GetMemberPath``1(System.Linq.Expressions.Expression{System.Action{``0}})
+  id: GetMemberPath``1(System.Linq.Expressions.Expression{System.Action{``0}})
+  parent: Heleonix.Reflection.Reflector
+  langs:
+  - csharp
+  - vb
+  name: GetMemberPath<TObject>(Expression<Action<TObject>>)
+  nameWithType: Reflector.GetMemberPath<TObject>(Expression<Action<TObject>>)
+  fullName: Heleonix.Reflection.Reflector.GetMemberPath<TObject>(System.Linq.Expressions.Expression<System.Action<TObject>>)
+  type: Method
+  assemblies:
+  - Heleonix.Reflection
+  namespace: Heleonix.Reflection
+  summary: Gets a path to a member which returns <code>void</code>.
+  example:
+  - >-
+    var path = Reflector.GetMemberPath{List{int}}(list =&gt; list.Clear());
+
+
+    // path: "Clear".
+  syntax:
+    content: public static string GetMemberPath<TObject>(Expression<Action<TObject>> memberPath)
+    parameters:
+    - id: memberPath
+      type: System.Linq.Expressions.Expression{System.Action{{TObject}}}
+      description: An expression to find a member.
+    typeParameters:
+    - id: TObject
+      description: A type of an object.
+    return:
+      type: System.String
+      description: A path to a member.
+    content.vb: Public Shared Function GetMemberPath(Of TObject)(memberPath As Expression(Of Action(Of TObject))) As String
+  overload: Heleonix.Reflection.Reflector.GetMemberPath*
+  nameWithType.vb: Reflector.GetMemberPath(Of TObject)(Expression(Of Action(Of TObject)))
+  fullName.vb: Heleonix.Reflection.Reflector.GetMemberPath(Of TObject)(System.Linq.Expressions.Expression(Of System.Action(Of TObject)))
+  name.vb: GetMemberPath(Of TObject)(Expression(Of Action(Of TObject)))
+- uid: Heleonix.Reflection.Reflector.GetMemberPath(System.Linq.Expressions.LambdaExpression)
+  commentId: M:Heleonix.Reflection.Reflector.GetMemberPath(System.Linq.Expressions.LambdaExpression)
+  id: GetMemberPath(System.Linq.Expressions.LambdaExpression)
+  parent: Heleonix.Reflection.Reflector
+  langs:
+  - csharp
+  - vb
+  name: GetMemberPath(LambdaExpression)
+  nameWithType: Reflector.GetMemberPath(LambdaExpression)
+  fullName: Heleonix.Reflection.Reflector.GetMemberPath(System.Linq.Expressions.LambdaExpression)
+  type: Method
+  assemblies:
+  - Heleonix.Reflection
+  namespace: Heleonix.Reflection
+  summary: Gets a path to a member using the specified (probably dynamically built) expression.
+  example: []
+  syntax:
+    content: public static string GetMemberPath(LambdaExpression memberPath)
+    parameters:
+    - id: memberPath
+      type: System.Linq.Expressions.LambdaExpression
+      description: An expression to find a member.
+    return:
+      type: System.String
+      description: >-
+        A name of a member
+
+        or
+
+        an empty string if <code class="paramref">memberPath</code> is <code>null</code>.
+
+        .
+    content.vb: Public Shared Function GetMemberPath(memberPath As LambdaExpression) As String
+  overload: Heleonix.Reflection.Reflector.GetMemberPath*
+- uid: Heleonix.Reflection.Reflector.GetInfo(System.Object,System.Type,System.String,System.Type[],System.Reflection.BindingFlags)
+  commentId: M:Heleonix.Reflection.Reflector.GetInfo(System.Object,System.Type,System.String,System.Type[],System.Reflection.BindingFlags)
+  id: GetInfo(System.Object,System.Type,System.String,System.Type[],System.Reflection.BindingFlags)
+  parent: Heleonix.Reflection.Reflector
+  langs:
+  - csharp
+  - vb
+  name: GetInfo(object, Type, string, Type[], BindingFlags)
+  nameWithType: Reflector.GetInfo(object, Type, string, Type[], BindingFlags)
+  fullName: Heleonix.Reflection.Reflector.GetInfo(object, System.Type, string, System.Type[], System.Reflection.BindingFlags)
+  type: Method
+  assemblies:
+  - Heleonix.Reflection
+  namespace: Heleonix.Reflection
+  summary: Gets information about members.
+  example:
+  - >-
+    var dt = DateTime.Now;
+
+
+    var info = Reflector.GetInfo(instance: dt, type: null, memberPath: "TimeOfDay.Negate");
+
+
+    // info[0].Name == "Negate";
+
+    // info[0].MemberType == MemberTypes.Property.
+  syntax:
+    content: public static MemberInfo[] GetInfo(object instance, Type type, string memberPath, Type[] parameterTypes = null, BindingFlags bindingFlags = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public)
+    parameters:
+    - id: instance
+      type: System.Object
+      description: A root object.
+    - id: type
+      type: System.Type
+      description: >-
+        A type of a root object.
+                     If <code class="paramref">instance</code> is not <code>null</code>, then its type is used instead.
+    - id: memberPath
+      type: System.String
+      description: A path to a member.
+    - id: parameterTypes
+      type: System.Type[]
+      description: >-
+        Types of parameters to find methods or constructors.
+                     If <code>null</code> is passed, then types of parameters are ignored.
+    - id: bindingFlags
+      type: System.Reflection.BindingFlags
+      description: Binding flags to find members.
+    return:
+      type: System.Reflection.MemberInfo[]
+      description: >-
+        Information about found members or an empty array if no members are found
+
+        or
+
+        they are not reachable
+
+        or
+
+        they are not accessible.
+    content.vb: Public Shared Function GetInfo(instance As Object, type As Type, memberPath As String, parameterTypes As Type() = Nothing, bindingFlags As BindingFlags = BindingFlags.Instance Or BindingFlags.Static Or BindingFlags.Public) As MemberInfo()
+  overload: Heleonix.Reflection.Reflector.GetInfo*
+  exceptions:
+  - type: System.Reflection.TargetException
+    commentId: T:System.Reflection.TargetException
+    description: An intermediate member on a path thrown an exception. See inner exception for details.
+  nameWithType.vb: Reflector.GetInfo(Object, Type, String, Type(), BindingFlags)
+  fullName.vb: Heleonix.Reflection.Reflector.GetInfo(Object, System.Type, String, System.Type(), System.Reflection.BindingFlags)
+  name.vb: GetInfo(Object, Type, String, Type(), BindingFlags)
+- uid: Heleonix.Reflection.Reflector.Invoke``1(System.Object,System.Type,System.String,System.Type[],``0@,System.Reflection.BindingFlags,System.Object[])
+  commentId: M:Heleonix.Reflection.Reflector.Invoke``1(System.Object,System.Type,System.String,System.Type[],``0@,System.Reflection.BindingFlags,System.Object[])
+  id: Invoke``1(System.Object,System.Type,System.String,System.Type[],``0@,System.Reflection.BindingFlags,System.Object[])
+  parent: Heleonix.Reflection.Reflector
+  langs:
+  - csharp
+  - vb
+  name: Invoke<TReturn>(object, Type, string, Type[], out TReturn, BindingFlags, params object[])
+  nameWithType: Reflector.Invoke<TReturn>(object, Type, string, Type[], out TReturn, BindingFlags, params object[])
+  fullName: Heleonix.Reflection.Reflector.Invoke<TReturn>(object, System.Type, string, System.Type[], out TReturn, System.Reflection.BindingFlags, params object[])
+  type: Method
+  assemblies:
+  - Heleonix.Reflection
+  namespace: Heleonix.Reflection
+  summary: >-
+    Invokes a method or constructor by the provided path.
+
+    Use "ctor" to invoke constructors, i.e."Item.SubItem.ctor".
+  example:
+  - >-
+    var success = Reflector.Invoke(
+        DateTime.Now,
+        null,
+        "Date.AddYears",
+        new[] { typeof(int) },
+        out DateTime result, arguments: 10);
+
+    // success == true;
+
+    // result.Year == DateTime.Now.Date.Year + 10.
+  syntax:
+    content: public static bool Invoke<TReturn>(object instance, Type type, string memberPath, Type[] parameterTypes, out TReturn returnValue, BindingFlags bindingFlags = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public, params object[] arguments)
+    parameters:
+    - id: instance
+      type: System.Object
+      description: A root object.
+    - id: type
+      type: System.Type
+      description: >-
+        A type of a root object.
+                     If <code class="paramref">instance</code> is not <code>null</code>, then its runtime type is used instead.
+    - id: memberPath
+      type: System.String
+      description: A path to a member to invoke.
+    - id: parameterTypes
+      type: System.Type[]
+      description: >-
+        Types of parameters to find a method by.
+
+        Pass <code>null</code> to ignore parameters, or an empty array for parameterless methods.
+    - id: returnValue
+      type: '{TReturn}'
+      description: A value to be returned if a member is not void.
+    - id: bindingFlags
+      type: System.Reflection.BindingFlags
+      description: Binding flags to find members.
+    - id: arguments
+      type: System.Object[]
+      description: Arguments to be passed into a member to invoke.
+    typeParameters:
+    - id: TReturn
+      description: A type of a value to be returned.
+    return:
+      type: System.Boolean
+      description: >-
+        <code>true</code> in case of success, otherwise <code>false</code> if
+
+        <code class="paramref">memberPath</code> is <code>null</code> or empty
+
+        or
+
+        <code class="paramref">instance</code> is <code>null</code> and <code class="paramref">type</code> is <code>null</code>
+
+        or
+
+        a target member or one of intermediate members was not found
+
+        or
+
+        an intermediate member is neither <xref href="System.Reflection.PropertyInfo" data-throw-if-not-resolved="false"></xref> nor <xref href="System.Reflection.FieldInfo" data-throw-if-not-resolved="false"></xref>
+
+        or
+
+        an intermediate member is not static and its container is null
+
+        or
+
+        a target member is not <xref href="System.Reflection.MethodBase" data-throw-if-not-resolved="false"></xref>
+
+        or
+
+        a target value is not of type <code class="typeparamref">TReturn</code>.
+    content.vb: Public Shared Function Invoke(Of TReturn)(instance As Object, type As Type, memberPath As String, parameterTypes As Type(), returnValue As TReturn, bindingFlags As BindingFlags = BindingFlags.Instance Or BindingFlags.Static Or BindingFlags.Public, ParamArray arguments As Object()) As Boolean
+  overload: Heleonix.Reflection.Reflector.Invoke*
+  exceptions:
+  - type: System.Reflection.TargetException
+    commentId: T:System.Reflection.TargetException
+    description: Target thrown an exception during execution. See inner exception for details.
+  nameWithType.vb: Reflector.Invoke(Of TReturn)(Object, Type, String, Type(), TReturn, BindingFlags, ParamArray Object())
+  fullName.vb: Heleonix.Reflection.Reflector.Invoke(Of TReturn)(Object, System.Type, String, System.Type(), TReturn, System.Reflection.BindingFlags, ParamArray Object())
+  name.vb: Invoke(Of TReturn)(Object, Type, String, Type(), TReturn, BindingFlags, ParamArray Object())
+- uid: Heleonix.Reflection.Reflector.Set(System.Object,System.Type,System.String,System.Object,System.Reflection.BindingFlags)
+  commentId: M:Heleonix.Reflection.Reflector.Set(System.Object,System.Type,System.String,System.Object,System.Reflection.BindingFlags)
+  id: Set(System.Object,System.Type,System.String,System.Object,System.Reflection.BindingFlags)
+  parent: Heleonix.Reflection.Reflector
+  langs:
+  - csharp
+  - vb
+  name: Set(object, Type, string, object, BindingFlags)
+  nameWithType: Reflector.Set(object, Type, string, object, BindingFlags)
+  fullName: Heleonix.Reflection.Reflector.Set(object, System.Type, string, object, System.Reflection.BindingFlags)
+  type: Method
+  assemblies:
+  - Heleonix.Reflection
+  namespace: Heleonix.Reflection
+  summary: Sets a provided value by the provided path.
+  example:
+  - >-
+    public class Root
+
+    {
+        public Child Child { get; set; } = new Child();
+        public Child[] Children { get; set; } = new Child[] { new Child(), new Child() };
+    }
+
+
+    public class Child { public int Value { get; set; } }
+
+
+    var root = new Root();
+
+
+    var success1 = Reflector.Set(root, null, "Child.Value", 111);
+
+    var success2 = Reflector.Set(root, null, "Children[0].Value", 222);
+
+    var success3 = Reflector.Set(root, null, "Children[1]", new Child() { Value = 333 });
+
+
+    // success1 == true;
+
+    // success2 == true;
+
+    // success3 == true;
+
+
+    // root.Child.Value == 111;
+
+    // root.Children[0].Value == 222;
+
+    // root.Children[1].Value == 333.
+  syntax:
+    content: public static bool Set(object instance, Type type, string memberPath, object value, BindingFlags bindingFlags = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public)
+    parameters:
+    - id: instance
+      type: System.Object
+      description: A root object.
+    - id: type
+      type: System.Type
+      description: >-
+        A type of a root object.
+                     If <code class="paramref">instance</code> is not <code>null</code>, then its type is used instead.
+    - id: memberPath
+      type: System.String
+      description: A path to a member.
+    - id: value
+      type: System.Object
+      description: A value to be set.
+    - id: bindingFlags
+      type: System.Reflection.BindingFlags
+      description: Binding flags to find members.
+    return:
+      type: System.Boolean
+      description: >-
+        <code>true</code> in case of success, otherwise <code>false</code> if
+
+        <code class="paramref">memberPath</code> is <code>null</code> or empty
+
+        or
+
+        <code class="paramref">instance</code> is <code>null</code> and <code class="paramref">type</code> is <code>null</code>
+
+        or
+
+        a target member or one of intermediate members was not found
+
+        or
+
+        a member is not static and its container is null
+
+        or
+
+        a target member or an intermediate member is neither <xref href="System.Reflection.PropertyInfo" data-throw-if-not-resolved="false"></xref> nor <xref href="System.Reflection.FieldInfo" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Shared Function [Set](instance As Object, type As Type, memberPath As String, value As Object, bindingFlags As BindingFlags = BindingFlags.Instance Or BindingFlags.Static Or BindingFlags.Public) As Boolean
+  overload: Heleonix.Reflection.Reflector.Set*
+  nameWithType.vb: Reflector.Set(Object, Type, String, Object, BindingFlags)
+  fullName.vb: Heleonix.Reflection.Reflector.Set(Object, System.Type, String, Object, System.Reflection.BindingFlags)
+  name.vb: Set(Object, Type, String, Object, BindingFlags)
+- uid: Heleonix.Reflection.Reflector.SetCoerced(System.Object,System.Type,System.String,System.Object,System.Reflection.BindingFlags)
+  commentId: M:Heleonix.Reflection.Reflector.SetCoerced(System.Object,System.Type,System.String,System.Object,System.Reflection.BindingFlags)
+  id: SetCoerced(System.Object,System.Type,System.String,System.Object,System.Reflection.BindingFlags)
+  parent: Heleonix.Reflection.Reflector
+  langs:
+  - csharp
+  - vb
+  name: SetCoerced(object, Type, string, object, BindingFlags)
+  nameWithType: Reflector.SetCoerced(object, Type, string, object, BindingFlags)
+  fullName: Heleonix.Reflection.Reflector.SetCoerced(object, System.Type, string, object, System.Reflection.BindingFlags)
+  type: Method
+  assemblies:
+  - Heleonix.Reflection
+  namespace: Heleonix.Reflection
+  summary: Sets a provided value by the provided path with coercion into the target member type.
+  example:
+  - >-
+    public class Root
+
+    {
+        public Child Child { get; set; } = new Child();
+        public Child[] Children { get; set; } = new Child[] { new Child(), new Child() };
+    }
+
+
+    public class Child { public int Value { get; set; } }
+
+
+    var root = new Root();
+
+
+    var success1 = Reflector.Set(root, null, "Child.Value", 111);
+
+    var success2 = Reflector.Set(root, null, "Children[0].Value", 222);
+
+    var success3 = Reflector.Set(root, null, "Children[1]", new Child() { Value = 333 });
+
+
+    // success1 == true;
+
+    // success2 == true;
+
+    // success3 == true;
+
+
+    // root.Child.Value == 111;
+
+    // root.Children[0].Value == 222;
+
+    // root.Children[1].Value == 333.
+  syntax:
+    content: public static bool SetCoerced(object instance, Type type, string memberPath, object value, BindingFlags bindingFlags = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public)
+    parameters:
+    - id: instance
+      type: System.Object
+      description: A root object.
+    - id: type
+      type: System.Type
+      description: >-
+        A type of a root object.
+                     If <code class="paramref">instance</code> is not <code>null</code>, then its type is used instead.
+    - id: memberPath
+      type: System.String
+      description: A path to a member.
+    - id: value
+      type: System.Object
+      description: A value to be set.
+    - id: bindingFlags
+      type: System.Reflection.BindingFlags
+      description: Binding flags to find members.
+    return:
+      type: System.Boolean
+      description: >-
+        <code>true</code> in case of success, otherwise <code>false</code> if
+
+        <code class="paramref">memberPath</code> is <code>null</code> or empty
+
+        or
+
+        <code class="paramref">instance</code> is <code>null</code> and <code class="paramref">type</code> is <code>null</code>
+
+        or
+
+        a target member or one of intermediate members was not found
+
+        or
+
+        a member is not static and its container is null
+
+        or
+
+        a target member or an intermediate member is neither <xref href="System.Reflection.PropertyInfo" data-throw-if-not-resolved="false"></xref> nor <xref href="System.Reflection.FieldInfo" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Shared Function SetCoerced(instance As Object, type As Type, memberPath As String, value As Object, bindingFlags As BindingFlags = BindingFlags.Instance Or BindingFlags.Static Or BindingFlags.Public) As Boolean
+  overload: Heleonix.Reflection.Reflector.SetCoerced*
+  nameWithType.vb: Reflector.SetCoerced(Object, Type, String, Object, BindingFlags)
+  fullName.vb: Heleonix.Reflection.Reflector.SetCoerced(Object, System.Type, String, Object, System.Reflection.BindingFlags)
+  name.vb: SetCoerced(Object, Type, String, Object, BindingFlags)
+references:
+- uid: Heleonix.Reflection
+  commentId: N:Heleonix.Reflection
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Reflection
+  nameWithType: Heleonix.Reflection
+  fullName: Heleonix.Reflection
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Reflection
+    name: Reflection
+    isExternal: true
+    href: Heleonix.Reflection.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Reflection
+    name: Reflection
+    isExternal: true
+    href: Heleonix.Reflection.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Reflection.BindingFlags
+  commentId: T:System.Reflection.BindingFlags
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.bindingflags
+  name: BindingFlags
+  nameWithType: BindingFlags
+  fullName: System.Reflection.BindingFlags
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+- uid: Heleonix.Reflection.Reflector.CreateGetter*
+  commentId: Overload:Heleonix.Reflection.Reflector.CreateGetter
+  isExternal: true
+  href: Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_CreateGetter__2_System_Linq_Expressions_Expression_System_Func___0___1___
+  name: CreateGetter
+  nameWithType: Reflector.CreateGetter
+  fullName: Heleonix.Reflection.Reflector.CreateGetter
+- uid: System.Linq.Expressions.Expression{System.Func{{TObject},{TReturn}}}
+  commentId: T:System.Linq.Expressions.Expression{System.Func{``0,``1}}
+  parent: System.Linq.Expressions
+  definition: System.Linq.Expressions.Expression`1
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: Expression<Func<TObject, TReturn>>
+  nameWithType: Expression<Func<TObject, TReturn>>
+  fullName: System.Linq.Expressions.Expression<System.Func<TObject, TReturn>>
+  nameWithType.vb: Expression(Of Func(Of TObject, TReturn))
+  fullName.vb: System.Linq.Expressions.Expression(Of System.Func(Of TObject, TReturn))
+  name.vb: Expression(Of Func(Of TObject, TReturn))
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TObject
+  - name: ','
+  - name: " "
+  - name: TReturn
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TObject
+  - name: ','
+  - name: " "
+  - name: TReturn
+  - name: )
+  - name: )
+- uid: System.Func{{TObject},{TReturn}}
+  commentId: T:System.Func{``0,``1}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<TObject, TReturn>
+  nameWithType: Func<TObject, TReturn>
+  fullName: System.Func<TObject, TReturn>
+  nameWithType.vb: Func(Of TObject, TReturn)
+  fullName.vb: System.Func(Of TObject, TReturn)
+  name.vb: Func(Of TObject, TReturn)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TObject
+  - name: ','
+  - name: " "
+  - name: TReturn
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TObject
+  - name: ','
+  - name: " "
+  - name: TReturn
+  - name: )
+- uid: System.Linq.Expressions.Expression`1
+  commentId: T:System.Linq.Expressions.Expression`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: Expression<TDelegate>
+  nameWithType: Expression<TDelegate>
+  fullName: System.Linq.Expressions.Expression<TDelegate>
+  nameWithType.vb: Expression(Of TDelegate)
+  fullName.vb: System.Linq.Expressions.Expression(Of TDelegate)
+  name.vb: Expression(Of TDelegate)
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - name: TDelegate
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDelegate
+  - name: )
+- uid: System.Linq.Expressions
+  commentId: N:System.Linq.Expressions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Linq.Expressions
+  nameWithType: System.Linq.Expressions
+  fullName: System.Linq.Expressions
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Linq
+    name: Linq
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq
+  - name: .
+  - uid: System.Linq.Expressions
+    name: Expressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Linq
+    name: Linq
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq
+  - name: .
+  - uid: System.Linq.Expressions
+    name: Expressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Heleonix.Reflection.Reflector.CreateSetter*
+  commentId: Overload:Heleonix.Reflection.Reflector.CreateSetter
+  isExternal: true
+  href: Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_CreateSetter__2_System_Linq_Expressions_Expression_System_Func___0___1___
+  name: CreateSetter
+  nameWithType: Reflector.CreateSetter
+  fullName: Heleonix.Reflection.Reflector.CreateSetter
+- uid: System.Linq.Expressions.Expression{System.Func{{TObject},{TValue}}}
+  commentId: T:System.Linq.Expressions.Expression{System.Func{``0,``1}}
+  parent: System.Linq.Expressions
+  definition: System.Linq.Expressions.Expression`1
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: Expression<Func<TObject, TValue>>
+  nameWithType: Expression<Func<TObject, TValue>>
+  fullName: System.Linq.Expressions.Expression<System.Func<TObject, TValue>>
+  nameWithType.vb: Expression(Of Func(Of TObject, TValue))
+  fullName.vb: System.Linq.Expressions.Expression(Of System.Func(Of TObject, TValue))
+  name.vb: Expression(Of Func(Of TObject, TValue))
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TObject
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TObject
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+- uid: System.Action{{TObject},{TValue}}
+  commentId: T:System.Action{``0,``1}
+  parent: System
+  definition: System.Action`2
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<TObject, TValue>
+  nameWithType: Action<TObject, TValue>
+  fullName: System.Action<TObject, TValue>
+  nameWithType.vb: Action(Of TObject, TValue)
+  fullName.vb: System.Action(Of TObject, TValue)
+  name.vb: Action(Of TObject, TValue)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: TObject
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TObject
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Action`2
+  commentId: T:System.Action`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<T1, T2>
+  nameWithType: Action<T1, T2>
+  fullName: System.Action<T1, T2>
+  nameWithType.vb: Action(Of T1, T2)
+  fullName.vb: System.Action(Of T1, T2)
+  name.vb: Action(Of T1, T2)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: Heleonix.Reflection.Reflector.IsStatic*
+  commentId: Overload:Heleonix.Reflection.Reflector.IsStatic
+  isExternal: true
+  href: Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_IsStatic_System_Reflection_PropertyInfo_
+  name: IsStatic
+  nameWithType: Reflector.IsStatic
+  fullName: Heleonix.Reflection.Reflector.IsStatic
+- uid: System.Reflection.PropertyInfo
+  commentId: T:System.Reflection.PropertyInfo
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.propertyinfo
+  name: PropertyInfo
+  nameWithType: PropertyInfo
+  fullName: System.Reflection.PropertyInfo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Reflection.FieldInfo
+  commentId: T:System.Reflection.FieldInfo
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.fieldinfo
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: System.Reflection.FieldInfo
+- uid: System.Reflection.TargetException
+  commentId: T:System.Reflection.TargetException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.targetexception
+  name: TargetException
+  nameWithType: TargetException
+  fullName: System.Reflection.TargetException
+- uid: Heleonix.Reflection.Reflector.Get*
+  commentId: Overload:Heleonix.Reflection.Reflector.Get
+  isExternal: true
+  href: Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_Get__1_System_Object_System_Type_System_String___0__System_Reflection_BindingFlags_
+  name: Get
+  nameWithType: Reflector.Get
+  fullName: Heleonix.Reflection.Reflector.Get
+- uid: '{TReturn}'
+  commentId: '!:TReturn'
+  definition: TReturn
+  name: TReturn
+  nameWithType: TReturn
+  fullName: TReturn
+- uid: TReturn
+  name: TReturn
+  nameWithType: TReturn
+  fullName: TReturn
+- uid: Heleonix.Reflection.Reflector.GetTypes*
+  commentId: Overload:Heleonix.Reflection.Reflector.GetTypes
+  isExternal: true
+  href: Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_GetTypes_System_String_
+  name: GetTypes
+  nameWithType: Reflector.GetTypes
+  fullName: Heleonix.Reflection.Reflector.GetTypes
+- uid: System.Type[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type[]
+  nameWithType: Type[]
+  fullName: System.Type[]
+  nameWithType.vb: Type()
+  fullName.vb: System.Type()
+  name.vb: Type()
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: (
+  - name: )
+- uid: Heleonix.Reflection.Reflector.GetMemberPath*
+  commentId: Overload:Heleonix.Reflection.Reflector.GetMemberPath
+  isExternal: true
+  href: Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_GetMemberPath__1_System_Linq_Expressions_Expression_System_Func___0_System_Object___
+  name: GetMemberPath
+  nameWithType: Reflector.GetMemberPath
+  fullName: Heleonix.Reflection.Reflector.GetMemberPath
+- uid: System.Linq.Expressions.Expression{System.Func{{TObject},System.Object}}
+  commentId: T:System.Linq.Expressions.Expression{System.Func{``0,System.Object}}
+  parent: System.Linq.Expressions
+  definition: System.Linq.Expressions.Expression`1
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: Expression<Func<TObject, object>>
+  nameWithType: Expression<Func<TObject, object>>
+  fullName: System.Linq.Expressions.Expression<System.Func<TObject, object>>
+  nameWithType.vb: Expression(Of Func(Of TObject, Object))
+  fullName.vb: System.Linq.Expressions.Expression(Of System.Func(Of TObject, Object))
+  name.vb: Expression(Of Func(Of TObject, Object))
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TObject
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TObject
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: )
+- uid: System.Linq.Expressions.Expression{System.Action{{TObject}}}
+  commentId: T:System.Linq.Expressions.Expression{System.Action{``0}}
+  parent: System.Linq.Expressions
+  definition: System.Linq.Expressions.Expression`1
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: Expression<Action<TObject>>
+  nameWithType: Expression<Action<TObject>>
+  fullName: System.Linq.Expressions.Expression<System.Action<TObject>>
+  nameWithType.vb: Expression(Of Action(Of TObject))
+  fullName.vb: System.Linq.Expressions.Expression(Of System.Action(Of TObject))
+  name.vb: Expression(Of Action(Of TObject))
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: TObject
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TObject
+  - name: )
+  - name: )
+- uid: System.Linq.Expressions.LambdaExpression
+  commentId: T:System.Linq.Expressions.LambdaExpression
+  parent: System.Linq.Expressions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.lambdaexpression
+  name: LambdaExpression
+  nameWithType: LambdaExpression
+  fullName: System.Linq.Expressions.LambdaExpression
+- uid: Heleonix.Reflection.Reflector.GetInfo*
+  commentId: Overload:Heleonix.Reflection.Reflector.GetInfo
+  isExternal: true
+  href: Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_GetInfo_System_Object_System_Type_System_String_System_Type___System_Reflection_BindingFlags_
+  name: GetInfo
+  nameWithType: Reflector.GetInfo
+  fullName: Heleonix.Reflection.Reflector.GetInfo
+- uid: System.Reflection.MemberInfo[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo
+  name: MemberInfo[]
+  nameWithType: MemberInfo[]
+  fullName: System.Reflection.MemberInfo[]
+  nameWithType.vb: MemberInfo()
+  fullName.vb: System.Reflection.MemberInfo()
+  name.vb: MemberInfo()
+  spec.csharp:
+  - uid: System.Reflection.MemberInfo
+    name: MemberInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Reflection.MemberInfo
+    name: MemberInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo
+  - name: (
+  - name: )
+- uid: System.Reflection.MethodBase
+  commentId: T:System.Reflection.MethodBase
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.methodbase
+  name: MethodBase
+  nameWithType: MethodBase
+  fullName: System.Reflection.MethodBase
+- uid: Heleonix.Reflection.Reflector.Invoke*
+  commentId: Overload:Heleonix.Reflection.Reflector.Invoke
+  isExternal: true
+  href: Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_Invoke__1_System_Object_System_Type_System_String_System_Type_____0__System_Reflection_BindingFlags_System_Object___
+  name: Invoke
+  nameWithType: Reflector.Invoke
+  fullName: Heleonix.Reflection.Reflector.Invoke
+- uid: System.Object[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object[]
+  nameWithType: object[]
+  fullName: object[]
+  nameWithType.vb: Object()
+  fullName.vb: Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+- uid: System.Reflection.PropertyInfo.SetValue(System.Object,System.Object,System.Object[])
+  commentId: M:System.Reflection.PropertyInfo.SetValue(System.Object,System.Object,System.Object[])
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.propertyinfo.setvalue#system-reflection-propertyinfo-setvalue(system-object-system-object-system-object())
+  name: SetValue(object, object, object[])
+  nameWithType: PropertyInfo.SetValue(object, object, object[])
+  fullName: System.Reflection.PropertyInfo.SetValue(object, object, object[])
+  nameWithType.vb: PropertyInfo.SetValue(Object, Object, Object())
+  fullName.vb: System.Reflection.PropertyInfo.SetValue(Object, Object, Object())
+  name.vb: SetValue(Object, Object, Object())
+  spec.csharp:
+  - uid: System.Reflection.PropertyInfo.SetValue(System.Object,System.Object,System.Object[])
+    name: SetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.propertyinfo.setvalue#system-reflection-propertyinfo-setvalue(system-object-system-object-system-object())
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: System.Reflection.PropertyInfo.SetValue(System.Object,System.Object,System.Object[])
+    name: SetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.propertyinfo.setvalue#system-reflection-propertyinfo-setvalue(system-object-system-object-system-object())
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+  - name: )
+- uid: Heleonix.Reflection.Reflector.Set*
+  commentId: Overload:Heleonix.Reflection.Reflector.Set
+  isExternal: true
+  href: Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_Set_System_Object_System_Type_System_String_System_Object_System_Reflection_BindingFlags_
+  name: Set
+  nameWithType: Reflector.Set
+  fullName: Heleonix.Reflection.Reflector.Set
+- uid: Heleonix.Reflection.Reflector.SetCoerced*
+  commentId: Overload:Heleonix.Reflection.Reflector.SetCoerced
+  isExternal: true
+  href: Heleonix.Reflection.Reflector.html#Heleonix_Reflection_Reflector_SetCoerced_System_Object_System_Type_System_String_System_Object_System_Reflection_BindingFlags_
+  name: SetCoerced
+  nameWithType: Reflector.SetCoerced
+  fullName: Heleonix.Reflection.Reflector.SetCoerced

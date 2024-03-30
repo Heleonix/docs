@@ -1,5 +1,5 @@
 {
-  "source_base_path": "D:/a/Heleonix.Build/Heleonix.Build/Hx_Artifacts/DocFX",
+  "source_base_path": "D:/a/Heleonix.Reflection/Heleonix.Reflection/Hx_Artifacts/DocFX",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -470,11 +470,44 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "Heleonix.Reflection/Heleonix.Reflection.Reflector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Reflection/Heleonix.Reflection.Reflector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Heleonix.Reflection/Heleonix.Reflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Reflection/Heleonix.Reflection.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "Heleonix.Reflection/index.md",
       "output": {
         ".html": {
           "relative_path": "Heleonix.Reflection/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Heleonix.Reflection/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Reflection/toc.html"
+        },
+        ".json": {
+          "relative_path": "Heleonix.Reflection/toc.json"
         }
       },
       "version": ""

@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Reflection
+  commentId: N:Heleonix.Reflection
+  id: Heleonix.Reflection
+  children:
+  - Heleonix.Reflection.Reflector
+  langs:
+  - csharp
+  - vb
+  name: Heleonix.Reflection
+  nameWithType: Heleonix.Reflection
+  fullName: Heleonix.Reflection
+  type: Namespace
+  assemblies:
+  - Heleonix.Reflection
+references:
+- uid: Heleonix.Reflection.Reflector
+  commentId: T:Heleonix.Reflection.Reflector
+  isExternal: true
+  href: Heleonix.Reflection.Reflector.html
+  name: Reflector
+  nameWithType: Reflector
+  fullName: Heleonix.Reflection.Reflector

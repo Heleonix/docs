@@ -1,0 +1,19 @@
+{
+  "Heleonix.Reflection": "Heleonix.Reflection.yml",
+  "Heleonix.Reflection.Reflector": "Heleonix.Reflection.Reflector.yml",
+  "Heleonix.Reflection.Reflector.CreateGetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})": "Heleonix.Reflection.Reflector.yml",
+  "Heleonix.Reflection.Reflector.CreateGetter``2(System.String,System.Type)": "Heleonix.Reflection.Reflector.yml",
+  "Heleonix.Reflection.Reflector.CreateSetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})": "Heleonix.Reflection.Reflector.yml",
+  "Heleonix.Reflection.Reflector.CreateSetter``2(System.String,System.Type)": "Heleonix.Reflection.Reflector.yml",
+  "Heleonix.Reflection.Reflector.DefaultBindingFlags": "Heleonix.Reflection.Reflector.yml",
+  "Heleonix.Reflection.Reflector.GetInfo(System.Object,System.Type,System.String,System.Type[],System.Reflection.BindingFlags)": "Heleonix.Reflection.Reflector.yml",
+  "Heleonix.Reflection.Reflector.GetMemberPath(System.Linq.Expressions.LambdaExpression)": "Heleonix.Reflection.Reflector.yml",
+  "Heleonix.Reflection.Reflector.GetMemberPath``1(System.Linq.Expressions.Expression{System.Action{``0}})": "Heleonix.Reflection.Reflector.yml",
+  "Heleonix.Reflection.Reflector.GetMemberPath``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})": "Heleonix.Reflection.Reflector.yml",
+  "Heleonix.Reflection.Reflector.GetTypes(System.String)": "Heleonix.Reflection.Reflector.yml",
+  "Heleonix.Reflection.Reflector.Get``1(System.Object,System.Type,System.String,``0@,System.Reflection.BindingFlags)": "Heleonix.Reflection.Reflector.yml",
+  "Heleonix.Reflection.Reflector.Invoke``1(System.Object,System.Type,System.String,System.Type[],``0@,System.Reflection.BindingFlags,System.Object[])": "Heleonix.Reflection.Reflector.yml",
+  "Heleonix.Reflection.Reflector.IsStatic(System.Reflection.PropertyInfo)": "Heleonix.Reflection.Reflector.yml",
+  "Heleonix.Reflection.Reflector.Set(System.Object,System.Type,System.String,System.Object,System.Reflection.BindingFlags)": "Heleonix.Reflection.Reflector.yml",
+  "Heleonix.Reflection.Reflector.SetCoerced(System.Object,System.Type,System.String,System.Object,System.Reflection.BindingFlags)": "Heleonix.Reflection.Reflector.yml"
+}
