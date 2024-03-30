@@ -87,12 +87,13 @@
         <article data-uid="Hx_ChangeLog">
 <h1 id="hx_changelog">Hx_ChangeLog</h1>
 
+<p>The virtual target for variations of real targets to generate change logs from different sources and in different ways to be further used in versioning of builds, generation of release notes etc. Variations of this target should generate at least the 'semver.txt' containing the new semantic version in the format 'Major.Minor.Patch' of the product to be released based on discovered changes, and generate two files: 'ReleaseNotes.md' and 'ReleaseNotes.txt' containing textual descriptions of discovered changes, which can be used by other targets, i.e. by the 'Hx_NetBuild' while building a solution with enabled NuGet package generation, or by the 'Hx_Release_GitHub' while creating a release on GitHub etc.</p>
 <h2 id="properties">Properties</h2>
 <h4 id="hx_changelog_artifactsdir">Hx_ChangeLog_ArtifactsDir</h4>
 <p>A path to the ChangeLog artifacts directory. Default is '$Hx_Run_ArtifactsDir/ChangeLog'.</p>
 <h2 id="items">Items</h2>
 <h4 id="hx_changelog_templatefiles">Hx_ChangeLog_TemplateFiles</h4>
-<p>The list of Razor *.cshtml template files to generates change logs with using the Hx_FileRazorGenerate task. Default are two templates: 'ReleaseNotes.md.cshtml' and 'ReleaseNotes.txt.cshtml' from the Heleonix.Build.</p>
+<p>The list of Razor *.cshtml template files to generate change logs using the Hx_FileRazorGenerate task. Default are two templates: 'ReleaseNotes.md.cshtml' and 'ReleaseNotes.txt.cshtml' from the Heleonix.Build.</p>
 <h4 id="hx_changelog_customchanges">Hx_ChangeLog_CustomChanges</h4>
 <p>The list of custom changes with custom metadata to be passed into the Razor *.cshtml templates via the 'Data' input property of the Hx_FileRazorGenerate task to generate change logs.</p>
 

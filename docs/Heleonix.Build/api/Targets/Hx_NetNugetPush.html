@@ -87,6 +87,7 @@
         <article data-uid="Hx_NetNugetPush">
 <h1 id="hx_netnugetpush">Hx_NetNugetPush</h1>
 
+<p>Publishes specified package files to the specified NuGet registry using the 'dotnet nuget push' command. If no package files are specified, the target tries to find them in the $Hx_NetBuild_ArtifactsDir and if package files are not found, the target executes the MSBuild 'Pack' target against the solution file found in the $Hx_NetBuild_ArtifactsDir to generate package files.</p>
 <h2 id="properties">Properties</h2>
 <h4 id="hx_netnugetpush_artifactsdir">Hx_NetNugetPush_ArtifactsDir</h4>
 <p>A path to the NugetDeploy artifacts directory. Default is '$Hx_Run_ArtifactsDir/NetNugetPush'.</p>
