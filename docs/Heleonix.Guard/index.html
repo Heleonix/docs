@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>PLACEHOLDER | Heleonix </title>
+      <title>Heleonix.Guard | Heleonix </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="PLACEHOLDER | Heleonix ">
+      <meta name="title" content="Heleonix.Guard | Heleonix ">
       
       
       <link rel="icon" href="../images/heleonix-logos/Heleonix-favicon-128x128.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Heleonix/docs/blob/master/Heleonix.Guard/index.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/hennadiilu/docs/blob/master/Heleonix.Guard/index.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,9 +85,95 @@
         </div>
 
         <article data-uid="">
-<h1 id="placeholder">PLACEHOLDER</h1>
+<h1 id="heleonixguard">Heleonix.Guard</h1>
 
-<p>TODO: Add .NET projects to the <em>src</em> folder and run <code>docfx</code> to generate <strong>REAL</strong> <em>API Documentation</em>!</p>
+<p><a href="https://github.com/Heleonix/Heleonix.Guard/actions/workflows/release-net-nuget.yml"><img src="https://github.com/Heleonix/Heleonix.Guard/actions/workflows/release-net-nuget.yml/badge.svg" alt="Release: .NET / NuGet"></a></p>
+<p>Provides performant guard functionality for methods to throw exceptions</p>
+<h2 id="install">Install</h2>
+<p><a href="https://www.nuget.org/packages/Heleonix.Guard">https://www.nuget.org/packages/Heleonix.Guard</a></p>
+<h2 id="api">API</h2>
+<p>See &lt;xref:Heleonix.Guard&gt;</p>
+<h2 id="example">Example</h2>
+<pre><code class="lang-csharp">using Heleonix.Guard;
+using Heleonix.Extensions;
+using static Heleonix.Guard.Host;
+
+public static class Test
+{
+    public static void Main()
+    {
+        MyMethod(null);
+    }
+
+    public static void MyMethod(string param)
+    {
+        // C# 7.2+: Non-Trailing named arguments
+        Throw.ArgumentNullException(when: param.IsNull(), nameof(param));
+
+        // OR
+
+        // Prior to C# 7.2: You can use a helper method 'When'
+        Throw.ArgumentNullException(When(param.IsNull()), nameof(param));
+
+        // OR
+        Throw.ArgumentNullException(param == null, nameof(param));
+
+        // OR
+        Throw.ArgumentNullException(When(param == null), nameof(param));
+    }
+}
+</code></pre>
+<p>The <code>Heleonix.Extensions</code> provides many useful predicative extensions to build assertions,
+like <code>IsNull()</code>, <code>IsNullOrEmptyOrWhiteSpace()</code>, <code>IsLessThan()</code> etc.
+<strong>These extensions do not throw exceptions</strong>, so they will not overlap an exception to be really thrown. See <a href="https://github.com/Heleonix/Heleonix.Extensions">Heleonix.Extensions</a> for more details.</p>
+<p>The <code>Host.Throw</code> property returns a singleton instance of the <code>Heleonix.Guard.ExceptionRaiser</code> class,
+which provides methods to throw many existing exceptions, like <code>ArgumentNullException</code>, <code>FileLoadException</code> etc.
+See more via VisualStudio intellisense.</p>
+<p>The <code>ExceptionRaiser</code> returned by the <code>Host.Throw</code> is the singleton instance, so there is no creations of new objects every time,
+as it is usually implemented in fluent interfaces. Besides, it also provides ability to implement custom exception raisers via extension methods:</p>
+<pre><code class="lang-csharp">using Heleonix.Guard;
+
+public static class ExceptionRaiserExtensions
+{
+#pragma warning disable CC0057 // Unused parameters
+    public static void MyCustomException(this ExceptionRaiser raiser, bool when, int param1, string param2, object paramN, string message = null, Exception innerException = null)
+    {
+        if (when)
+        {
+            throw new MyCustomException(param1, param2, paramN, message, innerException);
+        }
+    }
+#pragma warning restore CC0057 // Unused parameters
+}
+</code></pre>
+<p>and then use it, for example, as below:</p>
+<pre><code class="lang-csharp">Throw.MyCustomException(when: param1.IsZero() || param2.IsNullOrEmpty() || paramN.IsNull(), &quot;some message&quot;);
+</code></pre>
+<h2 id="contribution-guideline">Contribution Guideline</h2>
+<ol>
+<li><p><a href="https://github.com/Heleonix/Heleonix.Guard/fork">Create a fork</a> from the main repository</p>
+</li>
+<li><p>Implement whatever is needed</p>
+</li>
+<li><p><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork">Create a Pull Request</a>.
+Make sure the assigned <a href="https://github.com/Heleonix/Heleonix.Guard/actions/workflows/pr-net.yml">Checks</a> pass successfully.</p>
+</li>
+<li><p><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review">Request review</a> from the code owner</p>
+</li>
+<li><p>Once approved, merge your Pull Request via <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges#squash-and-merge-your-commits">Squash and merge</a></p>
+<blockquote>
+<p><strong>IMPORTANT</strong><br>
+While merging, enter a <a href="https://www.conventionalcommits.org/">Conventional Commits</a> commit message.
+This commit message will be used in automatically generated <a href="https://github.com/Heleonix/Heleonix.Guard/releases">Github Release Notes</a>
+and <a href="https://www.nuget.org/packages/Heleonix.Guard/#releasenotes-body-tab">NuGet Release Notes</a></p>
+</blockquote>
+</li>
+<li><p>Monitor the <a href="https://github.com/Heleonix/Heleonix.Guard/actions/workflows/release-net-nuget.yml">Release: .NET / NuGet</a>
+GitHub workflow to make sure your changes are delivered successfully</p>
+</li>
+<li><p>In case of any issues, please contact <a href="mailto:heleonix.sln@gmail.com">heleonix.sln@gmail.com</a></p>
+</li>
+</ol>
 
 </article>
 
