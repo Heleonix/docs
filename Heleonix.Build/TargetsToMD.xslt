@@ -12,6 +12,9 @@ uid: <xsl:value-of select="$filename"/>
 ---
 
 # <xsl:value-of select="$filename"/>
+<xsl:text>&#x0A;</xsl:text>
+<xsl:value-of select="normalize-space(xs:schema/xs:element[@name=$filename]/xs:annotation/xs:documentation)"/>
+<xsl:text>&#x0A;</xsl:text>
 ## Properties
 <xsl:for-each select="xs:schema/xs:element[@substitutionGroup='msb:Property']">
 #### <xsl:value-of select="@name"/>

@@ -87,6 +87,7 @@
         <article data-uid="Hx_NetTest">
 <h1 id="hx_nettest">Hx_NetTest</h1>
 
+<p>Runs the 'dotnet test' command against the specified test files. By default, runs 'XPlat Code Coverage' with NUnit test logger <a href="https://www.nuget.org/packages/NunitXml.TestLogger">https://www.nuget.org/packages/NunitXml.TestLogger</a>. The target internally converts the generated test coverage into XMLSummary using the 'ReportGenerator' tool, and verifies the specified thresholds of source code coverage. This target also replaces source code paths using the specified regular expressions in generated *.info, *.xml, *.json files with persistent paths, i.e. paths of source code files on the particular build agent with corresponding GitHub urls, so generated test or coverage reports become portable. Such solution is flexible to support different formats of test or coverage files and different persistent paths, like GitHub, GitLab, SVN etc.</p>
 <h2 id="properties">Properties</h2>
 <h4 id="hx_nettest_artifactsdir">Hx_NetTest_ArtifactsDir</h4>
 <p>A path to the artifacts directory to store results in. Default is '$Hx_Run_ArtifactsDir/NetTest'.</p>
