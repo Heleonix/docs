@@ -1,0 +1,10 @@
+### YamlMime:TableOfContent
+items:
+- uid: Heleonix.Guard
+  name: Heleonix.Guard
+  items:
+  - uid: Heleonix.Guard.ExceptionRaiser
+    name: ExceptionRaiser
+  - uid: Heleonix.Guard.Host
+    name: Host
+memberLayout: SamePage

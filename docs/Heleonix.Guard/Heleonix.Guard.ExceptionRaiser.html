@@ -1,0 +1,1713 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ExceptionRaiser | Heleonix </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ExceptionRaiser | Heleonix ">
+      
+      <meta name="description" content="Provides raising of exceptions with building of conditions to throw them.">
+      <link rel="icon" href="../images/heleonix-logos/Heleonix-favicon-128x128.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/heleonix-logos/Heleonix-logo-64x64.jpg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Heleonix.Guard.ExceptionRaiser">
+
+
+
+  <h1 id="Heleonix_Guard_ExceptionRaiser" data-uid="Heleonix.Guard.ExceptionRaiser" class="text-break">
+Class ExceptionRaiser  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Heleonix.html">Heleonix</a>.<a class="xref" href="Heleonix.Guard.html">Guard</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Heleonix.Guard.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Provides raising of exceptions with building of conditions to throw them.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ExceptionRaiser</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ExceptionRaiser</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_AggregateException_" data-uid="Heleonix.Guard.ExceptionRaiser.AggregateException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_AggregateException_System_Boolean_System_String_System_Exception___" data-uid="Heleonix.Guard.ExceptionRaiser.AggregateException(System.Boolean,System.String,System.Exception[])">
+  AggregateException(bool, string, params Exception[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_AggregateException_System_Boolean_System_String_System_Exception___">AggregateException(bool, string, params Exception[])</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AggregateException(bool when, string message = null, params Exception[] innerExceptions)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerExceptions</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a>[]</dt>
+    <dd><p>The inner exceptions.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_AmbiguousMatchException_" data-uid="Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_AmbiguousMatchException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException(System.Boolean,System.String,System.Exception)">
+  AmbiguousMatchException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_AmbiguousMatchException_System_Boolean_System_String_System_Exception_">AmbiguousMatchException(bool, string, Exception)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AmbiguousMatchException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_ArgumentException_" data-uid="Heleonix.Guard.ExceptionRaiser.ArgumentException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_ArgumentException_System_Boolean_System_String_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.ArgumentException(System.Boolean,System.String,System.String,System.Exception)">
+  ArgumentException(bool, string, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_ArgumentException_System_Boolean_System_String_System_String_System_Exception_">ArgumentException(bool, string, string, Exception)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ArgumentException(bool when, string message = null, string paramName = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>paramName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the parameter.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_ArgumentNullException_" data-uid="Heleonix.Guard.ExceptionRaiser.ArgumentNullException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_ArgumentNullException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.ArgumentNullException(System.Boolean,System.String,System.Exception)">
+  ArgumentNullException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ArgumentNullException(bool when, string message, Exception innerException)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_ArgumentNullException_" data-uid="Heleonix.Guard.ExceptionRaiser.ArgumentNullException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_ArgumentNullException_System_Boolean_System_String_System_String_" data-uid="Heleonix.Guard.ExceptionRaiser.ArgumentNullException(System.Boolean,System.String,System.String)">
+  ArgumentNullException(bool, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ArgumentNullException(bool when, string paramName = null, string message = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>paramName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the parameter.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_ArgumentOutOfRangeException_" data-uid="Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_ArgumentOutOfRangeException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException(System.Boolean,System.String,System.Exception)">
+  ArgumentOutOfRangeException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ArgumentOutOfRangeException(bool when, string message, Exception innerException)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_ArgumentOutOfRangeException_" data-uid="Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_ArgumentOutOfRangeException_System_Boolean_System_String_System_Object_System_String_" data-uid="Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException(System.Boolean,System.String,System.Object,System.String)">
+  ArgumentOutOfRangeException(bool, string, object, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ArgumentOutOfRangeException(bool when, string paramName = null, object actualValue = null, string message = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>paramName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the parameter.</p>
+</dd>
+    <dt><code>actualValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The value of the argument that causes this exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_AuthenticationException_" data-uid="Heleonix.Guard.ExceptionRaiser.AuthenticationException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_AuthenticationException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.AuthenticationException(System.Boolean,System.String,System.Exception)">
+  AuthenticationException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_AuthenticationException_System_Boolean_System_String_System_Exception_">AuthenticationException(bool, string, Exception)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AuthenticationException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_DirectoryNotFoundException_" data-uid="Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_DirectoryNotFoundException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException(System.Boolean,System.String,System.Exception)">
+  DirectoryNotFoundException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_DirectoryNotFoundException_System_Boolean_System_String_System_Exception_">DirectoryNotFoundException(bool, string, Exception)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DirectoryNotFoundException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_DllNotFoundException_" data-uid="Heleonix.Guard.ExceptionRaiser.DllNotFoundException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_DllNotFoundException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.DllNotFoundException(System.Boolean,System.String,System.Exception)">
+  DllNotFoundException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_DllNotFoundException_System_Boolean_System_String_System_Exception_">DllNotFoundException(bool, string, Exception)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DllNotFoundException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_DriveNotFoundException_" data-uid="Heleonix.Guard.ExceptionRaiser.DriveNotFoundException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_DriveNotFoundException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.DriveNotFoundException(System.Boolean,System.String,System.Exception)">
+  DriveNotFoundException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_DriveNotFoundException_System_Boolean_System_String_System_Exception_">DriveNotFoundException(bool, string, Exception)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DriveNotFoundException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.Exception*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_Exception_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.Exception(System.Boolean,System.String,System.Exception)">
+  Exception(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Exception(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_FileLoadException_" data-uid="Heleonix.Guard.ExceptionRaiser.FileLoadException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_FileLoadException_System_Boolean_System_String_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.FileLoadException(System.Boolean,System.String,System.String,System.Exception)">
+  FileLoadException(bool, string, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_FileLoadException_System_Boolean_System_String_System_String_System_Exception_">FileLoadException(bool, string, string, Exception)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FileLoadException(bool when, string message = null, string fileName = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>fileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The file name.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_FileNotFoundException_" data-uid="Heleonix.Guard.ExceptionRaiser.FileNotFoundException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_FileNotFoundException_System_Boolean_System_String_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.FileNotFoundException(System.Boolean,System.String,System.String,System.Exception)">
+  FileNotFoundException(bool, string, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_FileNotFoundException_System_Boolean_System_String_System_String_System_Exception_">FileNotFoundException(bool, string, string, Exception)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FileNotFoundException(bool when, string message = null, string fileName = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>fileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The file name.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_FormatException_" data-uid="Heleonix.Guard.ExceptionRaiser.FormatException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_FormatException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.FormatException(System.Boolean,System.String,System.Exception)">
+  FormatException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_FormatException_System_Boolean_System_String_System_Exception_">FormatException(bool, string, Exception)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FormatException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_IndexOutOfRangeException_" data-uid="Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_IndexOutOfRangeException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException(System.Boolean,System.String,System.Exception)">
+  IndexOutOfRangeException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_IndexOutOfRangeException_System_Boolean_System_String_System_Exception_">IndexOutOfRangeException(bool, string, Exception)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void IndexOutOfRangeException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_InvalidCastException_" data-uid="Heleonix.Guard.ExceptionRaiser.InvalidCastException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_InvalidCastException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.InvalidCastException(System.Boolean,System.String,System.Exception)">
+  InvalidCastException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidcastexception">InvalidCastException</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InvalidCastException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_InvalidCastException_" data-uid="Heleonix.Guard.ExceptionRaiser.InvalidCastException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_InvalidCastException_System_Boolean_System_String_System_Int32_" data-uid="Heleonix.Guard.ExceptionRaiser.InvalidCastException(System.Boolean,System.String,System.Int32)">
+  InvalidCastException(bool, string, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidcastexception">InvalidCastException</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InvalidCastException(bool when, string message, int errorCode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>errorCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The error code (HRESULT).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_InvalidCredentialException_" data-uid="Heleonix.Guard.ExceptionRaiser.InvalidCredentialException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_InvalidCredentialException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.InvalidCredentialException(System.Boolean,System.String,System.Exception)">
+  InvalidCredentialException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidCredentialException_System_Boolean_System_String_System_Exception_">InvalidCredentialException(bool, string, Exception)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InvalidCredentialException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_InvalidDataException_" data-uid="Heleonix.Guard.ExceptionRaiser.InvalidDataException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_InvalidDataException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.InvalidDataException(System.Boolean,System.String,System.Exception)">
+  InvalidDataException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidDataException_System_Boolean_System_String_System_Exception_">InvalidDataException(bool, string, Exception)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InvalidDataException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_InvalidOperationException_" data-uid="Heleonix.Guard.ExceptionRaiser.InvalidOperationException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_InvalidOperationException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.InvalidOperationException(System.Boolean,System.String,System.Exception)">
+  InvalidOperationException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidOperationException_System_Boolean_System_String_System_Exception_">InvalidOperationException(bool, string, Exception)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InvalidOperationException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_KeyNotFoundException_" data-uid="Heleonix.Guard.ExceptionRaiser.KeyNotFoundException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_KeyNotFoundException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.KeyNotFoundException(System.Boolean,System.String,System.Exception)">
+  KeyNotFoundException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_KeyNotFoundException_System_Boolean_System_String_System_Exception_">KeyNotFoundException(bool, string, Exception)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void KeyNotFoundException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_MissingFieldException_" data-uid="Heleonix.Guard.ExceptionRaiser.MissingFieldException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_MissingFieldException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.MissingFieldException(System.Boolean,System.String,System.Exception)">
+  MissingFieldException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.missingfieldexception">MissingFieldException</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MissingFieldException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_MissingFieldException_" data-uid="Heleonix.Guard.ExceptionRaiser.MissingFieldException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_MissingFieldException_System_Boolean_System_String_System_String_" data-uid="Heleonix.Guard.ExceptionRaiser.MissingFieldException(System.Boolean,System.String,System.String)">
+  MissingFieldException(bool, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.missingfieldexception">MissingFieldException</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MissingFieldException(bool when, string className = null, string fieldName = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>className</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The class name.</p>
+</dd>
+    <dt><code>fieldName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The field name.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_MissingMemberException_" data-uid="Heleonix.Guard.ExceptionRaiser.MissingMemberException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_MissingMemberException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.MissingMemberException(System.Boolean,System.String,System.Exception)">
+  MissingMemberException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.missingmemberexception">MissingMemberException</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MissingMemberException(bool when, string message, Exception innerException)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_MissingMemberException_" data-uid="Heleonix.Guard.ExceptionRaiser.MissingMemberException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_MissingMemberException_System_Boolean_System_String_System_String_" data-uid="Heleonix.Guard.ExceptionRaiser.MissingMemberException(System.Boolean,System.String,System.String)">
+  MissingMemberException(bool, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.missingmemberexception">MissingMemberException</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MissingMemberException(bool when, string className = null, string memberName = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>className</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The class name.</p>
+</dd>
+    <dt><code>memberName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The member name.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_MissingMethodException_" data-uid="Heleonix.Guard.ExceptionRaiser.MissingMethodException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_MissingMethodException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.MissingMethodException(System.Boolean,System.String,System.Exception)">
+  MissingMethodException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.missingmethodexception">MissingMethodException</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MissingMethodException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_MissingMethodException_" data-uid="Heleonix.Guard.ExceptionRaiser.MissingMethodException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_MissingMethodException_System_Boolean_System_String_System_String_" data-uid="Heleonix.Guard.ExceptionRaiser.MissingMethodException(System.Boolean,System.String,System.String)">
+  MissingMethodException(bool, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.missingmethodexception">MissingMethodException</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MissingMethodException(bool when, string className = null, string methodName = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>className</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The class name.</p>
+</dd>
+    <dt><code>methodName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The method name.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_NotImplementedException_" data-uid="Heleonix.Guard.ExceptionRaiser.NotImplementedException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_NotImplementedException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.NotImplementedException(System.Boolean,System.String,System.Exception)">
+  NotImplementedException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_NotImplementedException_System_Boolean_System_String_System_Exception_">NotImplementedException(bool, string, Exception)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void NotImplementedException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_NotSupportedException_" data-uid="Heleonix.Guard.ExceptionRaiser.NotSupportedException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_NotSupportedException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.NotSupportedException(System.Boolean,System.String,System.Exception)">
+  NotSupportedException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_NotSupportedException_System_Boolean_System_String_System_Exception_">NotSupportedException(bool, string, Exception)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void NotSupportedException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_NullReferenceException_" data-uid="Heleonix.Guard.ExceptionRaiser.NullReferenceException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_NullReferenceException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.NullReferenceException(System.Boolean,System.String,System.Exception)">
+  NullReferenceException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_NullReferenceException_System_Boolean_System_String_System_Exception_">NullReferenceException(bool, string, Exception)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void NullReferenceException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_OperationCanceledException_" data-uid="Heleonix.Guard.ExceptionRaiser.OperationCanceledException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_OperationCanceledException_System_Boolean_System_String_System_Exception_System_Nullable_System_Threading_CancellationToken__" data-uid="Heleonix.Guard.ExceptionRaiser.OperationCanceledException(System.Boolean,System.String,System.Exception,System.Nullable{System.Threading.CancellationToken})">
+  OperationCanceledException(bool, string, Exception, CancellationToken?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_OperationCanceledException_System_Boolean_System_String_System_Exception_System_Nullable_System_Threading_CancellationToken__">OperationCanceledException(bool, string, Exception, CancellationToken?)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OperationCanceledException(bool when, string message = null, Exception innerException = null, CancellationToken? token = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+    <dt><code>token</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a>?</dt>
+    <dd><p>The cancellation token.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_PathTooLongException_" data-uid="Heleonix.Guard.ExceptionRaiser.PathTooLongException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_PathTooLongException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.PathTooLongException(System.Boolean,System.String,System.Exception)">
+  PathTooLongException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_PathTooLongException_System_Boolean_System_String_System_Exception_">PathTooLongException(bool, string, Exception)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PathTooLongException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_SerializationException_" data-uid="Heleonix.Guard.ExceptionRaiser.SerializationException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_SerializationException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.SerializationException(System.Boolean,System.String,System.Exception)">
+  SerializationException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_SerializationException_System_Boolean_System_String_System_Exception_">SerializationException(bool, string, Exception)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SerializationException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_TaskCanceledException_" data-uid="Heleonix.Guard.ExceptionRaiser.TaskCanceledException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_TaskCanceledException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.TaskCanceledException(System.Boolean,System.String,System.Exception)">
+  TaskCanceledException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises
+the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.taskcanceledexception">TaskCanceledException</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TaskCanceledException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_TaskCanceledException_" data-uid="Heleonix.Guard.ExceptionRaiser.TaskCanceledException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_TaskCanceledException_System_Boolean_System_Threading_Tasks_Task_" data-uid="Heleonix.Guard.ExceptionRaiser.TaskCanceledException(System.Boolean,System.Threading.Tasks.Task)">
+  TaskCanceledException(bool, Task)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises
+the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.taskcanceledexception">TaskCanceledException</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TaskCanceledException(bool when, Task task)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>task</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>The task.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_TimeoutException_" data-uid="Heleonix.Guard.ExceptionRaiser.TimeoutException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_TimeoutException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.TimeoutException(System.Boolean,System.String,System.Exception)">
+  TimeoutException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_TimeoutException_System_Boolean_System_String_System_Exception_">TimeoutException(bool, string, Exception)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TimeoutException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_TypeLoadException_" data-uid="Heleonix.Guard.ExceptionRaiser.TypeLoadException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_TypeLoadException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.TypeLoadException(System.Boolean,System.String,System.Exception)">
+  TypeLoadException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_TypeLoadException_System_Boolean_System_String_System_Exception_">TypeLoadException(bool, string, Exception)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TypeLoadException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Guard_ExceptionRaiser_UnauthorizedAccessException_" data-uid="Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException*"></a>
+
+  <h3 id="Heleonix_Guard_ExceptionRaiser_UnauthorizedAccessException_System_Boolean_System_String_System_Exception_" data-uid="Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException(System.Boolean,System.String,System.Exception)">
+  UnauthorizedAccessException(bool, string, Exception)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raises the <a class="xref" href="Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_UnauthorizedAccessException_System_Boolean_System_String_System_Exception_">UnauthorizedAccessException(bool, string, Exception)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnauthorizedAccessException(bool when, string message = null, Exception innerException = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>when</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A condition to throw the exception.</p>
+</dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The message.</p>
+</dd>
+    <dt><code>innerException</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd><p>The inner exception.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

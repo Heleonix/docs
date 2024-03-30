@@ -329,6 +329,594 @@ references:
   commentId: Overload:Heleonix.Execution.ExeResult.ToString
   fullName: Heleonix.Execution.ExeResult.ToString
   nameWithType: ExeResult.ToString
+- uid: Heleonix.Guard
+  name: Heleonix.Guard
+  href: Heleonix.Guard/Heleonix.Guard.html
+  commentId: N:Heleonix.Guard
+  fullName: Heleonix.Guard
+  nameWithType: Heleonix.Guard
+- uid: Heleonix.Guard.ExceptionRaiser
+  name: ExceptionRaiser
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html
+  commentId: T:Heleonix.Guard.ExceptionRaiser
+  fullName: Heleonix.Guard.ExceptionRaiser
+  nameWithType: ExceptionRaiser
+- uid: Heleonix.Guard.ExceptionRaiser.AggregateException(System.Boolean,System.String,System.Exception[])
+  name: AggregateException(bool, string, params Exception[])
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_AggregateException_System_Boolean_System_String_System_Exception___
+  commentId: M:Heleonix.Guard.ExceptionRaiser.AggregateException(System.Boolean,System.String,System.Exception[])
+  name.vb: AggregateException(Boolean, String, ParamArray Exception())
+  fullName: Heleonix.Guard.ExceptionRaiser.AggregateException(bool, string, params System.Exception[])
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.AggregateException(Boolean, String, ParamArray System.Exception())
+  nameWithType: ExceptionRaiser.AggregateException(bool, string, params Exception[])
+  nameWithType.vb: ExceptionRaiser.AggregateException(Boolean, String, ParamArray Exception())
+- uid: Heleonix.Guard.ExceptionRaiser.AggregateException*
+  name: AggregateException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_AggregateException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.AggregateException
+  fullName: Heleonix.Guard.ExceptionRaiser.AggregateException
+  nameWithType: ExceptionRaiser.AggregateException
+- uid: Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException(System.Boolean,System.String,System.Exception)
+  name: AmbiguousMatchException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_AmbiguousMatchException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException(System.Boolean,System.String,System.Exception)
+  name.vb: AmbiguousMatchException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.AmbiguousMatchException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.AmbiguousMatchException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException*
+  name: AmbiguousMatchException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_AmbiguousMatchException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException
+  fullName: Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException
+  nameWithType: ExceptionRaiser.AmbiguousMatchException
+- uid: Heleonix.Guard.ExceptionRaiser.ArgumentException(System.Boolean,System.String,System.String,System.Exception)
+  name: ArgumentException(bool, string, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_ArgumentException_System_Boolean_System_String_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.ArgumentException(System.Boolean,System.String,System.String,System.Exception)
+  name.vb: ArgumentException(Boolean, String, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.ArgumentException(bool, string, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.ArgumentException(Boolean, String, String, System.Exception)
+  nameWithType: ExceptionRaiser.ArgumentException(bool, string, string, Exception)
+  nameWithType.vb: ExceptionRaiser.ArgumentException(Boolean, String, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.ArgumentException*
+  name: ArgumentException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_ArgumentException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.ArgumentException
+  fullName: Heleonix.Guard.ExceptionRaiser.ArgumentException
+  nameWithType: ExceptionRaiser.ArgumentException
+- uid: Heleonix.Guard.ExceptionRaiser.ArgumentNullException(System.Boolean,System.String,System.Exception)
+  name: ArgumentNullException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_ArgumentNullException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.ArgumentNullException(System.Boolean,System.String,System.Exception)
+  name.vb: ArgumentNullException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.ArgumentNullException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.ArgumentNullException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.ArgumentNullException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.ArgumentNullException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.ArgumentNullException(System.Boolean,System.String,System.String)
+  name: ArgumentNullException(bool, string, string)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_ArgumentNullException_System_Boolean_System_String_System_String_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.ArgumentNullException(System.Boolean,System.String,System.String)
+  name.vb: ArgumentNullException(Boolean, String, String)
+  fullName: Heleonix.Guard.ExceptionRaiser.ArgumentNullException(bool, string, string)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.ArgumentNullException(Boolean, String, String)
+  nameWithType: ExceptionRaiser.ArgumentNullException(bool, string, string)
+  nameWithType.vb: ExceptionRaiser.ArgumentNullException(Boolean, String, String)
+- uid: Heleonix.Guard.ExceptionRaiser.ArgumentNullException*
+  name: ArgumentNullException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_ArgumentNullException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.ArgumentNullException
+  fullName: Heleonix.Guard.ExceptionRaiser.ArgumentNullException
+  nameWithType: ExceptionRaiser.ArgumentNullException
+- uid: Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException(System.Boolean,System.String,System.Exception)
+  name: ArgumentOutOfRangeException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_ArgumentOutOfRangeException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException(System.Boolean,System.String,System.Exception)
+  name.vb: ArgumentOutOfRangeException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.ArgumentOutOfRangeException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.ArgumentOutOfRangeException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException(System.Boolean,System.String,System.Object,System.String)
+  name: ArgumentOutOfRangeException(bool, string, object, string)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_ArgumentOutOfRangeException_System_Boolean_System_String_System_Object_System_String_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException(System.Boolean,System.String,System.Object,System.String)
+  name.vb: ArgumentOutOfRangeException(Boolean, String, Object, String)
+  fullName: Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException(bool, string, object, string)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException(Boolean, String, Object, String)
+  nameWithType: ExceptionRaiser.ArgumentOutOfRangeException(bool, string, object, string)
+  nameWithType.vb: ExceptionRaiser.ArgumentOutOfRangeException(Boolean, String, Object, String)
+- uid: Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException*
+  name: ArgumentOutOfRangeException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_ArgumentOutOfRangeException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException
+  fullName: Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException
+  nameWithType: ExceptionRaiser.ArgumentOutOfRangeException
+- uid: Heleonix.Guard.ExceptionRaiser.AuthenticationException(System.Boolean,System.String,System.Exception)
+  name: AuthenticationException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_AuthenticationException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.AuthenticationException(System.Boolean,System.String,System.Exception)
+  name.vb: AuthenticationException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.AuthenticationException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.AuthenticationException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.AuthenticationException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.AuthenticationException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.AuthenticationException*
+  name: AuthenticationException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_AuthenticationException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.AuthenticationException
+  fullName: Heleonix.Guard.ExceptionRaiser.AuthenticationException
+  nameWithType: ExceptionRaiser.AuthenticationException
+- uid: Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException(System.Boolean,System.String,System.Exception)
+  name: DirectoryNotFoundException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_DirectoryNotFoundException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException(System.Boolean,System.String,System.Exception)
+  name.vb: DirectoryNotFoundException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.DirectoryNotFoundException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.DirectoryNotFoundException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException*
+  name: DirectoryNotFoundException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_DirectoryNotFoundException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException
+  fullName: Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException
+  nameWithType: ExceptionRaiser.DirectoryNotFoundException
+- uid: Heleonix.Guard.ExceptionRaiser.DllNotFoundException(System.Boolean,System.String,System.Exception)
+  name: DllNotFoundException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_DllNotFoundException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.DllNotFoundException(System.Boolean,System.String,System.Exception)
+  name.vb: DllNotFoundException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.DllNotFoundException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.DllNotFoundException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.DllNotFoundException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.DllNotFoundException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.DllNotFoundException*
+  name: DllNotFoundException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_DllNotFoundException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.DllNotFoundException
+  fullName: Heleonix.Guard.ExceptionRaiser.DllNotFoundException
+  nameWithType: ExceptionRaiser.DllNotFoundException
+- uid: Heleonix.Guard.ExceptionRaiser.DriveNotFoundException(System.Boolean,System.String,System.Exception)
+  name: DriveNotFoundException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_DriveNotFoundException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.DriveNotFoundException(System.Boolean,System.String,System.Exception)
+  name.vb: DriveNotFoundException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.DriveNotFoundException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.DriveNotFoundException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.DriveNotFoundException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.DriveNotFoundException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.DriveNotFoundException*
+  name: DriveNotFoundException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_DriveNotFoundException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.DriveNotFoundException
+  fullName: Heleonix.Guard.ExceptionRaiser.DriveNotFoundException
+  nameWithType: ExceptionRaiser.DriveNotFoundException
+- uid: Heleonix.Guard.ExceptionRaiser.Exception(System.Boolean,System.String,System.Exception)
+  name: Exception(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_Exception_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.Exception(System.Boolean,System.String,System.Exception)
+  name.vb: Exception(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.Exception(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.Exception(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.Exception(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.Exception(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.Exception*
+  name: Exception
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_Exception_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.Exception
+  fullName: Heleonix.Guard.ExceptionRaiser.Exception
+  nameWithType: ExceptionRaiser.Exception
+- uid: Heleonix.Guard.ExceptionRaiser.FileLoadException(System.Boolean,System.String,System.String,System.Exception)
+  name: FileLoadException(bool, string, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_FileLoadException_System_Boolean_System_String_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.FileLoadException(System.Boolean,System.String,System.String,System.Exception)
+  name.vb: FileLoadException(Boolean, String, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.FileLoadException(bool, string, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.FileLoadException(Boolean, String, String, System.Exception)
+  nameWithType: ExceptionRaiser.FileLoadException(bool, string, string, Exception)
+  nameWithType.vb: ExceptionRaiser.FileLoadException(Boolean, String, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.FileLoadException*
+  name: FileLoadException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_FileLoadException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.FileLoadException
+  fullName: Heleonix.Guard.ExceptionRaiser.FileLoadException
+  nameWithType: ExceptionRaiser.FileLoadException
+- uid: Heleonix.Guard.ExceptionRaiser.FileNotFoundException(System.Boolean,System.String,System.String,System.Exception)
+  name: FileNotFoundException(bool, string, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_FileNotFoundException_System_Boolean_System_String_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.FileNotFoundException(System.Boolean,System.String,System.String,System.Exception)
+  name.vb: FileNotFoundException(Boolean, String, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.FileNotFoundException(bool, string, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.FileNotFoundException(Boolean, String, String, System.Exception)
+  nameWithType: ExceptionRaiser.FileNotFoundException(bool, string, string, Exception)
+  nameWithType.vb: ExceptionRaiser.FileNotFoundException(Boolean, String, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.FileNotFoundException*
+  name: FileNotFoundException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_FileNotFoundException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.FileNotFoundException
+  fullName: Heleonix.Guard.ExceptionRaiser.FileNotFoundException
+  nameWithType: ExceptionRaiser.FileNotFoundException
+- uid: Heleonix.Guard.ExceptionRaiser.FormatException(System.Boolean,System.String,System.Exception)
+  name: FormatException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_FormatException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.FormatException(System.Boolean,System.String,System.Exception)
+  name.vb: FormatException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.FormatException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.FormatException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.FormatException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.FormatException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.FormatException*
+  name: FormatException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_FormatException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.FormatException
+  fullName: Heleonix.Guard.ExceptionRaiser.FormatException
+  nameWithType: ExceptionRaiser.FormatException
+- uid: Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException(System.Boolean,System.String,System.Exception)
+  name: IndexOutOfRangeException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_IndexOutOfRangeException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException(System.Boolean,System.String,System.Exception)
+  name.vb: IndexOutOfRangeException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.IndexOutOfRangeException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.IndexOutOfRangeException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException*
+  name: IndexOutOfRangeException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_IndexOutOfRangeException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException
+  fullName: Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException
+  nameWithType: ExceptionRaiser.IndexOutOfRangeException
+- uid: Heleonix.Guard.ExceptionRaiser.InvalidCastException(System.Boolean,System.String,System.Exception)
+  name: InvalidCastException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidCastException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.InvalidCastException(System.Boolean,System.String,System.Exception)
+  name.vb: InvalidCastException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.InvalidCastException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.InvalidCastException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.InvalidCastException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.InvalidCastException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.InvalidCastException(System.Boolean,System.String,System.Int32)
+  name: InvalidCastException(bool, string, int)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidCastException_System_Boolean_System_String_System_Int32_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.InvalidCastException(System.Boolean,System.String,System.Int32)
+  name.vb: InvalidCastException(Boolean, String, Integer)
+  fullName: Heleonix.Guard.ExceptionRaiser.InvalidCastException(bool, string, int)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.InvalidCastException(Boolean, String, Integer)
+  nameWithType: ExceptionRaiser.InvalidCastException(bool, string, int)
+  nameWithType.vb: ExceptionRaiser.InvalidCastException(Boolean, String, Integer)
+- uid: Heleonix.Guard.ExceptionRaiser.InvalidCastException*
+  name: InvalidCastException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidCastException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.InvalidCastException
+  fullName: Heleonix.Guard.ExceptionRaiser.InvalidCastException
+  nameWithType: ExceptionRaiser.InvalidCastException
+- uid: Heleonix.Guard.ExceptionRaiser.InvalidCredentialException(System.Boolean,System.String,System.Exception)
+  name: InvalidCredentialException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidCredentialException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.InvalidCredentialException(System.Boolean,System.String,System.Exception)
+  name.vb: InvalidCredentialException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.InvalidCredentialException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.InvalidCredentialException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.InvalidCredentialException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.InvalidCredentialException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.InvalidCredentialException*
+  name: InvalidCredentialException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidCredentialException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.InvalidCredentialException
+  fullName: Heleonix.Guard.ExceptionRaiser.InvalidCredentialException
+  nameWithType: ExceptionRaiser.InvalidCredentialException
+- uid: Heleonix.Guard.ExceptionRaiser.InvalidDataException(System.Boolean,System.String,System.Exception)
+  name: InvalidDataException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidDataException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.InvalidDataException(System.Boolean,System.String,System.Exception)
+  name.vb: InvalidDataException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.InvalidDataException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.InvalidDataException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.InvalidDataException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.InvalidDataException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.InvalidDataException*
+  name: InvalidDataException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidDataException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.InvalidDataException
+  fullName: Heleonix.Guard.ExceptionRaiser.InvalidDataException
+  nameWithType: ExceptionRaiser.InvalidDataException
+- uid: Heleonix.Guard.ExceptionRaiser.InvalidOperationException(System.Boolean,System.String,System.Exception)
+  name: InvalidOperationException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidOperationException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.InvalidOperationException(System.Boolean,System.String,System.Exception)
+  name.vb: InvalidOperationException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.InvalidOperationException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.InvalidOperationException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.InvalidOperationException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.InvalidOperationException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.InvalidOperationException*
+  name: InvalidOperationException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidOperationException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.InvalidOperationException
+  fullName: Heleonix.Guard.ExceptionRaiser.InvalidOperationException
+  nameWithType: ExceptionRaiser.InvalidOperationException
+- uid: Heleonix.Guard.ExceptionRaiser.KeyNotFoundException(System.Boolean,System.String,System.Exception)
+  name: KeyNotFoundException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_KeyNotFoundException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.KeyNotFoundException(System.Boolean,System.String,System.Exception)
+  name.vb: KeyNotFoundException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.KeyNotFoundException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.KeyNotFoundException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.KeyNotFoundException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.KeyNotFoundException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.KeyNotFoundException*
+  name: KeyNotFoundException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_KeyNotFoundException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.KeyNotFoundException
+  fullName: Heleonix.Guard.ExceptionRaiser.KeyNotFoundException
+  nameWithType: ExceptionRaiser.KeyNotFoundException
+- uid: Heleonix.Guard.ExceptionRaiser.MissingFieldException(System.Boolean,System.String,System.Exception)
+  name: MissingFieldException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_MissingFieldException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.MissingFieldException(System.Boolean,System.String,System.Exception)
+  name.vb: MissingFieldException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.MissingFieldException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.MissingFieldException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.MissingFieldException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.MissingFieldException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.MissingFieldException(System.Boolean,System.String,System.String)
+  name: MissingFieldException(bool, string, string)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_MissingFieldException_System_Boolean_System_String_System_String_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.MissingFieldException(System.Boolean,System.String,System.String)
+  name.vb: MissingFieldException(Boolean, String, String)
+  fullName: Heleonix.Guard.ExceptionRaiser.MissingFieldException(bool, string, string)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.MissingFieldException(Boolean, String, String)
+  nameWithType: ExceptionRaiser.MissingFieldException(bool, string, string)
+  nameWithType.vb: ExceptionRaiser.MissingFieldException(Boolean, String, String)
+- uid: Heleonix.Guard.ExceptionRaiser.MissingFieldException*
+  name: MissingFieldException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_MissingFieldException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.MissingFieldException
+  fullName: Heleonix.Guard.ExceptionRaiser.MissingFieldException
+  nameWithType: ExceptionRaiser.MissingFieldException
+- uid: Heleonix.Guard.ExceptionRaiser.MissingMemberException(System.Boolean,System.String,System.Exception)
+  name: MissingMemberException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_MissingMemberException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.MissingMemberException(System.Boolean,System.String,System.Exception)
+  name.vb: MissingMemberException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.MissingMemberException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.MissingMemberException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.MissingMemberException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.MissingMemberException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.MissingMemberException(System.Boolean,System.String,System.String)
+  name: MissingMemberException(bool, string, string)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_MissingMemberException_System_Boolean_System_String_System_String_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.MissingMemberException(System.Boolean,System.String,System.String)
+  name.vb: MissingMemberException(Boolean, String, String)
+  fullName: Heleonix.Guard.ExceptionRaiser.MissingMemberException(bool, string, string)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.MissingMemberException(Boolean, String, String)
+  nameWithType: ExceptionRaiser.MissingMemberException(bool, string, string)
+  nameWithType.vb: ExceptionRaiser.MissingMemberException(Boolean, String, String)
+- uid: Heleonix.Guard.ExceptionRaiser.MissingMemberException*
+  name: MissingMemberException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_MissingMemberException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.MissingMemberException
+  fullName: Heleonix.Guard.ExceptionRaiser.MissingMemberException
+  nameWithType: ExceptionRaiser.MissingMemberException
+- uid: Heleonix.Guard.ExceptionRaiser.MissingMethodException(System.Boolean,System.String,System.Exception)
+  name: MissingMethodException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_MissingMethodException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.MissingMethodException(System.Boolean,System.String,System.Exception)
+  name.vb: MissingMethodException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.MissingMethodException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.MissingMethodException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.MissingMethodException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.MissingMethodException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.MissingMethodException(System.Boolean,System.String,System.String)
+  name: MissingMethodException(bool, string, string)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_MissingMethodException_System_Boolean_System_String_System_String_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.MissingMethodException(System.Boolean,System.String,System.String)
+  name.vb: MissingMethodException(Boolean, String, String)
+  fullName: Heleonix.Guard.ExceptionRaiser.MissingMethodException(bool, string, string)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.MissingMethodException(Boolean, String, String)
+  nameWithType: ExceptionRaiser.MissingMethodException(bool, string, string)
+  nameWithType.vb: ExceptionRaiser.MissingMethodException(Boolean, String, String)
+- uid: Heleonix.Guard.ExceptionRaiser.MissingMethodException*
+  name: MissingMethodException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_MissingMethodException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.MissingMethodException
+  fullName: Heleonix.Guard.ExceptionRaiser.MissingMethodException
+  nameWithType: ExceptionRaiser.MissingMethodException
+- uid: Heleonix.Guard.ExceptionRaiser.NotImplementedException(System.Boolean,System.String,System.Exception)
+  name: NotImplementedException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_NotImplementedException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.NotImplementedException(System.Boolean,System.String,System.Exception)
+  name.vb: NotImplementedException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.NotImplementedException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.NotImplementedException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.NotImplementedException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.NotImplementedException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.NotImplementedException*
+  name: NotImplementedException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_NotImplementedException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.NotImplementedException
+  fullName: Heleonix.Guard.ExceptionRaiser.NotImplementedException
+  nameWithType: ExceptionRaiser.NotImplementedException
+- uid: Heleonix.Guard.ExceptionRaiser.NotSupportedException(System.Boolean,System.String,System.Exception)
+  name: NotSupportedException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_NotSupportedException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.NotSupportedException(System.Boolean,System.String,System.Exception)
+  name.vb: NotSupportedException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.NotSupportedException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.NotSupportedException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.NotSupportedException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.NotSupportedException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.NotSupportedException*
+  name: NotSupportedException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_NotSupportedException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.NotSupportedException
+  fullName: Heleonix.Guard.ExceptionRaiser.NotSupportedException
+  nameWithType: ExceptionRaiser.NotSupportedException
+- uid: Heleonix.Guard.ExceptionRaiser.NullReferenceException(System.Boolean,System.String,System.Exception)
+  name: NullReferenceException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_NullReferenceException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.NullReferenceException(System.Boolean,System.String,System.Exception)
+  name.vb: NullReferenceException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.NullReferenceException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.NullReferenceException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.NullReferenceException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.NullReferenceException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.NullReferenceException*
+  name: NullReferenceException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_NullReferenceException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.NullReferenceException
+  fullName: Heleonix.Guard.ExceptionRaiser.NullReferenceException
+  nameWithType: ExceptionRaiser.NullReferenceException
+- uid: Heleonix.Guard.ExceptionRaiser.OperationCanceledException(System.Boolean,System.String,System.Exception,System.Nullable{System.Threading.CancellationToken})
+  name: OperationCanceledException(bool, string, Exception, CancellationToken?)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_OperationCanceledException_System_Boolean_System_String_System_Exception_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:Heleonix.Guard.ExceptionRaiser.OperationCanceledException(System.Boolean,System.String,System.Exception,System.Nullable{System.Threading.CancellationToken})
+  name.vb: OperationCanceledException(Boolean, String, Exception, CancellationToken?)
+  fullName: Heleonix.Guard.ExceptionRaiser.OperationCanceledException(bool, string, System.Exception, System.Threading.CancellationToken?)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.OperationCanceledException(Boolean, String, System.Exception, System.Threading.CancellationToken?)
+  nameWithType: ExceptionRaiser.OperationCanceledException(bool, string, Exception, CancellationToken?)
+  nameWithType.vb: ExceptionRaiser.OperationCanceledException(Boolean, String, Exception, CancellationToken?)
+- uid: Heleonix.Guard.ExceptionRaiser.OperationCanceledException*
+  name: OperationCanceledException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_OperationCanceledException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.OperationCanceledException
+  fullName: Heleonix.Guard.ExceptionRaiser.OperationCanceledException
+  nameWithType: ExceptionRaiser.OperationCanceledException
+- uid: Heleonix.Guard.ExceptionRaiser.PathTooLongException(System.Boolean,System.String,System.Exception)
+  name: PathTooLongException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_PathTooLongException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.PathTooLongException(System.Boolean,System.String,System.Exception)
+  name.vb: PathTooLongException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.PathTooLongException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.PathTooLongException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.PathTooLongException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.PathTooLongException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.PathTooLongException*
+  name: PathTooLongException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_PathTooLongException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.PathTooLongException
+  fullName: Heleonix.Guard.ExceptionRaiser.PathTooLongException
+  nameWithType: ExceptionRaiser.PathTooLongException
+- uid: Heleonix.Guard.ExceptionRaiser.SerializationException(System.Boolean,System.String,System.Exception)
+  name: SerializationException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_SerializationException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.SerializationException(System.Boolean,System.String,System.Exception)
+  name.vb: SerializationException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.SerializationException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.SerializationException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.SerializationException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.SerializationException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.SerializationException*
+  name: SerializationException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_SerializationException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.SerializationException
+  fullName: Heleonix.Guard.ExceptionRaiser.SerializationException
+  nameWithType: ExceptionRaiser.SerializationException
+- uid: Heleonix.Guard.ExceptionRaiser.TaskCanceledException(System.Boolean,System.String,System.Exception)
+  name: TaskCanceledException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_TaskCanceledException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.TaskCanceledException(System.Boolean,System.String,System.Exception)
+  name.vb: TaskCanceledException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.TaskCanceledException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.TaskCanceledException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.TaskCanceledException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.TaskCanceledException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.TaskCanceledException(System.Boolean,System.Threading.Tasks.Task)
+  name: TaskCanceledException(bool, Task)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_TaskCanceledException_System_Boolean_System_Threading_Tasks_Task_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.TaskCanceledException(System.Boolean,System.Threading.Tasks.Task)
+  name.vb: TaskCanceledException(Boolean, Task)
+  fullName: Heleonix.Guard.ExceptionRaiser.TaskCanceledException(bool, System.Threading.Tasks.Task)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.TaskCanceledException(Boolean, System.Threading.Tasks.Task)
+  nameWithType: ExceptionRaiser.TaskCanceledException(bool, Task)
+  nameWithType.vb: ExceptionRaiser.TaskCanceledException(Boolean, Task)
+- uid: Heleonix.Guard.ExceptionRaiser.TaskCanceledException*
+  name: TaskCanceledException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_TaskCanceledException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.TaskCanceledException
+  fullName: Heleonix.Guard.ExceptionRaiser.TaskCanceledException
+  nameWithType: ExceptionRaiser.TaskCanceledException
+- uid: Heleonix.Guard.ExceptionRaiser.TimeoutException(System.Boolean,System.String,System.Exception)
+  name: TimeoutException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_TimeoutException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.TimeoutException(System.Boolean,System.String,System.Exception)
+  name.vb: TimeoutException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.TimeoutException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.TimeoutException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.TimeoutException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.TimeoutException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.TimeoutException*
+  name: TimeoutException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_TimeoutException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.TimeoutException
+  fullName: Heleonix.Guard.ExceptionRaiser.TimeoutException
+  nameWithType: ExceptionRaiser.TimeoutException
+- uid: Heleonix.Guard.ExceptionRaiser.TypeLoadException(System.Boolean,System.String,System.Exception)
+  name: TypeLoadException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_TypeLoadException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.TypeLoadException(System.Boolean,System.String,System.Exception)
+  name.vb: TypeLoadException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.TypeLoadException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.TypeLoadException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.TypeLoadException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.TypeLoadException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.TypeLoadException*
+  name: TypeLoadException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_TypeLoadException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.TypeLoadException
+  fullName: Heleonix.Guard.ExceptionRaiser.TypeLoadException
+  nameWithType: ExceptionRaiser.TypeLoadException
+- uid: Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException(System.Boolean,System.String,System.Exception)
+  name: UnauthorizedAccessException(bool, string, Exception)
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_UnauthorizedAccessException_System_Boolean_System_String_System_Exception_
+  commentId: M:Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException(System.Boolean,System.String,System.Exception)
+  name.vb: UnauthorizedAccessException(Boolean, String, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException(bool, string, System.Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException(Boolean, String, System.Exception)
+  nameWithType: ExceptionRaiser.UnauthorizedAccessException(bool, string, Exception)
+  nameWithType.vb: ExceptionRaiser.UnauthorizedAccessException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException*
+  name: UnauthorizedAccessException
+  href: Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_UnauthorizedAccessException_
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException
+  fullName: Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException
+  nameWithType: ExceptionRaiser.UnauthorizedAccessException
+- uid: Heleonix.Guard.Host
+  name: Host
+  href: Heleonix.Guard/Heleonix.Guard.Host.html
+  commentId: T:Heleonix.Guard.Host
+  fullName: Heleonix.Guard.Host
+  nameWithType: Host
+- uid: Heleonix.Guard.Host.Throw
+  name: Throw
+  href: Heleonix.Guard/Heleonix.Guard.Host.html#Heleonix_Guard_Host_Throw
+  commentId: P:Heleonix.Guard.Host.Throw
+  fullName: Heleonix.Guard.Host.Throw
+  nameWithType: Host.Throw
+- uid: Heleonix.Guard.Host.Throw*
+  name: Throw
+  href: Heleonix.Guard/Heleonix.Guard.Host.html#Heleonix_Guard_Host_Throw_
+  commentId: Overload:Heleonix.Guard.Host.Throw
+  fullName: Heleonix.Guard.Host.Throw
+  nameWithType: Host.Throw
+- uid: Heleonix.Guard.Host.When(System.Boolean)
+  name: When(bool)
+  href: Heleonix.Guard/Heleonix.Guard.Host.html#Heleonix_Guard_Host_When_System_Boolean_
+  commentId: M:Heleonix.Guard.Host.When(System.Boolean)
+  name.vb: When(Boolean)
+  fullName: Heleonix.Guard.Host.When(bool)
+  fullName.vb: Heleonix.Guard.Host.When(Boolean)
+  nameWithType: Host.When(bool)
+  nameWithType.vb: Host.When(Boolean)
+- uid: Heleonix.Guard.Host.When*
+  name: When
+  href: Heleonix.Guard/Heleonix.Guard.Host.html#Heleonix_Guard_Host_When_
+  commentId: Overload:Heleonix.Guard.Host.When
+  fullName: Heleonix.Guard.Host.When
+  nameWithType: Host.When
 - uid: Heleonix.Reflection
   name: Heleonix.Reflection
   href: Heleonix.Reflection/Heleonix.Reflection.html

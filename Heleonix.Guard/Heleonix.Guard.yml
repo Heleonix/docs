@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Guard
+  commentId: N:Heleonix.Guard
+  id: Heleonix.Guard
+  children:
+  - Heleonix.Guard.ExceptionRaiser
+  - Heleonix.Guard.Host
+  langs:
+  - csharp
+  - vb
+  name: Heleonix.Guard
+  nameWithType: Heleonix.Guard
+  fullName: Heleonix.Guard
+  type: Namespace
+  assemblies:
+  - Heleonix.Guard
+references:
+- uid: Heleonix.Guard.ExceptionRaiser
+  commentId: T:Heleonix.Guard.ExceptionRaiser
+  parent: Heleonix.Guard
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html
+  name: ExceptionRaiser
+  nameWithType: ExceptionRaiser
+  fullName: Heleonix.Guard.ExceptionRaiser
+- uid: Heleonix.Guard.Host
+  commentId: T:Heleonix.Guard.Host
+  isExternal: true
+  href: Heleonix.Guard.Host.html
+  name: Host
+  nameWithType: Host
+  fullName: Heleonix.Guard.Host
+- uid: Heleonix.Guard
+  commentId: N:Heleonix.Guard
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Guard
+  nameWithType: Heleonix.Guard
+  fullName: Heleonix.Guard
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Guard
+    name: Guard
+    isExternal: true
+    href: Heleonix.Guard.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Guard
+    name: Guard
+    isExternal: true
+    href: Heleonix.Guard.html

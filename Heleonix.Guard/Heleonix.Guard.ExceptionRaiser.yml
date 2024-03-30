@@ -1,0 +1,3473 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Guard.ExceptionRaiser
+  commentId: T:Heleonix.Guard.ExceptionRaiser
+  id: ExceptionRaiser
+  parent: Heleonix.Guard
+  children:
+  - Heleonix.Guard.ExceptionRaiser.AggregateException(System.Boolean,System.String,System.Exception[])
+  - Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.ArgumentException(System.Boolean,System.String,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.ArgumentNullException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.ArgumentNullException(System.Boolean,System.String,System.String)
+  - Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException(System.Boolean,System.String,System.Object,System.String)
+  - Heleonix.Guard.ExceptionRaiser.AuthenticationException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.DllNotFoundException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.DriveNotFoundException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.Exception(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.FileLoadException(System.Boolean,System.String,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.FileNotFoundException(System.Boolean,System.String,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.FormatException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.InvalidCastException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.InvalidCastException(System.Boolean,System.String,System.Int32)
+  - Heleonix.Guard.ExceptionRaiser.InvalidCredentialException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.InvalidDataException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.InvalidOperationException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.KeyNotFoundException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.MissingFieldException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.MissingFieldException(System.Boolean,System.String,System.String)
+  - Heleonix.Guard.ExceptionRaiser.MissingMemberException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.MissingMemberException(System.Boolean,System.String,System.String)
+  - Heleonix.Guard.ExceptionRaiser.MissingMethodException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.MissingMethodException(System.Boolean,System.String,System.String)
+  - Heleonix.Guard.ExceptionRaiser.NotImplementedException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.NotSupportedException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.NullReferenceException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.OperationCanceledException(System.Boolean,System.String,System.Exception,System.Nullable{System.Threading.CancellationToken})
+  - Heleonix.Guard.ExceptionRaiser.PathTooLongException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.SerializationException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.TaskCanceledException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.TaskCanceledException(System.Boolean,System.Threading.Tasks.Task)
+  - Heleonix.Guard.ExceptionRaiser.TimeoutException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.TypeLoadException(System.Boolean,System.String,System.Exception)
+  - Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException(System.Boolean,System.String,System.Exception)
+  langs:
+  - csharp
+  - vb
+  name: ExceptionRaiser
+  nameWithType: ExceptionRaiser
+  fullName: Heleonix.Guard.ExceptionRaiser
+  type: Class
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Provides raising of exceptions with building of conditions to throw them.
+  example: []
+  syntax:
+    content: public class ExceptionRaiser
+    content.vb: Public Class ExceptionRaiser
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Heleonix.Guard.ExceptionRaiser.ArgumentNullException(System.Boolean,System.String,System.String)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.ArgumentNullException(System.Boolean,System.String,System.String)
+  id: ArgumentNullException(System.Boolean,System.String,System.String)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: ArgumentNullException(bool, string, string)
+  nameWithType: ExceptionRaiser.ArgumentNullException(bool, string, string)
+  fullName: Heleonix.Guard.ExceptionRaiser.ArgumentNullException(bool, string, string)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="System.ArgumentNullException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void ArgumentNullException(bool when, string paramName = null, string message = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: paramName
+      type: System.String
+      description: Name of the parameter.
+    - id: message
+      type: System.String
+      description: The message.
+    content.vb: Public Sub ArgumentNullException([when] As Boolean, paramName As String = Nothing, message As String = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.ArgumentNullException*
+  nameWithType.vb: ExceptionRaiser.ArgumentNullException(Boolean, String, String)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.ArgumentNullException(Boolean, String, String)
+  name.vb: ArgumentNullException(Boolean, String, String)
+- uid: Heleonix.Guard.ExceptionRaiser.ArgumentNullException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.ArgumentNullException(System.Boolean,System.String,System.Exception)
+  id: ArgumentNullException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: ArgumentNullException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.ArgumentNullException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.ArgumentNullException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="System.ArgumentNullException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void ArgumentNullException(bool when, string message, Exception innerException)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub ArgumentNullException([when] As Boolean, message As String, innerException As Exception)
+  overload: Heleonix.Guard.ExceptionRaiser.ArgumentNullException*
+  nameWithType.vb: ExceptionRaiser.ArgumentNullException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.ArgumentNullException(Boolean, String, System.Exception)
+  name.vb: ArgumentNullException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.ArgumentException(System.Boolean,System.String,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.ArgumentException(System.Boolean,System.String,System.String,System.Exception)
+  id: ArgumentException(System.Boolean,System.String,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: ArgumentException(bool, string, string, Exception)
+  nameWithType: ExceptionRaiser.ArgumentException(bool, string, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.ArgumentException(bool, string, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.ArgumentException(System.Boolean%2cSystem.String%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void ArgumentException(bool when, string message = null, string paramName = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: paramName
+      type: System.String
+      description: Name of the parameter.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub ArgumentException([when] As Boolean, message As String = Nothing, paramName As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.ArgumentException*
+  nameWithType.vb: ExceptionRaiser.ArgumentException(Boolean, String, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.ArgumentException(Boolean, String, String, System.Exception)
+  name.vb: ArgumentException(Boolean, String, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException(System.Boolean,System.String,System.Object,System.String)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException(System.Boolean,System.String,System.Object,System.String)
+  id: ArgumentOutOfRangeException(System.Boolean,System.String,System.Object,System.String)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: ArgumentOutOfRangeException(bool, string, object, string)
+  nameWithType: ExceptionRaiser.ArgumentOutOfRangeException(bool, string, object, string)
+  fullName: Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException(bool, string, object, string)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="System.ArgumentOutOfRangeException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void ArgumentOutOfRangeException(bool when, string paramName = null, object actualValue = null, string message = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: paramName
+      type: System.String
+      description: Name of the parameter.
+    - id: actualValue
+      type: System.Object
+      description: The value of the argument that causes this exception.
+    - id: message
+      type: System.String
+      description: The message.
+    content.vb: Public Sub ArgumentOutOfRangeException([when] As Boolean, paramName As String = Nothing, actualValue As Object = Nothing, message As String = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException*
+  nameWithType.vb: ExceptionRaiser.ArgumentOutOfRangeException(Boolean, String, Object, String)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException(Boolean, String, Object, String)
+  name.vb: ArgumentOutOfRangeException(Boolean, String, Object, String)
+- uid: Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException(System.Boolean,System.String,System.Exception)
+  id: ArgumentOutOfRangeException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: ArgumentOutOfRangeException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.ArgumentOutOfRangeException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="System.ArgumentOutOfRangeException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void ArgumentOutOfRangeException(bool when, string message, Exception innerException)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub ArgumentOutOfRangeException([when] As Boolean, message As String, innerException As Exception)
+  overload: Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException*
+  nameWithType.vb: ExceptionRaiser.ArgumentOutOfRangeException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException(Boolean, String, System.Exception)
+  name.vb: ArgumentOutOfRangeException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.InvalidCastException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.InvalidCastException(System.Boolean,System.String,System.Exception)
+  id: InvalidCastException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: InvalidCastException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.InvalidCastException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.InvalidCastException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="System.InvalidCastException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void InvalidCastException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub InvalidCastException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.InvalidCastException*
+  nameWithType.vb: ExceptionRaiser.InvalidCastException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.InvalidCastException(Boolean, String, System.Exception)
+  name.vb: InvalidCastException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.InvalidCastException(System.Boolean,System.String,System.Int32)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.InvalidCastException(System.Boolean,System.String,System.Int32)
+  id: InvalidCastException(System.Boolean,System.String,System.Int32)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: InvalidCastException(bool, string, int)
+  nameWithType: ExceptionRaiser.InvalidCastException(bool, string, int)
+  fullName: Heleonix.Guard.ExceptionRaiser.InvalidCastException(bool, string, int)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="System.InvalidCastException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void InvalidCastException(bool when, string message, int errorCode)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: errorCode
+      type: System.Int32
+      description: The error code (HRESULT).
+    content.vb: Public Sub InvalidCastException([when] As Boolean, message As String, errorCode As Integer)
+  overload: Heleonix.Guard.ExceptionRaiser.InvalidCastException*
+  nameWithType.vb: ExceptionRaiser.InvalidCastException(Boolean, String, Integer)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.InvalidCastException(Boolean, String, Integer)
+  name.vb: InvalidCastException(Boolean, String, Integer)
+- uid: Heleonix.Guard.ExceptionRaiser.AggregateException(System.Boolean,System.String,System.Exception[])
+  commentId: M:Heleonix.Guard.ExceptionRaiser.AggregateException(System.Boolean,System.String,System.Exception[])
+  id: AggregateException(System.Boolean,System.String,System.Exception[])
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: AggregateException(bool, string, params Exception[])
+  nameWithType: ExceptionRaiser.AggregateException(bool, string, params Exception[])
+  fullName: Heleonix.Guard.ExceptionRaiser.AggregateException(bool, string, params System.Exception[])
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.AggregateException(System.Boolean%2cSystem.String%2cSystem.Exception%5b%5d)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void AggregateException(bool when, string message = null, params Exception[] innerExceptions)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerExceptions
+      type: System.Exception[]
+      description: The inner exceptions.
+    content.vb: Public Sub AggregateException([when] As Boolean, message As String = Nothing, ParamArray innerExceptions As Exception())
+  overload: Heleonix.Guard.ExceptionRaiser.AggregateException*
+  nameWithType.vb: ExceptionRaiser.AggregateException(Boolean, String, ParamArray Exception())
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.AggregateException(Boolean, String, ParamArray System.Exception())
+  name.vb: AggregateException(Boolean, String, ParamArray Exception())
+- uid: Heleonix.Guard.ExceptionRaiser.FileNotFoundException(System.Boolean,System.String,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.FileNotFoundException(System.Boolean,System.String,System.String,System.Exception)
+  id: FileNotFoundException(System.Boolean,System.String,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: FileNotFoundException(bool, string, string, Exception)
+  nameWithType: ExceptionRaiser.FileNotFoundException(bool, string, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.FileNotFoundException(bool, string, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.FileNotFoundException(System.Boolean%2cSystem.String%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void FileNotFoundException(bool when, string message = null, string fileName = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: fileName
+      type: System.String
+      description: The file name.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub FileNotFoundException([when] As Boolean, message As String = Nothing, fileName As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.FileNotFoundException*
+  nameWithType.vb: ExceptionRaiser.FileNotFoundException(Boolean, String, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.FileNotFoundException(Boolean, String, String, System.Exception)
+  name.vb: FileNotFoundException(Boolean, String, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.TaskCanceledException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.TaskCanceledException(System.Boolean,System.String,System.Exception)
+  id: TaskCanceledException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: TaskCanceledException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.TaskCanceledException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.TaskCanceledException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: >-
+    Raises
+
+    the <xref href="System.Threading.Tasks.TaskCanceledException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void TaskCanceledException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub TaskCanceledException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.TaskCanceledException*
+  nameWithType.vb: ExceptionRaiser.TaskCanceledException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.TaskCanceledException(Boolean, String, System.Exception)
+  name.vb: TaskCanceledException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.TaskCanceledException(System.Boolean,System.Threading.Tasks.Task)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.TaskCanceledException(System.Boolean,System.Threading.Tasks.Task)
+  id: TaskCanceledException(System.Boolean,System.Threading.Tasks.Task)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: TaskCanceledException(bool, Task)
+  nameWithType: ExceptionRaiser.TaskCanceledException(bool, Task)
+  fullName: Heleonix.Guard.ExceptionRaiser.TaskCanceledException(bool, System.Threading.Tasks.Task)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: >-
+    Raises
+
+    the <xref href="System.Threading.Tasks.TaskCanceledException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void TaskCanceledException(bool when, Task task)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: task
+      type: System.Threading.Tasks.Task
+      description: The task.
+    content.vb: Public Sub TaskCanceledException([when] As Boolean, task As Task)
+  overload: Heleonix.Guard.ExceptionRaiser.TaskCanceledException*
+  nameWithType.vb: ExceptionRaiser.TaskCanceledException(Boolean, Task)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.TaskCanceledException(Boolean, System.Threading.Tasks.Task)
+  name.vb: TaskCanceledException(Boolean, Task)
+- uid: Heleonix.Guard.ExceptionRaiser.OperationCanceledException(System.Boolean,System.String,System.Exception,System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Heleonix.Guard.ExceptionRaiser.OperationCanceledException(System.Boolean,System.String,System.Exception,System.Nullable{System.Threading.CancellationToken})
+  id: OperationCanceledException(System.Boolean,System.String,System.Exception,System.Nullable{System.Threading.CancellationToken})
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: OperationCanceledException(bool, string, Exception, CancellationToken?)
+  nameWithType: ExceptionRaiser.OperationCanceledException(bool, string, Exception, CancellationToken?)
+  fullName: Heleonix.Guard.ExceptionRaiser.OperationCanceledException(bool, string, System.Exception, System.Threading.CancellationToken?)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.OperationCanceledException(System.Boolean%2cSystem.String%2cSystem.Exception%2cSystem.Nullable%7bSystem.Threading.CancellationToken%7d)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void OperationCanceledException(bool when, string message = null, Exception innerException = null, CancellationToken? token = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    - id: token
+      type: System.Nullable{System.Threading.CancellationToken}
+      description: The cancellation token.
+    content.vb: Public Sub OperationCanceledException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing, token As CancellationToken? = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.OperationCanceledException*
+  nameWithType.vb: ExceptionRaiser.OperationCanceledException(Boolean, String, Exception, CancellationToken?)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.OperationCanceledException(Boolean, String, System.Exception, System.Threading.CancellationToken?)
+  name.vb: OperationCanceledException(Boolean, String, Exception, CancellationToken?)
+- uid: Heleonix.Guard.ExceptionRaiser.Exception(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.Exception(System.Boolean,System.String,System.Exception)
+  id: Exception(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: Exception(bool, string, Exception)
+  nameWithType: ExceptionRaiser.Exception(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.Exception(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="System.Exception" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void Exception(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub Exception([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.Exception*
+  nameWithType.vb: ExceptionRaiser.Exception(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.Exception(Boolean, String, System.Exception)
+  name.vb: Exception(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.InvalidOperationException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.InvalidOperationException(System.Boolean,System.String,System.Exception)
+  id: InvalidOperationException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: InvalidOperationException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.InvalidOperationException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.InvalidOperationException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.InvalidOperationException(System.Boolean%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void InvalidOperationException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub InvalidOperationException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.InvalidOperationException*
+  nameWithType.vb: ExceptionRaiser.InvalidOperationException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.InvalidOperationException(Boolean, String, System.Exception)
+  name.vb: InvalidOperationException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.InvalidDataException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.InvalidDataException(System.Boolean,System.String,System.Exception)
+  id: InvalidDataException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: InvalidDataException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.InvalidDataException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.InvalidDataException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.InvalidDataException(System.Boolean%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void InvalidDataException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub InvalidDataException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.InvalidDataException*
+  nameWithType.vb: ExceptionRaiser.InvalidDataException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.InvalidDataException(Boolean, String, System.Exception)
+  name.vb: InvalidDataException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException(System.Boolean,System.String,System.Exception)
+  id: IndexOutOfRangeException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: IndexOutOfRangeException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.IndexOutOfRangeException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException(System.Boolean%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void IndexOutOfRangeException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub IndexOutOfRangeException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException*
+  nameWithType.vb: ExceptionRaiser.IndexOutOfRangeException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException(Boolean, String, System.Exception)
+  name.vb: IndexOutOfRangeException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.FormatException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.FormatException(System.Boolean,System.String,System.Exception)
+  id: FormatException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: FormatException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.FormatException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.FormatException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.FormatException(System.Boolean%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void FormatException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub FormatException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.FormatException*
+  nameWithType.vb: ExceptionRaiser.FormatException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.FormatException(Boolean, String, System.Exception)
+  name.vb: FormatException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.NullReferenceException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.NullReferenceException(System.Boolean,System.String,System.Exception)
+  id: NullReferenceException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: NullReferenceException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.NullReferenceException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.NullReferenceException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.NullReferenceException(System.Boolean%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void NullReferenceException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub NullReferenceException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.NullReferenceException*
+  nameWithType.vb: ExceptionRaiser.NullReferenceException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.NullReferenceException(Boolean, String, System.Exception)
+  name.vb: NullReferenceException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.NotImplementedException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.NotImplementedException(System.Boolean,System.String,System.Exception)
+  id: NotImplementedException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: NotImplementedException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.NotImplementedException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.NotImplementedException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.NotImplementedException(System.Boolean%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void NotImplementedException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub NotImplementedException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.NotImplementedException*
+  nameWithType.vb: ExceptionRaiser.NotImplementedException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.NotImplementedException(Boolean, String, System.Exception)
+  name.vb: NotImplementedException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.NotSupportedException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.NotSupportedException(System.Boolean,System.String,System.Exception)
+  id: NotSupportedException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: NotSupportedException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.NotSupportedException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.NotSupportedException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.NotSupportedException(System.Boolean%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void NotSupportedException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub NotSupportedException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.NotSupportedException*
+  nameWithType.vb: ExceptionRaiser.NotSupportedException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.NotSupportedException(Boolean, String, System.Exception)
+  name.vb: NotSupportedException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.TimeoutException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.TimeoutException(System.Boolean,System.String,System.Exception)
+  id: TimeoutException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: TimeoutException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.TimeoutException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.TimeoutException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.TimeoutException(System.Boolean%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void TimeoutException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub TimeoutException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.TimeoutException*
+  nameWithType.vb: ExceptionRaiser.TimeoutException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.TimeoutException(Boolean, String, System.Exception)
+  name.vb: TimeoutException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.KeyNotFoundException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.KeyNotFoundException(System.Boolean,System.String,System.Exception)
+  id: KeyNotFoundException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: KeyNotFoundException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.KeyNotFoundException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.KeyNotFoundException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.KeyNotFoundException(System.Boolean%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void KeyNotFoundException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub KeyNotFoundException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.KeyNotFoundException*
+  nameWithType.vb: ExceptionRaiser.KeyNotFoundException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.KeyNotFoundException(Boolean, String, System.Exception)
+  name.vb: KeyNotFoundException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException(System.Boolean,System.String,System.Exception)
+  id: UnauthorizedAccessException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: UnauthorizedAccessException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.UnauthorizedAccessException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException(System.Boolean%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void UnauthorizedAccessException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub UnauthorizedAccessException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException*
+  nameWithType.vb: ExceptionRaiser.UnauthorizedAccessException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException(Boolean, String, System.Exception)
+  name.vb: UnauthorizedAccessException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException(System.Boolean,System.String,System.Exception)
+  id: AmbiguousMatchException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: AmbiguousMatchException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.AmbiguousMatchException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException(System.Boolean%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void AmbiguousMatchException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub AmbiguousMatchException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException*
+  nameWithType.vb: ExceptionRaiser.AmbiguousMatchException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException(Boolean, String, System.Exception)
+  name.vb: AmbiguousMatchException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.TypeLoadException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.TypeLoadException(System.Boolean,System.String,System.Exception)
+  id: TypeLoadException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: TypeLoadException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.TypeLoadException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.TypeLoadException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.TypeLoadException(System.Boolean%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void TypeLoadException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub TypeLoadException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.TypeLoadException*
+  nameWithType.vb: ExceptionRaiser.TypeLoadException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.TypeLoadException(Boolean, String, System.Exception)
+  name.vb: TypeLoadException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.DllNotFoundException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.DllNotFoundException(System.Boolean,System.String,System.Exception)
+  id: DllNotFoundException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: DllNotFoundException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.DllNotFoundException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.DllNotFoundException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.DllNotFoundException(System.Boolean%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void DllNotFoundException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub DllNotFoundException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.DllNotFoundException*
+  nameWithType.vb: ExceptionRaiser.DllNotFoundException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.DllNotFoundException(Boolean, String, System.Exception)
+  name.vb: DllNotFoundException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException(System.Boolean,System.String,System.Exception)
+  id: DirectoryNotFoundException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: DirectoryNotFoundException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.DirectoryNotFoundException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException(System.Boolean%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void DirectoryNotFoundException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub DirectoryNotFoundException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException*
+  nameWithType.vb: ExceptionRaiser.DirectoryNotFoundException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException(Boolean, String, System.Exception)
+  name.vb: DirectoryNotFoundException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.PathTooLongException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.PathTooLongException(System.Boolean,System.String,System.Exception)
+  id: PathTooLongException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: PathTooLongException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.PathTooLongException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.PathTooLongException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.PathTooLongException(System.Boolean%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void PathTooLongException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub PathTooLongException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.PathTooLongException*
+  nameWithType.vb: ExceptionRaiser.PathTooLongException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.PathTooLongException(Boolean, String, System.Exception)
+  name.vb: PathTooLongException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.FileLoadException(System.Boolean,System.String,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.FileLoadException(System.Boolean,System.String,System.String,System.Exception)
+  id: FileLoadException(System.Boolean,System.String,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: FileLoadException(bool, string, string, Exception)
+  nameWithType: ExceptionRaiser.FileLoadException(bool, string, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.FileLoadException(bool, string, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.FileLoadException(System.Boolean%2cSystem.String%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void FileLoadException(bool when, string message = null, string fileName = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: fileName
+      type: System.String
+      description: The file name.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub FileLoadException([when] As Boolean, message As String = Nothing, fileName As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.FileLoadException*
+  nameWithType.vb: ExceptionRaiser.FileLoadException(Boolean, String, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.FileLoadException(Boolean, String, String, System.Exception)
+  name.vb: FileLoadException(Boolean, String, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.MissingMemberException(System.Boolean,System.String,System.String)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.MissingMemberException(System.Boolean,System.String,System.String)
+  id: MissingMemberException(System.Boolean,System.String,System.String)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: MissingMemberException(bool, string, string)
+  nameWithType: ExceptionRaiser.MissingMemberException(bool, string, string)
+  fullName: Heleonix.Guard.ExceptionRaiser.MissingMemberException(bool, string, string)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="System.MissingMemberException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void MissingMemberException(bool when, string className = null, string memberName = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: className
+      type: System.String
+      description: The class name.
+    - id: memberName
+      type: System.String
+      description: The member name.
+    content.vb: Public Sub MissingMemberException([when] As Boolean, className As String = Nothing, memberName As String = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.MissingMemberException*
+  nameWithType.vb: ExceptionRaiser.MissingMemberException(Boolean, String, String)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.MissingMemberException(Boolean, String, String)
+  name.vb: MissingMemberException(Boolean, String, String)
+- uid: Heleonix.Guard.ExceptionRaiser.MissingMemberException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.MissingMemberException(System.Boolean,System.String,System.Exception)
+  id: MissingMemberException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: MissingMemberException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.MissingMemberException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.MissingMemberException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="System.MissingMemberException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void MissingMemberException(bool when, string message, Exception innerException)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub MissingMemberException([when] As Boolean, message As String, innerException As Exception)
+  overload: Heleonix.Guard.ExceptionRaiser.MissingMemberException*
+  nameWithType.vb: ExceptionRaiser.MissingMemberException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.MissingMemberException(Boolean, String, System.Exception)
+  name.vb: MissingMemberException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.MissingFieldException(System.Boolean,System.String,System.String)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.MissingFieldException(System.Boolean,System.String,System.String)
+  id: MissingFieldException(System.Boolean,System.String,System.String)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: MissingFieldException(bool, string, string)
+  nameWithType: ExceptionRaiser.MissingFieldException(bool, string, string)
+  fullName: Heleonix.Guard.ExceptionRaiser.MissingFieldException(bool, string, string)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="System.MissingFieldException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void MissingFieldException(bool when, string className = null, string fieldName = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: className
+      type: System.String
+      description: The class name.
+    - id: fieldName
+      type: System.String
+      description: The field name.
+    content.vb: Public Sub MissingFieldException([when] As Boolean, className As String = Nothing, fieldName As String = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.MissingFieldException*
+  nameWithType.vb: ExceptionRaiser.MissingFieldException(Boolean, String, String)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.MissingFieldException(Boolean, String, String)
+  name.vb: MissingFieldException(Boolean, String, String)
+- uid: Heleonix.Guard.ExceptionRaiser.MissingFieldException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.MissingFieldException(System.Boolean,System.String,System.Exception)
+  id: MissingFieldException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: MissingFieldException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.MissingFieldException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.MissingFieldException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="System.MissingFieldException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void MissingFieldException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub MissingFieldException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.MissingFieldException*
+  nameWithType.vb: ExceptionRaiser.MissingFieldException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.MissingFieldException(Boolean, String, System.Exception)
+  name.vb: MissingFieldException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.MissingMethodException(System.Boolean,System.String,System.String)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.MissingMethodException(System.Boolean,System.String,System.String)
+  id: MissingMethodException(System.Boolean,System.String,System.String)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: MissingMethodException(bool, string, string)
+  nameWithType: ExceptionRaiser.MissingMethodException(bool, string, string)
+  fullName: Heleonix.Guard.ExceptionRaiser.MissingMethodException(bool, string, string)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="System.MissingMethodException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void MissingMethodException(bool when, string className = null, string methodName = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: className
+      type: System.String
+      description: The class name.
+    - id: methodName
+      type: System.String
+      description: The method name.
+    content.vb: Public Sub MissingMethodException([when] As Boolean, className As String = Nothing, methodName As String = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.MissingMethodException*
+  nameWithType.vb: ExceptionRaiser.MissingMethodException(Boolean, String, String)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.MissingMethodException(Boolean, String, String)
+  name.vb: MissingMethodException(Boolean, String, String)
+- uid: Heleonix.Guard.ExceptionRaiser.MissingMethodException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.MissingMethodException(System.Boolean,System.String,System.Exception)
+  id: MissingMethodException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: MissingMethodException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.MissingMethodException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.MissingMethodException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="System.MissingMethodException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void MissingMethodException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub MissingMethodException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.MissingMethodException*
+  nameWithType.vb: ExceptionRaiser.MissingMethodException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.MissingMethodException(Boolean, String, System.Exception)
+  name.vb: MissingMethodException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.InvalidCredentialException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.InvalidCredentialException(System.Boolean,System.String,System.Exception)
+  id: InvalidCredentialException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: InvalidCredentialException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.InvalidCredentialException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.InvalidCredentialException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.InvalidCredentialException(System.Boolean%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void InvalidCredentialException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub InvalidCredentialException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.InvalidCredentialException*
+  nameWithType.vb: ExceptionRaiser.InvalidCredentialException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.InvalidCredentialException(Boolean, String, System.Exception)
+  name.vb: InvalidCredentialException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.AuthenticationException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.AuthenticationException(System.Boolean,System.String,System.Exception)
+  id: AuthenticationException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: AuthenticationException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.AuthenticationException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.AuthenticationException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.AuthenticationException(System.Boolean%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void AuthenticationException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub AuthenticationException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.AuthenticationException*
+  nameWithType.vb: ExceptionRaiser.AuthenticationException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.AuthenticationException(Boolean, String, System.Exception)
+  name.vb: AuthenticationException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.DriveNotFoundException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.DriveNotFoundException(System.Boolean,System.String,System.Exception)
+  id: DriveNotFoundException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: DriveNotFoundException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.DriveNotFoundException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.DriveNotFoundException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.DriveNotFoundException(System.Boolean%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void DriveNotFoundException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub DriveNotFoundException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.DriveNotFoundException*
+  nameWithType.vb: ExceptionRaiser.DriveNotFoundException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.DriveNotFoundException(Boolean, String, System.Exception)
+  name.vb: DriveNotFoundException(Boolean, String, Exception)
+- uid: Heleonix.Guard.ExceptionRaiser.SerializationException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.SerializationException(System.Boolean,System.String,System.Exception)
+  id: SerializationException(System.Boolean,System.String,System.Exception)
+  parent: Heleonix.Guard.ExceptionRaiser
+  langs:
+  - csharp
+  - vb
+  name: SerializationException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.SerializationException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.SerializationException(bool, string, System.Exception)
+  type: Method
+  assemblies:
+  - Heleonix.Guard
+  namespace: Heleonix.Guard
+  summary: Raises the <xref href="Heleonix.Guard.ExceptionRaiser.SerializationException(System.Boolean%2cSystem.String%2cSystem.Exception)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void SerializationException(bool when, string message = null, Exception innerException = null)
+    parameters:
+    - id: when
+      type: System.Boolean
+      description: A condition to throw the exception.
+    - id: message
+      type: System.String
+      description: The message.
+    - id: innerException
+      type: System.Exception
+      description: The inner exception.
+    content.vb: Public Sub SerializationException([when] As Boolean, message As String = Nothing, innerException As Exception = Nothing)
+  overload: Heleonix.Guard.ExceptionRaiser.SerializationException*
+  nameWithType.vb: ExceptionRaiser.SerializationException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.SerializationException(Boolean, String, System.Exception)
+  name.vb: SerializationException(Boolean, String, Exception)
+references:
+- uid: Heleonix.Guard
+  commentId: N:Heleonix.Guard
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Guard
+  nameWithType: Heleonix.Guard
+  fullName: Heleonix.Guard
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Guard
+    name: Guard
+    isExternal: true
+    href: Heleonix.Guard.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Guard
+    name: Guard
+    isExternal: true
+    href: Heleonix.Guard.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: Heleonix.Guard.ExceptionRaiser.ArgumentNullException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.ArgumentNullException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_ArgumentNullException_System_Boolean_System_String_System_String_
+  name: ArgumentNullException
+  nameWithType: ExceptionRaiser.ArgumentNullException
+  fullName: Heleonix.Guard.ExceptionRaiser.ArgumentNullException
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: Heleonix.Guard.ExceptionRaiser.ArgumentException(System.Boolean,System.String,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.ArgumentException(System.Boolean,System.String,System.String,System.Exception)
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_ArgumentException_System_Boolean_System_String_System_String_System_Exception_
+  name: ArgumentException(bool, string, string, Exception)
+  nameWithType: ExceptionRaiser.ArgumentException(bool, string, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.ArgumentException(bool, string, string, System.Exception)
+  nameWithType.vb: ExceptionRaiser.ArgumentException(Boolean, String, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.ArgumentException(Boolean, String, String, System.Exception)
+  name.vb: ArgumentException(Boolean, String, String, Exception)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.ArgumentException(System.Boolean,System.String,System.String,System.Exception)
+    name: ArgumentException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_ArgumentException_System_Boolean_System_String_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.ArgumentException(System.Boolean,System.String,System.String,System.Exception)
+    name: ArgumentException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_ArgumentException_System_Boolean_System_String_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.ArgumentException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.ArgumentException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_ArgumentException_System_Boolean_System_String_System_String_System_Exception_
+  name: ArgumentException
+  nameWithType: ExceptionRaiser.ArgumentException
+  fullName: Heleonix.Guard.ExceptionRaiser.ArgumentException
+- uid: System.ArgumentOutOfRangeException
+  commentId: T:System.ArgumentOutOfRangeException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception
+  name: ArgumentOutOfRangeException
+  nameWithType: ArgumentOutOfRangeException
+  fullName: System.ArgumentOutOfRangeException
+- uid: Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_ArgumentOutOfRangeException_System_Boolean_System_String_System_Object_System_String_
+  name: ArgumentOutOfRangeException
+  nameWithType: ExceptionRaiser.ArgumentOutOfRangeException
+  fullName: Heleonix.Guard.ExceptionRaiser.ArgumentOutOfRangeException
+- uid: System.InvalidCastException
+  commentId: T:System.InvalidCastException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.invalidcastexception
+  name: InvalidCastException
+  nameWithType: InvalidCastException
+  fullName: System.InvalidCastException
+- uid: Heleonix.Guard.ExceptionRaiser.InvalidCastException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.InvalidCastException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidCastException_System_Boolean_System_String_System_Exception_
+  name: InvalidCastException
+  nameWithType: ExceptionRaiser.InvalidCastException
+  fullName: Heleonix.Guard.ExceptionRaiser.InvalidCastException
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Heleonix.Guard.ExceptionRaiser.AggregateException(System.Boolean,System.String,System.Exception[])
+  commentId: M:Heleonix.Guard.ExceptionRaiser.AggregateException(System.Boolean,System.String,System.Exception[])
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_AggregateException_System_Boolean_System_String_System_Exception___
+  name: AggregateException(bool, string, params Exception[])
+  nameWithType: ExceptionRaiser.AggregateException(bool, string, params Exception[])
+  fullName: Heleonix.Guard.ExceptionRaiser.AggregateException(bool, string, params System.Exception[])
+  nameWithType.vb: ExceptionRaiser.AggregateException(Boolean, String, ParamArray Exception())
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.AggregateException(Boolean, String, ParamArray System.Exception())
+  name.vb: AggregateException(Boolean, String, ParamArray Exception())
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.AggregateException(System.Boolean,System.String,System.Exception[])
+    name: AggregateException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_AggregateException_System_Boolean_System_String_System_Exception___
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.AggregateException(System.Boolean,System.String,System.Exception[])
+    name: AggregateException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_AggregateException_System_Boolean_System_String_System_Exception___
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: (
+  - name: )
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.AggregateException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.AggregateException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_AggregateException_System_Boolean_System_String_System_Exception___
+  name: AggregateException
+  nameWithType: ExceptionRaiser.AggregateException
+  fullName: Heleonix.Guard.ExceptionRaiser.AggregateException
+- uid: System.Exception[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception[]
+  nameWithType: Exception[]
+  fullName: System.Exception[]
+  nameWithType.vb: Exception()
+  fullName.vb: System.Exception()
+  name.vb: Exception()
+  spec.csharp:
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: (
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.FileNotFoundException(System.Boolean,System.String,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.FileNotFoundException(System.Boolean,System.String,System.String,System.Exception)
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_FileNotFoundException_System_Boolean_System_String_System_String_System_Exception_
+  name: FileNotFoundException(bool, string, string, Exception)
+  nameWithType: ExceptionRaiser.FileNotFoundException(bool, string, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.FileNotFoundException(bool, string, string, System.Exception)
+  nameWithType.vb: ExceptionRaiser.FileNotFoundException(Boolean, String, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.FileNotFoundException(Boolean, String, String, System.Exception)
+  name.vb: FileNotFoundException(Boolean, String, String, Exception)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.FileNotFoundException(System.Boolean,System.String,System.String,System.Exception)
+    name: FileNotFoundException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_FileNotFoundException_System_Boolean_System_String_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.FileNotFoundException(System.Boolean,System.String,System.String,System.Exception)
+    name: FileNotFoundException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_FileNotFoundException_System_Boolean_System_String_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.FileNotFoundException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.FileNotFoundException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_FileNotFoundException_System_Boolean_System_String_System_String_System_Exception_
+  name: FileNotFoundException
+  nameWithType: ExceptionRaiser.FileNotFoundException
+  fullName: Heleonix.Guard.ExceptionRaiser.FileNotFoundException
+- uid: System.Threading.Tasks.TaskCanceledException
+  commentId: T:System.Threading.Tasks.TaskCanceledException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.taskcanceledexception
+  name: TaskCanceledException
+  nameWithType: TaskCanceledException
+  fullName: System.Threading.Tasks.TaskCanceledException
+- uid: Heleonix.Guard.ExceptionRaiser.TaskCanceledException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.TaskCanceledException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_TaskCanceledException_System_Boolean_System_String_System_Exception_
+  name: TaskCanceledException
+  nameWithType: ExceptionRaiser.TaskCanceledException
+  fullName: Heleonix.Guard.ExceptionRaiser.TaskCanceledException
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Heleonix.Guard.ExceptionRaiser.OperationCanceledException(System.Boolean,System.String,System.Exception,System.Nullable{System.Threading.CancellationToken})
+  commentId: M:Heleonix.Guard.ExceptionRaiser.OperationCanceledException(System.Boolean,System.String,System.Exception,System.Nullable{System.Threading.CancellationToken})
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_OperationCanceledException_System_Boolean_System_String_System_Exception_System_Nullable_System_Threading_CancellationToken__
+  name: OperationCanceledException(bool, string, Exception, CancellationToken?)
+  nameWithType: ExceptionRaiser.OperationCanceledException(bool, string, Exception, CancellationToken?)
+  fullName: Heleonix.Guard.ExceptionRaiser.OperationCanceledException(bool, string, System.Exception, System.Threading.CancellationToken?)
+  nameWithType.vb: ExceptionRaiser.OperationCanceledException(Boolean, String, Exception, CancellationToken?)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.OperationCanceledException(Boolean, String, System.Exception, System.Threading.CancellationToken?)
+  name.vb: OperationCanceledException(Boolean, String, Exception, CancellationToken?)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.OperationCanceledException(System.Boolean,System.String,System.Exception,System.Nullable{System.Threading.CancellationToken})
+    name: OperationCanceledException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_OperationCanceledException_System_Boolean_System_String_System_Exception_System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.OperationCanceledException(System.Boolean,System.String,System.Exception,System.Nullable{System.Threading.CancellationToken})
+    name: OperationCanceledException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_OperationCanceledException_System_Boolean_System_String_System_Exception_System_Nullable_System_Threading_CancellationToken__
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.OperationCanceledException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.OperationCanceledException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_OperationCanceledException_System_Boolean_System_String_System_Exception_System_Nullable_System_Threading_CancellationToken__
+  name: OperationCanceledException
+  nameWithType: ExceptionRaiser.OperationCanceledException
+  fullName: Heleonix.Guard.ExceptionRaiser.OperationCanceledException
+- uid: System.Nullable{System.Threading.CancellationToken}
+  commentId: T:System.Nullable{System.Threading.CancellationToken}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken?
+  nameWithType: CancellationToken?
+  fullName: System.Threading.CancellationToken?
+  spec.csharp:
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+  spec.vb:
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.Exception*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.Exception
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_Exception_System_Boolean_System_String_System_Exception_
+  name: Exception
+  nameWithType: ExceptionRaiser.Exception
+  fullName: Heleonix.Guard.ExceptionRaiser.Exception
+- uid: Heleonix.Guard.ExceptionRaiser.InvalidOperationException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.InvalidOperationException(System.Boolean,System.String,System.Exception)
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidOperationException_System_Boolean_System_String_System_Exception_
+  name: InvalidOperationException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.InvalidOperationException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.InvalidOperationException(bool, string, System.Exception)
+  nameWithType.vb: ExceptionRaiser.InvalidOperationException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.InvalidOperationException(Boolean, String, System.Exception)
+  name.vb: InvalidOperationException(Boolean, String, Exception)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.InvalidOperationException(System.Boolean,System.String,System.Exception)
+    name: InvalidOperationException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidOperationException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.InvalidOperationException(System.Boolean,System.String,System.Exception)
+    name: InvalidOperationException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidOperationException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.InvalidOperationException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.InvalidOperationException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidOperationException_System_Boolean_System_String_System_Exception_
+  name: InvalidOperationException
+  nameWithType: ExceptionRaiser.InvalidOperationException
+  fullName: Heleonix.Guard.ExceptionRaiser.InvalidOperationException
+- uid: Heleonix.Guard.ExceptionRaiser.InvalidDataException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.InvalidDataException(System.Boolean,System.String,System.Exception)
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidDataException_System_Boolean_System_String_System_Exception_
+  name: InvalidDataException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.InvalidDataException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.InvalidDataException(bool, string, System.Exception)
+  nameWithType.vb: ExceptionRaiser.InvalidDataException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.InvalidDataException(Boolean, String, System.Exception)
+  name.vb: InvalidDataException(Boolean, String, Exception)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.InvalidDataException(System.Boolean,System.String,System.Exception)
+    name: InvalidDataException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidDataException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.InvalidDataException(System.Boolean,System.String,System.Exception)
+    name: InvalidDataException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidDataException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.InvalidDataException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.InvalidDataException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidDataException_System_Boolean_System_String_System_Exception_
+  name: InvalidDataException
+  nameWithType: ExceptionRaiser.InvalidDataException
+  fullName: Heleonix.Guard.ExceptionRaiser.InvalidDataException
+- uid: Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException(System.Boolean,System.String,System.Exception)
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_IndexOutOfRangeException_System_Boolean_System_String_System_Exception_
+  name: IndexOutOfRangeException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.IndexOutOfRangeException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException(bool, string, System.Exception)
+  nameWithType.vb: ExceptionRaiser.IndexOutOfRangeException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException(Boolean, String, System.Exception)
+  name.vb: IndexOutOfRangeException(Boolean, String, Exception)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException(System.Boolean,System.String,System.Exception)
+    name: IndexOutOfRangeException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_IndexOutOfRangeException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException(System.Boolean,System.String,System.Exception)
+    name: IndexOutOfRangeException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_IndexOutOfRangeException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_IndexOutOfRangeException_System_Boolean_System_String_System_Exception_
+  name: IndexOutOfRangeException
+  nameWithType: ExceptionRaiser.IndexOutOfRangeException
+  fullName: Heleonix.Guard.ExceptionRaiser.IndexOutOfRangeException
+- uid: Heleonix.Guard.ExceptionRaiser.FormatException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.FormatException(System.Boolean,System.String,System.Exception)
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_FormatException_System_Boolean_System_String_System_Exception_
+  name: FormatException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.FormatException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.FormatException(bool, string, System.Exception)
+  nameWithType.vb: ExceptionRaiser.FormatException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.FormatException(Boolean, String, System.Exception)
+  name.vb: FormatException(Boolean, String, Exception)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.FormatException(System.Boolean,System.String,System.Exception)
+    name: FormatException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_FormatException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.FormatException(System.Boolean,System.String,System.Exception)
+    name: FormatException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_FormatException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.FormatException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.FormatException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_FormatException_System_Boolean_System_String_System_Exception_
+  name: FormatException
+  nameWithType: ExceptionRaiser.FormatException
+  fullName: Heleonix.Guard.ExceptionRaiser.FormatException
+- uid: Heleonix.Guard.ExceptionRaiser.NullReferenceException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.NullReferenceException(System.Boolean,System.String,System.Exception)
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_NullReferenceException_System_Boolean_System_String_System_Exception_
+  name: NullReferenceException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.NullReferenceException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.NullReferenceException(bool, string, System.Exception)
+  nameWithType.vb: ExceptionRaiser.NullReferenceException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.NullReferenceException(Boolean, String, System.Exception)
+  name.vb: NullReferenceException(Boolean, String, Exception)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.NullReferenceException(System.Boolean,System.String,System.Exception)
+    name: NullReferenceException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_NullReferenceException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.NullReferenceException(System.Boolean,System.String,System.Exception)
+    name: NullReferenceException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_NullReferenceException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.NullReferenceException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.NullReferenceException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_NullReferenceException_System_Boolean_System_String_System_Exception_
+  name: NullReferenceException
+  nameWithType: ExceptionRaiser.NullReferenceException
+  fullName: Heleonix.Guard.ExceptionRaiser.NullReferenceException
+- uid: Heleonix.Guard.ExceptionRaiser.NotImplementedException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.NotImplementedException(System.Boolean,System.String,System.Exception)
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_NotImplementedException_System_Boolean_System_String_System_Exception_
+  name: NotImplementedException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.NotImplementedException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.NotImplementedException(bool, string, System.Exception)
+  nameWithType.vb: ExceptionRaiser.NotImplementedException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.NotImplementedException(Boolean, String, System.Exception)
+  name.vb: NotImplementedException(Boolean, String, Exception)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.NotImplementedException(System.Boolean,System.String,System.Exception)
+    name: NotImplementedException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_NotImplementedException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.NotImplementedException(System.Boolean,System.String,System.Exception)
+    name: NotImplementedException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_NotImplementedException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.NotImplementedException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.NotImplementedException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_NotImplementedException_System_Boolean_System_String_System_Exception_
+  name: NotImplementedException
+  nameWithType: ExceptionRaiser.NotImplementedException
+  fullName: Heleonix.Guard.ExceptionRaiser.NotImplementedException
+- uid: Heleonix.Guard.ExceptionRaiser.NotSupportedException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.NotSupportedException(System.Boolean,System.String,System.Exception)
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_NotSupportedException_System_Boolean_System_String_System_Exception_
+  name: NotSupportedException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.NotSupportedException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.NotSupportedException(bool, string, System.Exception)
+  nameWithType.vb: ExceptionRaiser.NotSupportedException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.NotSupportedException(Boolean, String, System.Exception)
+  name.vb: NotSupportedException(Boolean, String, Exception)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.NotSupportedException(System.Boolean,System.String,System.Exception)
+    name: NotSupportedException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_NotSupportedException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.NotSupportedException(System.Boolean,System.String,System.Exception)
+    name: NotSupportedException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_NotSupportedException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.NotSupportedException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.NotSupportedException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_NotSupportedException_System_Boolean_System_String_System_Exception_
+  name: NotSupportedException
+  nameWithType: ExceptionRaiser.NotSupportedException
+  fullName: Heleonix.Guard.ExceptionRaiser.NotSupportedException
+- uid: Heleonix.Guard.ExceptionRaiser.TimeoutException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.TimeoutException(System.Boolean,System.String,System.Exception)
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_TimeoutException_System_Boolean_System_String_System_Exception_
+  name: TimeoutException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.TimeoutException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.TimeoutException(bool, string, System.Exception)
+  nameWithType.vb: ExceptionRaiser.TimeoutException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.TimeoutException(Boolean, String, System.Exception)
+  name.vb: TimeoutException(Boolean, String, Exception)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.TimeoutException(System.Boolean,System.String,System.Exception)
+    name: TimeoutException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_TimeoutException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.TimeoutException(System.Boolean,System.String,System.Exception)
+    name: TimeoutException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_TimeoutException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.TimeoutException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.TimeoutException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_TimeoutException_System_Boolean_System_String_System_Exception_
+  name: TimeoutException
+  nameWithType: ExceptionRaiser.TimeoutException
+  fullName: Heleonix.Guard.ExceptionRaiser.TimeoutException
+- uid: Heleonix.Guard.ExceptionRaiser.KeyNotFoundException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.KeyNotFoundException(System.Boolean,System.String,System.Exception)
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_KeyNotFoundException_System_Boolean_System_String_System_Exception_
+  name: KeyNotFoundException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.KeyNotFoundException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.KeyNotFoundException(bool, string, System.Exception)
+  nameWithType.vb: ExceptionRaiser.KeyNotFoundException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.KeyNotFoundException(Boolean, String, System.Exception)
+  name.vb: KeyNotFoundException(Boolean, String, Exception)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.KeyNotFoundException(System.Boolean,System.String,System.Exception)
+    name: KeyNotFoundException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_KeyNotFoundException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.KeyNotFoundException(System.Boolean,System.String,System.Exception)
+    name: KeyNotFoundException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_KeyNotFoundException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.KeyNotFoundException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.KeyNotFoundException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_KeyNotFoundException_System_Boolean_System_String_System_Exception_
+  name: KeyNotFoundException
+  nameWithType: ExceptionRaiser.KeyNotFoundException
+  fullName: Heleonix.Guard.ExceptionRaiser.KeyNotFoundException
+- uid: Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException(System.Boolean,System.String,System.Exception)
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_UnauthorizedAccessException_System_Boolean_System_String_System_Exception_
+  name: UnauthorizedAccessException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.UnauthorizedAccessException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException(bool, string, System.Exception)
+  nameWithType.vb: ExceptionRaiser.UnauthorizedAccessException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException(Boolean, String, System.Exception)
+  name.vb: UnauthorizedAccessException(Boolean, String, Exception)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException(System.Boolean,System.String,System.Exception)
+    name: UnauthorizedAccessException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_UnauthorizedAccessException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException(System.Boolean,System.String,System.Exception)
+    name: UnauthorizedAccessException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_UnauthorizedAccessException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_UnauthorizedAccessException_System_Boolean_System_String_System_Exception_
+  name: UnauthorizedAccessException
+  nameWithType: ExceptionRaiser.UnauthorizedAccessException
+  fullName: Heleonix.Guard.ExceptionRaiser.UnauthorizedAccessException
+- uid: Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException(System.Boolean,System.String,System.Exception)
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_AmbiguousMatchException_System_Boolean_System_String_System_Exception_
+  name: AmbiguousMatchException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.AmbiguousMatchException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException(bool, string, System.Exception)
+  nameWithType.vb: ExceptionRaiser.AmbiguousMatchException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException(Boolean, String, System.Exception)
+  name.vb: AmbiguousMatchException(Boolean, String, Exception)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException(System.Boolean,System.String,System.Exception)
+    name: AmbiguousMatchException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_AmbiguousMatchException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException(System.Boolean,System.String,System.Exception)
+    name: AmbiguousMatchException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_AmbiguousMatchException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_AmbiguousMatchException_System_Boolean_System_String_System_Exception_
+  name: AmbiguousMatchException
+  nameWithType: ExceptionRaiser.AmbiguousMatchException
+  fullName: Heleonix.Guard.ExceptionRaiser.AmbiguousMatchException
+- uid: Heleonix.Guard.ExceptionRaiser.TypeLoadException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.TypeLoadException(System.Boolean,System.String,System.Exception)
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_TypeLoadException_System_Boolean_System_String_System_Exception_
+  name: TypeLoadException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.TypeLoadException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.TypeLoadException(bool, string, System.Exception)
+  nameWithType.vb: ExceptionRaiser.TypeLoadException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.TypeLoadException(Boolean, String, System.Exception)
+  name.vb: TypeLoadException(Boolean, String, Exception)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.TypeLoadException(System.Boolean,System.String,System.Exception)
+    name: TypeLoadException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_TypeLoadException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.TypeLoadException(System.Boolean,System.String,System.Exception)
+    name: TypeLoadException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_TypeLoadException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.TypeLoadException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.TypeLoadException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_TypeLoadException_System_Boolean_System_String_System_Exception_
+  name: TypeLoadException
+  nameWithType: ExceptionRaiser.TypeLoadException
+  fullName: Heleonix.Guard.ExceptionRaiser.TypeLoadException
+- uid: Heleonix.Guard.ExceptionRaiser.DllNotFoundException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.DllNotFoundException(System.Boolean,System.String,System.Exception)
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_DllNotFoundException_System_Boolean_System_String_System_Exception_
+  name: DllNotFoundException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.DllNotFoundException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.DllNotFoundException(bool, string, System.Exception)
+  nameWithType.vb: ExceptionRaiser.DllNotFoundException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.DllNotFoundException(Boolean, String, System.Exception)
+  name.vb: DllNotFoundException(Boolean, String, Exception)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.DllNotFoundException(System.Boolean,System.String,System.Exception)
+    name: DllNotFoundException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_DllNotFoundException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.DllNotFoundException(System.Boolean,System.String,System.Exception)
+    name: DllNotFoundException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_DllNotFoundException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.DllNotFoundException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.DllNotFoundException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_DllNotFoundException_System_Boolean_System_String_System_Exception_
+  name: DllNotFoundException
+  nameWithType: ExceptionRaiser.DllNotFoundException
+  fullName: Heleonix.Guard.ExceptionRaiser.DllNotFoundException
+- uid: Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException(System.Boolean,System.String,System.Exception)
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_DirectoryNotFoundException_System_Boolean_System_String_System_Exception_
+  name: DirectoryNotFoundException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.DirectoryNotFoundException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException(bool, string, System.Exception)
+  nameWithType.vb: ExceptionRaiser.DirectoryNotFoundException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException(Boolean, String, System.Exception)
+  name.vb: DirectoryNotFoundException(Boolean, String, Exception)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException(System.Boolean,System.String,System.Exception)
+    name: DirectoryNotFoundException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_DirectoryNotFoundException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException(System.Boolean,System.String,System.Exception)
+    name: DirectoryNotFoundException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_DirectoryNotFoundException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_DirectoryNotFoundException_System_Boolean_System_String_System_Exception_
+  name: DirectoryNotFoundException
+  nameWithType: ExceptionRaiser.DirectoryNotFoundException
+  fullName: Heleonix.Guard.ExceptionRaiser.DirectoryNotFoundException
+- uid: Heleonix.Guard.ExceptionRaiser.PathTooLongException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.PathTooLongException(System.Boolean,System.String,System.Exception)
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_PathTooLongException_System_Boolean_System_String_System_Exception_
+  name: PathTooLongException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.PathTooLongException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.PathTooLongException(bool, string, System.Exception)
+  nameWithType.vb: ExceptionRaiser.PathTooLongException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.PathTooLongException(Boolean, String, System.Exception)
+  name.vb: PathTooLongException(Boolean, String, Exception)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.PathTooLongException(System.Boolean,System.String,System.Exception)
+    name: PathTooLongException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_PathTooLongException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.PathTooLongException(System.Boolean,System.String,System.Exception)
+    name: PathTooLongException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_PathTooLongException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.PathTooLongException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.PathTooLongException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_PathTooLongException_System_Boolean_System_String_System_Exception_
+  name: PathTooLongException
+  nameWithType: ExceptionRaiser.PathTooLongException
+  fullName: Heleonix.Guard.ExceptionRaiser.PathTooLongException
+- uid: Heleonix.Guard.ExceptionRaiser.FileLoadException(System.Boolean,System.String,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.FileLoadException(System.Boolean,System.String,System.String,System.Exception)
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_FileLoadException_System_Boolean_System_String_System_String_System_Exception_
+  name: FileLoadException(bool, string, string, Exception)
+  nameWithType: ExceptionRaiser.FileLoadException(bool, string, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.FileLoadException(bool, string, string, System.Exception)
+  nameWithType.vb: ExceptionRaiser.FileLoadException(Boolean, String, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.FileLoadException(Boolean, String, String, System.Exception)
+  name.vb: FileLoadException(Boolean, String, String, Exception)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.FileLoadException(System.Boolean,System.String,System.String,System.Exception)
+    name: FileLoadException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_FileLoadException_System_Boolean_System_String_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.FileLoadException(System.Boolean,System.String,System.String,System.Exception)
+    name: FileLoadException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_FileLoadException_System_Boolean_System_String_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.FileLoadException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.FileLoadException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_FileLoadException_System_Boolean_System_String_System_String_System_Exception_
+  name: FileLoadException
+  nameWithType: ExceptionRaiser.FileLoadException
+  fullName: Heleonix.Guard.ExceptionRaiser.FileLoadException
+- uid: System.MissingMemberException
+  commentId: T:System.MissingMemberException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.missingmemberexception
+  name: MissingMemberException
+  nameWithType: MissingMemberException
+  fullName: System.MissingMemberException
+- uid: Heleonix.Guard.ExceptionRaiser.MissingMemberException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.MissingMemberException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_MissingMemberException_System_Boolean_System_String_System_String_
+  name: MissingMemberException
+  nameWithType: ExceptionRaiser.MissingMemberException
+  fullName: Heleonix.Guard.ExceptionRaiser.MissingMemberException
+- uid: System.MissingFieldException
+  commentId: T:System.MissingFieldException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.missingfieldexception
+  name: MissingFieldException
+  nameWithType: MissingFieldException
+  fullName: System.MissingFieldException
+- uid: Heleonix.Guard.ExceptionRaiser.MissingFieldException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.MissingFieldException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_MissingFieldException_System_Boolean_System_String_System_String_
+  name: MissingFieldException
+  nameWithType: ExceptionRaiser.MissingFieldException
+  fullName: Heleonix.Guard.ExceptionRaiser.MissingFieldException
+- uid: System.MissingMethodException
+  commentId: T:System.MissingMethodException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.missingmethodexception
+  name: MissingMethodException
+  nameWithType: MissingMethodException
+  fullName: System.MissingMethodException
+- uid: Heleonix.Guard.ExceptionRaiser.MissingMethodException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.MissingMethodException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_MissingMethodException_System_Boolean_System_String_System_String_
+  name: MissingMethodException
+  nameWithType: ExceptionRaiser.MissingMethodException
+  fullName: Heleonix.Guard.ExceptionRaiser.MissingMethodException
+- uid: Heleonix.Guard.ExceptionRaiser.InvalidCredentialException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.InvalidCredentialException(System.Boolean,System.String,System.Exception)
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidCredentialException_System_Boolean_System_String_System_Exception_
+  name: InvalidCredentialException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.InvalidCredentialException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.InvalidCredentialException(bool, string, System.Exception)
+  nameWithType.vb: ExceptionRaiser.InvalidCredentialException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.InvalidCredentialException(Boolean, String, System.Exception)
+  name.vb: InvalidCredentialException(Boolean, String, Exception)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.InvalidCredentialException(System.Boolean,System.String,System.Exception)
+    name: InvalidCredentialException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidCredentialException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.InvalidCredentialException(System.Boolean,System.String,System.Exception)
+    name: InvalidCredentialException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidCredentialException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.InvalidCredentialException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.InvalidCredentialException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_InvalidCredentialException_System_Boolean_System_String_System_Exception_
+  name: InvalidCredentialException
+  nameWithType: ExceptionRaiser.InvalidCredentialException
+  fullName: Heleonix.Guard.ExceptionRaiser.InvalidCredentialException
+- uid: Heleonix.Guard.ExceptionRaiser.AuthenticationException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.AuthenticationException(System.Boolean,System.String,System.Exception)
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_AuthenticationException_System_Boolean_System_String_System_Exception_
+  name: AuthenticationException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.AuthenticationException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.AuthenticationException(bool, string, System.Exception)
+  nameWithType.vb: ExceptionRaiser.AuthenticationException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.AuthenticationException(Boolean, String, System.Exception)
+  name.vb: AuthenticationException(Boolean, String, Exception)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.AuthenticationException(System.Boolean,System.String,System.Exception)
+    name: AuthenticationException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_AuthenticationException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.AuthenticationException(System.Boolean,System.String,System.Exception)
+    name: AuthenticationException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_AuthenticationException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.AuthenticationException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.AuthenticationException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_AuthenticationException_System_Boolean_System_String_System_Exception_
+  name: AuthenticationException
+  nameWithType: ExceptionRaiser.AuthenticationException
+  fullName: Heleonix.Guard.ExceptionRaiser.AuthenticationException
+- uid: Heleonix.Guard.ExceptionRaiser.DriveNotFoundException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.DriveNotFoundException(System.Boolean,System.String,System.Exception)
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_DriveNotFoundException_System_Boolean_System_String_System_Exception_
+  name: DriveNotFoundException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.DriveNotFoundException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.DriveNotFoundException(bool, string, System.Exception)
+  nameWithType.vb: ExceptionRaiser.DriveNotFoundException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.DriveNotFoundException(Boolean, String, System.Exception)
+  name.vb: DriveNotFoundException(Boolean, String, Exception)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.DriveNotFoundException(System.Boolean,System.String,System.Exception)
+    name: DriveNotFoundException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_DriveNotFoundException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.DriveNotFoundException(System.Boolean,System.String,System.Exception)
+    name: DriveNotFoundException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_DriveNotFoundException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.DriveNotFoundException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.DriveNotFoundException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_DriveNotFoundException_System_Boolean_System_String_System_Exception_
+  name: DriveNotFoundException
+  nameWithType: ExceptionRaiser.DriveNotFoundException
+  fullName: Heleonix.Guard.ExceptionRaiser.DriveNotFoundException
+- uid: Heleonix.Guard.ExceptionRaiser.SerializationException(System.Boolean,System.String,System.Exception)
+  commentId: M:Heleonix.Guard.ExceptionRaiser.SerializationException(System.Boolean,System.String,System.Exception)
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_SerializationException_System_Boolean_System_String_System_Exception_
+  name: SerializationException(bool, string, Exception)
+  nameWithType: ExceptionRaiser.SerializationException(bool, string, Exception)
+  fullName: Heleonix.Guard.ExceptionRaiser.SerializationException(bool, string, System.Exception)
+  nameWithType.vb: ExceptionRaiser.SerializationException(Boolean, String, Exception)
+  fullName.vb: Heleonix.Guard.ExceptionRaiser.SerializationException(Boolean, String, System.Exception)
+  name.vb: SerializationException(Boolean, String, Exception)
+  spec.csharp:
+  - uid: Heleonix.Guard.ExceptionRaiser.SerializationException(System.Boolean,System.String,System.Exception)
+    name: SerializationException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_SerializationException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Guard.ExceptionRaiser.SerializationException(System.Boolean,System.String,System.Exception)
+    name: SerializationException
+    isExternal: true
+    href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_SerializationException_System_Boolean_System_String_System_Exception_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Exception
+    name: Exception
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception
+  - name: )
+- uid: Heleonix.Guard.ExceptionRaiser.SerializationException*
+  commentId: Overload:Heleonix.Guard.ExceptionRaiser.SerializationException
+  isExternal: true
+  href: Heleonix.Guard.ExceptionRaiser.html#Heleonix_Guard_ExceptionRaiser_SerializationException_System_Boolean_System_String_System_Exception_
+  name: SerializationException
+  nameWithType: ExceptionRaiser.SerializationException
+  fullName: Heleonix.Guard.ExceptionRaiser.SerializationException
