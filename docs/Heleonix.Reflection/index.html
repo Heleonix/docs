@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>PLACEHOLDER | Heleonix </title>
+      <title>Heleonix.Reflection | Heleonix </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="PLACEHOLDER | Heleonix ">
+      <meta name="title" content="Heleonix.Reflection | Heleonix ">
       
       
       <link rel="icon" href="../images/heleonix-logos/Heleonix-favicon-128x128.ico">
@@ -85,9 +85,124 @@
         </div>
 
         <article data-uid="">
-<h1 id="placeholder">PLACEHOLDER</h1>
+<h1 id="heleonixreflection">Heleonix.Reflection</h1>
 
-<p>TODO: Add .NET projects to the <em>src</em> folder and run <code>docfx</code> to generate <strong>REAL</strong> <em>API Documentation</em>!</p>
+<p><a href="https://github.com/Heleonix/Heleonix.Reflection/actions/workflows/release-net-nuget.yml"><img src="https://github.com/Heleonix/Heleonix.Reflection/actions/workflows/release-net-nuget.yml/badge.svg" alt="Release: .NET / NuGet"></a></p>
+<p>Provides reflection functionality to search and invoke type members, search types, generate delegates etc.</p>
+<h2 id="install">Install</h2>
+<p><a href="https://www.nuget.org/packages/Heleonix.Reflection">https://www.nuget.org/packages/Heleonix.Reflection</a></p>
+<h2 id="api">API</h2>
+<p>See &lt;xref:Heleonix.Reflection&gt;</p>
+<h2 id="examples">Examples</h2>
+<pre><code class="lang-csharp">var dt = DateTime.Now;
+
+var info = Reflector.GetInfo(instance: dt, type: null, memberPath: &quot;TimeOfDay.Negate&quot;);
+
+// info[0].Name == &quot;Negate&quot;;
+// info[0].MemberType == MemberTypes.Property;
+</code></pre>
+<pre><code class="lang-csharp">var path = Reflector.GetMemberPath&lt;DateTime&gt;(dt =&gt; dt.TimeOfDay.Negate());
+
+// path: &quot;TimeOfDay.Negate&quot;
+</code></pre>
+<pre><code class="lang-csharp">var success = Reflector.Get(DateTime.Now, null, &quot;TimeOfDay.Hours&quot;, out int value);
+
+// success == true;
+// value == DateTime.Now.TimeOfDay.Hours;
+
+or
+
+var success = Reflector.Get(typeof(int), null, &quot;CustomAttributes[0].AttributeType&quot;, out int value);
+
+// success == true;
+// value == typeof(int).CustomAttributes.First().AttributeType;
+
+or
+
+var success = Reflector.Get(typeof(int), null, &quot;CustomAttributes[0]&quot;, out int value);
+
+// success == true;
+// value == typeof(int).CustomAttributes.First();
+</code></pre>
+<pre><code class="lang-csharp">public class Root
+{
+    public Child Child { get; set; } = new Child();
+    public Child[] Children { get; set; } = new Child[] { new Child(), new Child() };
+}
+
+public class Child { public int Value { get; set; } }
+
+var root = new Root();
+
+var success1 = Reflector.Set(root, null, &quot;Child.Value&quot;, 111);
+var success2 = Reflector.Set(root, null, &quot;Children[0].Value&quot;, 222);
+var success3 = Reflector.Set(root, null, &quot;Children[1]&quot;, new Child() { Value = 333 });
+
+// success1 == true;
+// success2 == true;
+// success3 == true;
+
+// root.Child.Value == 111;
+// root.Children[0].Value == 222;
+// root.Children[1].Value == 333;
+</code></pre>
+<pre><code class="lang-csharp">var success = Reflector.Invoke(DateTime.Now, null, &quot;Date.AddYears&quot;, new[] { typeof(int) }, out DateTime result, arguments: 10);
+
+// success == true;
+// result.Year == DateTime.Now.Date.Year + 10;
+</code></pre>
+<pre><code class="lang-csharp">var getter = Reflector.CreateGetter(dt =&gt; dt.Date.Month);
+
+var value = getter(DateTime.Now);
+
+// value == DateTime.Now.Date.Month;
+</code></pre>
+<pre><code class="lang-csharp">public class Root { public Child Child { get; set; } = new Child(); }
+public class Child { public int Value { get; set; } }
+
+var setter = Reflector.CreateSetter{Root, int}(r =&gt; r.Child.Value);
+var root = new Root();
+
+setter(root, 12345);
+
+// root.Child.Value == 12345;
+</code></pre>
+<pre><code class="lang-csharp">public class Root { public Child Child { get; set; } = new Child(); }
+public class Child { public int Value { get; set; } }
+
+var setter = Reflector.CreateSetter{Root, int}(&quot;Child.Value&quot;, typeof(Root));
+var root = new Root();
+
+setter(root, 12345);
+
+// root.Child.Value == 12345;
+</code></pre>
+<h2 id="contribution-guideline">Contribution Guideline</h2>
+<ol>
+<li><p><a href="https://github.com/Heleonix/Heleonix.Reflection/fork">Create a fork</a> from the main repository</p>
+</li>
+<li><p>Implement whatever is needed</p>
+</li>
+<li><p><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork">Create a Pull Request</a>.
+Make sure the assigned <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks#checks">Checks</a> pass successfully.
+You can watch the progress in the <a href="https://github.com/Heleonix/Heleonix.Reflection/actions/workflows/pr-net.yml">PR: .NET</a> GitHub workflows</p>
+</li>
+<li><p><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review">Request review</a> from the code owner</p>
+</li>
+<li><p>Once approved, merge your Pull Request via <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges#squash-and-merge-your-commits">Squash and merge</a></p>
+<blockquote>
+<p><strong>IMPORTANT</strong><br>
+While merging, enter a <a href="https://www.conventionalcommits.org/">Conventional Commits</a> commit message.
+This commit message will be used in automatically generated <a href="https://github.com/Heleonix/Heleonix.Reflection/releases">Github Release Notes</a>
+and <a href="https://www.nuget.org/packages/Heleonix.Reflection/#releasenotes-body-tab">NuGet Release Notes</a></p>
+</blockquote>
+</li>
+<li><p>Monitor the <a href="https://github.com/Heleonix/Heleonix.Reflection/actions/workflows/release-net-nuget.yml">Release: .NET / NuGet</a>
+GitHub workflow to make sure your changes are delivered successfully</p>
+</li>
+<li><p>In case of any issues, please contact <a href="mailto:heleonix.sln@gmail.com">heleonix.sln@gmail.com</a></p>
+</li>
+</ol>
 
 </article>
 
