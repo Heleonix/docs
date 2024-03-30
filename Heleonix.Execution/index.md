@@ -8,6 +8,10 @@ Provides a command line arguments builder, methods to run executables and extrac
 
 https://www.nuget.org/packages/Heleonix.Execution
 
+## API
+
+See <xref:Heleonix.Execution>
+
 ## Examples
 
 ### ExeHelper

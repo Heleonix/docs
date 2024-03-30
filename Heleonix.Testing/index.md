@@ -7,6 +7,10 @@ The library for writing tests in BDD and AAA styles
 ## Install
 https://www.nuget.org/packages/Heleonix.Testing.NUnit
 
+## API
+
+See <xref:Heleonix.Testing.NUnit>
+
 ## AAA: Arrange Act Assert
 
 ### Structure
