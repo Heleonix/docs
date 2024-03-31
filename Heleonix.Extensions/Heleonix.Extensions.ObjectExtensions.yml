@@ -1,0 +1,637 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Extensions.ObjectExtensions
+  commentId: T:Heleonix.Extensions.ObjectExtensions
+  id: ObjectExtensions
+  parent: Heleonix.Extensions
+  children:
+  - Heleonix.Extensions.ObjectExtensions.IsAs(System.Object,System.Type)
+  - Heleonix.Extensions.ObjectExtensions.IsEqualTo(System.Object,System.Object)
+  - Heleonix.Extensions.ObjectExtensions.IsNegative(System.Object)
+  - Heleonix.Extensions.ObjectExtensions.IsNull(System.Object)
+  - Heleonix.Extensions.ObjectExtensions.IsOne(System.Object)
+  - Heleonix.Extensions.ObjectExtensions.IsPositive(System.Object)
+  - Heleonix.Extensions.ObjectExtensions.IsTypeOf(System.Object,System.Type)
+  - Heleonix.Extensions.ObjectExtensions.IsZero(System.Object)
+  langs:
+  - csharp
+  - vb
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: Heleonix.Extensions.ObjectExtensions
+  type: Class
+  assemblies:
+  - Heleonix.Extensions
+  namespace: Heleonix.Extensions
+  summary: Provides functionality to work with objects.
+  example: []
+  syntax:
+    content: public static class ObjectExtensions
+    content.vb: Public Module ObjectExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Heleonix.Extensions.ObjectExtensions.IsNull(System.Object)
+  commentId: M:Heleonix.Extensions.ObjectExtensions.IsNull(System.Object)
+  id: IsNull(System.Object)
+  isExtensionMethod: true
+  parent: Heleonix.Extensions.ObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsNull(object)
+  nameWithType: ObjectExtensions.IsNull(object)
+  fullName: Heleonix.Extensions.ObjectExtensions.IsNull(object)
+  type: Method
+  assemblies:
+  - Heleonix.Extensions
+  namespace: Heleonix.Extensions
+  summary: Determines whether this instance is <code>null</code>.
+  example: []
+  syntax:
+    content: public static bool IsNull(this object instance)
+    parameters:
+    - id: instance
+      type: System.Object
+      description: The instance.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if the specified object is <code>null</code>; otherwise, <code>false</code>.
+    content.vb: Public Shared Function IsNull(instance As Object) As Boolean
+  overload: Heleonix.Extensions.ObjectExtensions.IsNull*
+  nameWithType.vb: ObjectExtensions.IsNull(Object)
+  fullName.vb: Heleonix.Extensions.ObjectExtensions.IsNull(Object)
+  name.vb: IsNull(Object)
+- uid: Heleonix.Extensions.ObjectExtensions.IsZero(System.Object)
+  commentId: M:Heleonix.Extensions.ObjectExtensions.IsZero(System.Object)
+  id: IsZero(System.Object)
+  isExtensionMethod: true
+  parent: Heleonix.Extensions.ObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsZero(object)
+  nameWithType: ObjectExtensions.IsZero(object)
+  fullName: Heleonix.Extensions.ObjectExtensions.IsZero(object)
+  type: Method
+  assemblies:
+  - Heleonix.Extensions
+  namespace: Heleonix.Extensions
+  summary: Determines whether this instance equals zero.
+  example: []
+  syntax:
+    content: public static bool IsZero(this object instance)
+    parameters:
+    - id: instance
+      type: System.Object
+      description: The instance.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if the specified object equals zero, otherwise <code>false</code>.
+    content.vb: Public Shared Function IsZero(instance As Object) As Boolean
+  overload: Heleonix.Extensions.ObjectExtensions.IsZero*
+  nameWithType.vb: ObjectExtensions.IsZero(Object)
+  fullName.vb: Heleonix.Extensions.ObjectExtensions.IsZero(Object)
+  name.vb: IsZero(Object)
+- uid: Heleonix.Extensions.ObjectExtensions.IsOne(System.Object)
+  commentId: M:Heleonix.Extensions.ObjectExtensions.IsOne(System.Object)
+  id: IsOne(System.Object)
+  isExtensionMethod: true
+  parent: Heleonix.Extensions.ObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsOne(object)
+  nameWithType: ObjectExtensions.IsOne(object)
+  fullName: Heleonix.Extensions.ObjectExtensions.IsOne(object)
+  type: Method
+  assemblies:
+  - Heleonix.Extensions
+  namespace: Heleonix.Extensions
+  summary: Determines whether this instance equals one.
+  example: []
+  syntax:
+    content: public static bool IsOne(this object instance)
+    parameters:
+    - id: instance
+      type: System.Object
+      description: The instance.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if the specified object equals one, otherwise <code>false</code>.
+    content.vb: Public Shared Function IsOne(instance As Object) As Boolean
+  overload: Heleonix.Extensions.ObjectExtensions.IsOne*
+  nameWithType.vb: ObjectExtensions.IsOne(Object)
+  fullName.vb: Heleonix.Extensions.ObjectExtensions.IsOne(Object)
+  name.vb: IsOne(Object)
+- uid: Heleonix.Extensions.ObjectExtensions.IsNegative(System.Object)
+  commentId: M:Heleonix.Extensions.ObjectExtensions.IsNegative(System.Object)
+  id: IsNegative(System.Object)
+  isExtensionMethod: true
+  parent: Heleonix.Extensions.ObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsNegative(object)
+  nameWithType: ObjectExtensions.IsNegative(object)
+  fullName: Heleonix.Extensions.ObjectExtensions.IsNegative(object)
+  type: Method
+  assemblies:
+  - Heleonix.Extensions
+  namespace: Heleonix.Extensions
+  summary: Determines whether this instance is negative.
+  example: []
+  syntax:
+    content: public static bool IsNegative(this object instance)
+    parameters:
+    - id: instance
+      type: System.Object
+      description: The instance.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if the specified instance is negative, otherwise <code>false</code>.
+    content.vb: Public Shared Function IsNegative(instance As Object) As Boolean
+  overload: Heleonix.Extensions.ObjectExtensions.IsNegative*
+  nameWithType.vb: ObjectExtensions.IsNegative(Object)
+  fullName.vb: Heleonix.Extensions.ObjectExtensions.IsNegative(Object)
+  name.vb: IsNegative(Object)
+- uid: Heleonix.Extensions.ObjectExtensions.IsPositive(System.Object)
+  commentId: M:Heleonix.Extensions.ObjectExtensions.IsPositive(System.Object)
+  id: IsPositive(System.Object)
+  isExtensionMethod: true
+  parent: Heleonix.Extensions.ObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsPositive(object)
+  nameWithType: ObjectExtensions.IsPositive(object)
+  fullName: Heleonix.Extensions.ObjectExtensions.IsPositive(object)
+  type: Method
+  assemblies:
+  - Heleonix.Extensions
+  namespace: Heleonix.Extensions
+  summary: Determines whether this instance is positive.
+  example: []
+  syntax:
+    content: public static bool IsPositive(this object instance)
+    parameters:
+    - id: instance
+      type: System.Object
+      description: The instance.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if the specified instance is positive, otherwise <code>false</code>.
+    content.vb: Public Shared Function IsPositive(instance As Object) As Boolean
+  overload: Heleonix.Extensions.ObjectExtensions.IsPositive*
+  nameWithType.vb: ObjectExtensions.IsPositive(Object)
+  fullName.vb: Heleonix.Extensions.ObjectExtensions.IsPositive(Object)
+  name.vb: IsPositive(Object)
+- uid: Heleonix.Extensions.ObjectExtensions.IsEqualTo(System.Object,System.Object)
+  commentId: M:Heleonix.Extensions.ObjectExtensions.IsEqualTo(System.Object,System.Object)
+  id: IsEqualTo(System.Object,System.Object)
+  isExtensionMethod: true
+  parent: Heleonix.Extensions.ObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsEqualTo(object, object)
+  nameWithType: ObjectExtensions.IsEqualTo(object, object)
+  fullName: Heleonix.Extensions.ObjectExtensions.IsEqualTo(object, object)
+  type: Method
+  assemblies:
+  - Heleonix.Extensions
+  namespace: Heleonix.Extensions
+  summary: Determines whether this instance is equal to the <code class="paramref">other</code>.
+  example: []
+  syntax:
+    content: public static bool IsEqualTo(this object instance, object other)
+    parameters:
+    - id: instance
+      type: System.Object
+      description: The instance.
+    - id: other
+      type: System.Object
+      description: The other instance.
+    return:
+      type: System.Boolean
+      description: <code>true</code> this instance is equal to the <code class="paramref">other</code>, otherwise <code>false</code>.
+    content.vb: Public Shared Function IsEqualTo(instance As Object, other As Object) As Boolean
+  overload: Heleonix.Extensions.ObjectExtensions.IsEqualTo*
+  nameWithType.vb: ObjectExtensions.IsEqualTo(Object, Object)
+  fullName.vb: Heleonix.Extensions.ObjectExtensions.IsEqualTo(Object, Object)
+  name.vb: IsEqualTo(Object, Object)
+- uid: Heleonix.Extensions.ObjectExtensions.IsAs(System.Object,System.Type)
+  commentId: M:Heleonix.Extensions.ObjectExtensions.IsAs(System.Object,System.Type)
+  id: IsAs(System.Object,System.Type)
+  isExtensionMethod: true
+  parent: Heleonix.Extensions.ObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsAs(object, Type)
+  nameWithType: ObjectExtensions.IsAs(object, Type)
+  fullName: Heleonix.Extensions.ObjectExtensions.IsAs(object, System.Type)
+  type: Method
+  assemblies:
+  - Heleonix.Extensions
+  namespace: Heleonix.Extensions
+  summary: Determines whether this instance is subclass of or exactly the specified type.
+  example: []
+  syntax:
+    content: public static bool IsAs(this object instance, Type type)
+    parameters:
+    - id: instance
+      type: System.Object
+      description: The instance.
+    - id: type
+      type: System.Type
+      description: The type.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if the specified instance is subclass of or exactly the specified type, otherwise <code>false</code>.
+    content.vb: Public Shared Function IsAs(instance As Object, type As Type) As Boolean
+  overload: Heleonix.Extensions.ObjectExtensions.IsAs*
+  nameWithType.vb: ObjectExtensions.IsAs(Object, Type)
+  fullName.vb: Heleonix.Extensions.ObjectExtensions.IsAs(Object, System.Type)
+  name.vb: IsAs(Object, Type)
+- uid: Heleonix.Extensions.ObjectExtensions.IsTypeOf(System.Object,System.Type)
+  commentId: M:Heleonix.Extensions.ObjectExtensions.IsTypeOf(System.Object,System.Type)
+  id: IsTypeOf(System.Object,System.Type)
+  isExtensionMethod: true
+  parent: Heleonix.Extensions.ObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsTypeOf(object, Type)
+  nameWithType: ObjectExtensions.IsTypeOf(object, Type)
+  fullName: Heleonix.Extensions.ObjectExtensions.IsTypeOf(object, System.Type)
+  type: Method
+  assemblies:
+  - Heleonix.Extensions
+  namespace: Heleonix.Extensions
+  summary: Determines whether a type of this instance exactly equals the specified type.
+  example: []
+  syntax:
+    content: public static bool IsTypeOf(this object instance, Type type)
+    parameters:
+    - id: instance
+      type: System.Object
+      description: The instance.
+    - id: type
+      type: System.Type
+      description: The type.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if a type of this instance exactly equals the specified type, otherwise <code>false</code>.
+    content.vb: Public Shared Function IsTypeOf(instance As Object, type As Type) As Boolean
+  overload: Heleonix.Extensions.ObjectExtensions.IsTypeOf*
+  nameWithType.vb: ObjectExtensions.IsTypeOf(Object, Type)
+  fullName.vb: Heleonix.Extensions.ObjectExtensions.IsTypeOf(Object, System.Type)
+  name.vb: IsTypeOf(Object, Type)
+references:
+- uid: Heleonix.Extensions
+  commentId: N:Heleonix.Extensions
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Extensions
+  nameWithType: Heleonix.Extensions
+  fullName: Heleonix.Extensions
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Extensions
+    name: Extensions
+    isExternal: true
+    href: Heleonix.Extensions.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Extensions
+    name: Extensions
+    isExternal: true
+    href: Heleonix.Extensions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Heleonix.Extensions.ObjectExtensions.IsNull*
+  commentId: Overload:Heleonix.Extensions.ObjectExtensions.IsNull
+  isExternal: true
+  href: Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsNull_System_Object_
+  name: IsNull
+  nameWithType: ObjectExtensions.IsNull
+  fullName: Heleonix.Extensions.ObjectExtensions.IsNull
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Heleonix.Extensions.ObjectExtensions.IsZero*
+  commentId: Overload:Heleonix.Extensions.ObjectExtensions.IsZero
+  isExternal: true
+  href: Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsZero_System_Object_
+  name: IsZero
+  nameWithType: ObjectExtensions.IsZero
+  fullName: Heleonix.Extensions.ObjectExtensions.IsZero
+- uid: Heleonix.Extensions.ObjectExtensions.IsOne*
+  commentId: Overload:Heleonix.Extensions.ObjectExtensions.IsOne
+  isExternal: true
+  href: Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsOne_System_Object_
+  name: IsOne
+  nameWithType: ObjectExtensions.IsOne
+  fullName: Heleonix.Extensions.ObjectExtensions.IsOne
+- uid: Heleonix.Extensions.ObjectExtensions.IsNegative*
+  commentId: Overload:Heleonix.Extensions.ObjectExtensions.IsNegative
+  isExternal: true
+  href: Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsNegative_System_Object_
+  name: IsNegative
+  nameWithType: ObjectExtensions.IsNegative
+  fullName: Heleonix.Extensions.ObjectExtensions.IsNegative
+- uid: Heleonix.Extensions.ObjectExtensions.IsPositive*
+  commentId: Overload:Heleonix.Extensions.ObjectExtensions.IsPositive
+  isExternal: true
+  href: Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsPositive_System_Object_
+  name: IsPositive
+  nameWithType: ObjectExtensions.IsPositive
+  fullName: Heleonix.Extensions.ObjectExtensions.IsPositive
+- uid: Heleonix.Extensions.ObjectExtensions.IsEqualTo*
+  commentId: Overload:Heleonix.Extensions.ObjectExtensions.IsEqualTo
+  isExternal: true
+  href: Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsEqualTo_System_Object_System_Object_
+  name: IsEqualTo
+  nameWithType: ObjectExtensions.IsEqualTo
+  fullName: Heleonix.Extensions.ObjectExtensions.IsEqualTo
+- uid: Heleonix.Extensions.ObjectExtensions.IsAs*
+  commentId: Overload:Heleonix.Extensions.ObjectExtensions.IsAs
+  isExternal: true
+  href: Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsAs_System_Object_System_Type_
+  name: IsAs
+  nameWithType: ObjectExtensions.IsAs
+  fullName: Heleonix.Extensions.ObjectExtensions.IsAs
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: Heleonix.Extensions.ObjectExtensions.IsTypeOf*
+  commentId: Overload:Heleonix.Extensions.ObjectExtensions.IsTypeOf
+  isExternal: true
+  href: Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsTypeOf_System_Object_System_Type_
+  name: IsTypeOf
+  nameWithType: ObjectExtensions.IsTypeOf
+  fullName: Heleonix.Extensions.ObjectExtensions.IsTypeOf

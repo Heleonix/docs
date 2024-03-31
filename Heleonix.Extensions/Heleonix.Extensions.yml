@@ -1,0 +1,48 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Extensions
+  commentId: N:Heleonix.Extensions
+  id: Heleonix.Extensions
+  children:
+  - Heleonix.Extensions.ComparableExtensions
+  - Heleonix.Extensions.EnumerableExtensions
+  - Heleonix.Extensions.ObjectExtensions
+  - Heleonix.Extensions.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: Heleonix.Extensions
+  nameWithType: Heleonix.Extensions
+  fullName: Heleonix.Extensions
+  type: Namespace
+  assemblies:
+  - Heleonix.Extensions
+references:
+- uid: Heleonix.Extensions.ComparableExtensions
+  commentId: T:Heleonix.Extensions.ComparableExtensions
+  isExternal: true
+  href: Heleonix.Extensions.ComparableExtensions.html
+  name: ComparableExtensions
+  nameWithType: ComparableExtensions
+  fullName: Heleonix.Extensions.ComparableExtensions
+- uid: Heleonix.Extensions.EnumerableExtensions
+  commentId: T:Heleonix.Extensions.EnumerableExtensions
+  isExternal: true
+  href: Heleonix.Extensions.EnumerableExtensions.html
+  name: EnumerableExtensions
+  nameWithType: EnumerableExtensions
+  fullName: Heleonix.Extensions.EnumerableExtensions
+- uid: Heleonix.Extensions.ObjectExtensions
+  commentId: T:Heleonix.Extensions.ObjectExtensions
+  isExternal: true
+  href: Heleonix.Extensions.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: Heleonix.Extensions.ObjectExtensions
+- uid: Heleonix.Extensions.StringExtensions
+  commentId: T:Heleonix.Extensions.StringExtensions
+  isExternal: true
+  href: Heleonix.Extensions.StringExtensions.html
+  name: StringExtensions
+  nameWithType: StringExtensions
+  fullName: Heleonix.Extensions.StringExtensions

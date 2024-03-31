@@ -1,0 +1,14 @@
+### YamlMime:TableOfContent
+items:
+- uid: Heleonix.Extensions
+  name: Heleonix.Extensions
+  items:
+  - uid: Heleonix.Extensions.ComparableExtensions
+    name: ComparableExtensions
+  - uid: Heleonix.Extensions.EnumerableExtensions
+    name: EnumerableExtensions
+  - uid: Heleonix.Extensions.ObjectExtensions
+    name: ObjectExtensions
+  - uid: Heleonix.Extensions.StringExtensions
+    name: StringExtensions
+memberLayout: SamePage

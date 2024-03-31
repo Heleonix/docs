@@ -1,0 +1,486 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Extensions.EnumerableExtensions
+  commentId: T:Heleonix.Extensions.EnumerableExtensions
+  id: EnumerableExtensions
+  parent: Heleonix.Extensions
+  children:
+  - Heleonix.Extensions.EnumerableExtensions.IsEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  - Heleonix.Extensions.EnumerableExtensions.IsNullOrEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  langs:
+  - csharp
+  - vb
+  name: EnumerableExtensions
+  nameWithType: EnumerableExtensions
+  fullName: Heleonix.Extensions.EnumerableExtensions
+  type: Class
+  assemblies:
+  - Heleonix.Extensions
+  namespace: Heleonix.Extensions
+  summary: Provides functionality to work with enumerables.
+  example: []
+  syntax:
+    content: public static class EnumerableExtensions
+    content.vb: Public Module EnumerableExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Heleonix.Extensions.EnumerableExtensions.IsEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  commentId: M:Heleonix.Extensions.EnumerableExtensions.IsEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  id: IsEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  isExtensionMethod: true
+  parent: Heleonix.Extensions.EnumerableExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsEmpty<T>(IEnumerable<T>)
+  nameWithType: EnumerableExtensions.IsEmpty<T>(IEnumerable<T>)
+  fullName: Heleonix.Extensions.EnumerableExtensions.IsEmpty<T>(System.Collections.Generic.IEnumerable<T>)
+  type: Method
+  assemblies:
+  - Heleonix.Extensions
+  namespace: Heleonix.Extensions
+  summary: Determines whether this instance is empty.
+  example: []
+  syntax:
+    content: public static bool IsEmpty<T>(this IEnumerable<T> instance)
+    parameters:
+    - id: instance
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: The instance.
+    typeParameters:
+    - id: T
+      description: A type of items.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if the specified instance is empty; otherwise, <code>false</code>.
+    content.vb: Public Shared Function IsEmpty(Of T)(instance As IEnumerable(Of T)) As Boolean
+  overload: Heleonix.Extensions.EnumerableExtensions.IsEmpty*
+  nameWithType.vb: EnumerableExtensions.IsEmpty(Of T)(IEnumerable(Of T))
+  fullName.vb: Heleonix.Extensions.EnumerableExtensions.IsEmpty(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  name.vb: IsEmpty(Of T)(IEnumerable(Of T))
+- uid: Heleonix.Extensions.EnumerableExtensions.IsNullOrEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  commentId: M:Heleonix.Extensions.EnumerableExtensions.IsNullOrEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  id: IsNullOrEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  isExtensionMethod: true
+  parent: Heleonix.Extensions.EnumerableExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsNullOrEmpty<T>(IEnumerable<T>)
+  nameWithType: EnumerableExtensions.IsNullOrEmpty<T>(IEnumerable<T>)
+  fullName: Heleonix.Extensions.EnumerableExtensions.IsNullOrEmpty<T>(System.Collections.Generic.IEnumerable<T>)
+  type: Method
+  assemblies:
+  - Heleonix.Extensions
+  namespace: Heleonix.Extensions
+  summary: Determines whether this instance is <code>null</code> or empty.
+  example: []
+  syntax:
+    content: public static bool IsNullOrEmpty<T>(this IEnumerable<T> instance)
+    parameters:
+    - id: instance
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: The instance.
+    typeParameters:
+    - id: T
+      description: A type of items.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if this instance is <code>null</code> or empty, otherwise, <code>false</code>.
+    content.vb: Public Shared Function IsNullOrEmpty(Of T)(instance As IEnumerable(Of T)) As Boolean
+  overload: Heleonix.Extensions.EnumerableExtensions.IsNullOrEmpty*
+  nameWithType.vb: EnumerableExtensions.IsNullOrEmpty(Of T)(IEnumerable(Of T))
+  fullName.vb: Heleonix.Extensions.EnumerableExtensions.IsNullOrEmpty(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  name.vb: IsNullOrEmpty(Of T)(IEnumerable(Of T))
+references:
+- uid: Heleonix.Extensions
+  commentId: N:Heleonix.Extensions
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Extensions
+  nameWithType: Heleonix.Extensions
+  fullName: Heleonix.Extensions
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Extensions
+    name: Extensions
+    isExternal: true
+    href: Heleonix.Extensions.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Extensions
+    name: Extensions
+    isExternal: true
+    href: Heleonix.Extensions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Heleonix.Extensions.EnumerableExtensions.IsEmpty*
+  commentId: Overload:Heleonix.Extensions.EnumerableExtensions.IsEmpty
+  isExternal: true
+  href: Heleonix.Extensions.EnumerableExtensions.html#Heleonix_Extensions_EnumerableExtensions_IsEmpty__1_System_Collections_Generic_IEnumerable___0__
+  name: IsEmpty
+  nameWithType: EnumerableExtensions.IsEmpty
+  fullName: Heleonix.Extensions.EnumerableExtensions.IsEmpty
+- uid: System.Collections.Generic.IEnumerable{{T}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Heleonix.Extensions.EnumerableExtensions.IsNullOrEmpty*
+  commentId: Overload:Heleonix.Extensions.EnumerableExtensions.IsNullOrEmpty
+  isExternal: true
+  href: Heleonix.Extensions.EnumerableExtensions.html#Heleonix_Extensions_EnumerableExtensions_IsNullOrEmpty__1_System_Collections_Generic_IEnumerable___0__
+  name: IsNullOrEmpty
+  nameWithType: EnumerableExtensions.IsNullOrEmpty
+  fullName: Heleonix.Extensions.EnumerableExtensions.IsNullOrEmpty

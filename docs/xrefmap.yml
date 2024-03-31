@@ -329,6 +329,315 @@ references:
   commentId: Overload:Heleonix.Execution.ExeResult.ToString
   fullName: Heleonix.Execution.ExeResult.ToString
   nameWithType: ExeResult.ToString
+- uid: Heleonix.Extensions
+  name: Heleonix.Extensions
+  href: Heleonix.Extensions/Heleonix.Extensions.html
+  commentId: N:Heleonix.Extensions
+  fullName: Heleonix.Extensions
+  nameWithType: Heleonix.Extensions
+- uid: Heleonix.Extensions.ComparableExtensions
+  name: ComparableExtensions
+  href: Heleonix.Extensions/Heleonix.Extensions.ComparableExtensions.html
+  commentId: T:Heleonix.Extensions.ComparableExtensions
+  fullName: Heleonix.Extensions.ComparableExtensions
+  nameWithType: ComparableExtensions
+- uid: Heleonix.Extensions.ComparableExtensions.IsBetween*
+  name: IsBetween
+  href: Heleonix.Extensions/Heleonix.Extensions.ComparableExtensions.html#Heleonix_Extensions_ComparableExtensions_IsBetween_
+  commentId: Overload:Heleonix.Extensions.ComparableExtensions.IsBetween
+  fullName: Heleonix.Extensions.ComparableExtensions.IsBetween
+  nameWithType: ComparableExtensions.IsBetween
+- uid: Heleonix.Extensions.ComparableExtensions.IsBetween``1(System.IComparable{``0},``0,``0)
+  name: IsBetween<T>(IComparable<T>, T, T)
+  href: Heleonix.Extensions/Heleonix.Extensions.ComparableExtensions.html#Heleonix_Extensions_ComparableExtensions_IsBetween__1_System_IComparable___0____0___0_
+  commentId: M:Heleonix.Extensions.ComparableExtensions.IsBetween``1(System.IComparable{``0},``0,``0)
+  name.vb: IsBetween(Of T)(IComparable(Of T), T, T)
+  fullName: Heleonix.Extensions.ComparableExtensions.IsBetween<T>(System.IComparable<T>, T, T)
+  fullName.vb: Heleonix.Extensions.ComparableExtensions.IsBetween(Of T)(System.IComparable(Of T), T, T)
+  nameWithType: ComparableExtensions.IsBetween<T>(IComparable<T>, T, T)
+  nameWithType.vb: ComparableExtensions.IsBetween(Of T)(IComparable(Of T), T, T)
+- uid: Heleonix.Extensions.ComparableExtensions.IsGreaterThan*
+  name: IsGreaterThan
+  href: Heleonix.Extensions/Heleonix.Extensions.ComparableExtensions.html#Heleonix_Extensions_ComparableExtensions_IsGreaterThan_
+  commentId: Overload:Heleonix.Extensions.ComparableExtensions.IsGreaterThan
+  fullName: Heleonix.Extensions.ComparableExtensions.IsGreaterThan
+  nameWithType: ComparableExtensions.IsGreaterThan
+- uid: Heleonix.Extensions.ComparableExtensions.IsGreaterThanOrEqualTo*
+  name: IsGreaterThanOrEqualTo
+  href: Heleonix.Extensions/Heleonix.Extensions.ComparableExtensions.html#Heleonix_Extensions_ComparableExtensions_IsGreaterThanOrEqualTo_
+  commentId: Overload:Heleonix.Extensions.ComparableExtensions.IsGreaterThanOrEqualTo
+  fullName: Heleonix.Extensions.ComparableExtensions.IsGreaterThanOrEqualTo
+  nameWithType: ComparableExtensions.IsGreaterThanOrEqualTo
+- uid: Heleonix.Extensions.ComparableExtensions.IsGreaterThanOrEqualTo``1(System.IComparable{``0},``0)
+  name: IsGreaterThanOrEqualTo<T>(IComparable<T>, T)
+  href: Heleonix.Extensions/Heleonix.Extensions.ComparableExtensions.html#Heleonix_Extensions_ComparableExtensions_IsGreaterThanOrEqualTo__1_System_IComparable___0____0_
+  commentId: M:Heleonix.Extensions.ComparableExtensions.IsGreaterThanOrEqualTo``1(System.IComparable{``0},``0)
+  name.vb: IsGreaterThanOrEqualTo(Of T)(IComparable(Of T), T)
+  fullName: Heleonix.Extensions.ComparableExtensions.IsGreaterThanOrEqualTo<T>(System.IComparable<T>, T)
+  fullName.vb: Heleonix.Extensions.ComparableExtensions.IsGreaterThanOrEqualTo(Of T)(System.IComparable(Of T), T)
+  nameWithType: ComparableExtensions.IsGreaterThanOrEqualTo<T>(IComparable<T>, T)
+  nameWithType.vb: ComparableExtensions.IsGreaterThanOrEqualTo(Of T)(IComparable(Of T), T)
+- uid: Heleonix.Extensions.ComparableExtensions.IsGreaterThan``1(System.IComparable{``0},``0)
+  name: IsGreaterThan<T>(IComparable<T>, T)
+  href: Heleonix.Extensions/Heleonix.Extensions.ComparableExtensions.html#Heleonix_Extensions_ComparableExtensions_IsGreaterThan__1_System_IComparable___0____0_
+  commentId: M:Heleonix.Extensions.ComparableExtensions.IsGreaterThan``1(System.IComparable{``0},``0)
+  name.vb: IsGreaterThan(Of T)(IComparable(Of T), T)
+  fullName: Heleonix.Extensions.ComparableExtensions.IsGreaterThan<T>(System.IComparable<T>, T)
+  fullName.vb: Heleonix.Extensions.ComparableExtensions.IsGreaterThan(Of T)(System.IComparable(Of T), T)
+  nameWithType: ComparableExtensions.IsGreaterThan<T>(IComparable<T>, T)
+  nameWithType.vb: ComparableExtensions.IsGreaterThan(Of T)(IComparable(Of T), T)
+- uid: Heleonix.Extensions.ComparableExtensions.IsInRange*
+  name: IsInRange
+  href: Heleonix.Extensions/Heleonix.Extensions.ComparableExtensions.html#Heleonix_Extensions_ComparableExtensions_IsInRange_
+  commentId: Overload:Heleonix.Extensions.ComparableExtensions.IsInRange
+  fullName: Heleonix.Extensions.ComparableExtensions.IsInRange
+  nameWithType: ComparableExtensions.IsInRange
+- uid: Heleonix.Extensions.ComparableExtensions.IsInRange``1(System.IComparable{``0},``0,``0)
+  name: IsInRange<T>(IComparable<T>, T, T)
+  href: Heleonix.Extensions/Heleonix.Extensions.ComparableExtensions.html#Heleonix_Extensions_ComparableExtensions_IsInRange__1_System_IComparable___0____0___0_
+  commentId: M:Heleonix.Extensions.ComparableExtensions.IsInRange``1(System.IComparable{``0},``0,``0)
+  name.vb: IsInRange(Of T)(IComparable(Of T), T, T)
+  fullName: Heleonix.Extensions.ComparableExtensions.IsInRange<T>(System.IComparable<T>, T, T)
+  fullName.vb: Heleonix.Extensions.ComparableExtensions.IsInRange(Of T)(System.IComparable(Of T), T, T)
+  nameWithType: ComparableExtensions.IsInRange<T>(IComparable<T>, T, T)
+  nameWithType.vb: ComparableExtensions.IsInRange(Of T)(IComparable(Of T), T, T)
+- uid: Heleonix.Extensions.ComparableExtensions.IsLessThan*
+  name: IsLessThan
+  href: Heleonix.Extensions/Heleonix.Extensions.ComparableExtensions.html#Heleonix_Extensions_ComparableExtensions_IsLessThan_
+  commentId: Overload:Heleonix.Extensions.ComparableExtensions.IsLessThan
+  fullName: Heleonix.Extensions.ComparableExtensions.IsLessThan
+  nameWithType: ComparableExtensions.IsLessThan
+- uid: Heleonix.Extensions.ComparableExtensions.IsLessThanOrEqualTo*
+  name: IsLessThanOrEqualTo
+  href: Heleonix.Extensions/Heleonix.Extensions.ComparableExtensions.html#Heleonix_Extensions_ComparableExtensions_IsLessThanOrEqualTo_
+  commentId: Overload:Heleonix.Extensions.ComparableExtensions.IsLessThanOrEqualTo
+  fullName: Heleonix.Extensions.ComparableExtensions.IsLessThanOrEqualTo
+  nameWithType: ComparableExtensions.IsLessThanOrEqualTo
+- uid: Heleonix.Extensions.ComparableExtensions.IsLessThanOrEqualTo``1(System.IComparable{``0},``0)
+  name: IsLessThanOrEqualTo<T>(IComparable<T>, T)
+  href: Heleonix.Extensions/Heleonix.Extensions.ComparableExtensions.html#Heleonix_Extensions_ComparableExtensions_IsLessThanOrEqualTo__1_System_IComparable___0____0_
+  commentId: M:Heleonix.Extensions.ComparableExtensions.IsLessThanOrEqualTo``1(System.IComparable{``0},``0)
+  name.vb: IsLessThanOrEqualTo(Of T)(IComparable(Of T), T)
+  fullName: Heleonix.Extensions.ComparableExtensions.IsLessThanOrEqualTo<T>(System.IComparable<T>, T)
+  fullName.vb: Heleonix.Extensions.ComparableExtensions.IsLessThanOrEqualTo(Of T)(System.IComparable(Of T), T)
+  nameWithType: ComparableExtensions.IsLessThanOrEqualTo<T>(IComparable<T>, T)
+  nameWithType.vb: ComparableExtensions.IsLessThanOrEqualTo(Of T)(IComparable(Of T), T)
+- uid: Heleonix.Extensions.ComparableExtensions.IsLessThan``1(System.IComparable{``0},``0)
+  name: IsLessThan<T>(IComparable<T>, T)
+  href: Heleonix.Extensions/Heleonix.Extensions.ComparableExtensions.html#Heleonix_Extensions_ComparableExtensions_IsLessThan__1_System_IComparable___0____0_
+  commentId: M:Heleonix.Extensions.ComparableExtensions.IsLessThan``1(System.IComparable{``0},``0)
+  name.vb: IsLessThan(Of T)(IComparable(Of T), T)
+  fullName: Heleonix.Extensions.ComparableExtensions.IsLessThan<T>(System.IComparable<T>, T)
+  fullName.vb: Heleonix.Extensions.ComparableExtensions.IsLessThan(Of T)(System.IComparable(Of T), T)
+  nameWithType: ComparableExtensions.IsLessThan<T>(IComparable<T>, T)
+  nameWithType.vb: ComparableExtensions.IsLessThan(Of T)(IComparable(Of T), T)
+- uid: Heleonix.Extensions.EnumerableExtensions
+  name: EnumerableExtensions
+  href: Heleonix.Extensions/Heleonix.Extensions.EnumerableExtensions.html
+  commentId: T:Heleonix.Extensions.EnumerableExtensions
+  fullName: Heleonix.Extensions.EnumerableExtensions
+  nameWithType: EnumerableExtensions
+- uid: Heleonix.Extensions.EnumerableExtensions.IsEmpty*
+  name: IsEmpty
+  href: Heleonix.Extensions/Heleonix.Extensions.EnumerableExtensions.html#Heleonix_Extensions_EnumerableExtensions_IsEmpty_
+  commentId: Overload:Heleonix.Extensions.EnumerableExtensions.IsEmpty
+  fullName: Heleonix.Extensions.EnumerableExtensions.IsEmpty
+  nameWithType: EnumerableExtensions.IsEmpty
+- uid: Heleonix.Extensions.EnumerableExtensions.IsEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  name: IsEmpty<T>(IEnumerable<T>)
+  href: Heleonix.Extensions/Heleonix.Extensions.EnumerableExtensions.html#Heleonix_Extensions_EnumerableExtensions_IsEmpty__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:Heleonix.Extensions.EnumerableExtensions.IsEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: IsEmpty(Of T)(IEnumerable(Of T))
+  fullName: Heleonix.Extensions.EnumerableExtensions.IsEmpty<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Heleonix.Extensions.EnumerableExtensions.IsEmpty(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: EnumerableExtensions.IsEmpty<T>(IEnumerable<T>)
+  nameWithType.vb: EnumerableExtensions.IsEmpty(Of T)(IEnumerable(Of T))
+- uid: Heleonix.Extensions.EnumerableExtensions.IsNullOrEmpty*
+  name: IsNullOrEmpty
+  href: Heleonix.Extensions/Heleonix.Extensions.EnumerableExtensions.html#Heleonix_Extensions_EnumerableExtensions_IsNullOrEmpty_
+  commentId: Overload:Heleonix.Extensions.EnumerableExtensions.IsNullOrEmpty
+  fullName: Heleonix.Extensions.EnumerableExtensions.IsNullOrEmpty
+  nameWithType: EnumerableExtensions.IsNullOrEmpty
+- uid: Heleonix.Extensions.EnumerableExtensions.IsNullOrEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  name: IsNullOrEmpty<T>(IEnumerable<T>)
+  href: Heleonix.Extensions/Heleonix.Extensions.EnumerableExtensions.html#Heleonix_Extensions_EnumerableExtensions_IsNullOrEmpty__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:Heleonix.Extensions.EnumerableExtensions.IsNullOrEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: IsNullOrEmpty(Of T)(IEnumerable(Of T))
+  fullName: Heleonix.Extensions.EnumerableExtensions.IsNullOrEmpty<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Heleonix.Extensions.EnumerableExtensions.IsNullOrEmpty(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: EnumerableExtensions.IsNullOrEmpty<T>(IEnumerable<T>)
+  nameWithType.vb: EnumerableExtensions.IsNullOrEmpty(Of T)(IEnumerable(Of T))
+- uid: Heleonix.Extensions.ObjectExtensions
+  name: ObjectExtensions
+  href: Heleonix.Extensions/Heleonix.Extensions.ObjectExtensions.html
+  commentId: T:Heleonix.Extensions.ObjectExtensions
+  fullName: Heleonix.Extensions.ObjectExtensions
+  nameWithType: ObjectExtensions
+- uid: Heleonix.Extensions.ObjectExtensions.IsAs(System.Object,System.Type)
+  name: IsAs(object, Type)
+  href: Heleonix.Extensions/Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsAs_System_Object_System_Type_
+  commentId: M:Heleonix.Extensions.ObjectExtensions.IsAs(System.Object,System.Type)
+  name.vb: IsAs(Object, Type)
+  fullName: Heleonix.Extensions.ObjectExtensions.IsAs(object, System.Type)
+  fullName.vb: Heleonix.Extensions.ObjectExtensions.IsAs(Object, System.Type)
+  nameWithType: ObjectExtensions.IsAs(object, Type)
+  nameWithType.vb: ObjectExtensions.IsAs(Object, Type)
+- uid: Heleonix.Extensions.ObjectExtensions.IsAs*
+  name: IsAs
+  href: Heleonix.Extensions/Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsAs_
+  commentId: Overload:Heleonix.Extensions.ObjectExtensions.IsAs
+  fullName: Heleonix.Extensions.ObjectExtensions.IsAs
+  nameWithType: ObjectExtensions.IsAs
+- uid: Heleonix.Extensions.ObjectExtensions.IsEqualTo(System.Object,System.Object)
+  name: IsEqualTo(object, object)
+  href: Heleonix.Extensions/Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsEqualTo_System_Object_System_Object_
+  commentId: M:Heleonix.Extensions.ObjectExtensions.IsEqualTo(System.Object,System.Object)
+  name.vb: IsEqualTo(Object, Object)
+  fullName: Heleonix.Extensions.ObjectExtensions.IsEqualTo(object, object)
+  fullName.vb: Heleonix.Extensions.ObjectExtensions.IsEqualTo(Object, Object)
+  nameWithType: ObjectExtensions.IsEqualTo(object, object)
+  nameWithType.vb: ObjectExtensions.IsEqualTo(Object, Object)
+- uid: Heleonix.Extensions.ObjectExtensions.IsEqualTo*
+  name: IsEqualTo
+  href: Heleonix.Extensions/Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsEqualTo_
+  commentId: Overload:Heleonix.Extensions.ObjectExtensions.IsEqualTo
+  fullName: Heleonix.Extensions.ObjectExtensions.IsEqualTo
+  nameWithType: ObjectExtensions.IsEqualTo
+- uid: Heleonix.Extensions.ObjectExtensions.IsNegative(System.Object)
+  name: IsNegative(object)
+  href: Heleonix.Extensions/Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsNegative_System_Object_
+  commentId: M:Heleonix.Extensions.ObjectExtensions.IsNegative(System.Object)
+  name.vb: IsNegative(Object)
+  fullName: Heleonix.Extensions.ObjectExtensions.IsNegative(object)
+  fullName.vb: Heleonix.Extensions.ObjectExtensions.IsNegative(Object)
+  nameWithType: ObjectExtensions.IsNegative(object)
+  nameWithType.vb: ObjectExtensions.IsNegative(Object)
+- uid: Heleonix.Extensions.ObjectExtensions.IsNegative*
+  name: IsNegative
+  href: Heleonix.Extensions/Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsNegative_
+  commentId: Overload:Heleonix.Extensions.ObjectExtensions.IsNegative
+  fullName: Heleonix.Extensions.ObjectExtensions.IsNegative
+  nameWithType: ObjectExtensions.IsNegative
+- uid: Heleonix.Extensions.ObjectExtensions.IsNull(System.Object)
+  name: IsNull(object)
+  href: Heleonix.Extensions/Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsNull_System_Object_
+  commentId: M:Heleonix.Extensions.ObjectExtensions.IsNull(System.Object)
+  name.vb: IsNull(Object)
+  fullName: Heleonix.Extensions.ObjectExtensions.IsNull(object)
+  fullName.vb: Heleonix.Extensions.ObjectExtensions.IsNull(Object)
+  nameWithType: ObjectExtensions.IsNull(object)
+  nameWithType.vb: ObjectExtensions.IsNull(Object)
+- uid: Heleonix.Extensions.ObjectExtensions.IsNull*
+  name: IsNull
+  href: Heleonix.Extensions/Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsNull_
+  commentId: Overload:Heleonix.Extensions.ObjectExtensions.IsNull
+  fullName: Heleonix.Extensions.ObjectExtensions.IsNull
+  nameWithType: ObjectExtensions.IsNull
+- uid: Heleonix.Extensions.ObjectExtensions.IsOne(System.Object)
+  name: IsOne(object)
+  href: Heleonix.Extensions/Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsOne_System_Object_
+  commentId: M:Heleonix.Extensions.ObjectExtensions.IsOne(System.Object)
+  name.vb: IsOne(Object)
+  fullName: Heleonix.Extensions.ObjectExtensions.IsOne(object)
+  fullName.vb: Heleonix.Extensions.ObjectExtensions.IsOne(Object)
+  nameWithType: ObjectExtensions.IsOne(object)
+  nameWithType.vb: ObjectExtensions.IsOne(Object)
+- uid: Heleonix.Extensions.ObjectExtensions.IsOne*
+  name: IsOne
+  href: Heleonix.Extensions/Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsOne_
+  commentId: Overload:Heleonix.Extensions.ObjectExtensions.IsOne
+  fullName: Heleonix.Extensions.ObjectExtensions.IsOne
+  nameWithType: ObjectExtensions.IsOne
+- uid: Heleonix.Extensions.ObjectExtensions.IsPositive(System.Object)
+  name: IsPositive(object)
+  href: Heleonix.Extensions/Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsPositive_System_Object_
+  commentId: M:Heleonix.Extensions.ObjectExtensions.IsPositive(System.Object)
+  name.vb: IsPositive(Object)
+  fullName: Heleonix.Extensions.ObjectExtensions.IsPositive(object)
+  fullName.vb: Heleonix.Extensions.ObjectExtensions.IsPositive(Object)
+  nameWithType: ObjectExtensions.IsPositive(object)
+  nameWithType.vb: ObjectExtensions.IsPositive(Object)
+- uid: Heleonix.Extensions.ObjectExtensions.IsPositive*
+  name: IsPositive
+  href: Heleonix.Extensions/Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsPositive_
+  commentId: Overload:Heleonix.Extensions.ObjectExtensions.IsPositive
+  fullName: Heleonix.Extensions.ObjectExtensions.IsPositive
+  nameWithType: ObjectExtensions.IsPositive
+- uid: Heleonix.Extensions.ObjectExtensions.IsTypeOf(System.Object,System.Type)
+  name: IsTypeOf(object, Type)
+  href: Heleonix.Extensions/Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsTypeOf_System_Object_System_Type_
+  commentId: M:Heleonix.Extensions.ObjectExtensions.IsTypeOf(System.Object,System.Type)
+  name.vb: IsTypeOf(Object, Type)
+  fullName: Heleonix.Extensions.ObjectExtensions.IsTypeOf(object, System.Type)
+  fullName.vb: Heleonix.Extensions.ObjectExtensions.IsTypeOf(Object, System.Type)
+  nameWithType: ObjectExtensions.IsTypeOf(object, Type)
+  nameWithType.vb: ObjectExtensions.IsTypeOf(Object, Type)
+- uid: Heleonix.Extensions.ObjectExtensions.IsTypeOf*
+  name: IsTypeOf
+  href: Heleonix.Extensions/Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsTypeOf_
+  commentId: Overload:Heleonix.Extensions.ObjectExtensions.IsTypeOf
+  fullName: Heleonix.Extensions.ObjectExtensions.IsTypeOf
+  nameWithType: ObjectExtensions.IsTypeOf
+- uid: Heleonix.Extensions.ObjectExtensions.IsZero(System.Object)
+  name: IsZero(object)
+  href: Heleonix.Extensions/Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsZero_System_Object_
+  commentId: M:Heleonix.Extensions.ObjectExtensions.IsZero(System.Object)
+  name.vb: IsZero(Object)
+  fullName: Heleonix.Extensions.ObjectExtensions.IsZero(object)
+  fullName.vb: Heleonix.Extensions.ObjectExtensions.IsZero(Object)
+  nameWithType: ObjectExtensions.IsZero(object)
+  nameWithType.vb: ObjectExtensions.IsZero(Object)
+- uid: Heleonix.Extensions.ObjectExtensions.IsZero*
+  name: IsZero
+  href: Heleonix.Extensions/Heleonix.Extensions.ObjectExtensions.html#Heleonix_Extensions_ObjectExtensions_IsZero_
+  commentId: Overload:Heleonix.Extensions.ObjectExtensions.IsZero
+  fullName: Heleonix.Extensions.ObjectExtensions.IsZero
+  nameWithType: ObjectExtensions.IsZero
+- uid: Heleonix.Extensions.StringExtensions
+  name: StringExtensions
+  href: Heleonix.Extensions/Heleonix.Extensions.StringExtensions.html
+  commentId: T:Heleonix.Extensions.StringExtensions
+  fullName: Heleonix.Extensions.StringExtensions
+  nameWithType: StringExtensions
+- uid: Heleonix.Extensions.StringExtensions.FormatWith(System.String,System.IFormatProvider,System.Object[])
+  name: FormatWith(string, IFormatProvider, params object[])
+  href: Heleonix.Extensions/Heleonix.Extensions.StringExtensions.html#Heleonix_Extensions_StringExtensions_FormatWith_System_String_System_IFormatProvider_System_Object___
+  commentId: M:Heleonix.Extensions.StringExtensions.FormatWith(System.String,System.IFormatProvider,System.Object[])
+  name.vb: FormatWith(String, IFormatProvider, ParamArray Object())
+  fullName: Heleonix.Extensions.StringExtensions.FormatWith(string, System.IFormatProvider, params object[])
+  fullName.vb: Heleonix.Extensions.StringExtensions.FormatWith(String, System.IFormatProvider, ParamArray Object())
+  nameWithType: StringExtensions.FormatWith(string, IFormatProvider, params object[])
+  nameWithType.vb: StringExtensions.FormatWith(String, IFormatProvider, ParamArray Object())
+- uid: Heleonix.Extensions.StringExtensions.FormatWith(System.String,System.Object[])
+  name: FormatWith(string, params object[])
+  href: Heleonix.Extensions/Heleonix.Extensions.StringExtensions.html#Heleonix_Extensions_StringExtensions_FormatWith_System_String_System_Object___
+  commentId: M:Heleonix.Extensions.StringExtensions.FormatWith(System.String,System.Object[])
+  name.vb: FormatWith(String, ParamArray Object())
+  fullName: Heleonix.Extensions.StringExtensions.FormatWith(string, params object[])
+  fullName.vb: Heleonix.Extensions.StringExtensions.FormatWith(String, ParamArray Object())
+  nameWithType: StringExtensions.FormatWith(string, params object[])
+  nameWithType.vb: StringExtensions.FormatWith(String, ParamArray Object())
+- uid: Heleonix.Extensions.StringExtensions.FormatWith*
+  name: FormatWith
+  href: Heleonix.Extensions/Heleonix.Extensions.StringExtensions.html#Heleonix_Extensions_StringExtensions_FormatWith_
+  commentId: Overload:Heleonix.Extensions.StringExtensions.FormatWith
+  fullName: Heleonix.Extensions.StringExtensions.FormatWith
+  nameWithType: StringExtensions.FormatWith
+- uid: Heleonix.Extensions.StringExtensions.IsNullOrEmptyOrWhiteSpace(System.String)
+  name: IsNullOrEmptyOrWhiteSpace(string)
+  href: Heleonix.Extensions/Heleonix.Extensions.StringExtensions.html#Heleonix_Extensions_StringExtensions_IsNullOrEmptyOrWhiteSpace_System_String_
+  commentId: M:Heleonix.Extensions.StringExtensions.IsNullOrEmptyOrWhiteSpace(System.String)
+  name.vb: IsNullOrEmptyOrWhiteSpace(String)
+  fullName: Heleonix.Extensions.StringExtensions.IsNullOrEmptyOrWhiteSpace(string)
+  fullName.vb: Heleonix.Extensions.StringExtensions.IsNullOrEmptyOrWhiteSpace(String)
+  nameWithType: StringExtensions.IsNullOrEmptyOrWhiteSpace(string)
+  nameWithType.vb: StringExtensions.IsNullOrEmptyOrWhiteSpace(String)
+- uid: Heleonix.Extensions.StringExtensions.IsNullOrEmptyOrWhiteSpace*
+  name: IsNullOrEmptyOrWhiteSpace
+  href: Heleonix.Extensions/Heleonix.Extensions.StringExtensions.html#Heleonix_Extensions_StringExtensions_IsNullOrEmptyOrWhiteSpace_
+  commentId: Overload:Heleonix.Extensions.StringExtensions.IsNullOrEmptyOrWhiteSpace
+  fullName: Heleonix.Extensions.StringExtensions.IsNullOrEmptyOrWhiteSpace
+  nameWithType: StringExtensions.IsNullOrEmptyOrWhiteSpace
 - uid: Heleonix.Guard
   name: Heleonix.Guard
   href: Heleonix.Guard/Heleonix.Guard.html

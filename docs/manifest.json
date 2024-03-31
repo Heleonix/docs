@@ -1,5 +1,5 @@
 {
-  "source_base_path": "D:/a/Heleonix.Guard/Heleonix.Guard/Hx_Artifacts/DocFX",
+  "source_base_path": "D:/a/Heleonix.Extensions/Heleonix.Extensions/Hx_Artifacts/DocFX",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -450,11 +450,74 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "Heleonix.Extensions/Heleonix.Extensions.ComparableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Extensions/Heleonix.Extensions.ComparableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Heleonix.Extensions/Heleonix.Extensions.EnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Extensions/Heleonix.Extensions.EnumerableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Heleonix.Extensions/Heleonix.Extensions.ObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Extensions/Heleonix.Extensions.ObjectExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Heleonix.Extensions/Heleonix.Extensions.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Extensions/Heleonix.Extensions.StringExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Heleonix.Extensions/Heleonix.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Extensions/Heleonix.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "Heleonix.Extensions/index.md",
       "output": {
         ".html": {
           "relative_path": "Heleonix.Extensions/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Heleonix.Extensions/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Extensions/toc.html"
+        },
+        ".json": {
+          "relative_path": "Heleonix.Extensions/toc.json"
         }
       },
       "version": ""
