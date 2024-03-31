@@ -186,8 +186,8 @@
   },
   "Heleonix.Extensions/index.html": {
     "href": "Heleonix.Extensions/index.html",
-    "title": "PLACEHOLDER | Heleonix",
-    "keywords": "PLACEHOLDER TODO: Add .NET projects to the src folder and run docfx to generate REAL API Documentation!"
+    "title": "Heleonix.Extensions | Heleonix",
+    "keywords": "Heleonix.Extensions Provides predicative and other useful extensions for objects, strings, enumerables etc. Install https://www.nuget.org/packages/Heleonix.Extensions API See <xref:Heleonix.Extensions> Contribution Guideline Create a fork from the main repository Implement whatever is needed Create a Pull Request. Make sure the assigned Checks pass successfully. Request review from the code owner Once approved, merge your Pull Request via Squash and merge IMPORTANT While merging, enter a Conventional Commits commit message. This commit message will be used in automatically generated Github Release Notes and NuGet Release Notes Monitor the Release: .NET / NuGet GitHub workflow to make sure your changes are delivered successfully In case of any issues, please contact heleonix.sln@gmail.com"
   },
   "Heleonix.Guard/index.html": {
     "href": "Heleonix.Guard/index.html",
