@@ -39,11 +39,9 @@ So, if you follow well-known standards too, you do not even neeed to write custo
    You can watch the progress in the [PR: .NET](https://github.com/Heleonix/Heleonix.Build/actions/workflows/pr-net.yml) GitHub workflows
 4. [Request review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review) from the code owner
 5. Once approved, merge your Pull Request via [Squash and merge](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges#squash-and-merge-your-commits)
-
    > **IMPORTANT**  
    > While merging, enter a [Conventional Commits](https://www.conventionalcommits.org/) commit message.
    > This commit message will be used in automatically generated [Github Release Notes](https://github.com/Heleonix/Heleonix.Build/releases)
    > and [NuGet Release Notes](https://www.nuget.org/packages/Heleonix.Build/#releasenotes-body-tab)
-
-5. Monitor the [Release: .NET / NuGet](https://github.com/Heleonix/Heleonix.Build/actions/workflows/release-net-nuget.yml) GitHub workflow to make sure your changes are delivered successfully
-5. In case of any issues, please contact [heleonix.sln@gmail.com](mailto:heleonix.sln@gmail.com)
+6. Monitor the [Release: .NET / NuGet](https://github.com/Heleonix/Heleonix.Build/actions/workflows/release-net-nuget.yml) GitHub workflow to make sure your changes are delivered successfully
+7. In case of any issues, please contact [heleonix.sln@gmail.com](mailto:heleonix.sln@gmail.com)
