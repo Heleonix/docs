@@ -1,5 +1,5 @@
 {
-  "source_base_path": "D:/a/Heleonix.Extensions/Heleonix.Extensions/Hx_Artifacts/DocFX",
+  "source_base_path": "D:/Dev/Projects/Heleonix/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -349,6 +349,16 @@
       "output": {
         "resource": {
           "relative_path": "Heleonix.Build/images/IntellisenseSchemas.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Heleonix.Build/images/TryItExample.png",
+      "output": {
+        "resource": {
+          "relative_path": "Heleonix.Build/images/TryItExample.png"
         }
       },
       "version": ""
