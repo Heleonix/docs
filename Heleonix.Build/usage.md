@@ -137,3 +137,21 @@ as shown below:
 
 * Use slash `/` in paths in MSBuild properties and items, not backslash `\`. MSBuild replaces them on *nix OSs anyway.
 * Use slash `/` in path-related regular expressions in [Tasks](api/Tasks/index.md).
+
+## Try It
+
+The example below demonstrates how the build framework can be used.
+
+1. Install [Heleonix.Build](index.md#install) as a global .NET tool: `dotnet tool install Heleonix.Build -g`
+2. Clone a simple repository, i.e.: `git clone https://github.com/Heleonix/Heleonix.Guard.git`
+3. Change the current working directory to the directory with the cloned repository
+4. Run `hxbuild -t:Hx_NetValidate` and see that projects were validated with the default regular expressions
+   to verify the [default packages](xref:Hx_NetValidate) are set as package references.
+5. Run `hxbuild -t:Hx_NetBuild` and see output in the `Hx_Artifacts/NetBuild` directory
+6. Run `hxbuild -t:Hx_NetTest` and see output in the `Hx_Artifacts/NetTest` directory
+7. Run `hxbuild -t:Hx_ExtentReport` and see output in the `Hx_Artifacts/ExtentReport` directory
+8. Run `hxbuild -t:Hx_ReportGenerator` and see output in the `Hx_Artifacts/ReportGenerator` directory
+
+The default `Hx_Artifacts` directory looks as below:
+
+![TryItExample](images/TryItExample.png)

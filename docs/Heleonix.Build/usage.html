@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Heleonix/docs/blob/master/Heleonix.Build/usage.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/hennadiilu/docs/blob/master/Heleonix.Build/usage.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -218,6 +218,21 @@ as shown below:</p>
 <li>Use slash <code>/</code> in paths in MSBuild properties and items, not backslash <code>\</code>. MSBuild replaces them on *nix OSs anyway.</li>
 <li>Use slash <code>/</code> in path-related regular expressions in <a href="api/Tasks/index.html">Tasks</a>.</li>
 </ul>
+<h2 id="try-it">Try It</h2>
+<p>The example below demonstrates how the build framework can be used.</p>
+<ol>
+<li>Install <a href="index.html#install">Heleonix.Build</a> as a global .NET tool: <code>dotnet tool install Heleonix.Build -g</code></li>
+<li>Clone a simple repository, i.e.: <code>git clone https://github.com/Heleonix/Heleonix.Guard.git</code></li>
+<li>Change the current working directory to the directory with the cloned repository</li>
+<li>Run <code>hxbuild -t:Hx_NetValidate</code> and see that projects were validated with the default regular expressions
+to verify the <a class="xref" href="api/Targets/Hx_NetValidate.html">default packages</a> are set as package references.</li>
+<li>Run <code>hxbuild -t:Hx_NetBuild</code> and see output in the <code>Hx_Artifacts/NetBuild</code> directory</li>
+<li>Run <code>hxbuild -t:Hx_NetTest</code> and see output in the <code>Hx_Artifacts/NetTest</code> directory</li>
+<li>Run <code>hxbuild -t:Hx_ExtentReport</code> and see output in the <code>Hx_Artifacts/ExtentReport</code> directory</li>
+<li>Run <code>hxbuild -t:Hx_ReportGenerator</code> and see output in the <code>Hx_Artifacts/ReportGenerator</code> directory</li>
+</ol>
+<p>The default <code>Hx_Artifacts</code> directory looks as below:</p>
+<p><img src="images/TryItExample.png" alt="TryItExample"></p>
 
 </article>
 
