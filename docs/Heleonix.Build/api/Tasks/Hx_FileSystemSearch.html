@@ -96,7 +96,7 @@
 <h4 id="types">Types</h4>
 <p>Types of items to search: 'Files', 'Directories', 'All'. Default is 'All'.</p>
 <h4 id="pathregexp">PathRegExp</h4>
-<p>The .NET regular expression to include found paths. Use only '/' for path separators.</p>
+<p>The .NET regular expression to include found paths. Use only '/' for path separators. If 'Direction' is 'Down', then this regular expression is evaluated against the path starting from the 'StartDir. I.e. if 'StartDir' is 'D:/Dev/Repo' and the checked folder is 'D:/Dev/Repo/sub/folder', then the regular expression is executed against '/sub/folder', so the 'StartDir' is trimmed.</p>
 <h4 id="pathregexpoptions">PathRegExpOptions</h4>
 <p>The .NET regular expression options to include found paths. Default is 'IgnoreCase'.</p>
 <h4 id="contentregexp">ContentRegExp</h4>
