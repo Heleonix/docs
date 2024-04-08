@@ -87,23 +87,31 @@
         <article data-uid="Hx_ChangeLog_GitHubCommit">
 <h1 id="hx_changelog_githubcommit">Hx_ChangeLog_GitHubCommit</h1>
 
-<p>Calculates a new release version and generates change log files from GitHub commit messages, which are parsed with regular expressions. By default, it calculates a new release semantic version and change log messages using regular expressions for parsing. By default it recognizes <a href="https://www.conventionalcommits.org">https://www.conventionalcommits.org</a>, but it's welcome to specify custom regular expressions to recognize custom project/company specific formats of commit messages.</p>
+<p>Calculates a new release version and generates change log files from GitHub commit messages,
+which are parsed with regular expressions. By default, it calculates a new release semantic version and
+change log messages using regular expressions for parsing.
+By default it recognizes <a href="https://www.conventionalcommits.org">https://www.conventionalcommits.org</a>, but it's welcome to specify custom regular
+expressions to recognize custom project/company specific formats of commit messages.</p>
 <h2 id="properties">Properties</h2>
 <h4 id="hx_changelog_githubcommit_token">Hx_ChangeLog_GitHubCommit_Token</h4>
 <p>A GitHub access token to authorize to the GitHub Releases API.</p>
 <h4 id="hx_changelog_githubcommit_versiontagregexp">Hx_ChangeLog_GitHubCommit_VersionTagRegExp</h4>
-<p>A regular expression to extract a version from a tag name of the latest release. Default regular expression parses versions in the format '11.22.33'.</p>
+<p>A regular expression to extract a version from a tag name of the latest release.
+Default regular expression parses versions in the format '11.22.33'.</p>
 <h4 id="hx_changelog_githubcommit_majorchangeregexp">Hx_ChangeLog_GitHubCommit_MajorChangeRegExp</h4>
-<p>A regular expression to identify a major change. Default is a regexp to identify a major change of Conventional Commits: <a href="https://www.conventionalcommits.org">https://www.conventionalcommits.org</a>.</p>
+<p>A regular expression to identify a major change.
+Default is a regexp to identify a major change of Conventional Commits: <a href="https://www.conventionalcommits.org">https://www.conventionalcommits.org</a>.</p>
 <h4 id="hx_changelog_githubcommit_minorchangeregexp">Hx_ChangeLog_GitHubCommit_MinorChangeRegExp</h4>
-<p>A regular expression to identify a minor change. Default is a regexp to identify a minor change of Conventional Commits: <a href="https://www.conventionalcommits.org">https://www.conventionalcommits.org</a>.</p>
+<p>A regular expression to identify a minor change.
+Default is a regexp to identify a minor change of Conventional Commits: <a href="https://www.conventionalcommits.org">https://www.conventionalcommits.org</a>.</p>
 <h4 id="hx_changelog_githubcommit_patchchangeregexp">Hx_ChangeLog_GitHubCommit_PatchChangeRegExp</h4>
-<p>A regular expression to identify a patch change. Default is a regexp to identify a patch change of Conventional Commits: <a href="https://www.conventionalcommits.org">https://www.conventionalcommits.org</a>.</p>
+<p>A regular expression to identify a patch change.
+Default is a regexp to identify a patch change of Conventional Commits: <a href="https://www.conventionalcommits.org">https://www.conventionalcommits.org</a>.</p>
 <h4 id="hx_changelog_githubcommit_changelogregexp">Hx_ChangeLog_GitHubCommit_ChangeLogRegExp</h4>
-<p>A regular expression to capture a change for the change log. Default is a regexp to identify changes of Conventional Commits: <a href="https://www.conventionalcommits.org">https://www.conventionalcommits.org</a>.</p>
+<p>A regular expression to capture a change for the change log.
+Default is a regexp to identify changes of Conventional Commits: <a href="https://www.conventionalcommits.org">https://www.conventionalcommits.org</a>.</p>
 <h4 id="hx_changelog_githubcommit_regexpoptions">Hx_ChangeLog_GitHubCommit_RegExpOptions</h4>
 <p>The .NET regular expression options for the regexp patterns. Default is 'None'.</p>
-<h2 id="items">Items</h2>
 
 </article>
 

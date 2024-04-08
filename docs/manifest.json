@@ -812,6 +812,39 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "Plugins/Heleonix.Docfx.Plugins.XmlDoc.md",
+      "output": {
+        ".html": {
+          "relative_path": "Plugins/Heleonix.Docfx.Plugins.XmlDoc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Plugins/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Plugins/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Plugins/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Plugins/toc.html"
+        },
+        ".json": {
+          "relative_path": "Plugins/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Resource",
       "source_relative_path": "images/heleonix-logos/Heleonix-2048x2048.jpg",
       "output": {

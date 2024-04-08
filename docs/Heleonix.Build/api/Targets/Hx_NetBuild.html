@@ -87,7 +87,12 @@
         <article data-uid="Hx_NetBuild">
 <h1 id="hx_netbuild">Hx_NetBuild</h1>
 
-<p>The target performs building of the specified solution file. It deletes specified extra files, deletes speified extra folders, cleans specified extra folders, runs the 'Restore' and then 'Clean' MSBuild targets, runs 'Restore' and then 'Build' MSBuild targets. Afterwards, the target copies .sln, 'bin' and 'obj' folders, *.props, *.*proj and custom artifacts files to the artifacts directory, which then can be uploaded to artifacts storage and then re-used by other targets, i.e. 'Hx_NetTest', 'Hx_NetNugetPush' etc.</p>
+<p>The target performs building of the specified solution file.
+It deletes specified extra files, deletes speified extra folders, cleans specified extra folders,
+runs the 'Restore' and then 'Clean' MSBuild targets, runs 'Restore' and then 'Build' MSBuild targets.
+Afterwards, the target copies .sln, 'bin' and 'obj' folders, *.props, *.*proj and custom artifacts files
+to the artifacts directory, which then can be uploaded to artifacts storage and then re-used by other targets,
+i.e. 'Hx_NetTest', 'Hx_NetNugetPush' etc.</p>
 <h2 id="properties">Properties</h2>
 <h4 id="hx_netbuild_artifactsdir">Hx_NetBuild_ArtifactsDir</h4>
 <p>A path to the NetBuild artifacts directory. Default is '$Hx_Run_ArtifactsDir/NetBuild'.</p>
@@ -96,11 +101,14 @@
 <h4 id="hx_netbuild_snkfile">Hx_NetBuild_SnkFile</h4>
 <p>The file with public/private keys pair to sign assemblies, if specified.</p>
 <h4 id="hx_netbuild_version">Hx_NetBuild_Version</h4>
-<p>The semantic version. It is passed as '/p:Version' property to the 'Build' target. Default is a version retrieved from '$Hx_ChangeLog_ArtifactsDir/semver.txt'.</p>
+<p>The semantic version. It is passed as '/p:Version' property to the 'Build' target.
+Default is a version retrieved from '$Hx_ChangeLog_ArtifactsDir/semver.txt'.</p>
 <h4 id="hx_netbuild_assemblyversion">Hx_NetBuild_AssemblyVersion</h4>
-<p>The .NET Assembly version, like '1.0.0.0'. It is passed as '/p:AssemblyVersion' property to the Build target. Default version is composed as '$Hx_NetBuild_Version.$Hx_Run_Number'.</p>
+<p>The .NET Assembly version, like '1.0.0.0'. It is passed as '/p:AssemblyVersion' property to the Build target.
+Default version is composed as '$Hx_NetBuild_Version.$Hx_Run_Number'.</p>
 <h4 id="hx_netbuild_releasenotesfile">Hx_NetBuild_ReleaseNotesFile</h4>
-<p>A text file with package release notes. It is passed as /p:PackageReleaseNotes property into the Build target. Default is '$Hx_ChangeLog_ArtifactsDir/ReleaseNotes.txt'.</p>
+<p>A text file with package release notes. It is passed as /p:PackageReleaseNotes property into the Build target.
+Default is '$Hx_ChangeLog_ArtifactsDir/ReleaseNotes.txt'.</p>
 <h2 id="items">Items</h2>
 <h4 id="hx_netbuild_deletefiles">Hx_NetBuild_DeleteFiles</h4>
 <p>Custom extra files to delete during cleaning.</p>

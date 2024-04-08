@@ -4,6 +4,9 @@ references:
 - uid: Heleonix.Build
   name: Heleonix.Build
   href: Heleonix.Build/api/Heleonix.Build.html
+- uid: Heleonix.Docfx.Plugins.XmlDoc
+  name: Heleonix.Docfx.Plugins.XmlDoc
+  href: Plugins/Heleonix.Docfx.Plugins.XmlDoc.html
 - uid: Heleonix.Execution
   name: Heleonix.Execution
   href: Heleonix.Execution/Heleonix.Execution.html

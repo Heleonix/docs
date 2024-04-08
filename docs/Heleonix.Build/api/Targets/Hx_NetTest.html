@@ -87,16 +87,27 @@
         <article data-uid="Hx_NetTest">
 <h1 id="hx_nettest">Hx_NetTest</h1>
 
-<p>Runs the 'dotnet test' command against the specified test files. By default, runs 'XPlat Code Coverage' with NUnit test logger <a href="https://www.nuget.org/packages/NunitXml.TestLogger">https://www.nuget.org/packages/NunitXml.TestLogger</a>. The target internally converts the generated test coverage into XMLSummary using the 'ReportGenerator' tool, and verifies the specified thresholds of source code coverage. This target also replaces source code paths using the specified regular expressions in generated *.info, *.xml, *.json files with persistent paths, i.e. paths of source code files on the particular build agent with corresponding GitHub urls, so generated test or coverage reports become portable. Such solution is flexible to support different formats of test or coverage files and different persistent paths, like GitHub, GitLab, SVN etc.</p>
+<p>Runs the 'dotnet test' command against the specified test files. By default, runs 'XPlat Code Coverage'
+with NUnit test logger <a href="https://www.nuget.org/packages/NunitXml.TestLogger">https://www.nuget.org/packages/NunitXml.TestLogger</a>.
+The target internally converts the generated test coverage into XMLSummary using the 'ReportGenerator' tool,
+and verifies the specified thresholds of source code coverage.
+This target also replaces source code paths using the specified regular expressions
+in generated *.info, *.xml, *.json files with persistent paths,
+i.e. paths of source code files on the particular build agent with corresponding GitHub urls,
+so generated test or coverage reports become portable. Such solution is flexible to support different
+formats of test or coverage files and different persistent paths, like GitHub, GitLab, SVN etc.</p>
 <h2 id="properties">Properties</h2>
 <h4 id="hx_nettest_artifactsdir">Hx_NetTest_ArtifactsDir</h4>
 <p>A path to the artifacts directory to store results in. Default is '$Hx_Run_ArtifactsDir/NetTest'.</p>
 <h4 id="hx_nettest_logger">Hx_NetTest_Logger</h4>
-<p>Specifies a logger for test results and switches for the logger, i.e.: &quot;trx;logfilename=TestResults.trx&quot;. Default is &quot;nunit;LogFileName=NUnitTestResults.xml&quot;.</p>
+<p>Specifies a logger for test results and switches for the logger, i.e.: &quot;trx;logfilename=TestResults.trx&quot;.
+Default is &quot;nunit;LogFileName=NUnitTestResults.xml&quot;.</p>
 <h4 id="hx_nettest_collect">Hx_NetTest_Collect</h4>
-<p>Specifies a data collector, i.e.: 'XPlat Code Coverage;Format=json,lcov,cobertura'. Default is 'XPlat Code Coverage' if $Hx_NetTest_VerifyCoverage is 'true' and $Hx_NetTest_RunSettingsFile is not specified/found.</p>
+<p>Specifies a data collector, i.e.: 'XPlat Code Coverage;Format=json,lcov,cobertura'.
+Default is 'XPlat Code Coverage' if $Hx_NetTest_VerifyCoverage is 'true' and $Hx_NetTest_RunSettingsFile is not specified/found.</p>
 <h4 id="hx_nettest_runsettingsfile">Hx_NetTest_RunSettingsFile</h4>
-<p>The *.runsettings file to use for running the tests. The $Hx_NetBuild_ArtifactsDir is discovered to find a *.runsettings file if the file is not specified.</p>
+<p>The *.runsettings file to use for running the tests.
+The $Hx_NetBuild_ArtifactsDir is discovered to find a *.runsettings file if the file is not specified.</p>
 <h4 id="hx_nettest_filter">Hx_NetTest_Filter</h4>
 <p>Filters tests using the given expression: <property>&lt;= != ~ !~&gt;<value>[ | &amp; <expression>].</expression></value></property></p>
 <h4 id="hx_nettest_adapterdir">Hx_NetTest_AdapterDir</h4>
@@ -104,7 +115,8 @@
 <h4 id="hx_nettest_diagfile">Hx_NetTest_DiagFile</h4>
 <p>Enables diagnostic mode for the test platform and writes diagnostic messages to the specified file and to files next to it.</p>
 <h4 id="hx_nettest_verbosity">Hx_NetTest_Verbosity</h4>
-<p>Sets the verbosity level of the command. Allowed values are q[uiet], m[inimal], n[ormal], d[etailed], diag[nostic]. Default is 'minimal'.</p>
+<p>Sets the verbosity level of the command. Allowed values are q[uiet], m[inimal], n[ormal], d[etailed], diag[nostic].
+Default is 'minimal'.</p>
 <h4 id="hx_nettest_sourcepathregexpoptions">Hx_NetTest_SourcePathRegExpOptions</h4>
 <p>The .NET regular expression options to apply to the $Hx_NetTest_SourcePathRegExp. Default is 'Multiline'.</p>
 <h4 id="hx_nettest_verifycoverage">Hx_NetTest_VerifyCoverage</h4>
@@ -117,11 +129,16 @@
 <p>The minimum method coverage 0% - 100% to pass the target. Default is 100.</p>
 <h2 id="items">Items</h2>
 <h4 id="hx_nettest_testfiles">Hx_NetTest_TestFiles</h4>
-<p>Inputs to run tests: .dll or .exe files containing tests, test projects .<em>proj or .sln. Default is a '$Hx_NetBuild_ArtifactsDir/</em>.sln'.</p>
+<p>Inputs to run tests: .dll or .exe files containing tests, test projects .<em>proj or .sln.
+Default is a '$Hx_NetBuild_ArtifactsDir/</em>.sln'.</p>
 <h4 id="hx_nettest_inlinerunsettings">Hx_NetTest_InlineRunSettings</h4>
-<p>Run settings to be passed as '-- ...' arguments to override those in a .runsettings file. Specify run settings as MSBuild item metadata. Use '_' instead of dots for nested parameters. Example: metadata &lt;MSTest_CaptureTraceOutput&gt;false&lt;/MSTest_CaptureTraceOutput&gt; becomes a 'MSTest.CaptureTraceOutput=false' argument.</p>
+<p>Run settings to be passed as '-- ...' arguments to override those in a .runsettings file.
+Specify run settings as MSBuild item metadata. Use '_' instead of dots for nested parameters.
+Example: metadata &lt;MSTest_CaptureTraceOutput&gt;false&lt;/MSTest_CaptureTraceOutput&gt; becomes a 'MSTest.CaptureTraceOutput=false' argument.</p>
 <h4 id="hx_nettest_sourcepathregexps">Hx_NetTest_SourcePathRegExps</h4>
-<p>.NET regular expressions to find source code paths in generated files with results and replace. Found paths are replaced with stable accessible paths, i.e. raw repository links etc. Specify stable accessible paths in the 'Replacement' metadata.</p>
+<p>.NET regular expressions to find source code paths in generated files with results and replace.
+Found paths are replaced with stable accessible paths, i.e. raw repository links etc.
+Specify stable accessible paths in the 'Replacement' metadata.</p>
 
 </article>
 
