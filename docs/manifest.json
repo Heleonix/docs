@@ -1,5 +1,5 @@
 {
-  "source_base_path": "D:/a/Heleonix.Build/Heleonix.Build/Hx_Artifacts/DocFX",
+  "source_base_path": "D:/a/Heleonix.Docfx.Plugins.XmlDoc/Heleonix.Docfx.Plugins.XmlDoc/Hx_Artifacts/DocFX",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
