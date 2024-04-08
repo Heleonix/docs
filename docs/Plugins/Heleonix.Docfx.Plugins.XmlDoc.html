@@ -1,0 +1,293 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Heleonix.Docfx.Plugins.XmlDoc | Heleonix </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Heleonix.Docfx.Plugins.XmlDoc | Heleonix ">
+      
+      
+      <link rel="icon" href="../images/heleonix-logos/Heleonix-favicon-128x128.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/hennadiilu/docs/blob/master/Plugins/Heleonix.Docfx.Plugins.XmlDoc.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/heleonix-logos/Heleonix-logo-64x64.jpg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Heleonix.Docfx.Plugins.XmlDoc">
+<h1 id="heleonixdocfxpluginsxmldoc">Heleonix.Docfx.Plugins.XmlDoc</h1>
+
+<p><a href="https://github.com/Heleonix/Heleonix.Docfx.Plugins.XmlDoc/actions/workflows/release-net-nuget.yml"><img src="https://github.com/Heleonix/Heleonix.Docfx.Plugins.XmlDoc/actions/workflows/release-net-nuget.yml/badge.svg" alt="Release: .NET / NuGet"></a></p>
+<p>The Docfx plugin to generate documentation from xml-based files via intermediate template transformations into Markdown.</p>
+<h2 id="install">Install</h2>
+<p><a href="https://www.nuget.org/packages/Heleonix.Docfx.Plugins.XmlDoc">https://www.nuget.org/packages/Heleonix.Docfx.Plugins.XmlDoc</a></p>
+<h2 id="usage">Usage</h2>
+<ol>
+<li>Install the plugin and make it accessible for <code>Docfx</code> as a custom template. See <a href="https://dotnet.github.io/docfx/tutorial/howto_build_your_own_type_of_documentation_with_custom_plug-in.html#enable-plug-in">How to enable plugins</a></li>
+<li>If needed, configure the plugin in the <code>Heleonix.Docfx.Plugins.XmlDoc.settings.json</code> located in the same folder as the
+<code>Heleonix.Docfx.Plugins.XmlDoc.dll</code>:
+<pre><code class="lang-json">{
+  &quot;SupportedFormats&quot;: [ &quot;.xml&quot;, &quot;.xsd&quot;, &quot;.yourformat&quot; ]
+}
+</code></pre>
+By default, <code>.xml</code> and <code>.xsd</code> file formats are recognized.</li>
+<li>Configure the <code>docfx.json</code> with the plugin features. See the <a href="#docfxjson">docfx.json</a>.</li>
+</ol>
+<h3 id="examples">Examples</h3>
+<h4 id="docfxjson">docfx.json</h4>
+<pre><code class="lang-json">{
+  &quot;build&quot;: {
+    &quot;content&quot;: [
+      {
+        &quot;files&quot;: [ &quot;**/*.{md,yml}&quot; ],
+        &quot;exclude&quot;: [ &quot;_site/**&quot; ]
+      },
+      {
+        &quot;files&quot;: [ &quot;*.xsd&quot; ],
+        &quot;src&quot;: &quot;../../some-external-location&quot;
+      },
+      {
+        &quot;files&quot;: [ &quot;internal-store-folder/*.xsd&quot; ]
+      }
+    ],
+    &quot;resource&quot;: [
+      {
+        &quot;files&quot;: [ &quot;images/**&quot; ]
+      }
+    ],
+    &quot;output&quot;: &quot;_site&quot;,
+    &quot;template&quot;: [
+      &quot;default&quot;,
+      &quot;templates/template-with-xmldoc-plugin&quot;
+    ],
+    &quot;fileMetadata&quot;: {
+      &quot;hx.xmldoc.template&quot;: { &quot;**.xsd&quot;: &quot;./xml-to-md.xslt&quot; },
+      &quot;hx.xmldoc.store&quot;: { &quot;../../some-external-location/*.xsd&quot;: &quot;internal-store-folder&quot; }
+      &quot;hx.xmldoc.toc&quot;: {
+        &quot;**/*-some.xsd&quot;: { &quot;action&quot;: &quot;InsertAfter&quot;, &quot;key&quot;: &quot;~/articles/introduction.md&quot; },
+        &quot;**/*-other.xsd&quot;: { &quot;action&quot;: &quot;AppendChild&quot;, &quot;key&quot;: &quot;Namespace.Class.whatever.uid&quot; }
+      }
+    }
+  }
+}
+</code></pre>
+<h4 id="input-xml-based-file-ie-hx_netbuildxsd">input xml-based file, i.e. Hx_NetBuild.xsd</h4>
+<pre><code class="lang-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+
+&lt;xs:schema xmlns:msb=&quot;http://schemas.microsoft.com/developer/msbuild/2003&quot;
+           elementFormDefault=&quot;qualified&quot;
+           targetNamespace=&quot;http://schemas.microsoft.com/developer/msbuild/2003&quot;
+           xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;xs:element name=&quot;Hx_NetBuild_ArtifactsDir&quot; type=&quot;msb:StringPropertyType&quot; substitutionGroup=&quot;msb:Property&quot;&gt;
+    &lt;xs:annotation&gt;
+      &lt;xs:documentation&gt;A path to the NetBuild artifacts directory.&lt;/xs:documentation&gt;
+    &lt;/xs:annotation&gt;
+  &lt;/xs:element&gt;
+  &lt;xs:element name=&quot;Hx_NetBuild_SlnFile&quot; type=&quot;msb:StringPropertyType&quot; substitutionGroup=&quot;msb:Property&quot;&gt;
+    &lt;xs:annotation&gt;
+      &lt;xs:documentation&gt;A path to the solution file to build. Default is a .sln file found in the $Hx_WS_Dir.&lt;/xs:documentation&gt;
+    &lt;/xs:annotation&gt;
+  &lt;/xs:element&gt;
+  &lt;xs:element name=&quot;Hx_NetBuild_SnkFile&quot; type=&quot;msb:StringPropertyType&quot; substitutionGroup=&quot;msb:Property&quot;&gt;
+    &lt;xs:annotation&gt;
+      &lt;xs:documentation&gt;The file with public/private keys pair to sign assemblies.&lt;/xs:documentation&gt;
+    &lt;/xs:annotation&gt;
+  &lt;/xs:element&gt;
+&lt;/xs:schema&gt;
+
+</code></pre>
+<h4 id="xslt-template">xslt template</h4>
+<pre><code class="lang-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;xsl:stylesheet version=&quot;1.0&quot;
+                xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot;
+                xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;
+             xmlns:msb=&quot;http://schemas.microsoft.com/developer/msbuild/2003&quot;&gt;
+  &lt;xsl:output method=&quot;text&quot; indent=&quot;no&quot;/&gt;
+  &lt;xsl:strip-space elements=&quot;*&quot;/&gt;
+  &lt;xsl:param name=&quot;filename&quot;/&gt;
+  &lt;xsl:template match=&quot;/&quot;&gt;
+# &lt;xsl:value-of select=&quot;$filename&quot;/&gt;
+### Properties
+&lt;xsl:for-each select=&quot;xs:schema/xs:element[@substitutionGroup='msb:Property']&quot;&gt;
+#### &lt;xsl:value-of select=&quot;@name&quot;/&gt;
+&lt;xsl:text&gt;&amp;#x0A;&amp;#x0A;&lt;/xsl:text&gt;
+  &lt;xsl:value-of select=&quot;normalize-space(xs:annotation/xs:documentation)&quot;/&gt;
+&lt;xsl:text&gt;&amp;#x0A;&lt;/xsl:text&gt;
+&lt;/xsl:for-each&gt;
+  &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+
+</code></pre>
+<h4 id="cshtml-template">cshtml template</h4>
+<pre><code class="lang-html">@using System
+@using System.IO
+@using System.Xml.Linq
+@inherits RazorEngineCore.RazorEngineTemplateBase&lt;XDocument&gt;
+@{
+    XDocument model = Model;
+    XNamespace xs = &quot;http://www.w3.org/2001/XMLSchema&quot;;
+
+    var fileName = Path.GetFileNameWithoutExtension(model.Document.BaseUri);
+    var elements = model.Document.Element(xs + &quot;schema&quot;).Elements(xs + &quot;element&quot;);
+    var props = elements.Where(e =&gt; e.Attribute(&quot;substitutionGroup&quot;)?.Value == &quot;msb:Property&quot;);
+}
+---
+uid: @fileName
+---
+
+# @fileName
+
+@if (props.Count() &gt; 0)
+{
+    &lt;text&gt;## Properties&lt;/text&gt;
+    @:
+    foreach (var prop in props)
+    {
+        &lt;text&gt;#### @prop.Attribute(&quot;name&quot;).Value&lt;/text&gt;
+        @:
+        &lt;text&gt;@prop.Element(xs + &quot;annotation&quot;).Element(xs + &quot;documentation&quot;).Value.Trim()&lt;/text&gt;
+        @:
+    }
+}
+</code></pre>
+<h4 id="markdown-output">markdown output</h4>
+<pre><code class="lang-markdown"># Hx_NetBuild
+### Properties
+
+#### Hx_NetBuild_ArtifactsDir
+
+A path to the NetBuild artifacts directory.
+
+#### Hx_NetBuild_SlnFile
+
+A path to the solution file to build. Default is a .sln file found in the $Hx_WS_Dir.
+
+#### Hx_NetBuild_SnkFile
+
+The file with public/private keys pair to sign assemblies.
+</code></pre>
+<h3 id="file-metadata">File Metadata</h3>
+<p><code>hx.xmldoc.template</code> - path to a template <code>.cshtml</code> or <code>.xslt</code> file to transform xml-based file to Markdown, which is then converted into output HTML by Docfx.</p>
+<p><code>hx.xmldoc.store</code> - a folder inside your documentation proejct, where the corresponding xml-based files are copied to
+and then used as source files to transform to intermediate markdown and generate output HTML from.
+This is useful, when original files are not always available, i.e. when your single documentation project is applied
+to different dotnet projects simultaneously to support multi-project documentation.
+It works like metadata files generated from .NET projects/dlls/xml documentation, where generated <code>yaml</code> metadata could
+be commited as part of your documentation project for future re-builds, when the original .NET project is not available.
+Hrefs to such files can be specified as <code>internal-store-folder/your-file.xsd</code>.</p>
+<p><code>hx.xmldoc.toc</code> - specifies where and how the your xml-based files should be added into Table Of Contents.</p>
+<p><code>hx.xmldoc.toc / action</code> - one of the <a href="https://github.com/dotnet/docfx/blob/main/src/Docfx.Plugins/TreeItemActionType.cs">TreeItemActionType</a></p>
+<p><code>hx.xmldoc.toc / key</code> - a TOC item key to apply the action. If the key starts with <code>~</code>, then it is used as Href, otherwise as Uid.</p>
+<h2 id="contribution-guideline">Contribution Guideline</h2>
+<ol>
+<li><a href="https://github.com/Heleonix/Heleonix.Docfx.Plugins.XmlDoc/fork">Create a fork</a> from the main repository</li>
+<li>Implement whatever is needed</li>
+<li><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork">Create a Pull Request</a>.
+Make sure the assigned <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks#checks">Checks</a> pass successfully.
+You can watch the progress in the <a href="https://github.com/Heleonix/Heleonix.Docfx.Plugins.XmlDoc/actions/workflows/pr-net.yml">PR: .NET</a> GitHub workflows</li>
+<li><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review">Request review</a> from the code owner</li>
+<li>Once approved, merge your Pull Request via <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges#squash-and-merge-your-commits">Squash and merge</a>
+<blockquote>
+<p><strong>IMPORTANT</strong><br>
+While merging, enter a <a href="https://www.conventionalcommits.org/">Conventional Commits</a> commit message.
+This commit message will be used in automatically generated <a href="https://github.com/Heleonix/Heleonix.Docfx.Plugins.XmlDoc/releases">Github Release Notes</a>
+and <a href="https://www.nuget.org/packages/Heleonix.Docfx.Plugins.XmlDoc/#releasenotes-body-tab">NuGet Release Notes</a></p>
+</blockquote>
+</li>
+<li>Monitor the <a href="https://github.com/Heleonix/Heleonix.Docfx.Plugins.XmlDoc/actions/workflows/release-net-nuget.yml">Release: .NET / NuGet</a> GitHub workflow to make sure your changes are delivered successfully</li>
+<li>In case of any issues, please contact <a href="mailto:heleonix.sln@gmail.com">heleonix.sln@gmail.com</a></li>
+</ol>
+
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

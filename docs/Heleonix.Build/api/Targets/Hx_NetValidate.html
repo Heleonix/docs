@@ -87,13 +87,17 @@
         <article data-uid="Hx_NetValidate">
 <h1 id="hx_netvalidate">Hx_NetValidate</h1>
 
-<p>This target verifies that every file satisfies all the regular expressions specified in its metadata. This is useful to verify that projects reference specific packages, or projects contain specific MSBuild properties, or any custom file contains required content.</p>
+<p>This target verifies that every file satisfies all the regular expressions specified in its metadata.
+This is useful to verify that projects reference specific packages,
+or projects contain specific MSBuild properties, or any custom file contains required content.</p>
 <h2 id="properties">Properties</h2>
 <h4 id="hx_netvalidate_regexpoptions">Hx_NetValidate_RegExpOptions</h4>
 <p>Regular expression options to use when executing validation for each @Hx_NetValidate_Files.</p>
 <h2 id="items">Items</h2>
 <h4 id="hx_netvalidate_files">Hx_NetValidate_Files</h4>
-<p>The list of files with regular expressions defined as metadata (metadata keys can be named in a free form) to validate. Defaults are project files, which must have the following packages: codecracker.CSharp, Microsoft.CodeAnalysis.NetAnalyzers, SecurityCodeScan.VS2019, SonarAnalyzer.CSharp, StyleCop.Analyzers.</p>
+<p>The list of files with regular expressions defined as metadata (metadata keys can be named in a free form) to validate.
+Defaults are project files, which must have the following packages:
+codecracker.CSharp, Microsoft.CodeAnalysis.NetAnalyzers, SecurityCodeScan.VS2019, SonarAnalyzer.CSharp, StyleCop.Analyzers.</p>
 
 </article>
 

@@ -87,7 +87,10 @@
         <article data-uid="Hx_NetNugetPush">
 <h1 id="hx_netnugetpush">Hx_NetNugetPush</h1>
 
-<p>Publishes specified package files to the specified NuGet registry using the 'dotnet nuget push' command. If no package files are specified, the target tries to find them in the $Hx_NetBuild_ArtifactsDir and if package files are not found, the target executes the MSBuild 'Pack' target against the solution file found in the $Hx_NetBuild_ArtifactsDir to generate package files.</p>
+<p>Publishes specified package files to the specified NuGet registry using the 'dotnet nuget push' command.
+If no package files are specified, the target tries to find them in the $Hx_NetBuild_ArtifactsDir
+and if package files are not found, the target executes the MSBuild 'Pack' target against the solution file
+found in the $Hx_NetBuild_ArtifactsDir to generate package files.</p>
 <h2 id="properties">Properties</h2>
 <h4 id="hx_netnugetpush_artifactsdir">Hx_NetNugetPush_ArtifactsDir</h4>
 <p>A path to the NugetDeploy artifacts directory. Default is '$Hx_Run_ArtifactsDir/NetNugetPush'.</p>
@@ -96,12 +99,17 @@
 <h4 id="hx_netnugetpush_sourceurl">Hx_NetNugetPush_SourceURL</h4>
 <p>The source path to publish to (nuget.org etc.).</p>
 <h4 id="hx_netnugetpush_version">Hx_NetNugetPush_Version</h4>
-<p>The semantic version. It is passed as '/p:Version' property to the 'Pack' target. The pack target is called if the '@Hx_NetNugetPush_PackageFiles' is not specified. Default is a version retrieved from the '$Hx_ChangeLog_ArtifactsDir/semver.txt'.</p>
+<p>The semantic version. It is passed as '/p:Version' property to the 'Pack' target.
+The pack target is called if the '@Hx_NetNugetPush_PackageFiles' is not specified.
+Default is a version retrieved from the '$Hx_ChangeLog_ArtifactsDir/semver.txt'.</p>
 <h4 id="hx_netnugetpush_releasenotesfile">Hx_NetNugetPush_ReleaseNotesFile</h4>
-<p>A text file with package release notes. It is passed as '/p:PackageReleaseNotes' property into the Pack target. Default is '$Hx_ChangeLog_ArtifactsDir/ReleaseNotes.txt'.</p>
+<p>A text file with package release notes. It is passed as '/p:PackageReleaseNotes' property into the Pack target.
+Default is '$Hx_ChangeLog_ArtifactsDir/ReleaseNotes.txt'.</p>
 <h2 id="items">Items</h2>
 <h4 id="hx_netnugetpush_packagefiles">Hx_NetNugetPush_PackageFiles</h4>
-<p>The package files to publish. If not specified, the *.nupkg and <em>.snupkg files are searched in the 'bin' folders in the '$Hx_NetBuild_ArtifactsDir'. If files are not found, the target tries to find a '$Hx_NetBuild_ArtifactsDir/</em>.sln' file and run the 'Pack' MSBuild target.</p>
+<p>The package files to publish. If not specified,
+the *.nupkg and <em>.snupkg files are searched in the 'bin' folders in the '$Hx_NetBuild_ArtifactsDir'.
+If files are not found, the target tries to find a '$Hx_NetBuild_ArtifactsDir/</em>.sln' file and run the 'Pack' MSBuild target.</p>
 
 </article>
 

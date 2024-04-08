@@ -19,3 +19,6 @@
 - name: Build
   href: Heleonix.Build/
   homepage: Heleonix.Build/index.md
+- name: Plugins
+  href: Plugins/
+  homepage: Plugins/index.md

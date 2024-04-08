@@ -91,9 +91,9 @@
     ],
     "dest": "docs",
     "fileMetadata": {
-      "hx.xmldoc.xslt": {
-        "**/Heleonix.Build.xsd": "./Heleonix.Build/TargetsToMD.xslt",
-        "**/Targets/*.xsd": "./Heleonix.Build/TargetsToMD.xslt",
+      "hx.xmldoc.template": {
+        "**/Heleonix.Build.xsd": "./Heleonix.Build/TargetsToMD.cshtml",
+        "**/Targets/*.xsd": "./Heleonix.Build/TargetsToMD.cshtml",
         "**/Tasks/*.xsd": "./Heleonix.Build/TasksToMD.xslt"
       },
       "hx.xmldoc.store": {
