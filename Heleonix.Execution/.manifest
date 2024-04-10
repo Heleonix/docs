@@ -16,6 +16,7 @@
   "Heleonix.Execution.ArgsBuilder.op_Implicit(Heleonix.Execution.ArgsBuilder)~System.String": "Heleonix.Execution.ArgsBuilder.yml",
   "Heleonix.Execution.ExeHelper": "Heleonix.Execution.ExeHelper.yml",
   "Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.Boolean,System.String,System.Int32)": "Heleonix.Execution.ExeHelper.yml",
+  "Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.IO.TextWriter,System.IO.TextWriter,System.String,System.Int32,System.Int32)": "Heleonix.Execution.ExeHelper.yml",
   "Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.String)": "Heleonix.Execution.ExeHelper.yml",
   "Heleonix.Execution.ExeResult": "Heleonix.Execution.ExeResult.yml",
   "Heleonix.Execution.ExeResult.#ctor": "Heleonix.Execution.ExeResult.yml",

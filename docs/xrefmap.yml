@@ -218,6 +218,15 @@ references:
   fullName.vb: Heleonix.Execution.ExeHelper.Execute(String, String, Boolean, String, Integer)
   nameWithType: ExeHelper.Execute(string, string, bool, string, int)
   nameWithType.vb: ExeHelper.Execute(String, String, Boolean, String, Integer)
+- uid: Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.IO.TextWriter,System.IO.TextWriter,System.String,System.Int32,System.Int32)
+  name: Execute(string, string, TextWriter, TextWriter, string, int, int)
+  href: Heleonix.Execution/Heleonix.Execution.ExeHelper.html#Heleonix_Execution_ExeHelper_Execute_System_String_System_String_System_IO_TextWriter_System_IO_TextWriter_System_String_System_Int32_System_Int32_
+  commentId: M:Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.IO.TextWriter,System.IO.TextWriter,System.String,System.Int32,System.Int32)
+  name.vb: Execute(String, String, TextWriter, TextWriter, String, Integer, Integer)
+  fullName: Heleonix.Execution.ExeHelper.Execute(string, string, System.IO.TextWriter, System.IO.TextWriter, string, int, int)
+  fullName.vb: Heleonix.Execution.ExeHelper.Execute(String, String, System.IO.TextWriter, System.IO.TextWriter, String, Integer, Integer)
+  nameWithType: ExeHelper.Execute(string, string, TextWriter, TextWriter, string, int, int)
+  nameWithType.vb: ExeHelper.Execute(String, String, TextWriter, TextWriter, String, Integer, Integer)
 - uid: Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.String)
   name: Execute(string, string, string)
   href: Heleonix.Execution/Heleonix.Execution.ExeHelper.html#Heleonix_Execution_ExeHelper_Execute_System_String_System_String_System_String_

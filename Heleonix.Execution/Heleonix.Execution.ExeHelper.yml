@@ -6,6 +6,7 @@ items:
   parent: Heleonix.Execution
   children:
   - Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.Boolean,System.String,System.Int32)
+  - Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.IO.TextWriter,System.IO.TextWriter,System.String,System.Int32,System.Int32)
   - Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.String)
   langs:
   - csharp
@@ -49,7 +50,7 @@ items:
   summary: Executes an executable by the specified <code class="paramref">exePath</code>.
   example:
   - >-
-    var result = ExeHelper.Execute(
+    <pre><code class="lang-csharp">var result = ExeHelper.Execute(
 
     @"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
 
@@ -66,28 +67,26 @@ items:
 
     Console.WriteLine(result.Output); // Output like `Console.WriteLine` is available here
 
-    Console.WriteLine(result.Error); // Output like `Console.Error.WriteLine` is available here.
+    Console.WriteLine(result.Error); // Output like `Console.Error.WriteLine` is available here.</code></pre>
   syntax:
     content: public static ExeResult Execute(string exePath, string arguments, bool extractOutput, string workingDirectory = "", int waitForExit = 2147483647)
     parameters:
     - id: exePath
       type: System.String
-      description: Defines the path to executable.
+      description: The path to the executable file to run.
     - id: arguments
       type: System.String
-      description: Represents the command line arguments.
+      description: Command line arguments to pass into the executable.
     - id: extractOutput
       type: System.Boolean
       description: Defines whether to redirect and extract standard output and errors or not.
     - id: workingDirectory
       type: System.String
-      description: >-
-        The current working directory.
-                     Relative paths inside the executable will be relative to this working directory.
+      description: The working directory to launch the executable in.
     - id: waitForExit
       type: System.Int32
       description: >-
-        A number of millisecoonds to wait for process ending.
+        A number of millisecoonds to wait for the process ending.
                      Use <xref href="System.Int32.MaxValue" data-throw-if-not-resolved="false"></xref> to wait infinitely.
     return:
       type: Heleonix.Execution.ExeResult
@@ -115,32 +114,111 @@ items:
   assemblies:
   - Heleonix.Execution
   namespace: Heleonix.Execution
-  summary: Executes an executable by the specified path. Does not extract output and error streams.
+  summary: Executes an executable by the specified <code class="paramref">exePath</code>. Does not extract output and error streams.
   example: []
   syntax:
     content: public static int Execute(string exePath, string arguments, string workingDirectory = "")
     parameters:
     - id: exePath
       type: System.String
-      description: The execute path.
+      description: The path to the executable file to run.
     - id: arguments
       type: System.String
-      description: The arguments.
+      description: Command line arguments to pass into the executable.
     - id: workingDirectory
       type: System.String
-      description: The working directory.
+      description: The working directory to launch the executable in.
     return:
       type: System.Int32
-      description: An executable's exit code.
+      description: The exit code of the executable.
     content.vb: Public Shared Function Execute(exePath As String, arguments As String, workingDirectory As String = "") As Integer
   overload: Heleonix.Execution.ExeHelper.Execute*
   exceptions:
   - type: System.InvalidOperationException
     commentId: T:System.InvalidOperationException
-    description: See the inner exception for details.
+    description: See the inner exception for more details.
   nameWithType.vb: ExeHelper.Execute(String, String, String)
   fullName.vb: Heleonix.Execution.ExeHelper.Execute(String, String, String)
   name.vb: Execute(String, String, String)
+- uid: Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.IO.TextWriter,System.IO.TextWriter,System.String,System.Int32,System.Int32)
+  commentId: M:Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.IO.TextWriter,System.IO.TextWriter,System.String,System.Int32,System.Int32)
+  id: Execute(System.String,System.String,System.IO.TextWriter,System.IO.TextWriter,System.String,System.Int32,System.Int32)
+  parent: Heleonix.Execution.ExeHelper
+  langs:
+  - csharp
+  - vb
+  name: Execute(string, string, TextWriter, TextWriter, string, int, int)
+  nameWithType: ExeHelper.Execute(string, string, TextWriter, TextWriter, string, int, int)
+  fullName: Heleonix.Execution.ExeHelper.Execute(string, string, System.IO.TextWriter, System.IO.TextWriter, string, int, int)
+  type: Method
+  assemblies:
+  - Heleonix.Execution
+  namespace: Heleonix.Execution
+  summary: >-
+    Executes an executable by the specified <code class="paramref">exePath</code>.
+
+    Asynchronously forwards <xref href="System.Diagnostics.Process.StandardOutput" data-throw-if-not-resolved="false"></xref> and <xref href="System.Diagnostics.Process.StandardError" data-throw-if-not-resolved="false"></xref>
+
+    of the executable to the specified <code class="paramref">outputWriter</code> and <code class="paramref">errorWriter</code> using
+
+    the intermediate <code>char</code> buffer with the specified <code class="paramref">bufferSize</code>.
+  example:
+  - >-
+    Launch an executable and forward its output and error streams while it is running.
+
+    <pre><code class="lang-csharp">var output = new StringWriter();
+
+    var error = new StringWriter();
+
+
+    var exitCode =  ExeHelper.Execute("dotnet.exe", "--UNKNOWN", output, error, string.Empty, 5000, 2048);
+
+
+    var o = output.ToString();
+
+    var e = error.ToString();</code></pre>
+
+    Launch an executable and forward its output and error streams to the <xref href="System.Console" data-throw-if-not-resolved="false"></xref> of the main process.
+
+    <pre><code class="lang-csharp">var exitCode =  ExeHelper.Execute("dotnet.exe", "--UNKNOWN", Console.Out, Console.Error, string.Empty, 5000, 2048);</code></pre>
+  syntax:
+    content: public static int Execute(string exePath, string arguments, TextWriter outputWriter, TextWriter errorWriter, string workingDirectory = "", int waitForExit = 2147483647, int bufferSize = 4096)
+    parameters:
+    - id: exePath
+      type: System.String
+      description: The path to the executable file to run.
+    - id: arguments
+      type: System.String
+      description: Command line arguments to pass into the executable.
+    - id: outputWriter
+      type: System.IO.TextWriter
+      description: The text writer to forward the standard output stream to.
+    - id: errorWriter
+      type: System.IO.TextWriter
+      description: The text writer to forward the standard error stream to.
+    - id: workingDirectory
+      type: System.String
+      description: The working directory to launch the executable in.
+    - id: waitForExit
+      type: System.Int32
+      description: >-
+        A number of millisecoonds to wait for the process ending.
+                     Use <xref href="System.Int32.MaxValue" data-throw-if-not-resolved="false"></xref> to wait infinitely.
+    - id: bufferSize
+      type: System.Int32
+      description: The sizes of the intermediate buffers to use for forwarding in number of <code>char</code>.
+    return:
+      type: System.Int32
+      description: The exit code of the executable.
+    content.vb: Public Shared Function Execute(exePath As String, arguments As String, outputWriter As TextWriter, errorWriter As TextWriter, workingDirectory As String = "", waitForExit As Integer = 2147483647, bufferSize As Integer = 4096) As Integer
+  overload: Heleonix.Execution.ExeHelper.Execute*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: See the inner exception for more details.
+  nameWithType.vb: ExeHelper.Execute(String, String, TextWriter, TextWriter, String, Integer, Integer)
+  fullName.vb: Heleonix.Execution.ExeHelper.Execute(String, String, System.IO.TextWriter, System.IO.TextWriter, String, Integer, Integer)
+  name.vb: Execute(String, String, TextWriter, TextWriter, String, Integer, Integer)
 references:
 - uid: Heleonix.Execution
   commentId: N:Heleonix.Execution
@@ -470,3 +548,59 @@ references:
   name: ExeResult
   nameWithType: ExeResult
   fullName: Heleonix.Execution.ExeResult
+- uid: System.Diagnostics.Process.StandardOutput
+  commentId: P:System.Diagnostics.Process.StandardOutput
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.diagnostics.process.standardoutput
+  name: StandardOutput
+  nameWithType: Process.StandardOutput
+  fullName: System.Diagnostics.Process.StandardOutput
+- uid: System.Diagnostics.Process.StandardError
+  commentId: P:System.Diagnostics.Process.StandardError
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.diagnostics.process.standarderror
+  name: StandardError
+  nameWithType: Process.StandardError
+  fullName: System.Diagnostics.Process.StandardError
+- uid: System.Console
+  commentId: T:System.Console
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.console
+  name: Console
+  nameWithType: Console
+  fullName: System.Console
+- uid: System.IO.TextWriter
+  commentId: T:System.IO.TextWriter
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.textwriter
+  name: TextWriter
+  nameWithType: TextWriter
+  fullName: System.IO.TextWriter
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
