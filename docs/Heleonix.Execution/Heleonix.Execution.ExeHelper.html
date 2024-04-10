@@ -171,20 +171,19 @@ Class ExeHelper
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>exePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Defines the path to executable.</p>
+    <dd><p>The path to the executable file to run.</p>
 </dd>
     <dt><code>arguments</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Represents the command line arguments.</p>
+    <dd><p>Command line arguments to pass into the executable.</p>
 </dd>
     <dt><code>extractOutput</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd><p>Defines whether to redirect and extract standard output and errors or not.</p>
 </dd>
     <dt><code>workingDirectory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The current working directory.
-Relative paths inside the executable will be relative to this working directory.</p>
+    <dd><p>The working directory to launch the executable in.</p>
 </dd>
     <dt><code>waitForExit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>A number of millisecoonds to wait for process ending.
+    <dd><p>A number of millisecoonds to wait for the process ending.
 Use <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32.maxvalue">MaxValue</a> to wait infinitely.</p>
 </dd>
   </dl>
@@ -202,15 +201,16 @@ Use <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32.ma
 
 
   <h4 class="section" id="Heleonix_Execution_ExeHelper_Execute_System_String_System_String_System_Boolean_System_String_System_Int32__examples">Examples</h4>
-  <p>var result = ExeHelper.Execute(
-@&quot;C:\Program Files (x86)\Google\Chrome\Application\chrome.exe&quot;,
-&quot;--app=http://www.google.com --window-size=300,300 --new-window&quot;,
+  <pre><code class="lang-csharp">var result = ExeHelper.Execute(
+@"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
+"--app=http://www.google.com --window-size=300,300 --new-window",
 true,
 string.Empty,
-2000);</p>
-<p>Console.WriteLine(result.ExitCode); // An exit code: value returned by <code>Main</code> or by <code>Environment.Exit(exitCode)</code> etc.
-Console.WriteLine(result.Output); // Output like <code>Console.WriteLine</code> is available here
-Console.WriteLine(result.Error); // Output like <code>Console.Error.WriteLine</code> is available here.</p>
+2000);
+
+Console.WriteLine(result.ExitCode); // An exit code: value returned by `Main` or by `Environment.Exit(exitCode)` etc.
+Console.WriteLine(result.Output); // Output like `Console.WriteLine` is available here
+Console.WriteLine(result.Error); // Output like `Console.Error.WriteLine` is available here.</code></pre>
 
 
 
@@ -225,12 +225,91 @@ Console.WriteLine(result.Error); // Output like <code>Console.Error.WriteLine</c
 
   <a id="Heleonix_Execution_ExeHelper_Execute_" data-uid="Heleonix.Execution.ExeHelper.Execute*"></a>
 
+  <h3 id="Heleonix_Execution_ExeHelper_Execute_System_String_System_String_System_IO_TextWriter_System_IO_TextWriter_System_String_System_Int32_System_Int32_" data-uid="Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.IO.TextWriter,System.IO.TextWriter,System.String,System.Int32,System.Int32)">
+  Execute(string, string, TextWriter, TextWriter, string, int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Executes an executable by the specified <code class="paramref">exePath</code>.
+Asynchronously forwards <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.diagnostics.process.standardoutput">StandardOutput</a> and <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.diagnostics.process.standarderror">StandardError</a>
+of the executable to the specified <code class="paramref">outputWriter</code> and <code class="paramref">errorWriter</code> using
+the intermediate <code>char</code> buffer with the specified <code class="paramref">bufferSize</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Execute(string exePath, string arguments, TextWriter outputWriter, TextWriter errorWriter, string workingDirectory = &quot;&quot;, int waitForExit = 2147483647, int bufferSize = 4096)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>exePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The path to the executable file to run.</p>
+</dd>
+    <dt><code>arguments</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Command line arguments to pass into the executable.</p>
+</dd>
+    <dt><code>outputWriter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter">TextWriter</a></dt>
+    <dd><p>The text writer to forward the standard output stream to.</p>
+</dd>
+    <dt><code>errorWriter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.textwriter">TextWriter</a></dt>
+    <dd><p>The text writer to forward the standard error stream to.</p>
+</dd>
+    <dt><code>workingDirectory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The working directory to launch the executable in.</p>
+</dd>
+    <dt><code>waitForExit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>A number of millisecoonds to wait for the process ending.
+Use <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32.maxvalue">MaxValue</a> to wait infinitely.</p>
+</dd>
+    <dt><code>bufferSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The sizes of the intermediate buffers to use for forwarding in number of <code>char</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The exit code of the executable.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="Heleonix_Execution_ExeHelper_Execute_System_String_System_String_System_IO_TextWriter_System_IO_TextWriter_System_String_System_Int32_System_Int32__examples">Examples</h4>
+  <p>Launch an executable and forward its output and error streams while it is running.</p>
+<pre><code class="lang-csharp">var output = new StringWriter();
+var error = new StringWriter();
+
+var exitCode =  ExeHelper.Execute("dotnet.exe", "--UNKNOWN", output, error, string.Empty, 5000, 2048);
+
+var o = output.ToString();
+var e = error.ToString();</code></pre>
+<p>Launch an executable and forward its output and error streams to the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.console">Console</a> of the main process.</p>
+<pre><code class="lang-csharp">var exitCode =  ExeHelper.Execute("dotnet.exe", "--UNKNOWN", Console.Out, Console.Error, string.Empty, 5000, 2048);</code></pre>
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>See the inner exception for more details.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Heleonix_Execution_ExeHelper_Execute_" data-uid="Heleonix.Execution.ExeHelper.Execute*"></a>
+
   <h3 id="Heleonix_Execution_ExeHelper_Execute_System_String_System_String_System_String_" data-uid="Heleonix.Execution.ExeHelper.Execute(System.String,System.String,System.String)">
   Execute(string, string, string)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Executes an executable by the specified path. Does not extract output and error streams.</p>
+  <div class="markdown level1 summary"><p>Executes an executable by the specified <code class="paramref">exePath</code>. Does not extract output and error streams.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -241,20 +320,20 @@ Console.WriteLine(result.Error); // Output like <code>Console.Error.WriteLine</c
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>exePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The execute path.</p>
+    <dd><p>The path to the executable file to run.</p>
 </dd>
     <dt><code>arguments</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The arguments.</p>
+    <dd><p>Command line arguments to pass into the executable.</p>
 </dd>
     <dt><code>workingDirectory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The working directory.</p>
+    <dd><p>The working directory to launch the executable in.</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>An executable's exit code.</p>
+    <dd><p>The exit code of the executable.</p>
 </dd>
   </dl>
 
@@ -268,7 +347,7 @@ Console.WriteLine(result.Error); // Output like <code>Console.Error.WriteLine</c
   <h4 class="section">Exceptions</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
-    <dd><p>See the inner exception for details.</p>
+    <dd><p>See the inner exception for more details.</p>
 </dd>
   </dl>
 
