@@ -737,17 +737,35 @@ a target value is not of type <code class="typeparamref">TReturn</code>.</p>
 
 
   <h4 class="section" id="Heleonix_Reflection_Reflector_Get__1_System_Object_System_Type_System_String___0__System_Reflection_BindingFlags__examples">Examples</h4>
-  <p>var success = Reflector.Get(DateTime.Now, null, &quot;TimeOfDay.Hours&quot;, out int value);</p>
-<p>// success == true;
-// value == DateTime.Now.TimeOfDay.Hours;</p>
-<p>or</p>
-<p>var success = Reflector.Get(typeof(int), null, &quot;CustomAttributes[0].AttributeType&quot;, out int value);</p>
-<p>// success == true;
-// value == typeof(int).CustomAttributes.First().AttributeType;</p>
-<p>or</p>
-<p>var success = Reflector.Get(typeof(int), null, &quot;CustomAttributes[0]&quot;, out int value);</p>
-<p>// success == true;
-// value == typeof(int).CustomAttributes.First().</p>
+  <pre><code class="lang-csharp">var success = Reflector.Get(DateTime.Now, null, "TimeOfDay.Hours", out int value);
+
+// success == true;
+// value == DateTime.Now.TimeOfDay.Hours;
+
+or
+
+var success = Reflector.Get(typeof(int), null, "CustomAttributes[0].AttributeType", out int value);
+
+// success == true;
+// value == typeof(int).CustomAttributes.First().AttributeType;
+
+or
+
+var success = Reflector.Get(typeof(int), null, "CustomAttributes[0]", out int value);
+
+// success == true;
+// value == typeof(int).CustomAttributes.First().
+
+or
+
+var rec = new Record(new Dictionary&lt;string, string&gt; { { "K e y", "V a l u e" } });
+
+var success = Reflector.Get(rec, null, "Dic[K e y].Length", out int value);
+
+record class Record(Dictionary&lt;string, string&gt; Dic);
+
+// success == true;
+// value == rec.Dic["K e y"].Length;</code></pre>
 
 
 
@@ -951,22 +969,37 @@ a target member or an intermediate member is neither <a class="xref" href="https
 
 
   <h4 class="section" id="Heleonix_Reflection_Reflector_Set_System_Object_System_Type_System_String_System_Object_System_Reflection_BindingFlags__examples">Examples</h4>
-  <p>public class Root
+  <p>This code demonstrates common scenarios.</p>
+<pre><code class="lang-csharp">public class Root
 {
-public Child Child { get; set; } = new Child();
-public Child[] Children { get; set; } = new Child[] { new Child(), new Child() };
-}</p>
-<p>public class Child { public int Value { get; set; } }</p>
-<p>var root = new Root();</p>
-<p>var success1 = Reflector.Set(root, null, &quot;Child.Value&quot;, 111);
-var success2 = Reflector.Set(root, null, &quot;Children[0].Value&quot;, 222);
-var success3 = Reflector.Set(root, null, &quot;Children[1]&quot;, new Child() { Value = 333 });</p>
-<p>// success1 == true;
+    public Child Child { get; set; } = new Child();
+    public Child[] Children { get; set; } = new Child[] { new Child(), new Child() };
+}
+
+public class Child { public int Value { get; set; } }
+
+var root = new Root();
+
+var success1 = Reflector.Set(root, null, "Child.Value", 111);
+var success2 = Reflector.Set(root, null, "Children[0].Value", 222);
+var success3 = Reflector.Set(root, null, "Children[1]", new Child() { Value = 333 });
+
+// success1 == true;
 // success2 == true;
-// success3 == true;</p>
-<p>// root.Child.Value == 111;
+// success3 == true;
+
+// root.Child.Value == 111;
 // root.Children[0].Value == 222;
-// root.Children[1].Value == 333.</p>
+// root.Children[1].Value == 333.</code></pre>
+<p>This code demonstrates usage of dictionaries.</p>
+<pre><code class="lang-csharp">var rec = new Record(new Dictionary&lt;string, string&gt; { { "K e y", "V a l u e" } });
+
+var success = Reflector.Set(rec, null, "Dic[K e y]", "New Value");
+
+record class Record(Dictionary&lt;string, string&gt; Dic);
+
+// success == true;
+// value == record.Dic["K e y"];</code></pre>
 
 
 

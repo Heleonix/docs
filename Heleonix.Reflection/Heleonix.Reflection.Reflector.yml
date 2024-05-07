@@ -331,7 +331,7 @@ items:
   summary: Gets a value by the provided path.
   example:
   - >-
-    var success = Reflector.Get(DateTime.Now, null, "TimeOfDay.Hours", out int value);
+    <pre><code class="lang-csharp">var success = Reflector.Get(DateTime.Now, null, "TimeOfDay.Hours", out int value);
 
 
     // success == true;
@@ -359,6 +359,23 @@ items:
     // success == true;
 
     // value == typeof(int).CustomAttributes.First().
+
+
+    or
+
+
+    var rec = new Record(new Dictionary&lt;string, string&gt; { { "K e y", "V a l u e" } });
+
+
+    var success = Reflector.Get(rec, null, "Dic[K e y].Length", out int value);
+
+
+    record class Record(Dictionary&lt;string, string&gt; Dic);
+
+
+    // success == true;
+
+    // value == rec.Dic["K e y"].Length;</code></pre>
   syntax:
     content: public static bool Get<TReturn>(object instance, Type type, string memberPath, out TReturn value, BindingFlags bindingFlags = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public)
     parameters:
@@ -744,7 +761,9 @@ items:
   summary: Sets a provided value by the provided path.
   example:
   - >-
-    public class Root
+    This code demonstrates common scenarios.
+
+    <pre><code class="lang-csharp">public class Root
 
     {
         public Child Child { get; set; } = new Child();
@@ -776,7 +795,22 @@ items:
 
     // root.Children[0].Value == 222;
 
-    // root.Children[1].Value == 333.
+    // root.Children[1].Value == 333.</code></pre>
+
+    This code demonstrates usage of dictionaries.
+
+    <pre><code class="lang-csharp">var rec = new Record(new Dictionary&lt;string, string&gt; { { "K e y", "V a l u e" } });
+
+
+    var success = Reflector.Set(rec, null, "Dic[K e y]", "New Value");
+
+
+    record class Record(Dictionary&lt;string, string&gt; Dic);
+
+
+    // success == true;
+
+    // value == record.Dic["K e y"];</code></pre>
   syntax:
     content: public static bool Set(object instance, Type type, string memberPath, object value, BindingFlags bindingFlags = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public)
     parameters:
