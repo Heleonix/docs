@@ -7,7 +7,16 @@
           "src": "../NetBuild/"
         }
       ],
-      "dest": "Heleonix.Testing"
+      "dest": "Testing/Heleonix.Testing.NUnit"
+    },
+    {
+      "src": [
+        {
+          "files": [ "src/Heleonix.Testing.Reporting/bin/Release/net6.0/Heleonix.Testing.Reporting.dll" ],
+          "src": "../NetBuild/"
+        }
+      ],
+      "dest": "Testing/Heleonix.Testing.Reporting"
     },
     {
       "src": [
@@ -85,7 +94,9 @@
       {
         "files": [
           "images/**",
-          "Heleonix.*/images/**"
+          "Heleonix.*/images/**",
+          "Plugins/images/**",
+          "Testing/*/images/**"
         ]
       }
     ],

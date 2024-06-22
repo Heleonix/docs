@@ -2,18 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class TestAttribute | Heleonix </title>
+      <title>Class StoryAttribute | Heleonix </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class TestAttribute | Heleonix ">
+      <meta name="title" content="Class StoryAttribute | Heleonix ">
       
-      <meta name="description" content="Represents the base class test attributes.">
-      <link rel="icon" href="../images/heleonix-logos/Heleonix-favicon-128x128.ico">
-      <link rel="stylesheet" href="../public/docfx.min.css">
-      <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="description" content="Marks test fixture as a story tests.">
+      <link rel="icon" href="../../images/heleonix-logos/Heleonix-favicon-128x128.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
-      <meta name="docfx:rel" content="../">
+      <meta name="docfx:rel" content="../../">
       
       
       
@@ -31,7 +31,7 @@
       <meta name="loc:downloadPdf" content="Download PDF">
   </head>
 
-  <script type="module" src="./../public/docfx.min.js"></script>
+  <script type="module" src="./../../public/docfx.min.js"></script>
 
   <script>
     const theme = localStorage.getItem('theme') || 'auto'
@@ -43,8 +43,8 @@
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../images/heleonix-logos/Heleonix-logo-64x64.jpg" alt="">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../images/heleonix-logos/Heleonix-logo-64x64.jpg" alt="">
             
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,25 +84,26 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Heleonix.Testing.NUnit.TestAttribute">
+        <article data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute">
 
 
 
-  <h1 id="Heleonix_Testing_NUnit_TestAttribute" data-uid="Heleonix.Testing.NUnit.TestAttribute" class="text-break">
-Class TestAttribute  
+  <h1 id="Heleonix_Testing_NUnit_Bdd_StoryAttribute" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute" class="text-break">
+Class StoryAttribute  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Heleonix.html">Heleonix</a>.<a class="xref" href="Heleonix.Testing.html">Testing</a>.<a class="xref" href="Heleonix.Testing.NUnit.html">NUnit</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Heleonix.html">Heleonix</a>.<a class="xref" href="Heleonix.Testing.html">Testing</a>.<a class="xref" href="Heleonix.Testing.NUnit.html">NUnit</a>.<a class="xref" href="Heleonix.Testing.NUnit.Bdd.html">Bdd</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Heleonix.Testing.NUnit.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Represents the base class test attributes.</p>
+  <div class="markdown summary"><p>Marks test fixture as a story tests.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class TestAttribute : BaseAttribute, ISimpleTestBuilder</code></pre>
+    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = false)]
+public sealed class StoryAttribute : FixtureAttribute, IFixtureBuilder2, IFixtureBuilder</code></pre>
   </div>
 
 
@@ -114,33 +115,28 @@ Class TestAttribute
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute">Attribute</a></div>
       <div><a class="xref" href="Heleonix.Testing.NUnit.BaseAttribute.html">BaseAttribute</a></div>
-      <div><span class="xref">TestAttribute</span></div>
+      <div><a class="xref" href="Heleonix.Testing.NUnit.FixtureAttribute.html">FixtureAttribute</a></div>
+      <div><span class="xref">StoryAttribute</span></div>
     </dd>
   </dl>
 
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><span class="xref">ISimpleTestBuilder</span></div>
+      <div><span class="xref">IFixtureBuilder2</span></div>
+      <div><span class="xref">IFixtureBuilder</span></div>
     </dd>
   </dl>
 
-  <dl class="typelist derived">
-    <dt>Derived</dt>
-    <dd>
-      <div><a class="xref" href="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html">MemberTestAttribute</a></div>
-      <div><a class="xref" href="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html">ScenarioAttribute</a></div>
-    </dd>
-  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="Heleonix.Testing.NUnit.BaseAttribute.html#Heleonix_Testing_NUnit_BaseAttribute_Properties">BaseAttribute.Properties</a>
+      <a class="xref" href="Heleonix.Testing.NUnit.FixtureAttribute.html#Heleonix_Testing_NUnit_FixtureAttribute_BuildFrom_NUnit_Framework_Interfaces_ITypeInfo_">FixtureAttribute.BuildFrom(ITypeInfo)</a>
     </div>
     <div>
-      <a class="xref" href="Heleonix.Testing.NUnit.BaseAttribute.html#Heleonix_Testing_NUnit_BaseAttribute_TestName">BaseAttribute.TestName</a>
+      <a class="xref" href="Heleonix.Testing.NUnit.FixtureAttribute.html#Heleonix_Testing_NUnit_FixtureAttribute_BuildFrom_NUnit_Framework_Interfaces_ITypeInfo_NUnit_Framework_Interfaces_IPreFilter_">FixtureAttribute.BuildFrom(ITypeInfo, IPreFilter)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-type)">Attribute.GetCustomAttributes(MemberInfo, Type)</a>
@@ -257,9 +253,6 @@ Class TestAttribute
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
     <div>
@@ -279,10 +272,10 @@ Class TestAttribute
 </h2>
 
 
-  <a id="Heleonix_Testing_NUnit_TestAttribute__ctor_" data-uid="Heleonix.Testing.NUnit.TestAttribute.#ctor*"></a>
+  <a id="Heleonix_Testing_NUnit_Bdd_StoryAttribute__ctor_" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.#ctor*"></a>
 
-  <h3 id="Heleonix_Testing_NUnit_TestAttribute__ctor" data-uid="Heleonix.Testing.NUnit.TestAttribute.#ctor">
-  TestAttribute()
+  <h3 id="Heleonix_Testing_NUnit_Bdd_StoryAttribute__ctor" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.#ctor">
+  StoryAttribute()
   
   </h3>
 
@@ -290,7 +283,7 @@ Class TestAttribute
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected TestAttribute()</code></pre>
+    <pre><code class="lang-csharp hljs">public StoryAttribute()</code></pre>
   </div>
 
 
@@ -305,44 +298,233 @@ Class TestAttribute
 
 
 
-  <h2 class="section" id="methods">Methods
+  <h2 class="section" id="properties">Properties
 </h2>
 
 
-  <a id="Heleonix_Testing_NUnit_TestAttribute_BuildFrom_" data-uid="Heleonix.Testing.NUnit.TestAttribute.BuildFrom*"></a>
+  <a id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_AsA_" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.AsA*"></a>
 
-  <h3 id="Heleonix_Testing_NUnit_TestAttribute_BuildFrom_NUnit_Framework_Interfaces_IMethodInfo_NUnit_Framework_Internal_Test_" data-uid="Heleonix.Testing.NUnit.TestAttribute.BuildFrom(NUnit.Framework.Interfaces.IMethodInfo,NUnit.Framework.Internal.Test)">
-  BuildFrom(IMethodInfo, Test)
+  <h3 id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_AsA" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.AsA">
+  AsA
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Build a TestMethod from the provided MethodInfo.</p>
+  <div class="markdown level1 summary"><p>Gets or sets an 'As a...' description.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual TestMethod BuildFrom(IMethodInfo method, Test suite)</code></pre>
+    <pre><code class="lang-csharp hljs">public string AsA { get; set; }</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>method</code> <span class="xref">IMethodInfo</span></dt>
-    <dd><p>The method to be used as a test.</p>
-</dd>
-    <dt><code>suite</code> <span class="xref">Test</span></dt>
-    <dd><p>The TestSuite to which the method will be added.</p>
-</dd>
-  </dl>
 
-  <h4 class="section">Returns</h4>
+
+
+
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">TestMethod</span></dt>
-    <dd><p>A TestMethod object.</p>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The 'As a...' description.</p>
 </dd>
   </dl>
 
 
 
+
+
+
+
+
+  <a id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_IWant_" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.IWant*"></a>
+
+  <h3 id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_IWant" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.IWant">
+  IWant
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets an 'I want...' description.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string IWant { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The 'I want..' description.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_Id_" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.Id*"></a>
+
+  <h3 id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_Id" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.Id">
+  Id
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets an id of the story.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The id of the story.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_Properties_" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.Properties*"></a>
+
+  <h3 id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_Properties" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.Properties">
+  Properties
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override IDictionary&lt;string, object&gt; Properties { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The properties.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_SoThat_" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.SoThat*"></a>
+
+  <h3 id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_SoThat" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.SoThat">
+  SoThat
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets an 'So that...' description.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SoThat { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The 'So that...' description.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_Summary_" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.Summary*"></a>
+
+  <h3 id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_Summary" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.Summary">
+  Summary
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets a summary of a story.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Summary { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A summary of a story.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_TestName_" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.TestName*"></a>
+
+  <h3 id="Heleonix_Testing_NUnit_Bdd_StoryAttribute_TestName" data-uid="Heleonix.Testing.NUnit.Bdd.StoryAttribute.TestName">
+  TestName
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the name of the test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override string TestName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the test.</p>
+</dd>
+  </dl>
 
 
 
@@ -353,8 +535,7 @@ Class TestAttribute
 
   <h2 id="seealso">See Also</h2>
   <div class="seealso">
-      <div><a class="xref" href="Heleonix.Testing.NUnit.BaseAttribute.html">BaseAttribute</a></div>
-      <div><span class="xref">ISimpleTestBuilder</span></div>
+      <div><a class="xref" href="Heleonix.Testing.NUnit.FixtureAttribute.html">FixtureAttribute</a></div>
   </div>
 
 </article>

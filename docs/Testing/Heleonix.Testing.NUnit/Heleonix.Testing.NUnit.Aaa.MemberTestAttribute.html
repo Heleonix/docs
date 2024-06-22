@@ -2,18 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class FixtureAttribute | Heleonix </title>
+      <title>Class MemberTestAttribute | Heleonix </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class FixtureAttribute | Heleonix ">
+      <meta name="title" content="Class MemberTestAttribute | Heleonix ">
       
-      <meta name="description" content="Represents the base class for test fixture attributes.">
-      <link rel="icon" href="../images/heleonix-logos/Heleonix-favicon-128x128.ico">
-      <link rel="stylesheet" href="../public/docfx.min.css">
-      <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="description" content="Represents the attribute for testing of compononts&#39; members, like methods, constructors, properties.">
+      <link rel="icon" href="../../images/heleonix-logos/Heleonix-favicon-128x128.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
-      <meta name="docfx:rel" content="../">
+      <meta name="docfx:rel" content="../../">
       
       
       
@@ -31,7 +31,7 @@
       <meta name="loc:downloadPdf" content="Download PDF">
   </head>
 
-  <script type="module" src="./../public/docfx.min.js"></script>
+  <script type="module" src="./../../public/docfx.min.js"></script>
 
   <script>
     const theme = localStorage.getItem('theme') || 'auto'
@@ -43,8 +43,8 @@
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../images/heleonix-logos/Heleonix-logo-64x64.jpg" alt="">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../images/heleonix-logos/Heleonix-logo-64x64.jpg" alt="">
             
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,25 +84,26 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Heleonix.Testing.NUnit.FixtureAttribute">
+        <article data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute">
 
 
 
-  <h1 id="Heleonix_Testing_NUnit_FixtureAttribute" data-uid="Heleonix.Testing.NUnit.FixtureAttribute" class="text-break">
-Class FixtureAttribute  
+  <h1 id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute" class="text-break">
+Class MemberTestAttribute  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Heleonix.html">Heleonix</a>.<a class="xref" href="Heleonix.Testing.html">Testing</a>.<a class="xref" href="Heleonix.Testing.NUnit.html">NUnit</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Heleonix.html">Heleonix</a>.<a class="xref" href="Heleonix.Testing.html">Testing</a>.<a class="xref" href="Heleonix.Testing.NUnit.html">NUnit</a>.<a class="xref" href="Heleonix.Testing.NUnit.Aaa.html">Aaa</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Heleonix.Testing.NUnit.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Represents the base class for test fixture attributes.</p>
+  <div class="markdown summary"><p>Represents the attribute for testing of compononts' members, like methods, constructors, properties.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class FixtureAttribute : BaseAttribute, IFixtureBuilder2, IFixtureBuilder</code></pre>
+    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Method, AllowMultiple = false, Inherited = false)]
+public sealed class MemberTestAttribute : TestAttribute, ISimpleTestBuilder, IApplyToContext</code></pre>
   </div>
 
 
@@ -114,36 +115,23 @@ Class FixtureAttribute
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute">Attribute</a></div>
       <div><a class="xref" href="Heleonix.Testing.NUnit.BaseAttribute.html">BaseAttribute</a></div>
-      <div><span class="xref">FixtureAttribute</span></div>
+      <div><a class="xref" href="Heleonix.Testing.NUnit.TestAttribute.html">TestAttribute</a></div>
+      <div><span class="xref">MemberTestAttribute</span></div>
     </dd>
   </dl>
 
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><span class="xref">IFixtureBuilder2</span></div>
-      <div><span class="xref">IFixtureBuilder</span></div>
+      <div><span class="xref">ISimpleTestBuilder</span></div>
+      <div><span class="xref">IApplyToContext</span></div>
     </dd>
   </dl>
 
-  <dl class="typelist derived">
-    <dt>Derived</dt>
-    <dd>
-      <div><a class="xref" href="Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html">ComponentTestAttribute</a></div>
-      <div><a class="xref" href="Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html">FeatureAttribute</a></div>
-      <div><a class="xref" href="Heleonix.Testing.NUnit.Bdd.StoryAttribute.html">StoryAttribute</a></div>
-    </dd>
-  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="Heleonix.Testing.NUnit.BaseAttribute.html#Heleonix_Testing_NUnit_BaseAttribute_Properties">BaseAttribute.Properties</a>
-    </div>
-    <div>
-      <a class="xref" href="Heleonix.Testing.NUnit.BaseAttribute.html#Heleonix_Testing_NUnit_BaseAttribute_TestName">BaseAttribute.TestName</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-type)">Attribute.GetCustomAttributes(MemberInfo, Type)</a>
     </div>
@@ -259,9 +247,6 @@ Class FixtureAttribute
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
     <div>
@@ -281,10 +266,10 @@ Class FixtureAttribute
 </h2>
 
 
-  <a id="Heleonix_Testing_NUnit_FixtureAttribute__ctor_" data-uid="Heleonix.Testing.NUnit.FixtureAttribute.#ctor*"></a>
+  <a id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute__ctor_" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.#ctor*"></a>
 
-  <h3 id="Heleonix_Testing_NUnit_FixtureAttribute__ctor" data-uid="Heleonix.Testing.NUnit.FixtureAttribute.#ctor">
-  FixtureAttribute()
+  <h3 id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute__ctor" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.#ctor">
+  MemberTestAttribute()
   
   </h3>
 
@@ -292,13 +277,116 @@ Class FixtureAttribute
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected FixtureAttribute()</code></pre>
+    <pre><code class="lang-csharp hljs">public MemberTestAttribute()</code></pre>
   </div>
 
 
 
 
 
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_Name_" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.Name*"></a>
+
+  <h3 id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_Name" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.Name">
+  Name
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_Properties_" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.Properties*"></a>
+
+  <h3 id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_Properties" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.Properties">
+  Properties
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override IDictionary&lt;string, object&gt; Properties { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>The properties.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_TestName_" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.TestName*"></a>
+
+  <h3 id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_TestName" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.TestName">
+  TestName
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the test name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override string TestName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The test name.</p>
+</dd>
+  </dl>
 
 
 
@@ -311,78 +399,66 @@ Class FixtureAttribute
 </h2>
 
 
-  <a id="Heleonix_Testing_NUnit_FixtureAttribute_BuildFrom_" data-uid="Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom*"></a>
+  <a id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_ApplyToContext_" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.ApplyToContext*"></a>
 
-  <h3 id="Heleonix_Testing_NUnit_FixtureAttribute_BuildFrom_NUnit_Framework_Interfaces_ITypeInfo_" data-uid="Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom(NUnit.Framework.Interfaces.ITypeInfo)">
-  BuildFrom(ITypeInfo)
+  <h3 id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_ApplyToContext_NUnit_Framework_Internal_TestExecutionContext_" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.ApplyToContext(NUnit.Framework.Internal.TestExecutionContext)">
+  ApplyToContext(TestExecutionContext)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Build one or more TestFixtures from type provided. At least one
-non-null TestSuite must always be returned, since the method is
-generally called because the user has marked the target class as
-a fixture. If something prevents the fixture from being used, it
-will be returned nonetheless, labelled as non-runnable.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual IEnumerable&lt;TestSuite&gt; BuildFrom(ITypeInfo typeInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">public void ApplyToContext(TestExecutionContext context)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>typeInfo</code> <span class="xref">ITypeInfo</span></dt>
-    <dd><p>The type info of the fixture to be used.</p>
+    <dt><code>context</code> <span class="xref">TestExecutionContext</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_BuildFrom_" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.BuildFrom*"></a>
+
+  <h3 id="Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_BuildFrom_NUnit_Framework_Interfaces_IMethodInfo_NUnit_Framework_Internal_Test_" data-uid="Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.BuildFrom(NUnit.Framework.Interfaces.IMethodInfo,NUnit.Framework.Internal.Test)">
+  BuildFrom(IMethodInfo, Test)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Builds a test method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override TestMethod BuildFrom(IMethodInfo method, Test suite)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>method</code> <span class="xref">IMethodInfo</span></dt>
+    <dd><p>The method.</p>
+</dd>
+    <dt><code>suite</code> <span class="xref">Test</span></dt>
+    <dd><p>The suite.</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">TestSuite</span>&gt;</dt>
-    <dd><p>A TestSuite object or one derived from TestSuite.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Heleonix_Testing_NUnit_FixtureAttribute_BuildFrom_" data-uid="Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom*"></a>
-
-  <h3 id="Heleonix_Testing_NUnit_FixtureAttribute_BuildFrom_NUnit_Framework_Interfaces_ITypeInfo_NUnit_Framework_Interfaces_IPreFilter_" data-uid="Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom(NUnit.Framework.Interfaces.ITypeInfo,NUnit.Framework.Interfaces.IPreFilter)">
-  BuildFrom(ITypeInfo, IPreFilter)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Builds any number of test fixtures from the specified type.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TestSuite&gt; BuildFrom(ITypeInfo typeInfo, IPreFilter filter)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>typeInfo</code> <span class="xref">ITypeInfo</span></dt>
-    <dd><p>The type info of the fixture to be used.</p>
-</dd>
-    <dt><code>filter</code> <span class="xref">IPreFilter</span></dt>
-    <dd><p>PreFilter to be used to select methods.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">TestSuite</span>&gt;</dt>
-    <dd><p>A list of test suites.</p>
+    <dt><span class="xref">TestMethod</span></dt>
+    <dd><p>The test method.</p>
 </dd>
   </dl>
 
@@ -398,9 +474,7 @@ will be returned nonetheless, labelled as non-runnable.</p>
 
   <h2 id="seealso">See Also</h2>
   <div class="seealso">
-      <div><a class="xref" href="Heleonix.Testing.NUnit.BaseAttribute.html">BaseAttribute</a></div>
-      <div><span class="xref">IFixtureBuilder</span></div>
-      <div><span class="xref">NUnit.Framework.Interfaces.IApplyToTest</span></div>
+      <div><a class="xref" href="Heleonix.Testing.NUnit.TestAttribute.html">TestAttribute</a></div>
   </div>
 
 </article>

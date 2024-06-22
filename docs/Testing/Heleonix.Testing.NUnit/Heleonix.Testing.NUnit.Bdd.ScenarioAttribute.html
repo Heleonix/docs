@@ -2,18 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class FeatureAttribute | Heleonix </title>
+      <title>Class ScenarioAttribute | Heleonix </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class FeatureAttribute | Heleonix ">
+      <meta name="title" content="Class ScenarioAttribute | Heleonix ">
       
-      <meta name="description" content="Marks a test fixture as a feature tests.">
-      <link rel="icon" href="../images/heleonix-logos/Heleonix-favicon-128x128.ico">
-      <link rel="stylesheet" href="../public/docfx.min.css">
-      <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="description" content="Marks a test a a scenario test.">
+      <link rel="icon" href="../../images/heleonix-logos/Heleonix-favicon-128x128.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
-      <meta name="docfx:rel" content="../">
+      <meta name="docfx:rel" content="../../">
       
       
       
@@ -31,7 +31,7 @@
       <meta name="loc:downloadPdf" content="Download PDF">
   </head>
 
-  <script type="module" src="./../public/docfx.min.js"></script>
+  <script type="module" src="./../../public/docfx.min.js"></script>
 
   <script>
     const theme = localStorage.getItem('theme') || 'auto'
@@ -43,8 +43,8 @@
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../images/heleonix-logos/Heleonix-logo-64x64.jpg" alt="">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../images/heleonix-logos/Heleonix-logo-64x64.jpg" alt="">
             
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Heleonix.Testing.NUnit.Bdd.FeatureAttribute">
+        <article data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute">
 
 
 
-  <h1 id="Heleonix_Testing_NUnit_Bdd_FeatureAttribute" data-uid="Heleonix.Testing.NUnit.Bdd.FeatureAttribute" class="text-break">
-Class FeatureAttribute  
+  <h1 id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute" class="text-break">
+Class ScenarioAttribute  
   </h1>
 
   <div class="facts text-secondary">
@@ -97,13 +97,13 @@ Class FeatureAttribute
   <dl><dt>Assembly</dt><dd>Heleonix.Testing.NUnit.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Marks a test fixture as a feature tests.</p>
+  <div class="markdown summary"><p>Marks a test a a scenario test.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = false)]
-public sealed class FeatureAttribute : FixtureAttribute, IFixtureBuilder2, IFixtureBuilder</code></pre>
+    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Method, AllowMultiple = false, Inherited = false)]
+public sealed class ScenarioAttribute : TestAttribute, ISimpleTestBuilder, IApplyToContext</code></pre>
   </div>
 
 
@@ -115,16 +115,16 @@ public sealed class FeatureAttribute : FixtureAttribute, IFixtureBuilder2, IFixt
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute">Attribute</a></div>
       <div><a class="xref" href="Heleonix.Testing.NUnit.BaseAttribute.html">BaseAttribute</a></div>
-      <div><a class="xref" href="Heleonix.Testing.NUnit.FixtureAttribute.html">FixtureAttribute</a></div>
-      <div><span class="xref">FeatureAttribute</span></div>
+      <div><a class="xref" href="Heleonix.Testing.NUnit.TestAttribute.html">TestAttribute</a></div>
+      <div><span class="xref">ScenarioAttribute</span></div>
     </dd>
   </dl>
 
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><span class="xref">IFixtureBuilder2</span></div>
-      <div><span class="xref">IFixtureBuilder</span></div>
+      <div><span class="xref">ISimpleTestBuilder</span></div>
+      <div><span class="xref">IApplyToContext</span></div>
     </dd>
   </dl>
 
@@ -132,12 +132,6 @@ public sealed class FeatureAttribute : FixtureAttribute, IFixtureBuilder2, IFixt
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="Heleonix.Testing.NUnit.FixtureAttribute.html#Heleonix_Testing_NUnit_FixtureAttribute_BuildFrom_NUnit_Framework_Interfaces_ITypeInfo_">FixtureAttribute.BuildFrom(ITypeInfo)</a>
-    </div>
-    <div>
-      <a class="xref" href="Heleonix.Testing.NUnit.FixtureAttribute.html#Heleonix_Testing_NUnit_FixtureAttribute_BuildFrom_NUnit_Framework_Interfaces_ITypeInfo_NUnit_Framework_Interfaces_IPreFilter_">FixtureAttribute.BuildFrom(ITypeInfo, IPreFilter)</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-type)">Attribute.GetCustomAttributes(MemberInfo, Type)</a>
     </div>
@@ -272,10 +266,10 @@ public sealed class FeatureAttribute : FixtureAttribute, IFixtureBuilder2, IFixt
 </h2>
 
 
-  <a id="Heleonix_Testing_NUnit_Bdd_FeatureAttribute__ctor_" data-uid="Heleonix.Testing.NUnit.Bdd.FeatureAttribute.#ctor*"></a>
+  <a id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute__ctor_" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.#ctor*"></a>
 
-  <h3 id="Heleonix_Testing_NUnit_Bdd_FeatureAttribute__ctor" data-uid="Heleonix.Testing.NUnit.Bdd.FeatureAttribute.#ctor">
-  FeatureAttribute()
+  <h3 id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute__ctor" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.#ctor">
+  ScenarioAttribute()
   
   </h3>
 
@@ -283,7 +277,7 @@ public sealed class FeatureAttribute : FixtureAttribute, IFixtureBuilder2, IFixt
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FeatureAttribute()</code></pre>
+    <pre><code class="lang-csharp hljs">public ScenarioAttribute()</code></pre>
   </div>
 
 
@@ -302,14 +296,14 @@ public sealed class FeatureAttribute : FixtureAttribute, IFixtureBuilder2, IFixt
 </h2>
 
 
-  <a id="Heleonix_Testing_NUnit_Bdd_FeatureAttribute_Name_" data-uid="Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Name*"></a>
+  <a id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_Name_" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.Name*"></a>
 
-  <h3 id="Heleonix_Testing_NUnit_Bdd_FeatureAttribute_Name" data-uid="Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Name">
+  <h3 id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_Name" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.Name">
   Name
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets or sets the name.</p>
+  <div class="markdown level1 summary"><p>Gets or sets the name of the scenario.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -324,7 +318,7 @@ public sealed class FeatureAttribute : FixtureAttribute, IFixtureBuilder2, IFixt
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The name.</p>
+    <dd><p>The name of the scenario.</p>
 </dd>
   </dl>
 
@@ -335,9 +329,9 @@ public sealed class FeatureAttribute : FixtureAttribute, IFixtureBuilder2, IFixt
 
 
 
-  <a id="Heleonix_Testing_NUnit_Bdd_FeatureAttribute_Properties_" data-uid="Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Properties*"></a>
+  <a id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_Properties_" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.Properties*"></a>
 
-  <h3 id="Heleonix_Testing_NUnit_Bdd_FeatureAttribute_Properties" data-uid="Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Properties">
+  <h3 id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_Properties" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.Properties">
   Properties
   
   </h3>
@@ -368,9 +362,9 @@ public sealed class FeatureAttribute : FixtureAttribute, IFixtureBuilder2, IFixt
 
 
 
-  <a id="Heleonix_Testing_NUnit_Bdd_FeatureAttribute_TestName_" data-uid="Heleonix.Testing.NUnit.Bdd.FeatureAttribute.TestName*"></a>
+  <a id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_TestName_" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.TestName*"></a>
 
-  <h3 id="Heleonix_Testing_NUnit_Bdd_FeatureAttribute_TestName" data-uid="Heleonix.Testing.NUnit.Bdd.FeatureAttribute.TestName">
+  <h3 id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_TestName" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.TestName">
   TestName
   
   </h3>
@@ -401,9 +395,86 @@ public sealed class FeatureAttribute : FixtureAttribute, IFixtureBuilder2, IFixt
 
 
 
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_ApplyToContext_" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.ApplyToContext*"></a>
+
+  <h3 id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_ApplyToContext_NUnit_Framework_Internal_TestExecutionContext_" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.ApplyToContext(NUnit.Framework.Internal.TestExecutionContext)">
+  ApplyToContext(TestExecutionContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ApplyToContext(TestExecutionContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <span class="xref">TestExecutionContext</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_BuildFrom_" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.BuildFrom*"></a>
+
+  <h3 id="Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_BuildFrom_NUnit_Framework_Interfaces_IMethodInfo_NUnit_Framework_Internal_Test_" data-uid="Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.BuildFrom(NUnit.Framework.Interfaces.IMethodInfo,NUnit.Framework.Internal.Test)">
+  BuildFrom(IMethodInfo, Test)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Build a TestMethod from the provided MethodInfo.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override TestMethod BuildFrom(IMethodInfo method, Test suite)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>method</code> <span class="xref">IMethodInfo</span></dt>
+    <dd><p>The method to be used as a test.</p>
+</dd>
+    <dt><code>suite</code> <span class="xref">Test</span></dt>
+    <dd><p>The TestSuite to which the method will be added.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TestMethod</span></dt>
+    <dd><p>A TestMethod object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <h2 id="seealso">See Also</h2>
   <div class="seealso">
-      <div><a class="xref" href="Heleonix.Testing.NUnit.FixtureAttribute.html">FixtureAttribute</a></div>
+      <div><a class="xref" href="Heleonix.Testing.NUnit.TestAttribute.html">TestAttribute</a></div>
   </div>
 
 </article>
