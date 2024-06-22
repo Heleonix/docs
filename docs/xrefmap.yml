@@ -1438,37 +1438,37 @@ references:
   nameWithType: Reflector.SetCoerced
 - uid: Heleonix.Testing.NUnit
   name: Heleonix.Testing.NUnit
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.html
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.html
   commentId: N:Heleonix.Testing.NUnit
   fullName: Heleonix.Testing.NUnit
   nameWithType: Heleonix.Testing.NUnit
 - uid: Heleonix.Testing.NUnit.Aaa
   name: Heleonix.Testing.NUnit.Aaa
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.html
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.html
   commentId: N:Heleonix.Testing.NUnit.Aaa
   fullName: Heleonix.Testing.NUnit.Aaa
   nameWithType: Heleonix.Testing.NUnit.Aaa
 - uid: Heleonix.Testing.NUnit.Aaa.AaaSpec
   name: AaaSpec
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.AaaSpec.html
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.AaaSpec.html
   commentId: T:Heleonix.Testing.NUnit.Aaa.AaaSpec
   fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec
   nameWithType: AaaSpec
 - uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.Act(System.Action)
   name: Act(Action)
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_Act_System_Action_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_Act_System_Action_
   commentId: M:Heleonix.Testing.NUnit.Aaa.AaaSpec.Act(System.Action)
   fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.Act(System.Action)
   nameWithType: AaaSpec.Act(Action)
 - uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.Act*
   name: Act
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_Act_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_Act_
   commentId: Overload:Heleonix.Testing.NUnit.Aaa.AaaSpec.Act
   fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.Act
   nameWithType: AaaSpec.Act
 - uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.And(System.String,System.Action)
   name: And(string, Action)
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_And_System_String_System_Action_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_And_System_String_System_Action_
   commentId: M:Heleonix.Testing.NUnit.Aaa.AaaSpec.And(System.String,System.Action)
   name.vb: And(String, Action)
   fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.And(string, System.Action)
@@ -1477,25 +1477,25 @@ references:
   nameWithType.vb: AaaSpec.And(String, Action)
 - uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.And*
   name: And
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_And_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_And_
   commentId: Overload:Heleonix.Testing.NUnit.Aaa.AaaSpec.And
   fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.And
   nameWithType: AaaSpec.And
 - uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.Arrange(System.Action)
   name: Arrange(Action)
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_Arrange_System_Action_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_Arrange_System_Action_
   commentId: M:Heleonix.Testing.NUnit.Aaa.AaaSpec.Arrange(System.Action)
   fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.Arrange(System.Action)
   nameWithType: AaaSpec.Arrange(Action)
 - uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.Arrange*
   name: Arrange
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_Arrange_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_Arrange_
   commentId: Overload:Heleonix.Testing.NUnit.Aaa.AaaSpec.Arrange
   fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.Arrange
   nameWithType: AaaSpec.Arrange
 - uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.Should(System.String,System.Action)
   name: Should(string, Action)
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_Should_System_String_System_Action_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_Should_System_String_System_Action_
   commentId: M:Heleonix.Testing.NUnit.Aaa.AaaSpec.Should(System.String,System.Action)
   name.vb: Should(String, Action)
   fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.Should(string, System.Action)
@@ -1504,25 +1504,25 @@ references:
   nameWithType.vb: AaaSpec.Should(String, Action)
 - uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.Should*
   name: Should
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_Should_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_Should_
   commentId: Overload:Heleonix.Testing.NUnit.Aaa.AaaSpec.Should
   fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.Should
   nameWithType: AaaSpec.Should
 - uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.Teardown(System.Action)
   name: Teardown(Action)
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_Teardown_System_Action_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_Teardown_System_Action_
   commentId: M:Heleonix.Testing.NUnit.Aaa.AaaSpec.Teardown(System.Action)
   fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.Teardown(System.Action)
   nameWithType: AaaSpec.Teardown(Action)
 - uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.Teardown*
   name: Teardown
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_Teardown_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_Teardown_
   commentId: Overload:Heleonix.Testing.NUnit.Aaa.AaaSpec.Teardown
   fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.Teardown
   nameWithType: AaaSpec.Teardown
 - uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.When(System.String,System.Action)
   name: When(string, Action)
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_When_System_String_System_Action_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_When_System_String_System_Action_
   commentId: M:Heleonix.Testing.NUnit.Aaa.AaaSpec.When(System.String,System.Action)
   name.vb: When(String, Action)
   fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.When(string, System.Action)
@@ -1531,19 +1531,19 @@ references:
   nameWithType.vb: AaaSpec.When(String, Action)
 - uid: Heleonix.Testing.NUnit.Aaa.AaaSpec.When*
   name: When
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_When_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.AaaSpec.html#Heleonix_Testing_NUnit_Aaa_AaaSpec_When_
   commentId: Overload:Heleonix.Testing.NUnit.Aaa.AaaSpec.When
   fullName: Heleonix.Testing.NUnit.Aaa.AaaSpec.When
   nameWithType: AaaSpec.When
 - uid: Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute
   name: ComponentTestAttribute
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html
   commentId: T:Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute
   fullName: Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute
   nameWithType: ComponentTestAttribute
 - uid: Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.#ctor
   name: ComponentTestAttribute()
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html#Heleonix_Testing_NUnit_Aaa_ComponentTestAttribute__ctor
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html#Heleonix_Testing_NUnit_Aaa_ComponentTestAttribute__ctor
   commentId: M:Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.#ctor
   name.vb: New()
   fullName: Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.ComponentTestAttribute()
@@ -1552,7 +1552,7 @@ references:
   nameWithType.vb: ComponentTestAttribute.New()
 - uid: Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.#ctor*
   name: ComponentTestAttribute
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html#Heleonix_Testing_NUnit_Aaa_ComponentTestAttribute__ctor_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html#Heleonix_Testing_NUnit_Aaa_ComponentTestAttribute__ctor_
   commentId: Overload:Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.#ctor
   name.vb: New
   fullName: Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.ComponentTestAttribute
@@ -1561,49 +1561,49 @@ references:
   nameWithType.vb: ComponentTestAttribute.New
 - uid: Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.Properties
   name: Properties
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html#Heleonix_Testing_NUnit_Aaa_ComponentTestAttribute_Properties
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html#Heleonix_Testing_NUnit_Aaa_ComponentTestAttribute_Properties
   commentId: P:Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.Properties
   fullName: Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.Properties
   nameWithType: ComponentTestAttribute.Properties
 - uid: Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.Properties*
   name: Properties
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html#Heleonix_Testing_NUnit_Aaa_ComponentTestAttribute_Properties_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html#Heleonix_Testing_NUnit_Aaa_ComponentTestAttribute_Properties_
   commentId: Overload:Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.Properties
   fullName: Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.Properties
   nameWithType: ComponentTestAttribute.Properties
 - uid: Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.TestName
   name: TestName
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html#Heleonix_Testing_NUnit_Aaa_ComponentTestAttribute_TestName
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html#Heleonix_Testing_NUnit_Aaa_ComponentTestAttribute_TestName
   commentId: P:Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.TestName
   fullName: Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.TestName
   nameWithType: ComponentTestAttribute.TestName
 - uid: Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.TestName*
   name: TestName
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html#Heleonix_Testing_NUnit_Aaa_ComponentTestAttribute_TestName_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html#Heleonix_Testing_NUnit_Aaa_ComponentTestAttribute_TestName_
   commentId: Overload:Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.TestName
   fullName: Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.TestName
   nameWithType: ComponentTestAttribute.TestName
 - uid: Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.Type
   name: Type
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html#Heleonix_Testing_NUnit_Aaa_ComponentTestAttribute_Type
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html#Heleonix_Testing_NUnit_Aaa_ComponentTestAttribute_Type
   commentId: P:Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.Type
   fullName: Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.Type
   nameWithType: ComponentTestAttribute.Type
 - uid: Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.Type*
   name: Type
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html#Heleonix_Testing_NUnit_Aaa_ComponentTestAttribute_Type_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html#Heleonix_Testing_NUnit_Aaa_ComponentTestAttribute_Type_
   commentId: Overload:Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.Type
   fullName: Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.Type
   nameWithType: ComponentTestAttribute.Type
 - uid: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute
   name: MemberTestAttribute
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html
   commentId: T:Heleonix.Testing.NUnit.Aaa.MemberTestAttribute
   fullName: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute
   nameWithType: MemberTestAttribute
 - uid: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.#ctor
   name: MemberTestAttribute()
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute__ctor
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute__ctor
   commentId: M:Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.#ctor
   name.vb: New()
   fullName: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.MemberTestAttribute()
@@ -1612,7 +1612,7 @@ references:
   nameWithType.vb: MemberTestAttribute.New()
 - uid: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.#ctor*
   name: MemberTestAttribute
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute__ctor_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute__ctor_
   commentId: Overload:Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.#ctor
   name.vb: New
   fullName: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.MemberTestAttribute
@@ -1621,73 +1621,73 @@ references:
   nameWithType.vb: MemberTestAttribute.New
 - uid: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.ApplyToContext(NUnit.Framework.Internal.TestExecutionContext)
   name: ApplyToContext(TestExecutionContext)
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_ApplyToContext_NUnit_Framework_Internal_TestExecutionContext_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_ApplyToContext_NUnit_Framework_Internal_TestExecutionContext_
   commentId: M:Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.ApplyToContext(NUnit.Framework.Internal.TestExecutionContext)
   fullName: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.ApplyToContext(NUnit.Framework.Internal.TestExecutionContext)
   nameWithType: MemberTestAttribute.ApplyToContext(TestExecutionContext)
 - uid: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.ApplyToContext*
   name: ApplyToContext
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_ApplyToContext_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_ApplyToContext_
   commentId: Overload:Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.ApplyToContext
   fullName: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.ApplyToContext
   nameWithType: MemberTestAttribute.ApplyToContext
 - uid: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.BuildFrom(NUnit.Framework.Interfaces.IMethodInfo,NUnit.Framework.Internal.Test)
   name: BuildFrom(IMethodInfo, Test)
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_BuildFrom_NUnit_Framework_Interfaces_IMethodInfo_NUnit_Framework_Internal_Test_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_BuildFrom_NUnit_Framework_Interfaces_IMethodInfo_NUnit_Framework_Internal_Test_
   commentId: M:Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.BuildFrom(NUnit.Framework.Interfaces.IMethodInfo,NUnit.Framework.Internal.Test)
   fullName: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.BuildFrom(NUnit.Framework.Interfaces.IMethodInfo, NUnit.Framework.Internal.Test)
   nameWithType: MemberTestAttribute.BuildFrom(IMethodInfo, Test)
 - uid: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.BuildFrom*
   name: BuildFrom
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_BuildFrom_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_BuildFrom_
   commentId: Overload:Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.BuildFrom
   fullName: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.BuildFrom
   nameWithType: MemberTestAttribute.BuildFrom
 - uid: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.Name
   name: Name
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_Name
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_Name
   commentId: P:Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.Name
   fullName: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.Name
   nameWithType: MemberTestAttribute.Name
 - uid: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.Name*
   name: Name
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_Name_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_Name_
   commentId: Overload:Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.Name
   fullName: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.Name
   nameWithType: MemberTestAttribute.Name
 - uid: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.Properties
   name: Properties
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_Properties
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_Properties
   commentId: P:Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.Properties
   fullName: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.Properties
   nameWithType: MemberTestAttribute.Properties
 - uid: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.Properties*
   name: Properties
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_Properties_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_Properties_
   commentId: Overload:Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.Properties
   fullName: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.Properties
   nameWithType: MemberTestAttribute.Properties
 - uid: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.TestName
   name: TestName
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_TestName
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_TestName
   commentId: P:Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.TestName
   fullName: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.TestName
   nameWithType: MemberTestAttribute.TestName
 - uid: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.TestName*
   name: TestName
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_TestName_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html#Heleonix_Testing_NUnit_Aaa_MemberTestAttribute_TestName_
   commentId: Overload:Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.TestName
   fullName: Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.TestName
   nameWithType: MemberTestAttribute.TestName
 - uid: Heleonix.Testing.NUnit.BaseAttribute
   name: BaseAttribute
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.BaseAttribute.html
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.BaseAttribute.html
   commentId: T:Heleonix.Testing.NUnit.BaseAttribute
   fullName: Heleonix.Testing.NUnit.BaseAttribute
   nameWithType: BaseAttribute
 - uid: Heleonix.Testing.NUnit.BaseAttribute.#ctor
   name: BaseAttribute()
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.BaseAttribute.html#Heleonix_Testing_NUnit_BaseAttribute__ctor
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.BaseAttribute.html#Heleonix_Testing_NUnit_BaseAttribute__ctor
   commentId: M:Heleonix.Testing.NUnit.BaseAttribute.#ctor
   name.vb: New()
   fullName: Heleonix.Testing.NUnit.BaseAttribute.BaseAttribute()
@@ -1696,7 +1696,7 @@ references:
   nameWithType.vb: BaseAttribute.New()
 - uid: Heleonix.Testing.NUnit.BaseAttribute.#ctor*
   name: BaseAttribute
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.BaseAttribute.html#Heleonix_Testing_NUnit_BaseAttribute__ctor_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.BaseAttribute.html#Heleonix_Testing_NUnit_BaseAttribute__ctor_
   commentId: Overload:Heleonix.Testing.NUnit.BaseAttribute.#ctor
   name.vb: New
   fullName: Heleonix.Testing.NUnit.BaseAttribute.BaseAttribute
@@ -1705,55 +1705,55 @@ references:
   nameWithType.vb: BaseAttribute.New
 - uid: Heleonix.Testing.NUnit.BaseAttribute.Properties
   name: Properties
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.BaseAttribute.html#Heleonix_Testing_NUnit_BaseAttribute_Properties
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.BaseAttribute.html#Heleonix_Testing_NUnit_BaseAttribute_Properties
   commentId: P:Heleonix.Testing.NUnit.BaseAttribute.Properties
   fullName: Heleonix.Testing.NUnit.BaseAttribute.Properties
   nameWithType: BaseAttribute.Properties
 - uid: Heleonix.Testing.NUnit.BaseAttribute.Properties*
   name: Properties
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.BaseAttribute.html#Heleonix_Testing_NUnit_BaseAttribute_Properties_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.BaseAttribute.html#Heleonix_Testing_NUnit_BaseAttribute_Properties_
   commentId: Overload:Heleonix.Testing.NUnit.BaseAttribute.Properties
   fullName: Heleonix.Testing.NUnit.BaseAttribute.Properties
   nameWithType: BaseAttribute.Properties
 - uid: Heleonix.Testing.NUnit.BaseAttribute.TestName
   name: TestName
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.BaseAttribute.html#Heleonix_Testing_NUnit_BaseAttribute_TestName
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.BaseAttribute.html#Heleonix_Testing_NUnit_BaseAttribute_TestName
   commentId: P:Heleonix.Testing.NUnit.BaseAttribute.TestName
   fullName: Heleonix.Testing.NUnit.BaseAttribute.TestName
   nameWithType: BaseAttribute.TestName
 - uid: Heleonix.Testing.NUnit.BaseAttribute.TestName*
   name: TestName
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.BaseAttribute.html#Heleonix_Testing_NUnit_BaseAttribute_TestName_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.BaseAttribute.html#Heleonix_Testing_NUnit_BaseAttribute_TestName_
   commentId: Overload:Heleonix.Testing.NUnit.BaseAttribute.TestName
   fullName: Heleonix.Testing.NUnit.BaseAttribute.TestName
   nameWithType: BaseAttribute.TestName
 - uid: Heleonix.Testing.NUnit.Bdd
   name: Heleonix.Testing.NUnit.Bdd
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.html
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.html
   commentId: N:Heleonix.Testing.NUnit.Bdd
   fullName: Heleonix.Testing.NUnit.Bdd
   nameWithType: Heleonix.Testing.NUnit.Bdd
 - uid: Heleonix.Testing.NUnit.Bdd.BddSpec
   name: BddSpec
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.BddSpec.html
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.BddSpec.html
   commentId: T:Heleonix.Testing.NUnit.Bdd.BddSpec
   fullName: Heleonix.Testing.NUnit.Bdd.BddSpec
   nameWithType: BddSpec
 - uid: Heleonix.Testing.NUnit.Bdd.BddSpec.AfterEach(System.Action)
   name: AfterEach(Action)
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_AfterEach_System_Action_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_AfterEach_System_Action_
   commentId: M:Heleonix.Testing.NUnit.Bdd.BddSpec.AfterEach(System.Action)
   fullName: Heleonix.Testing.NUnit.Bdd.BddSpec.AfterEach(System.Action)
   nameWithType: BddSpec.AfterEach(Action)
 - uid: Heleonix.Testing.NUnit.Bdd.BddSpec.AfterEach*
   name: AfterEach
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_AfterEach_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_AfterEach_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.BddSpec.AfterEach
   fullName: Heleonix.Testing.NUnit.Bdd.BddSpec.AfterEach
   nameWithType: BddSpec.AfterEach
 - uid: Heleonix.Testing.NUnit.Bdd.BddSpec.And(System.String,System.Action)
   name: And(string, Action)
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_And_System_String_System_Action_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_And_System_String_System_Action_
   commentId: M:Heleonix.Testing.NUnit.Bdd.BddSpec.And(System.String,System.Action)
   name.vb: And(String, Action)
   fullName: Heleonix.Testing.NUnit.Bdd.BddSpec.And(string, System.Action)
@@ -1762,25 +1762,25 @@ references:
   nameWithType.vb: BddSpec.And(String, Action)
 - uid: Heleonix.Testing.NUnit.Bdd.BddSpec.And*
   name: And
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_And_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_And_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.BddSpec.And
   fullName: Heleonix.Testing.NUnit.Bdd.BddSpec.And
   nameWithType: BddSpec.And
 - uid: Heleonix.Testing.NUnit.Bdd.BddSpec.BeforeEach(System.Action)
   name: BeforeEach(Action)
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_BeforeEach_System_Action_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_BeforeEach_System_Action_
   commentId: M:Heleonix.Testing.NUnit.Bdd.BddSpec.BeforeEach(System.Action)
   fullName: Heleonix.Testing.NUnit.Bdd.BddSpec.BeforeEach(System.Action)
   nameWithType: BddSpec.BeforeEach(Action)
 - uid: Heleonix.Testing.NUnit.Bdd.BddSpec.BeforeEach*
   name: BeforeEach
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_BeforeEach_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_BeforeEach_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.BddSpec.BeforeEach
   fullName: Heleonix.Testing.NUnit.Bdd.BddSpec.BeforeEach
   nameWithType: BddSpec.BeforeEach
 - uid: Heleonix.Testing.NUnit.Bdd.BddSpec.Given(System.String,System.Action)
   name: Given(string, Action)
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_Given_System_String_System_Action_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_Given_System_String_System_Action_
   commentId: M:Heleonix.Testing.NUnit.Bdd.BddSpec.Given(System.String,System.Action)
   name.vb: Given(String, Action)
   fullName: Heleonix.Testing.NUnit.Bdd.BddSpec.Given(string, System.Action)
@@ -1789,13 +1789,13 @@ references:
   nameWithType.vb: BddSpec.Given(String, Action)
 - uid: Heleonix.Testing.NUnit.Bdd.BddSpec.Given*
   name: Given
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_Given_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_Given_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.BddSpec.Given
   fullName: Heleonix.Testing.NUnit.Bdd.BddSpec.Given
   nameWithType: BddSpec.Given
 - uid: Heleonix.Testing.NUnit.Bdd.BddSpec.Then(System.String,System.Action)
   name: Then(string, Action)
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_Then_System_String_System_Action_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_Then_System_String_System_Action_
   commentId: M:Heleonix.Testing.NUnit.Bdd.BddSpec.Then(System.String,System.Action)
   name.vb: Then(String, Action)
   fullName: Heleonix.Testing.NUnit.Bdd.BddSpec.Then(string, System.Action)
@@ -1804,13 +1804,13 @@ references:
   nameWithType.vb: BddSpec.Then(String, Action)
 - uid: Heleonix.Testing.NUnit.Bdd.BddSpec.Then*
   name: Then
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_Then_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_Then_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.BddSpec.Then
   fullName: Heleonix.Testing.NUnit.Bdd.BddSpec.Then
   nameWithType: BddSpec.Then
 - uid: Heleonix.Testing.NUnit.Bdd.BddSpec.When(System.String,System.Action)
   name: When(string, Action)
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_When_System_String_System_Action_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_When_System_String_System_Action_
   commentId: M:Heleonix.Testing.NUnit.Bdd.BddSpec.When(System.String,System.Action)
   name.vb: When(String, Action)
   fullName: Heleonix.Testing.NUnit.Bdd.BddSpec.When(string, System.Action)
@@ -1819,19 +1819,19 @@ references:
   nameWithType.vb: BddSpec.When(String, Action)
 - uid: Heleonix.Testing.NUnit.Bdd.BddSpec.When*
   name: When
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_When_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.BddSpec.html#Heleonix_Testing_NUnit_Bdd_BddSpec_When_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.BddSpec.When
   fullName: Heleonix.Testing.NUnit.Bdd.BddSpec.When
   nameWithType: BddSpec.When
 - uid: Heleonix.Testing.NUnit.Bdd.FeatureAttribute
   name: FeatureAttribute
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html
   commentId: T:Heleonix.Testing.NUnit.Bdd.FeatureAttribute
   fullName: Heleonix.Testing.NUnit.Bdd.FeatureAttribute
   nameWithType: FeatureAttribute
 - uid: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.#ctor
   name: FeatureAttribute()
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html#Heleonix_Testing_NUnit_Bdd_FeatureAttribute__ctor
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html#Heleonix_Testing_NUnit_Bdd_FeatureAttribute__ctor
   commentId: M:Heleonix.Testing.NUnit.Bdd.FeatureAttribute.#ctor
   name.vb: New()
   fullName: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.FeatureAttribute()
@@ -1840,7 +1840,7 @@ references:
   nameWithType.vb: FeatureAttribute.New()
 - uid: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.#ctor*
   name: FeatureAttribute
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html#Heleonix_Testing_NUnit_Bdd_FeatureAttribute__ctor_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html#Heleonix_Testing_NUnit_Bdd_FeatureAttribute__ctor_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.FeatureAttribute.#ctor
   name.vb: New
   fullName: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.FeatureAttribute
@@ -1849,49 +1849,49 @@ references:
   nameWithType.vb: FeatureAttribute.New
 - uid: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Name
   name: Name
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html#Heleonix_Testing_NUnit_Bdd_FeatureAttribute_Name
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html#Heleonix_Testing_NUnit_Bdd_FeatureAttribute_Name
   commentId: P:Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Name
   fullName: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Name
   nameWithType: FeatureAttribute.Name
 - uid: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Name*
   name: Name
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html#Heleonix_Testing_NUnit_Bdd_FeatureAttribute_Name_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html#Heleonix_Testing_NUnit_Bdd_FeatureAttribute_Name_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Name
   fullName: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Name
   nameWithType: FeatureAttribute.Name
 - uid: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Properties
   name: Properties
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html#Heleonix_Testing_NUnit_Bdd_FeatureAttribute_Properties
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html#Heleonix_Testing_NUnit_Bdd_FeatureAttribute_Properties
   commentId: P:Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Properties
   fullName: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Properties
   nameWithType: FeatureAttribute.Properties
 - uid: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Properties*
   name: Properties
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html#Heleonix_Testing_NUnit_Bdd_FeatureAttribute_Properties_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html#Heleonix_Testing_NUnit_Bdd_FeatureAttribute_Properties_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Properties
   fullName: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.Properties
   nameWithType: FeatureAttribute.Properties
 - uid: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.TestName
   name: TestName
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html#Heleonix_Testing_NUnit_Bdd_FeatureAttribute_TestName
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html#Heleonix_Testing_NUnit_Bdd_FeatureAttribute_TestName
   commentId: P:Heleonix.Testing.NUnit.Bdd.FeatureAttribute.TestName
   fullName: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.TestName
   nameWithType: FeatureAttribute.TestName
 - uid: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.TestName*
   name: TestName
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html#Heleonix_Testing_NUnit_Bdd_FeatureAttribute_TestName_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html#Heleonix_Testing_NUnit_Bdd_FeatureAttribute_TestName_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.FeatureAttribute.TestName
   fullName: Heleonix.Testing.NUnit.Bdd.FeatureAttribute.TestName
   nameWithType: FeatureAttribute.TestName
 - uid: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute
   name: ScenarioAttribute
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html
   commentId: T:Heleonix.Testing.NUnit.Bdd.ScenarioAttribute
   fullName: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute
   nameWithType: ScenarioAttribute
 - uid: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.#ctor
   name: ScenarioAttribute()
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute__ctor
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute__ctor
   commentId: M:Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.#ctor
   name.vb: New()
   fullName: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.ScenarioAttribute()
@@ -1900,7 +1900,7 @@ references:
   nameWithType.vb: ScenarioAttribute.New()
 - uid: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.#ctor*
   name: ScenarioAttribute
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute__ctor_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute__ctor_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.#ctor
   name.vb: New
   fullName: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.ScenarioAttribute
@@ -1909,73 +1909,73 @@ references:
   nameWithType.vb: ScenarioAttribute.New
 - uid: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.ApplyToContext(NUnit.Framework.Internal.TestExecutionContext)
   name: ApplyToContext(TestExecutionContext)
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_ApplyToContext_NUnit_Framework_Internal_TestExecutionContext_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_ApplyToContext_NUnit_Framework_Internal_TestExecutionContext_
   commentId: M:Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.ApplyToContext(NUnit.Framework.Internal.TestExecutionContext)
   fullName: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.ApplyToContext(NUnit.Framework.Internal.TestExecutionContext)
   nameWithType: ScenarioAttribute.ApplyToContext(TestExecutionContext)
 - uid: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.ApplyToContext*
   name: ApplyToContext
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_ApplyToContext_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_ApplyToContext_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.ApplyToContext
   fullName: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.ApplyToContext
   nameWithType: ScenarioAttribute.ApplyToContext
 - uid: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.BuildFrom(NUnit.Framework.Interfaces.IMethodInfo,NUnit.Framework.Internal.Test)
   name: BuildFrom(IMethodInfo, Test)
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_BuildFrom_NUnit_Framework_Interfaces_IMethodInfo_NUnit_Framework_Internal_Test_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_BuildFrom_NUnit_Framework_Interfaces_IMethodInfo_NUnit_Framework_Internal_Test_
   commentId: M:Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.BuildFrom(NUnit.Framework.Interfaces.IMethodInfo,NUnit.Framework.Internal.Test)
   fullName: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.BuildFrom(NUnit.Framework.Interfaces.IMethodInfo, NUnit.Framework.Internal.Test)
   nameWithType: ScenarioAttribute.BuildFrom(IMethodInfo, Test)
 - uid: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.BuildFrom*
   name: BuildFrom
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_BuildFrom_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_BuildFrom_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.BuildFrom
   fullName: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.BuildFrom
   nameWithType: ScenarioAttribute.BuildFrom
 - uid: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.Name
   name: Name
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_Name
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_Name
   commentId: P:Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.Name
   fullName: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.Name
   nameWithType: ScenarioAttribute.Name
 - uid: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.Name*
   name: Name
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_Name_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_Name_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.Name
   fullName: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.Name
   nameWithType: ScenarioAttribute.Name
 - uid: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.Properties
   name: Properties
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_Properties
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_Properties
   commentId: P:Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.Properties
   fullName: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.Properties
   nameWithType: ScenarioAttribute.Properties
 - uid: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.Properties*
   name: Properties
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_Properties_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_Properties_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.Properties
   fullName: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.Properties
   nameWithType: ScenarioAttribute.Properties
 - uid: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.TestName
   name: TestName
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_TestName
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_TestName
   commentId: P:Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.TestName
   fullName: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.TestName
   nameWithType: ScenarioAttribute.TestName
 - uid: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.TestName*
   name: TestName
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_TestName_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html#Heleonix_Testing_NUnit_Bdd_ScenarioAttribute_TestName_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.TestName
   fullName: Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.TestName
   nameWithType: ScenarioAttribute.TestName
 - uid: Heleonix.Testing.NUnit.Bdd.StoryAttribute
   name: StoryAttribute
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html
   commentId: T:Heleonix.Testing.NUnit.Bdd.StoryAttribute
   fullName: Heleonix.Testing.NUnit.Bdd.StoryAttribute
   nameWithType: StoryAttribute
 - uid: Heleonix.Testing.NUnit.Bdd.StoryAttribute.#ctor
   name: StoryAttribute()
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute__ctor
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute__ctor
   commentId: M:Heleonix.Testing.NUnit.Bdd.StoryAttribute.#ctor
   name.vb: New()
   fullName: Heleonix.Testing.NUnit.Bdd.StoryAttribute.StoryAttribute()
@@ -1984,7 +1984,7 @@ references:
   nameWithType.vb: StoryAttribute.New()
 - uid: Heleonix.Testing.NUnit.Bdd.StoryAttribute.#ctor*
   name: StoryAttribute
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute__ctor_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute__ctor_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.StoryAttribute.#ctor
   name.vb: New
   fullName: Heleonix.Testing.NUnit.Bdd.StoryAttribute.StoryAttribute
@@ -1993,97 +1993,97 @@ references:
   nameWithType.vb: StoryAttribute.New
 - uid: Heleonix.Testing.NUnit.Bdd.StoryAttribute.AsA
   name: AsA
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_AsA
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_AsA
   commentId: P:Heleonix.Testing.NUnit.Bdd.StoryAttribute.AsA
   fullName: Heleonix.Testing.NUnit.Bdd.StoryAttribute.AsA
   nameWithType: StoryAttribute.AsA
 - uid: Heleonix.Testing.NUnit.Bdd.StoryAttribute.AsA*
   name: AsA
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_AsA_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_AsA_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.StoryAttribute.AsA
   fullName: Heleonix.Testing.NUnit.Bdd.StoryAttribute.AsA
   nameWithType: StoryAttribute.AsA
 - uid: Heleonix.Testing.NUnit.Bdd.StoryAttribute.IWant
   name: IWant
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_IWant
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_IWant
   commentId: P:Heleonix.Testing.NUnit.Bdd.StoryAttribute.IWant
   fullName: Heleonix.Testing.NUnit.Bdd.StoryAttribute.IWant
   nameWithType: StoryAttribute.IWant
 - uid: Heleonix.Testing.NUnit.Bdd.StoryAttribute.IWant*
   name: IWant
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_IWant_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_IWant_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.StoryAttribute.IWant
   fullName: Heleonix.Testing.NUnit.Bdd.StoryAttribute.IWant
   nameWithType: StoryAttribute.IWant
 - uid: Heleonix.Testing.NUnit.Bdd.StoryAttribute.Id
   name: Id
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_Id
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_Id
   commentId: P:Heleonix.Testing.NUnit.Bdd.StoryAttribute.Id
   fullName: Heleonix.Testing.NUnit.Bdd.StoryAttribute.Id
   nameWithType: StoryAttribute.Id
 - uid: Heleonix.Testing.NUnit.Bdd.StoryAttribute.Id*
   name: Id
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_Id_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_Id_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.StoryAttribute.Id
   fullName: Heleonix.Testing.NUnit.Bdd.StoryAttribute.Id
   nameWithType: StoryAttribute.Id
 - uid: Heleonix.Testing.NUnit.Bdd.StoryAttribute.Properties
   name: Properties
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_Properties
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_Properties
   commentId: P:Heleonix.Testing.NUnit.Bdd.StoryAttribute.Properties
   fullName: Heleonix.Testing.NUnit.Bdd.StoryAttribute.Properties
   nameWithType: StoryAttribute.Properties
 - uid: Heleonix.Testing.NUnit.Bdd.StoryAttribute.Properties*
   name: Properties
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_Properties_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_Properties_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.StoryAttribute.Properties
   fullName: Heleonix.Testing.NUnit.Bdd.StoryAttribute.Properties
   nameWithType: StoryAttribute.Properties
 - uid: Heleonix.Testing.NUnit.Bdd.StoryAttribute.SoThat
   name: SoThat
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_SoThat
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_SoThat
   commentId: P:Heleonix.Testing.NUnit.Bdd.StoryAttribute.SoThat
   fullName: Heleonix.Testing.NUnit.Bdd.StoryAttribute.SoThat
   nameWithType: StoryAttribute.SoThat
 - uid: Heleonix.Testing.NUnit.Bdd.StoryAttribute.SoThat*
   name: SoThat
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_SoThat_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_SoThat_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.StoryAttribute.SoThat
   fullName: Heleonix.Testing.NUnit.Bdd.StoryAttribute.SoThat
   nameWithType: StoryAttribute.SoThat
 - uid: Heleonix.Testing.NUnit.Bdd.StoryAttribute.Summary
   name: Summary
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_Summary
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_Summary
   commentId: P:Heleonix.Testing.NUnit.Bdd.StoryAttribute.Summary
   fullName: Heleonix.Testing.NUnit.Bdd.StoryAttribute.Summary
   nameWithType: StoryAttribute.Summary
 - uid: Heleonix.Testing.NUnit.Bdd.StoryAttribute.Summary*
   name: Summary
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_Summary_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_Summary_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.StoryAttribute.Summary
   fullName: Heleonix.Testing.NUnit.Bdd.StoryAttribute.Summary
   nameWithType: StoryAttribute.Summary
 - uid: Heleonix.Testing.NUnit.Bdd.StoryAttribute.TestName
   name: TestName
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_TestName
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_TestName
   commentId: P:Heleonix.Testing.NUnit.Bdd.StoryAttribute.TestName
   fullName: Heleonix.Testing.NUnit.Bdd.StoryAttribute.TestName
   nameWithType: StoryAttribute.TestName
 - uid: Heleonix.Testing.NUnit.Bdd.StoryAttribute.TestName*
   name: TestName
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_TestName_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html#Heleonix_Testing_NUnit_Bdd_StoryAttribute_TestName_
   commentId: Overload:Heleonix.Testing.NUnit.Bdd.StoryAttribute.TestName
   fullName: Heleonix.Testing.NUnit.Bdd.StoryAttribute.TestName
   nameWithType: StoryAttribute.TestName
 - uid: Heleonix.Testing.NUnit.FixtureAttribute
   name: FixtureAttribute
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.FixtureAttribute.html
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.FixtureAttribute.html
   commentId: T:Heleonix.Testing.NUnit.FixtureAttribute
   fullName: Heleonix.Testing.NUnit.FixtureAttribute
   nameWithType: FixtureAttribute
 - uid: Heleonix.Testing.NUnit.FixtureAttribute.#ctor
   name: FixtureAttribute()
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.FixtureAttribute.html#Heleonix_Testing_NUnit_FixtureAttribute__ctor
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.FixtureAttribute.html#Heleonix_Testing_NUnit_FixtureAttribute__ctor
   commentId: M:Heleonix.Testing.NUnit.FixtureAttribute.#ctor
   name.vb: New()
   fullName: Heleonix.Testing.NUnit.FixtureAttribute.FixtureAttribute()
@@ -2092,7 +2092,7 @@ references:
   nameWithType.vb: FixtureAttribute.New()
 - uid: Heleonix.Testing.NUnit.FixtureAttribute.#ctor*
   name: FixtureAttribute
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.FixtureAttribute.html#Heleonix_Testing_NUnit_FixtureAttribute__ctor_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.FixtureAttribute.html#Heleonix_Testing_NUnit_FixtureAttribute__ctor_
   commentId: Overload:Heleonix.Testing.NUnit.FixtureAttribute.#ctor
   name.vb: New
   fullName: Heleonix.Testing.NUnit.FixtureAttribute.FixtureAttribute
@@ -2101,31 +2101,31 @@ references:
   nameWithType.vb: FixtureAttribute.New
 - uid: Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom(NUnit.Framework.Interfaces.ITypeInfo)
   name: BuildFrom(ITypeInfo)
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.FixtureAttribute.html#Heleonix_Testing_NUnit_FixtureAttribute_BuildFrom_NUnit_Framework_Interfaces_ITypeInfo_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.FixtureAttribute.html#Heleonix_Testing_NUnit_FixtureAttribute_BuildFrom_NUnit_Framework_Interfaces_ITypeInfo_
   commentId: M:Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom(NUnit.Framework.Interfaces.ITypeInfo)
   fullName: Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom(NUnit.Framework.Interfaces.ITypeInfo)
   nameWithType: FixtureAttribute.BuildFrom(ITypeInfo)
 - uid: Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom(NUnit.Framework.Interfaces.ITypeInfo,NUnit.Framework.Interfaces.IPreFilter)
   name: BuildFrom(ITypeInfo, IPreFilter)
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.FixtureAttribute.html#Heleonix_Testing_NUnit_FixtureAttribute_BuildFrom_NUnit_Framework_Interfaces_ITypeInfo_NUnit_Framework_Interfaces_IPreFilter_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.FixtureAttribute.html#Heleonix_Testing_NUnit_FixtureAttribute_BuildFrom_NUnit_Framework_Interfaces_ITypeInfo_NUnit_Framework_Interfaces_IPreFilter_
   commentId: M:Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom(NUnit.Framework.Interfaces.ITypeInfo,NUnit.Framework.Interfaces.IPreFilter)
   fullName: Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom(NUnit.Framework.Interfaces.ITypeInfo, NUnit.Framework.Interfaces.IPreFilter)
   nameWithType: FixtureAttribute.BuildFrom(ITypeInfo, IPreFilter)
 - uid: Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom*
   name: BuildFrom
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.FixtureAttribute.html#Heleonix_Testing_NUnit_FixtureAttribute_BuildFrom_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.FixtureAttribute.html#Heleonix_Testing_NUnit_FixtureAttribute_BuildFrom_
   commentId: Overload:Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom
   fullName: Heleonix.Testing.NUnit.FixtureAttribute.BuildFrom
   nameWithType: FixtureAttribute.BuildFrom
 - uid: Heleonix.Testing.NUnit.TestAttribute
   name: TestAttribute
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.TestAttribute.html
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.TestAttribute.html
   commentId: T:Heleonix.Testing.NUnit.TestAttribute
   fullName: Heleonix.Testing.NUnit.TestAttribute
   nameWithType: TestAttribute
 - uid: Heleonix.Testing.NUnit.TestAttribute.#ctor
   name: TestAttribute()
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.TestAttribute.html#Heleonix_Testing_NUnit_TestAttribute__ctor
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.TestAttribute.html#Heleonix_Testing_NUnit_TestAttribute__ctor
   commentId: M:Heleonix.Testing.NUnit.TestAttribute.#ctor
   name.vb: New()
   fullName: Heleonix.Testing.NUnit.TestAttribute.TestAttribute()
@@ -2134,7 +2134,7 @@ references:
   nameWithType.vb: TestAttribute.New()
 - uid: Heleonix.Testing.NUnit.TestAttribute.#ctor*
   name: TestAttribute
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.TestAttribute.html#Heleonix_Testing_NUnit_TestAttribute__ctor_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.TestAttribute.html#Heleonix_Testing_NUnit_TestAttribute__ctor_
   commentId: Overload:Heleonix.Testing.NUnit.TestAttribute.#ctor
   name.vb: New
   fullName: Heleonix.Testing.NUnit.TestAttribute.TestAttribute
@@ -2143,13 +2143,13 @@ references:
   nameWithType.vb: TestAttribute.New
 - uid: Heleonix.Testing.NUnit.TestAttribute.BuildFrom(NUnit.Framework.Interfaces.IMethodInfo,NUnit.Framework.Internal.Test)
   name: BuildFrom(IMethodInfo, Test)
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.TestAttribute.html#Heleonix_Testing_NUnit_TestAttribute_BuildFrom_NUnit_Framework_Interfaces_IMethodInfo_NUnit_Framework_Internal_Test_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.TestAttribute.html#Heleonix_Testing_NUnit_TestAttribute_BuildFrom_NUnit_Framework_Interfaces_IMethodInfo_NUnit_Framework_Internal_Test_
   commentId: M:Heleonix.Testing.NUnit.TestAttribute.BuildFrom(NUnit.Framework.Interfaces.IMethodInfo,NUnit.Framework.Internal.Test)
   fullName: Heleonix.Testing.NUnit.TestAttribute.BuildFrom(NUnit.Framework.Interfaces.IMethodInfo, NUnit.Framework.Internal.Test)
   nameWithType: TestAttribute.BuildFrom(IMethodInfo, Test)
 - uid: Heleonix.Testing.NUnit.TestAttribute.BuildFrom*
   name: BuildFrom
-  href: Heleonix.Testing/Heleonix.Testing.NUnit.TestAttribute.html#Heleonix_Testing_NUnit_TestAttribute_BuildFrom_
+  href: Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.TestAttribute.html#Heleonix_Testing_NUnit_TestAttribute_BuildFrom_
   commentId: Overload:Heleonix.Testing.NUnit.TestAttribute.BuildFrom
   fullName: Heleonix.Testing.NUnit.TestAttribute.BuildFrom
   nameWithType: TestAttribute.BuildFrom

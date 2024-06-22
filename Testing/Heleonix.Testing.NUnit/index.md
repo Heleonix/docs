@@ -1,4 +1,4 @@
-# Heleonix.Testing
+# Heleonix.Testing.NUnit
 
 [![Release: .NET / NuGet](https://github.com/Heleonix/Heleonix.Testing/actions/workflows/release-net-nuget.yml/badge.svg)](https://github.com/Heleonix/Heleonix.Testing/actions/workflows/release-net-nuget.yml)
 

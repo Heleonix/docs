@@ -1,23 +1,41 @@
+:root {
+    --bs-border-radius: 0;
+    /* Custom colors */
+    --hx-navbar-bg: #113E70;
+}
+
 [data-bs-theme=light] {
     --bs-link-color-rgb: 29, 82, 222;
     --bs-link-hover-color-rgb: 29, 82, 222;
     --bs-heading-color: #312697;
     --bs-border-color: #062C57;
     --bs-border-color-translucent: #062C57;
-    --bs-border-radius: 0;
 }
+
+[data-bs-theme=dark] {
+    --bs-link-color-rgb: 89, 159, 214;
+    --bs-link-hover-color-rgb: 89, 159, 214;
+    --bs-heading-color: #6B63B8;
+    --bs-border-color: #386598;
+    --bs-border-color-translucent: #1D528E;
+}
+
+    [data-bs-theme=dark] nav.toc > .flex-fill {
+        background-color: #00583D;
+    }
+
 
 a:hover,
 a:focus {
     text-decoration: none;
 }
 
-/* Main navigation */
+/* Main menu */
 .navbar {
     --bs-navbar-color: white;
     --bs-navbar-hover-color: white;
     --bs-navbar-active-color: white;
-    background-color: #113E70;
+    background-color: var(--hx-navbar-bg);
 }
 
     /* Brand Logo */
@@ -54,9 +72,27 @@ a:focus {
             font-weight: bold;
         }
 
-/* Toggter menu etc. */
+        /* Main sub-menu*/
+        .navbar .navbar-nav .dropdown-menu {
+            background-color: var(--hx-navbar-bg);
+        }
+
+            .navbar .navbar-nav .dropdown-menu > li > a:focus,
+            .navbar .navbar-nav .dropdown-menu > li > a:hover {
+                text-decoration: underline;
+            }
+
+            /* Chosen item */
+            .navbar .navbar-nav .dropdown-menu > li > a.active,
+            .navbar .navbar-nav .dropdown-menu > li > a.active:focus,
+            .navbar .navbar-nav .dropdown-menu > li > a.active:hover {
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+/* Toggler menu etc. */
 .dropdown-menu {
-    --bs-dropdown-link-active-bg: #113E70;
+    --bs-dropdown-link-active-bg: var(--hx-navbar-bg);
 }
 
 /* Left navigation */
@@ -99,17 +135,4 @@ footer {
 
     footer * {
         color: lightgray;
-    }
-
-[data-bs-theme=dark] {
-    --bs-link-color-rgb: 89, 159, 214;
-    --bs-link-hover-color-rgb: 89, 159, 214;
-    --bs-heading-color: #6B63B8;
-    --bs-border-color: #386598;
-    --bs-border-color-translucent: #1D528E;
-    --bs-border-radius: 0;
-}
-
-    [data-bs-theme=dark] nav.toc > .flex-fill {
-        background-color: #00583D;
     }

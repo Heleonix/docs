@@ -1,5 +1,5 @@
 {
-  "source_base_path": "D:/a/Heleonix.Reflection/Heleonix.Reflection/Hx_Artifacts/DocFX",
+  "source_base_path": "D:/Dev/Projects/Heleonix/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -629,179 +629,6 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.AaaSpec.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.AaaSpec.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.Aaa.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.BaseAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.BaseAttribute.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.BddSpec.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.BddSpec.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.Bdd.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.FixtureAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.FixtureAttribute.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.TestAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.TestAttribute.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Heleonix.Testing/Heleonix.Testing.NUnit.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Heleonix.Testing/images/AAA.png",
-      "output": {
-        "resource": {
-          "relative_path": "Heleonix.Testing/images/AAA.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Heleonix.Testing/images/BDD.png",
-      "output": {
-        "resource": {
-          "relative_path": "Heleonix.Testing/images/BDD.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "Heleonix.Testing/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "Heleonix.Testing/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "Heleonix.Testing/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "Heleonix.Testing/toc.html"
-        },
-        ".json": {
-          "relative_path": "Heleonix.Testing/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "Heleonix.Validation/index.md",
       "output": {
@@ -840,6 +667,232 @@
         },
         ".json": {
           "relative_path": "Plugins/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.AaaSpec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.AaaSpec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.BaseAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.BaseAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.BddSpec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.BddSpec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.FixtureAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.FixtureAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.TestAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.TestAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Testing/Heleonix.Testing.NUnit/images/AAA.png",
+      "output": {
+        "resource": {
+          "relative_path": "Testing/Heleonix.Testing.NUnit/images/AAA.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Testing/Heleonix.Testing.NUnit/images/BDD.png",
+      "output": {
+        "resource": {
+          "relative_path": "Testing/Heleonix.Testing.NUnit/images/BDD.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Testing/Heleonix.Testing.NUnit/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.NUnit/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Testing/Heleonix.Testing.NUnit/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.NUnit/toc.html"
+        },
+        ".json": {
+          "relative_path": "Testing/Heleonix.Testing.NUnit/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/images/DefaultTemplateReport.png",
+      "output": {
+        "resource": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/images/DefaultTemplateReport.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/images/OverridenTemplateReport.png",
+      "output": {
+        "resource": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/images/OverridenTemplateReport.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Testing/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Testing/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/toc.html"
+        },
+        ".json": {
+          "relative_path": "Testing/toc.json"
         }
       },
       "version": ""

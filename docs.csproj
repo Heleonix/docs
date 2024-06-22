@@ -16,10 +16,6 @@
     <UpToDateCheckOutput Include="./docs/**/main.css" Set="Styles" />
 
     <UpToDateCheckInput Include="./**/docfx.json" Exclude="./docs/**/*" Set="Configs" />
-
-    <UpToDateCheckInput Remove="Plugins\Heleonix.Docfx.Plugins.XmlDoc.md" />
-
-    <UpToDateCheckInput Remove="Plugins\toc.yml" />
     <UpToDateCheckOutput Include="./docs/manifest.json" Set="Configs" />
   </ItemGroup>
 

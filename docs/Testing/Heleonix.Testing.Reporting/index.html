@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Heleonix.Testing.Reporting | Heleonix </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Heleonix.Testing.Reporting | Heleonix ">
+      
+      
+      <link rel="icon" href="../../images/heleonix-logos/Heleonix-favicon-128x128.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/hennadiilu/docs/blob/master/Testing/Heleonix.Testing.Reporting/index.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../images/heleonix-logos/Heleonix-logo-64x64.jpg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="heleonixtestingreporting">Heleonix.Testing.Reporting</h1>
+
+<p><a href="https://github.com/Heleonix/Heleonix.Testing.Reporting/actions/workflows/release-net-nuget.yml"><img src="https://github.com/Heleonix/Heleonix.Testing.Reporting/actions/workflows/release-net-nuget.yml/badge.svg" alt="Release: .NET / NuGet"></a></p>
+<p>The .NET CLI tool to generate customizable human-friendly reports from technical test results.</p>
+<h2 id="install">Install</h2>
+<p><a href="https://www.nuget.org/packages/Heleonix.Testing.Reporting">https://www.nuget.org/packages/Heleonix.Testing.Reporting</a></p>
+<h2 id="api">API</h2>
+<p>See &lt;xref:Heleonix.Testing.Reporting&gt;</p>
+<h2 id="command-line-interface">Command-line interface</h2>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-i, --input &lt;path&gt; (REQUIRED)</td>
+<td>Input files to generate reports from</td>
+</tr>
+<tr>
+<td>-o, --output &lt;path&gt; (REQUIRED)</td>
+<td>Path of the output file to store the generated merged report in (see the --merge option) or path of the folder to store multiple generated reports</td>
+</tr>
+<tr>
+<td>-f, --format &lt;Html&gt; (REQUIRED)</td>
+<td>Format of the output report</td>
+</tr>
+<tr>
+<td>-m, --merge</td>
+<td>Determines whether the input files should be merged into a single output report, or every input file should have a separate generated output report</td>
+</tr>
+<tr>
+<td>-s, --style &lt;variable-name=value&gt;</td>
+<td>The key=value pairs to specify custom styling via CSS variables, i.e. colors, for the output reports</td>
+</tr>
+<tr>
+<td>-c, --content &lt;property.path=value&gt;</td>
+<td>The key=value pairs to specify custom content replacements i.e. header or footer, in the output reports.</td>
+</tr>
+<tr>
+<td>-v, --verbosity<br>&lt;Critical/Debug/Error/Information/None/Trace/Warning&gt;</td>
+<td>Sets the verbosity level for logging [default: Information]</td>
+</tr>
+<tr>
+<td>--version</td>
+<td>Show version information</td>
+</tr>
+<tr>
+<td>-?, -h, --help</td>
+<td>Show help and usage information</td>
+</tr>
+</tbody>
+</table>
+<h3 id="styles">Styles</h3>
+<p>Possible values for the <code>--style</code> option:</p>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Html</td>
+<td>See CSS 3 variables in the <a href="https://github.com/Heleonix/Heleonix.Testing.Reporting/blob/master/src/Heleonix.Testing.Reporting/Infrastructure/Html/Css.css">Css.css</a> without <code>--</code> prefixes, i.e.: <code>color-primary</code>, <code>color-secondary</code> etc.</td>
+</tr>
+</tbody>
+</table>
+<p>Styling approaches the <a href="https://m2.material.io/">M2 Material Design</a> with set of color, typography, shaping and spacing variables.</p>
+<p>To simplify your custom styling, you can use <a href="https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors">Material Design palette tool</a>.</p>
+<h3 id="content">Content</h3>
+<p>Possible values of the <code>--content</code> option are dotted paths to properties in the <a href="https://github.com/Heleonix/Heleonix.Testing.Reporting/blob/master/src/Heleonix.Testing.Reporting/Domain/Report.cs">Report.cs</a>.<br>
+For example: <code>Footer.Text</code>, <code>Footer.Url</code>, <code>Result.Summary.Title</code>, <code>Result.Summary.Owner</code> etc.</p>
+<h3 id="examples">Examples</h3>
+<p><code>hxreport -i ./TestResult1.trx ./TestResult2.trx -o ./TestResult.html -f Html -m</code><br>
+Converts two TRX test results into a single merged Html output file.</p>
+<p><code>hxreport -i ./TestResult1.trx ./TestResult2.trx -o ./TestResultFolder -f Html</code><br>
+Converts two TRX test results into two Html output files placed in the <code>./TestResultFolder</code> folder.</p>
+<p>Having the <a href="https://github.com/Heleonix/Heleonix.Testing.Reporting/blob/master/test/Heleonix.Testing.Reporting.Tests/Samples/Sample.trx">Sample.trx</a>,
+the following Html report is generated:<br>
+<code>hxreport -i ./Sample.trx -o ./Sample.html -f Html</code><br></p>
+<p><img src="images/DefaultTemplateReport.png" alt="DefaultTemplateReport"></p>
+<p>Having the <a href="https://github.com/Heleonix/Heleonix.Testing.Reporting/blob/master/test/Heleonix.Testing.Reporting.Tests/Samples/Sample.trx">Sample.trx</a>,
+the following Html report is generated, using the <a href="https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors">Material Design palette tool</a>
+and the primary <code>#C51162</code> color:<br>
+<code>hxreport -i ./Sample.trx -o ./Sample.html -f Html -s color-primary=#c51162 color-on-primary=#ffffff color-secondary=#c511bc color-background=#fce4ed color-on-background=#c51162 color-on-surface=#000000 color-start=#f48fb6 color-end=#8eddae color-duration=#df87d7 color-passed=lightgreen color-failed=red color-error=darkred color-warning=orange color-skipped=lightblue color-other=lightpink color-undefined=lightgray -c Footer.Text=&quot;(c) My Company&quot; Footer.Url=&quot;https://my.company.com&quot;</code><br></p>
+<p><img src="images/OverridenTemplateReport.png" alt="OverridenTemplateReport"></p>
+<h2 id="contribution-guideline">Contribution Guideline</h2>
+<ol>
+<li><a href="https://github.com/Heleonix/Heleonix.Testing.Reporting/fork">Create a fork</a> from the main repository</li>
+<li>Implement whatever is needed</li>
+<li><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork">Create a Pull Request</a>.
+Make sure the assigned <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks#checks">Checks</a> pass successfully.
+You can watch the progress in the <a href="https://github.com/Heleonix/Heleonix.Testing.Reporting/actions/workflows/pr-net.yml">PR: .NET</a> GitHub workflows</li>
+<li><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review">Request review</a> from the code owner</li>
+<li>Once approved, merge your Pull Request via <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges#squash-and-merge-your-commits">Squash and merge</a>
+<blockquote>
+<p><strong>IMPORTANT</strong><br>
+While merging, enter a <a href="https://www.conventionalcommits.org/">Conventional Commits</a> commit message.
+This commit message will be used in automatically generated <a href="https://github.com/Heleonix/Heleonix.Testing.Reporting/releases">Github Release Notes</a>
+and <a href="https://www.nuget.org/packages/Heleonix.Testing.Reporting/#releasenotes-body-tab">NuGet Release Notes</a></p>
+</blockquote>
+</li>
+<li>Monitor the <a href="https://github.com/Heleonix/Heleonix.Testing.Reporting/actions/workflows/release-net-nuget.yml">Release: .NET / NuGet</a>
+GitHub workflow to make sure your changes are delivered successfully</li>
+<li>In case of any issues, please contact <a href="mailto:heleonix.sln@gmail.com">heleonix.sln@gmail.com</a></li>
+</ol>
+
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
