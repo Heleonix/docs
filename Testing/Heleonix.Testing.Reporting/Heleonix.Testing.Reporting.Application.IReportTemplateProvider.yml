@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.Reporting.Application.IReportTemplateProvider
+  commentId: T:Heleonix.Testing.Reporting.Application.IReportTemplateProvider
+  id: IReportTemplateProvider
+  parent: Heleonix.Testing.Reporting.Application
+  children:
+  - Heleonix.Testing.Reporting.Application.IReportTemplateProvider.GetTemplate(Heleonix.Testing.Reporting.Domain.ReportFormat)
+  langs:
+  - csharp
+  - vb
+  name: IReportTemplateProvider
+  nameWithType: IReportTemplateProvider
+  fullName: Heleonix.Testing.Reporting.Application.IReportTemplateProvider
+  type: Interface
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Application
+  summary: Represents an interface for getting templates for different renderers.
+  example: []
+  syntax:
+    content: public interface IReportTemplateProvider
+    content.vb: Public Interface IReportTemplateProvider
+- uid: Heleonix.Testing.Reporting.Application.IReportTemplateProvider.GetTemplate(Heleonix.Testing.Reporting.Domain.ReportFormat)
+  commentId: M:Heleonix.Testing.Reporting.Application.IReportTemplateProvider.GetTemplate(Heleonix.Testing.Reporting.Domain.ReportFormat)
+  id: GetTemplate(Heleonix.Testing.Reporting.Domain.ReportFormat)
+  parent: Heleonix.Testing.Reporting.Application.IReportTemplateProvider
+  langs:
+  - csharp
+  - vb
+  name: GetTemplate(ReportFormat)
+  nameWithType: IReportTemplateProvider.GetTemplate(ReportFormat)
+  fullName: Heleonix.Testing.Reporting.Application.IReportTemplateProvider.GetTemplate(Heleonix.Testing.Reporting.Domain.ReportFormat)
+  type: Method
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Application
+  summary: Gets the template for the specified report format.
+  example: []
+  syntax:
+    content: string GetTemplate(ReportFormat format)
+    parameters:
+    - id: format
+      type: Heleonix.Testing.Reporting.Domain.ReportFormat
+      description: The report format to get a template for.
+    return:
+      type: System.String
+      description: The template for the specified report format.
+    content.vb: Function GetTemplate(format As ReportFormat) As String
+  overload: Heleonix.Testing.Reporting.Application.IReportTemplateProvider.GetTemplate*
+references:
+- uid: Heleonix.Testing.Reporting.Application
+  commentId: N:Heleonix.Testing.Reporting.Application
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Testing.Reporting.Application
+  nameWithType: Heleonix.Testing.Reporting.Application
+  fullName: Heleonix.Testing.Reporting.Application
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application
+    name: Application
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application
+    name: Application
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.html
+- uid: Heleonix.Testing.Reporting.Application.IReportTemplateProvider.GetTemplate*
+  commentId: Overload:Heleonix.Testing.Reporting.Application.IReportTemplateProvider.GetTemplate
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.IReportTemplateProvider.html#Heleonix_Testing_Reporting_Application_IReportTemplateProvider_GetTemplate_Heleonix_Testing_Reporting_Domain_ReportFormat_
+  name: GetTemplate
+  nameWithType: IReportTemplateProvider.GetTemplate
+  fullName: Heleonix.Testing.Reporting.Application.IReportTemplateProvider.GetTemplate
+- uid: Heleonix.Testing.Reporting.Domain.ReportFormat
+  commentId: T:Heleonix.Testing.Reporting.Domain.ReportFormat
+  parent: Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Domain.ReportFormat.html
+  name: ReportFormat
+  nameWithType: ReportFormat
+  fullName: Heleonix.Testing.Reporting.Domain.ReportFormat
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Heleonix.Testing.Reporting.Domain
+  commentId: N:Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Testing.Reporting.Domain
+  nameWithType: Heleonix.Testing.Reporting.Domain
+  fullName: Heleonix.Testing.Reporting.Domain
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Domain
+    name: Domain
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Domain.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Domain
+    name: Domain
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Domain.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

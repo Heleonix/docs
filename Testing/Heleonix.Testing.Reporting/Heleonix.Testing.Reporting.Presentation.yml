@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.Reporting.Presentation
+  commentId: N:Heleonix.Testing.Reporting.Presentation
+  id: Heleonix.Testing.Reporting.Presentation
+  children:
+  - Heleonix.Testing.Reporting.Presentation.CliLoggingFormatter
+  - Heleonix.Testing.Reporting.Presentation.CliRootCommand
+  - Heleonix.Testing.Reporting.Presentation.ParametersBinder
+  langs:
+  - csharp
+  - vb
+  name: Heleonix.Testing.Reporting.Presentation
+  nameWithType: Heleonix.Testing.Reporting.Presentation
+  fullName: Heleonix.Testing.Reporting.Presentation
+  type: Namespace
+  assemblies:
+  - Heleonix.Testing.Reporting
+references:
+- uid: Heleonix.Testing.Reporting.Presentation.CliLoggingFormatter
+  commentId: T:Heleonix.Testing.Reporting.Presentation.CliLoggingFormatter
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Presentation.CliLoggingFormatter.html
+  name: CliLoggingFormatter
+  nameWithType: CliLoggingFormatter
+  fullName: Heleonix.Testing.Reporting.Presentation.CliLoggingFormatter
+- uid: Heleonix.Testing.Reporting.Presentation.CliRootCommand
+  commentId: T:Heleonix.Testing.Reporting.Presentation.CliRootCommand
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Presentation.CliRootCommand.html
+  name: CliRootCommand
+  nameWithType: CliRootCommand
+  fullName: Heleonix.Testing.Reporting.Presentation.CliRootCommand
+- uid: Heleonix.Testing.Reporting.Presentation.ParametersBinder
+  commentId: T:Heleonix.Testing.Reporting.Presentation.ParametersBinder
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Presentation.ParametersBinder.html
+  name: ParametersBinder
+  nameWithType: ParametersBinder
+  fullName: Heleonix.Testing.Reporting.Presentation.ParametersBinder

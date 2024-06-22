@@ -1,0 +1,32 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.Reporting.Infrastructure
+  commentId: N:Heleonix.Testing.Reporting.Infrastructure
+  id: Heleonix.Testing.Reporting.Infrastructure
+  children:
+  - Heleonix.Testing.Reporting.Infrastructure.ReportTemplateProvider
+  - Heleonix.Testing.Reporting.Infrastructure.StreamProvider
+  langs:
+  - csharp
+  - vb
+  name: Heleonix.Testing.Reporting.Infrastructure
+  nameWithType: Heleonix.Testing.Reporting.Infrastructure
+  fullName: Heleonix.Testing.Reporting.Infrastructure
+  type: Namespace
+  assemblies:
+  - Heleonix.Testing.Reporting
+references:
+- uid: Heleonix.Testing.Reporting.Infrastructure.ReportTemplateProvider
+  commentId: T:Heleonix.Testing.Reporting.Infrastructure.ReportTemplateProvider
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Infrastructure.ReportTemplateProvider.html
+  name: ReportTemplateProvider
+  nameWithType: ReportTemplateProvider
+  fullName: Heleonix.Testing.Reporting.Infrastructure.ReportTemplateProvider
+- uid: Heleonix.Testing.Reporting.Infrastructure.StreamProvider
+  commentId: T:Heleonix.Testing.Reporting.Infrastructure.StreamProvider
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Infrastructure.StreamProvider.html
+  name: StreamProvider
+  nameWithType: StreamProvider
+  fullName: Heleonix.Testing.Reporting.Infrastructure.StreamProvider

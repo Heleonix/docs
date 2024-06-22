@@ -1,0 +1,134 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.Reporting.Domain
+  commentId: N:Heleonix.Testing.Reporting.Domain
+  id: Heleonix.Testing.Reporting.Domain
+  children:
+  - Heleonix.Testing.Reporting.Domain.Footer
+  - Heleonix.Testing.Reporting.Domain.Outcome
+  - Heleonix.Testing.Reporting.Domain.Report
+  - Heleonix.Testing.Reporting.Domain.ReportFormat
+  - Heleonix.Testing.Reporting.Domain.Summary
+  - Heleonix.Testing.Reporting.Domain.TestCase
+  - Heleonix.Testing.Reporting.Domain.TestItem
+  - Heleonix.Testing.Reporting.Domain.TestResult
+  langs:
+  - csharp
+  - vb
+  name: Heleonix.Testing.Reporting.Domain
+  nameWithType: Heleonix.Testing.Reporting.Domain
+  fullName: Heleonix.Testing.Reporting.Domain
+  type: Namespace
+  assemblies:
+  - Heleonix.Testing.Reporting
+references:
+- uid: Heleonix.Testing.Reporting.Domain.Footer
+  commentId: T:Heleonix.Testing.Reporting.Domain.Footer
+  parent: Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Domain.Footer.html
+  name: Footer
+  nameWithType: Footer
+  fullName: Heleonix.Testing.Reporting.Domain.Footer
+- uid: Heleonix.Testing.Reporting.Domain.Outcome
+  commentId: T:Heleonix.Testing.Reporting.Domain.Outcome
+  parent: Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Domain.Outcome.html
+  name: Outcome
+  nameWithType: Outcome
+  fullName: Heleonix.Testing.Reporting.Domain.Outcome
+- uid: Heleonix.Testing.Reporting.Domain.Report
+  commentId: T:Heleonix.Testing.Reporting.Domain.Report
+  parent: Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Domain.Report.html
+  name: Report
+  nameWithType: Report
+  fullName: Heleonix.Testing.Reporting.Domain.Report
+- uid: Heleonix.Testing.Reporting.Domain.ReportFormat
+  commentId: T:Heleonix.Testing.Reporting.Domain.ReportFormat
+  parent: Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Domain.ReportFormat.html
+  name: ReportFormat
+  nameWithType: ReportFormat
+  fullName: Heleonix.Testing.Reporting.Domain.ReportFormat
+- uid: Heleonix.Testing.Reporting.Domain.Summary
+  commentId: T:Heleonix.Testing.Reporting.Domain.Summary
+  parent: Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Domain.Summary.html
+  name: Summary
+  nameWithType: Summary
+  fullName: Heleonix.Testing.Reporting.Domain.Summary
+- uid: Heleonix.Testing.Reporting.Domain.TestCase
+  commentId: T:Heleonix.Testing.Reporting.Domain.TestCase
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Domain.TestCase.html
+  name: TestCase
+  nameWithType: TestCase
+  fullName: Heleonix.Testing.Reporting.Domain.TestCase
+- uid: Heleonix.Testing.Reporting.Domain.TestItem
+  commentId: T:Heleonix.Testing.Reporting.Domain.TestItem
+  parent: Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Domain.TestItem.html
+  name: TestItem
+  nameWithType: TestItem
+  fullName: Heleonix.Testing.Reporting.Domain.TestItem
+- uid: Heleonix.Testing.Reporting.Domain.TestResult
+  commentId: T:Heleonix.Testing.Reporting.Domain.TestResult
+  parent: Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Domain.TestResult.html
+  name: TestResult
+  nameWithType: TestResult
+  fullName: Heleonix.Testing.Reporting.Domain.TestResult
+- uid: Heleonix.Testing.Reporting.Domain
+  commentId: N:Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Testing.Reporting.Domain
+  nameWithType: Heleonix.Testing.Reporting.Domain
+  fullName: Heleonix.Testing.Reporting.Domain
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Domain
+    name: Domain
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Domain.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Domain
+    name: Domain
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Domain.html

@@ -1,0 +1,707 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.Reporting.Application.TestResultMerger
+  commentId: T:Heleonix.Testing.Reporting.Application.TestResultMerger
+  id: TestResultMerger
+  parent: Heleonix.Testing.Reporting.Application
+  children:
+  - Heleonix.Testing.Reporting.Application.TestResultMerger.#ctor(Microsoft.Extensions.Logging.ILogger{Heleonix.Testing.Reporting.Application.TestResultMerger})
+  - Heleonix.Testing.Reporting.Application.TestResultMerger.Merge(System.Collections.Generic.IEnumerable{Heleonix.Testing.Reporting.Domain.TestResult})
+  langs:
+  - csharp
+  - vb
+  name: TestResultMerger
+  nameWithType: TestResultMerger
+  fullName: Heleonix.Testing.Reporting.Application.TestResultMerger
+  type: Class
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Application
+  summary: The implementation of the <xref href="Heleonix.Testing.Reporting.Application.ITestResultMerger" data-throw-if-not-resolved="false"></xref> report merger.
+  example: []
+  syntax:
+    content: 'public class TestResultMerger : ITestResultMerger'
+    content.vb: Public Class TestResultMerger Implements ITestResultMerger
+  inheritance:
+  - System.Object
+  implements:
+  - Heleonix.Testing.Reporting.Application.ITestResultMerger
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Heleonix.Testing.Reporting.Application.TestResultMerger.#ctor(Microsoft.Extensions.Logging.ILogger{Heleonix.Testing.Reporting.Application.TestResultMerger})
+  commentId: M:Heleonix.Testing.Reporting.Application.TestResultMerger.#ctor(Microsoft.Extensions.Logging.ILogger{Heleonix.Testing.Reporting.Application.TestResultMerger})
+  id: '#ctor(Microsoft.Extensions.Logging.ILogger{Heleonix.Testing.Reporting.Application.TestResultMerger})'
+  parent: Heleonix.Testing.Reporting.Application.TestResultMerger
+  langs:
+  - csharp
+  - vb
+  name: TestResultMerger(ILogger<TestResultMerger>)
+  nameWithType: TestResultMerger.TestResultMerger(ILogger<TestResultMerger>)
+  fullName: Heleonix.Testing.Reporting.Application.TestResultMerger.TestResultMerger(Microsoft.Extensions.Logging.ILogger<Heleonix.Testing.Reporting.Application.TestResultMerger>)
+  type: Constructor
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Application
+  summary: The implementation of the <xref href="Heleonix.Testing.Reporting.Application.ITestResultMerger" data-throw-if-not-resolved="false"></xref> report merger.
+  example: []
+  syntax:
+    content: public TestResultMerger(ILogger<TestResultMerger> logger)
+    parameters:
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{Heleonix.Testing.Reporting.Application.TestResultMerger}
+      description: The logger to log the porcess of reports generation.
+    content.vb: Public Sub New(logger As ILogger(Of TestResultMerger))
+  overload: Heleonix.Testing.Reporting.Application.TestResultMerger.#ctor*
+  nameWithType.vb: TestResultMerger.New(ILogger(Of TestResultMerger))
+  fullName.vb: Heleonix.Testing.Reporting.Application.TestResultMerger.New(Microsoft.Extensions.Logging.ILogger(Of Heleonix.Testing.Reporting.Application.TestResultMerger))
+  name.vb: New(ILogger(Of TestResultMerger))
+- uid: Heleonix.Testing.Reporting.Application.TestResultMerger.Merge(System.Collections.Generic.IEnumerable{Heleonix.Testing.Reporting.Domain.TestResult})
+  commentId: M:Heleonix.Testing.Reporting.Application.TestResultMerger.Merge(System.Collections.Generic.IEnumerable{Heleonix.Testing.Reporting.Domain.TestResult})
+  id: Merge(System.Collections.Generic.IEnumerable{Heleonix.Testing.Reporting.Domain.TestResult})
+  parent: Heleonix.Testing.Reporting.Application.TestResultMerger
+  langs:
+  - csharp
+  - vb
+  name: Merge(IEnumerable<TestResult>)
+  nameWithType: TestResultMerger.Merge(IEnumerable<TestResult>)
+  fullName: Heleonix.Testing.Reporting.Application.TestResultMerger.Merge(System.Collections.Generic.IEnumerable<Heleonix.Testing.Reporting.Domain.TestResult>)
+  type: Method
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Application
+  summary: Merges multiple test results loaded by loaders into the a single test result.
+  example: []
+  syntax:
+    content: public TestResult Merge(IEnumerable<TestResult> results)
+    parameters:
+    - id: results
+      type: System.Collections.Generic.IEnumerable{Heleonix.Testing.Reporting.Domain.TestResult}
+      description: The results loaded by loaders to merge.
+    return:
+      type: Heleonix.Testing.Reporting.Domain.TestResult
+      description: The merged test result.
+    content.vb: Public Function Merge(results As IEnumerable(Of TestResult)) As TestResult
+  overload: Heleonix.Testing.Reporting.Application.TestResultMerger.Merge*
+  implements:
+  - Heleonix.Testing.Reporting.Application.ITestResultMerger.Merge(System.Collections.Generic.IEnumerable{Heleonix.Testing.Reporting.Domain.TestResult})
+  nameWithType.vb: TestResultMerger.Merge(IEnumerable(Of TestResult))
+  fullName.vb: Heleonix.Testing.Reporting.Application.TestResultMerger.Merge(System.Collections.Generic.IEnumerable(Of Heleonix.Testing.Reporting.Domain.TestResult))
+  name.vb: Merge(IEnumerable(Of TestResult))
+references:
+- uid: Heleonix.Testing.Reporting.Application.ITestResultMerger
+  commentId: T:Heleonix.Testing.Reporting.Application.ITestResultMerger
+  parent: Heleonix.Testing.Reporting.Application
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.ITestResultMerger.html
+  name: ITestResultMerger
+  nameWithType: ITestResultMerger
+  fullName: Heleonix.Testing.Reporting.Application.ITestResultMerger
+- uid: Heleonix.Testing.Reporting.Application
+  commentId: N:Heleonix.Testing.Reporting.Application
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Testing.Reporting.Application
+  nameWithType: Heleonix.Testing.Reporting.Application
+  fullName: Heleonix.Testing.Reporting.Application
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application
+    name: Application
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application
+    name: Application
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Heleonix.Testing.Reporting.Application.TestResultMerger.#ctor*
+  commentId: Overload:Heleonix.Testing.Reporting.Application.TestResultMerger.#ctor
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.TestResultMerger.html#Heleonix_Testing_Reporting_Application_TestResultMerger__ctor_Microsoft_Extensions_Logging_ILogger_Heleonix_Testing_Reporting_Application_TestResultMerger__
+  name: TestResultMerger
+  nameWithType: TestResultMerger.TestResultMerger
+  fullName: Heleonix.Testing.Reporting.Application.TestResultMerger.TestResultMerger
+  nameWithType.vb: TestResultMerger.New
+  fullName.vb: Heleonix.Testing.Reporting.Application.TestResultMerger.New
+  name.vb: New
+- uid: Microsoft.Extensions.Logging.ILogger{Heleonix.Testing.Reporting.Application.TestResultMerger}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{Heleonix.Testing.Reporting.Application.TestResultMerger}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TestResultMerger>
+  nameWithType: ILogger<TestResultMerger>
+  fullName: Microsoft.Extensions.Logging.ILogger<Heleonix.Testing.Reporting.Application.TestResultMerger>
+  nameWithType.vb: ILogger(Of TestResultMerger)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of Heleonix.Testing.Reporting.Application.TestResultMerger)
+  name.vb: ILogger(Of TestResultMerger)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: Heleonix.Testing.Reporting.Application.TestResultMerger
+    name: TestResultMerger
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.TestResultMerger.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Heleonix.Testing.Reporting.Application.TestResultMerger
+    name: TestResultMerger
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.TestResultMerger.html
+  - name: )
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: Heleonix.Testing.Reporting.Application.TestResultMerger.Merge*
+  commentId: Overload:Heleonix.Testing.Reporting.Application.TestResultMerger.Merge
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.TestResultMerger.html#Heleonix_Testing_Reporting_Application_TestResultMerger_Merge_System_Collections_Generic_IEnumerable_Heleonix_Testing_Reporting_Domain_TestResult__
+  name: Merge
+  nameWithType: TestResultMerger.Merge
+  fullName: Heleonix.Testing.Reporting.Application.TestResultMerger.Merge
+- uid: Heleonix.Testing.Reporting.Application.ITestResultMerger.Merge(System.Collections.Generic.IEnumerable{Heleonix.Testing.Reporting.Domain.TestResult})
+  commentId: M:Heleonix.Testing.Reporting.Application.ITestResultMerger.Merge(System.Collections.Generic.IEnumerable{Heleonix.Testing.Reporting.Domain.TestResult})
+  parent: Heleonix.Testing.Reporting.Application.ITestResultMerger
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.ITestResultMerger.html#Heleonix_Testing_Reporting_Application_ITestResultMerger_Merge_System_Collections_Generic_IEnumerable_Heleonix_Testing_Reporting_Domain_TestResult__
+  name: Merge(IEnumerable<TestResult>)
+  nameWithType: ITestResultMerger.Merge(IEnumerable<TestResult>)
+  fullName: Heleonix.Testing.Reporting.Application.ITestResultMerger.Merge(System.Collections.Generic.IEnumerable<Heleonix.Testing.Reporting.Domain.TestResult>)
+  nameWithType.vb: ITestResultMerger.Merge(IEnumerable(Of TestResult))
+  fullName.vb: Heleonix.Testing.Reporting.Application.ITestResultMerger.Merge(System.Collections.Generic.IEnumerable(Of Heleonix.Testing.Reporting.Domain.TestResult))
+  name.vb: Merge(IEnumerable(Of TestResult))
+  spec.csharp:
+  - uid: Heleonix.Testing.Reporting.Application.ITestResultMerger.Merge(System.Collections.Generic.IEnumerable{Heleonix.Testing.Reporting.Domain.TestResult})
+    name: Merge
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.ITestResultMerger.html#Heleonix_Testing_Reporting_Application_ITestResultMerger_Merge_System_Collections_Generic_IEnumerable_Heleonix_Testing_Reporting_Domain_TestResult__
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Heleonix.Testing.Reporting.Domain.TestResult
+    name: TestResult
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Domain.TestResult.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Heleonix.Testing.Reporting.Application.ITestResultMerger.Merge(System.Collections.Generic.IEnumerable{Heleonix.Testing.Reporting.Domain.TestResult})
+    name: Merge
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.ITestResultMerger.html#Heleonix_Testing_Reporting_Application_ITestResultMerger_Merge_System_Collections_Generic_IEnumerable_Heleonix_Testing_Reporting_Domain_TestResult__
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Heleonix.Testing.Reporting.Domain.TestResult
+    name: TestResult
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Domain.TestResult.html
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{Heleonix.Testing.Reporting.Domain.TestResult}
+  commentId: T:System.Collections.Generic.IEnumerable{Heleonix.Testing.Reporting.Domain.TestResult}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<TestResult>
+  nameWithType: IEnumerable<TestResult>
+  fullName: System.Collections.Generic.IEnumerable<Heleonix.Testing.Reporting.Domain.TestResult>
+  nameWithType.vb: IEnumerable(Of TestResult)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Heleonix.Testing.Reporting.Domain.TestResult)
+  name.vb: IEnumerable(Of TestResult)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Heleonix.Testing.Reporting.Domain.TestResult
+    name: TestResult
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Domain.TestResult.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Heleonix.Testing.Reporting.Domain.TestResult
+    name: TestResult
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Domain.TestResult.html
+  - name: )
+- uid: Heleonix.Testing.Reporting.Domain.TestResult
+  commentId: T:Heleonix.Testing.Reporting.Domain.TestResult
+  parent: Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Domain.TestResult.html
+  name: TestResult
+  nameWithType: TestResult
+  fullName: Heleonix.Testing.Reporting.Domain.TestResult
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Heleonix.Testing.Reporting.Domain
+  commentId: N:Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Testing.Reporting.Domain
+  nameWithType: Heleonix.Testing.Reporting.Domain
+  fullName: Heleonix.Testing.Reporting.Domain
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Domain
+    name: Domain
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Domain.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Domain
+    name: Domain
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Domain.html

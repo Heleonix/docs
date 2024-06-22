@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.Reporting.Application.IStreamProvider
+  commentId: T:Heleonix.Testing.Reporting.Application.IStreamProvider
+  id: IStreamProvider
+  parent: Heleonix.Testing.Reporting.Application
+  children:
+  - Heleonix.Testing.Reporting.Application.IStreamProvider.OpenInputStream(System.String)
+  - Heleonix.Testing.Reporting.Application.IStreamProvider.OpenOutputStream(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IStreamProvider
+  nameWithType: IStreamProvider
+  fullName: Heleonix.Testing.Reporting.Application.IStreamProvider
+  type: Interface
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Application
+  summary: Provides streams for reading of input test results and writing of human-friendly reports.
+  example: []
+  syntax:
+    content: public interface IStreamProvider
+    content.vb: Public Interface IStreamProvider
+- uid: Heleonix.Testing.Reporting.Application.IStreamProvider.OpenInputStream(System.String)
+  commentId: M:Heleonix.Testing.Reporting.Application.IStreamProvider.OpenInputStream(System.String)
+  id: OpenInputStream(System.String)
+  parent: Heleonix.Testing.Reporting.Application.IStreamProvider
+  langs:
+  - csharp
+  - vb
+  name: OpenInputStream(string)
+  nameWithType: IStreamProvider.OpenInputStream(string)
+  fullName: Heleonix.Testing.Reporting.Application.IStreamProvider.OpenInputStream(string)
+  type: Method
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Application
+  summary: Opens the input stream for reading.
+  example: []
+  syntax:
+    content: Stream OpenInputStream(string input)
+    parameters:
+    - id: input
+      type: System.String
+      description: The input to open the stream for.
+    return:
+      type: System.IO.Stream
+      description: The opened stream for reading.
+    content.vb: Function OpenInputStream(input As String) As Stream
+  overload: Heleonix.Testing.Reporting.Application.IStreamProvider.OpenInputStream*
+  nameWithType.vb: IStreamProvider.OpenInputStream(String)
+  fullName.vb: Heleonix.Testing.Reporting.Application.IStreamProvider.OpenInputStream(String)
+  name.vb: OpenInputStream(String)
+- uid: Heleonix.Testing.Reporting.Application.IStreamProvider.OpenOutputStream(System.String)
+  commentId: M:Heleonix.Testing.Reporting.Application.IStreamProvider.OpenOutputStream(System.String)
+  id: OpenOutputStream(System.String)
+  parent: Heleonix.Testing.Reporting.Application.IStreamProvider
+  langs:
+  - csharp
+  - vb
+  name: OpenOutputStream(string)
+  nameWithType: IStreamProvider.OpenOutputStream(string)
+  fullName: Heleonix.Testing.Reporting.Application.IStreamProvider.OpenOutputStream(string)
+  type: Method
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Application
+  summary: Opens the output stream for writing.
+  example: []
+  syntax:
+    content: Stream OpenOutputStream(string output)
+    parameters:
+    - id: output
+      type: System.String
+      description: The output path to open the stream for or in.
+    return:
+      type: System.IO.Stream
+      description: The opened stream for writing.
+    content.vb: Function OpenOutputStream(output As String) As Stream
+  overload: Heleonix.Testing.Reporting.Application.IStreamProvider.OpenOutputStream*
+  nameWithType.vb: IStreamProvider.OpenOutputStream(String)
+  fullName.vb: Heleonix.Testing.Reporting.Application.IStreamProvider.OpenOutputStream(String)
+  name.vb: OpenOutputStream(String)
+references:
+- uid: Heleonix.Testing.Reporting.Application
+  commentId: N:Heleonix.Testing.Reporting.Application
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Testing.Reporting.Application
+  nameWithType: Heleonix.Testing.Reporting.Application
+  fullName: Heleonix.Testing.Reporting.Application
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application
+    name: Application
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application
+    name: Application
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.html
+- uid: Heleonix.Testing.Reporting.Application.IStreamProvider.OpenInputStream*
+  commentId: Overload:Heleonix.Testing.Reporting.Application.IStreamProvider.OpenInputStream
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.IStreamProvider.html#Heleonix_Testing_Reporting_Application_IStreamProvider_OpenInputStream_System_String_
+  name: OpenInputStream
+  nameWithType: IStreamProvider.OpenInputStream
+  fullName: Heleonix.Testing.Reporting.Application.IStreamProvider.OpenInputStream
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: Heleonix.Testing.Reporting.Application.IStreamProvider.OpenOutputStream*
+  commentId: Overload:Heleonix.Testing.Reporting.Application.IStreamProvider.OpenOutputStream
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.IStreamProvider.html#Heleonix_Testing_Reporting_Application_IStreamProvider_OpenOutputStream_System_String_
+  name: OpenOutputStream
+  nameWithType: IStreamProvider.OpenOutputStream
+  fullName: Heleonix.Testing.Reporting.Application.IStreamProvider.OpenOutputStream

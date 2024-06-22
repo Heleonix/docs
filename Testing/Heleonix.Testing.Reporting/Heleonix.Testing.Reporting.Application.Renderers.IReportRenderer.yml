@@ -1,0 +1,233 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer
+  commentId: T:Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer
+  id: IReportRenderer
+  parent: Heleonix.Testing.Reporting.Application.Renderers
+  children:
+  - Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.Render(Heleonix.Testing.Reporting.Domain.Report,System.String)
+  - Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.SupportedFormat
+  langs:
+  - csharp
+  - vb
+  name: IReportRenderer
+  nameWithType: IReportRenderer
+  fullName: Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer
+  type: Interface
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Application.Renderers
+  summary: Represents the interface for implementation of concrete report renderers, like 'html' etc.
+  example: []
+  syntax:
+    content: public interface IReportRenderer
+    content.vb: Public Interface IReportRenderer
+- uid: Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.Render(Heleonix.Testing.Reporting.Domain.Report,System.String)
+  commentId: M:Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.Render(Heleonix.Testing.Reporting.Domain.Report,System.String)
+  id: Render(Heleonix.Testing.Reporting.Domain.Report,System.String)
+  parent: Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer
+  langs:
+  - csharp
+  - vb
+  name: Render(Report, string)
+  nameWithType: IReportRenderer.Render(Report, string)
+  fullName: Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.Render(Heleonix.Testing.Reporting.Domain.Report, string)
+  type: Method
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Application.Renderers
+  summary: >-
+    When implemented, writes a human friendly test report from the <code class="paramref">report</code>
+
+    into the provided <code class="paramref">filePath</code> in a specific format.
+  example: []
+  syntax:
+    content: void Render(Report report, string filePath)
+    parameters:
+    - id: report
+      type: Heleonix.Testing.Reporting.Domain.Report
+      description: The unified report model to generate human friendly report from.
+    - id: filePath
+      type: System.String
+      description: The path to the file to write the report in a specific format to.
+    content.vb: Sub Render(report As Report, filePath As String)
+  overload: Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.Render*
+  nameWithType.vb: IReportRenderer.Render(Report, String)
+  fullName.vb: Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.Render(Heleonix.Testing.Reporting.Domain.Report, String)
+  name.vb: Render(Report, String)
+- uid: Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.SupportedFormat
+  commentId: P:Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.SupportedFormat
+  id: SupportedFormat
+  parent: Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer
+  langs:
+  - csharp
+  - vb
+  name: SupportedFormat
+  nameWithType: IReportRenderer.SupportedFormat
+  fullName: Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.SupportedFormat
+  type: Property
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Application.Renderers
+  summary: Gets the <xref href="Heleonix.Testing.Reporting.Domain.ReportFormat" data-throw-if-not-resolved="false"></xref> value specifying the supported output format, which this instance can render.
+  example: []
+  syntax:
+    content: ReportFormat SupportedFormat { get; }
+    parameters: []
+    return:
+      type: Heleonix.Testing.Reporting.Domain.ReportFormat
+    content.vb: ReadOnly Property SupportedFormat As ReportFormat
+  overload: Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.SupportedFormat*
+references:
+- uid: Heleonix.Testing.Reporting.Application.Renderers
+  commentId: N:Heleonix.Testing.Reporting.Application.Renderers
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Testing.Reporting.Application.Renderers
+  nameWithType: Heleonix.Testing.Reporting.Application.Renderers
+  fullName: Heleonix.Testing.Reporting.Application.Renderers
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application
+    name: Application
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application.Renderers
+    name: Renderers
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.Renderers.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application
+    name: Application
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application.Renderers
+    name: Renderers
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.Renderers.html
+- uid: Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.Render*
+  commentId: Overload:Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.Render
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.html#Heleonix_Testing_Reporting_Application_Renderers_IReportRenderer_Render_Heleonix_Testing_Reporting_Domain_Report_System_String_
+  name: Render
+  nameWithType: IReportRenderer.Render
+  fullName: Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.Render
+- uid: Heleonix.Testing.Reporting.Domain.Report
+  commentId: T:Heleonix.Testing.Reporting.Domain.Report
+  parent: Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Domain.Report.html
+  name: Report
+  nameWithType: Report
+  fullName: Heleonix.Testing.Reporting.Domain.Report
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Heleonix.Testing.Reporting.Domain
+  commentId: N:Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Testing.Reporting.Domain
+  nameWithType: Heleonix.Testing.Reporting.Domain
+  fullName: Heleonix.Testing.Reporting.Domain
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Domain
+    name: Domain
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Domain.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Domain
+    name: Domain
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Domain.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Heleonix.Testing.Reporting.Domain.ReportFormat
+  commentId: T:Heleonix.Testing.Reporting.Domain.ReportFormat
+  parent: Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Domain.ReportFormat.html
+  name: ReportFormat
+  nameWithType: ReportFormat
+  fullName: Heleonix.Testing.Reporting.Domain.ReportFormat
+- uid: Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.SupportedFormat*
+  commentId: Overload:Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.SupportedFormat
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.html#Heleonix_Testing_Reporting_Application_Renderers_IReportRenderer_SupportedFormat
+  name: SupportedFormat
+  nameWithType: IReportRenderer.SupportedFormat
+  fullName: Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.SupportedFormat

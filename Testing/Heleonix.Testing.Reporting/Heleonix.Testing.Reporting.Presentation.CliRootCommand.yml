@@ -1,0 +1,1415 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.Reporting.Presentation.CliRootCommand
+  commentId: T:Heleonix.Testing.Reporting.Presentation.CliRootCommand
+  id: CliRootCommand
+  parent: Heleonix.Testing.Reporting.Presentation
+  children:
+  - Heleonix.Testing.Reporting.Presentation.CliRootCommand.#ctor
+  - Heleonix.Testing.Reporting.Presentation.CliRootCommand.Invoker
+  - Heleonix.Testing.Reporting.Presentation.CliRootCommand.VerbosityOption
+  langs:
+  - csharp
+  - vb
+  name: CliRootCommand
+  nameWithType: CliRootCommand
+  fullName: Heleonix.Testing.Reporting.Presentation.CliRootCommand
+  type: Class
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Presentation
+  summary: >-
+    Represents the <xref href="System.CommandLine.RootCommand" data-throw-if-not-resolved="false"></xref> implementation for the
+
+    <xref href="Heleonix.Testing.Reporting" data-throw-if-not-resolved="false"></xref> CLI, which receives parsed command line arguments and launches
+
+    generation of reports.
+  example: []
+  syntax:
+    content: 'public class CliRootCommand : RootCommand, ICompletionSource, IEnumerable<Symbol>, IEnumerable'
+    content.vb: Public Class CliRootCommand Inherits RootCommand Implements ICompletionSource, IEnumerable(Of Symbol), IEnumerable
+  inheritance:
+  - System.Object
+  - System.CommandLine.Symbol
+  - System.CommandLine.IdentifierSymbol
+  - System.CommandLine.Command
+  - System.CommandLine.RootCommand
+  implements:
+  - System.CommandLine.Completions.ICompletionSource
+  - System.Collections.Generic.IEnumerable{System.CommandLine.Symbol}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.CommandLine.RootCommand.ExecutableName
+  - System.CommandLine.RootCommand.ExecutablePath
+  - System.CommandLine.Command.AddArgument(System.CommandLine.Argument)
+  - System.CommandLine.Command.AddCommand(System.CommandLine.Command)
+  - System.CommandLine.Command.AddOption(System.CommandLine.Option)
+  - System.CommandLine.Command.AddGlobalOption(System.CommandLine.Option)
+  - System.CommandLine.Command.Add(System.CommandLine.Option)
+  - System.CommandLine.Command.Add(System.CommandLine.Argument)
+  - System.CommandLine.Command.Add(System.CommandLine.Command)
+  - System.CommandLine.Command.AddValidator(System.CommandLine.Parsing.ValidateSymbolResult{System.CommandLine.Parsing.CommandResult})
+  - System.CommandLine.Command.GetEnumerator
+  - System.CommandLine.Command.GetCompletions(System.CommandLine.Completions.CompletionContext)
+  - System.CommandLine.Command.Children
+  - System.CommandLine.Command.Arguments
+  - System.CommandLine.Command.Options
+  - System.CommandLine.Command.Subcommands
+  - System.CommandLine.Command.TreatUnmatchedTokensAsErrors
+  - System.CommandLine.Command.Handler
+  - System.CommandLine.IdentifierSymbol.AddAlias(System.String)
+  - System.CommandLine.IdentifierSymbol.HasAlias(System.String)
+  - System.CommandLine.IdentifierSymbol.Aliases
+  - System.CommandLine.IdentifierSymbol.Name
+  - System.CommandLine.Symbol.GetCompletions
+  - System.CommandLine.Symbol.ToString
+  - System.CommandLine.Symbol.Description
+  - System.CommandLine.Symbol.IsHidden
+  - System.CommandLine.Symbol.Parents
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Heleonix.Testing.Reporting.Presentation.CliRootCommand.#ctor
+  commentId: M:Heleonix.Testing.Reporting.Presentation.CliRootCommand.#ctor
+  id: '#ctor'
+  parent: Heleonix.Testing.Reporting.Presentation.CliRootCommand
+  langs:
+  - csharp
+  - vb
+  name: CliRootCommand()
+  nameWithType: CliRootCommand.CliRootCommand()
+  fullName: Heleonix.Testing.Reporting.Presentation.CliRootCommand.CliRootCommand()
+  type: Constructor
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Presentation
+  summary: Initializes a new instance of the <xref href="Heleonix.Testing.Reporting.Presentation.CliRootCommand" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public CliRootCommand()
+    content.vb: Public Sub New()
+  overload: Heleonix.Testing.Reporting.Presentation.CliRootCommand.#ctor*
+  nameWithType.vb: CliRootCommand.New()
+  fullName.vb: Heleonix.Testing.Reporting.Presentation.CliRootCommand.New()
+  name.vb: New()
+- uid: Heleonix.Testing.Reporting.Presentation.CliRootCommand.VerbosityOption
+  commentId: P:Heleonix.Testing.Reporting.Presentation.CliRootCommand.VerbosityOption
+  id: VerbosityOption
+  parent: Heleonix.Testing.Reporting.Presentation.CliRootCommand
+  langs:
+  - csharp
+  - vb
+  name: VerbosityOption
+  nameWithType: CliRootCommand.VerbosityOption
+  fullName: Heleonix.Testing.Reporting.Presentation.CliRootCommand.VerbosityOption
+  type: Property
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Presentation
+  summary: Gets the verbosity option configured for the command line to be used for logging of the execution process.
+  example: []
+  syntax:
+    content: public Option<LogLevel> VerbosityOption { get; }
+    parameters: []
+    return:
+      type: System.CommandLine.Option{Microsoft.Extensions.Logging.LogLevel}
+    content.vb: Public ReadOnly Property VerbosityOption As [Option](Of LogLevel)
+  overload: Heleonix.Testing.Reporting.Presentation.CliRootCommand.VerbosityOption*
+- uid: Heleonix.Testing.Reporting.Presentation.CliRootCommand.Invoker
+  commentId: P:Heleonix.Testing.Reporting.Presentation.CliRootCommand.Invoker
+  id: Invoker
+  parent: Heleonix.Testing.Reporting.Presentation.CliRootCommand
+  langs:
+  - csharp
+  - vb
+  name: Invoker
+  nameWithType: CliRootCommand.Invoker
+  fullName: Heleonix.Testing.Reporting.Presentation.CliRootCommand.Invoker
+  type: Property
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Presentation
+  summary: Gets or sets the method to invoke this command with passed <xref href="Heleonix.Testing.Reporting.Application.Parameters" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public Action<Parameters> Invoker { get; set; }
+    parameters: []
+    return:
+      type: System.Action{Heleonix.Testing.Reporting.Application.Parameters}
+    content.vb: Public Property Invoker As Action(Of Parameters)
+  overload: Heleonix.Testing.Reporting.Presentation.CliRootCommand.Invoker*
+references:
+- uid: System.CommandLine.RootCommand
+  commentId: T:System.CommandLine.RootCommand
+  parent: System.CommandLine
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.rootcommand
+  name: RootCommand
+  nameWithType: RootCommand
+  fullName: System.CommandLine.RootCommand
+- uid: Heleonix.Testing.Reporting
+  commentId: N:Heleonix.Testing.Reporting
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Testing.Reporting
+  nameWithType: Heleonix.Testing.Reporting
+  fullName: Heleonix.Testing.Reporting
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+- uid: Heleonix.Testing.Reporting.Presentation
+  commentId: N:Heleonix.Testing.Reporting.Presentation
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Testing.Reporting.Presentation
+  nameWithType: Heleonix.Testing.Reporting.Presentation
+  fullName: Heleonix.Testing.Reporting.Presentation
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Presentation
+    name: Presentation
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Presentation.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Presentation
+    name: Presentation
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Presentation.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.CommandLine.Symbol
+  commentId: T:System.CommandLine.Symbol
+  parent: System.CommandLine
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.symbol
+  name: Symbol
+  nameWithType: Symbol
+  fullName: System.CommandLine.Symbol
+- uid: System.CommandLine.IdentifierSymbol
+  commentId: T:System.CommandLine.IdentifierSymbol
+  parent: System.CommandLine
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.identifiersymbol
+  name: IdentifierSymbol
+  nameWithType: IdentifierSymbol
+  fullName: System.CommandLine.IdentifierSymbol
+- uid: System.CommandLine.Command
+  commentId: T:System.CommandLine.Command
+  parent: System.CommandLine
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.command
+  name: Command
+  nameWithType: Command
+  fullName: System.CommandLine.Command
+- uid: System.CommandLine.Completions.ICompletionSource
+  commentId: T:System.CommandLine.Completions.ICompletionSource
+  parent: System.CommandLine.Completions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.completions.icompletionsource
+  name: ICompletionSource
+  nameWithType: ICompletionSource
+  fullName: System.CommandLine.Completions.ICompletionSource
+- uid: System.Collections.Generic.IEnumerable{System.CommandLine.Symbol}
+  commentId: T:System.Collections.Generic.IEnumerable{System.CommandLine.Symbol}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Symbol>
+  nameWithType: IEnumerable<Symbol>
+  fullName: System.Collections.Generic.IEnumerable<System.CommandLine.Symbol>
+  nameWithType.vb: IEnumerable(Of Symbol)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.CommandLine.Symbol)
+  name.vb: IEnumerable(Of Symbol)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.CommandLine.Symbol
+    name: Symbol
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.symbol
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.CommandLine.Symbol
+    name: Symbol
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.symbol
+  - name: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.CommandLine.RootCommand.ExecutableName
+  commentId: P:System.CommandLine.RootCommand.ExecutableName
+  parent: System.CommandLine.RootCommand
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.rootcommand.executablename
+  name: ExecutableName
+  nameWithType: RootCommand.ExecutableName
+  fullName: System.CommandLine.RootCommand.ExecutableName
+- uid: System.CommandLine.RootCommand.ExecutablePath
+  commentId: P:System.CommandLine.RootCommand.ExecutablePath
+  parent: System.CommandLine.RootCommand
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.rootcommand.executablepath
+  name: ExecutablePath
+  nameWithType: RootCommand.ExecutablePath
+  fullName: System.CommandLine.RootCommand.ExecutablePath
+- uid: System.CommandLine.Command.AddArgument(System.CommandLine.Argument)
+  commentId: M:System.CommandLine.Command.AddArgument(System.CommandLine.Argument)
+  parent: System.CommandLine.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.command.addargument
+  name: AddArgument(Argument)
+  nameWithType: Command.AddArgument(Argument)
+  fullName: System.CommandLine.Command.AddArgument(System.CommandLine.Argument)
+  spec.csharp:
+  - uid: System.CommandLine.Command.AddArgument(System.CommandLine.Argument)
+    name: AddArgument
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command.addargument
+  - name: (
+  - uid: System.CommandLine.Argument
+    name: Argument
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.argument
+  - name: )
+  spec.vb:
+  - uid: System.CommandLine.Command.AddArgument(System.CommandLine.Argument)
+    name: AddArgument
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command.addargument
+  - name: (
+  - uid: System.CommandLine.Argument
+    name: Argument
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.argument
+  - name: )
+- uid: System.CommandLine.Command.AddCommand(System.CommandLine.Command)
+  commentId: M:System.CommandLine.Command.AddCommand(System.CommandLine.Command)
+  parent: System.CommandLine.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.command.addcommand
+  name: AddCommand(Command)
+  nameWithType: Command.AddCommand(Command)
+  fullName: System.CommandLine.Command.AddCommand(System.CommandLine.Command)
+  spec.csharp:
+  - uid: System.CommandLine.Command.AddCommand(System.CommandLine.Command)
+    name: AddCommand
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command.addcommand
+  - name: (
+  - uid: System.CommandLine.Command
+    name: Command
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command
+  - name: )
+  spec.vb:
+  - uid: System.CommandLine.Command.AddCommand(System.CommandLine.Command)
+    name: AddCommand
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command.addcommand
+  - name: (
+  - uid: System.CommandLine.Command
+    name: Command
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command
+  - name: )
+- uid: System.CommandLine.Command.AddOption(System.CommandLine.Option)
+  commentId: M:System.CommandLine.Command.AddOption(System.CommandLine.Option)
+  parent: System.CommandLine.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.command.addoption
+  name: AddOption(Option)
+  nameWithType: Command.AddOption(Option)
+  fullName: System.CommandLine.Command.AddOption(System.CommandLine.Option)
+  spec.csharp:
+  - uid: System.CommandLine.Command.AddOption(System.CommandLine.Option)
+    name: AddOption
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command.addoption
+  - name: (
+  - uid: System.CommandLine.Option
+    name: Option
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.option
+  - name: )
+  spec.vb:
+  - uid: System.CommandLine.Command.AddOption(System.CommandLine.Option)
+    name: AddOption
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command.addoption
+  - name: (
+  - uid: System.CommandLine.Option
+    name: Option
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.option
+  - name: )
+- uid: System.CommandLine.Command.AddGlobalOption(System.CommandLine.Option)
+  commentId: M:System.CommandLine.Command.AddGlobalOption(System.CommandLine.Option)
+  parent: System.CommandLine.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.command.addglobaloption
+  name: AddGlobalOption(Option)
+  nameWithType: Command.AddGlobalOption(Option)
+  fullName: System.CommandLine.Command.AddGlobalOption(System.CommandLine.Option)
+  spec.csharp:
+  - uid: System.CommandLine.Command.AddGlobalOption(System.CommandLine.Option)
+    name: AddGlobalOption
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command.addglobaloption
+  - name: (
+  - uid: System.CommandLine.Option
+    name: Option
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.option
+  - name: )
+  spec.vb:
+  - uid: System.CommandLine.Command.AddGlobalOption(System.CommandLine.Option)
+    name: AddGlobalOption
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command.addglobaloption
+  - name: (
+  - uid: System.CommandLine.Option
+    name: Option
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.option
+  - name: )
+- uid: System.CommandLine.Command.Add(System.CommandLine.Option)
+  commentId: M:System.CommandLine.Command.Add(System.CommandLine.Option)
+  parent: System.CommandLine.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.command.add#system-commandline-command-add(system-commandline-option)
+  name: Add(Option)
+  nameWithType: Command.Add(Option)
+  fullName: System.CommandLine.Command.Add(System.CommandLine.Option)
+  spec.csharp:
+  - uid: System.CommandLine.Command.Add(System.CommandLine.Option)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command.add#system-commandline-command-add(system-commandline-option)
+  - name: (
+  - uid: System.CommandLine.Option
+    name: Option
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.option
+  - name: )
+  spec.vb:
+  - uid: System.CommandLine.Command.Add(System.CommandLine.Option)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command.add#system-commandline-command-add(system-commandline-option)
+  - name: (
+  - uid: System.CommandLine.Option
+    name: Option
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.option
+  - name: )
+- uid: System.CommandLine.Command.Add(System.CommandLine.Argument)
+  commentId: M:System.CommandLine.Command.Add(System.CommandLine.Argument)
+  parent: System.CommandLine.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.command.add#system-commandline-command-add(system-commandline-argument)
+  name: Add(Argument)
+  nameWithType: Command.Add(Argument)
+  fullName: System.CommandLine.Command.Add(System.CommandLine.Argument)
+  spec.csharp:
+  - uid: System.CommandLine.Command.Add(System.CommandLine.Argument)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command.add#system-commandline-command-add(system-commandline-argument)
+  - name: (
+  - uid: System.CommandLine.Argument
+    name: Argument
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.argument
+  - name: )
+  spec.vb:
+  - uid: System.CommandLine.Command.Add(System.CommandLine.Argument)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command.add#system-commandline-command-add(system-commandline-argument)
+  - name: (
+  - uid: System.CommandLine.Argument
+    name: Argument
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.argument
+  - name: )
+- uid: System.CommandLine.Command.Add(System.CommandLine.Command)
+  commentId: M:System.CommandLine.Command.Add(System.CommandLine.Command)
+  parent: System.CommandLine.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.command.add#system-commandline-command-add(system-commandline-command)
+  name: Add(Command)
+  nameWithType: Command.Add(Command)
+  fullName: System.CommandLine.Command.Add(System.CommandLine.Command)
+  spec.csharp:
+  - uid: System.CommandLine.Command.Add(System.CommandLine.Command)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command.add#system-commandline-command-add(system-commandline-command)
+  - name: (
+  - uid: System.CommandLine.Command
+    name: Command
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command
+  - name: )
+  spec.vb:
+  - uid: System.CommandLine.Command.Add(System.CommandLine.Command)
+    name: Add
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command.add#system-commandline-command-add(system-commandline-command)
+  - name: (
+  - uid: System.CommandLine.Command
+    name: Command
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command
+  - name: )
+- uid: System.CommandLine.Command.AddValidator(System.CommandLine.Parsing.ValidateSymbolResult{System.CommandLine.Parsing.CommandResult})
+  commentId: M:System.CommandLine.Command.AddValidator(System.CommandLine.Parsing.ValidateSymbolResult{System.CommandLine.Parsing.CommandResult})
+  parent: System.CommandLine.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.command.addvalidator
+  name: AddValidator(ValidateSymbolResult<CommandResult>)
+  nameWithType: Command.AddValidator(ValidateSymbolResult<CommandResult>)
+  fullName: System.CommandLine.Command.AddValidator(System.CommandLine.Parsing.ValidateSymbolResult<System.CommandLine.Parsing.CommandResult>)
+  nameWithType.vb: Command.AddValidator(ValidateSymbolResult(Of CommandResult))
+  fullName.vb: System.CommandLine.Command.AddValidator(System.CommandLine.Parsing.ValidateSymbolResult(Of System.CommandLine.Parsing.CommandResult))
+  name.vb: AddValidator(ValidateSymbolResult(Of CommandResult))
+  spec.csharp:
+  - uid: System.CommandLine.Command.AddValidator(System.CommandLine.Parsing.ValidateSymbolResult{System.CommandLine.Parsing.CommandResult})
+    name: AddValidator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command.addvalidator
+  - name: (
+  - uid: System.CommandLine.Parsing.ValidateSymbolResult`1
+    name: ValidateSymbolResult
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.parsing.validatesymbolresult-1
+  - name: <
+  - uid: System.CommandLine.Parsing.CommandResult
+    name: CommandResult
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.parsing.commandresult
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: System.CommandLine.Command.AddValidator(System.CommandLine.Parsing.ValidateSymbolResult{System.CommandLine.Parsing.CommandResult})
+    name: AddValidator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command.addvalidator
+  - name: (
+  - uid: System.CommandLine.Parsing.ValidateSymbolResult`1
+    name: ValidateSymbolResult
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.parsing.validatesymbolresult-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.CommandLine.Parsing.CommandResult
+    name: CommandResult
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.parsing.commandresult
+  - name: )
+  - name: )
+- uid: System.CommandLine.Command.GetEnumerator
+  commentId: M:System.CommandLine.Command.GetEnumerator
+  parent: System.CommandLine.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.command.getenumerator
+  name: GetEnumerator()
+  nameWithType: Command.GetEnumerator()
+  fullName: System.CommandLine.Command.GetEnumerator()
+  spec.csharp:
+  - uid: System.CommandLine.Command.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.CommandLine.Command.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command.getenumerator
+  - name: (
+  - name: )
+- uid: System.CommandLine.Command.GetCompletions(System.CommandLine.Completions.CompletionContext)
+  commentId: M:System.CommandLine.Command.GetCompletions(System.CommandLine.Completions.CompletionContext)
+  parent: System.CommandLine.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.command.getcompletions
+  name: GetCompletions(CompletionContext)
+  nameWithType: Command.GetCompletions(CompletionContext)
+  fullName: System.CommandLine.Command.GetCompletions(System.CommandLine.Completions.CompletionContext)
+  spec.csharp:
+  - uid: System.CommandLine.Command.GetCompletions(System.CommandLine.Completions.CompletionContext)
+    name: GetCompletions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command.getcompletions
+  - name: (
+  - uid: System.CommandLine.Completions.CompletionContext
+    name: CompletionContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.completions.completioncontext
+  - name: )
+  spec.vb:
+  - uid: System.CommandLine.Command.GetCompletions(System.CommandLine.Completions.CompletionContext)
+    name: GetCompletions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.command.getcompletions
+  - name: (
+  - uid: System.CommandLine.Completions.CompletionContext
+    name: CompletionContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.completions.completioncontext
+  - name: )
+- uid: System.CommandLine.Command.Children
+  commentId: P:System.CommandLine.Command.Children
+  parent: System.CommandLine.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.command.children
+  name: Children
+  nameWithType: Command.Children
+  fullName: System.CommandLine.Command.Children
+- uid: System.CommandLine.Command.Arguments
+  commentId: P:System.CommandLine.Command.Arguments
+  parent: System.CommandLine.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.command.arguments
+  name: Arguments
+  nameWithType: Command.Arguments
+  fullName: System.CommandLine.Command.Arguments
+- uid: System.CommandLine.Command.Options
+  commentId: P:System.CommandLine.Command.Options
+  parent: System.CommandLine.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.command.options
+  name: Options
+  nameWithType: Command.Options
+  fullName: System.CommandLine.Command.Options
+- uid: System.CommandLine.Command.Subcommands
+  commentId: P:System.CommandLine.Command.Subcommands
+  parent: System.CommandLine.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.command.subcommands
+  name: Subcommands
+  nameWithType: Command.Subcommands
+  fullName: System.CommandLine.Command.Subcommands
+- uid: System.CommandLine.Command.TreatUnmatchedTokensAsErrors
+  commentId: P:System.CommandLine.Command.TreatUnmatchedTokensAsErrors
+  parent: System.CommandLine.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.command.treatunmatchedtokensaserrors
+  name: TreatUnmatchedTokensAsErrors
+  nameWithType: Command.TreatUnmatchedTokensAsErrors
+  fullName: System.CommandLine.Command.TreatUnmatchedTokensAsErrors
+- uid: System.CommandLine.Command.Handler
+  commentId: P:System.CommandLine.Command.Handler
+  parent: System.CommandLine.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.command.handler
+  name: Handler
+  nameWithType: Command.Handler
+  fullName: System.CommandLine.Command.Handler
+- uid: System.CommandLine.IdentifierSymbol.AddAlias(System.String)
+  commentId: M:System.CommandLine.IdentifierSymbol.AddAlias(System.String)
+  parent: System.CommandLine.IdentifierSymbol
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.identifiersymbol.addalias
+  name: AddAlias(string)
+  nameWithType: IdentifierSymbol.AddAlias(string)
+  fullName: System.CommandLine.IdentifierSymbol.AddAlias(string)
+  nameWithType.vb: IdentifierSymbol.AddAlias(String)
+  fullName.vb: System.CommandLine.IdentifierSymbol.AddAlias(String)
+  name.vb: AddAlias(String)
+  spec.csharp:
+  - uid: System.CommandLine.IdentifierSymbol.AddAlias(System.String)
+    name: AddAlias
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.identifiersymbol.addalias
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.CommandLine.IdentifierSymbol.AddAlias(System.String)
+    name: AddAlias
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.identifiersymbol.addalias
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.CommandLine.IdentifierSymbol.HasAlias(System.String)
+  commentId: M:System.CommandLine.IdentifierSymbol.HasAlias(System.String)
+  parent: System.CommandLine.IdentifierSymbol
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.identifiersymbol.hasalias
+  name: HasAlias(string)
+  nameWithType: IdentifierSymbol.HasAlias(string)
+  fullName: System.CommandLine.IdentifierSymbol.HasAlias(string)
+  nameWithType.vb: IdentifierSymbol.HasAlias(String)
+  fullName.vb: System.CommandLine.IdentifierSymbol.HasAlias(String)
+  name.vb: HasAlias(String)
+  spec.csharp:
+  - uid: System.CommandLine.IdentifierSymbol.HasAlias(System.String)
+    name: HasAlias
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.identifiersymbol.hasalias
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.CommandLine.IdentifierSymbol.HasAlias(System.String)
+    name: HasAlias
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.identifiersymbol.hasalias
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.CommandLine.IdentifierSymbol.Aliases
+  commentId: P:System.CommandLine.IdentifierSymbol.Aliases
+  parent: System.CommandLine.IdentifierSymbol
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.identifiersymbol.aliases
+  name: Aliases
+  nameWithType: IdentifierSymbol.Aliases
+  fullName: System.CommandLine.IdentifierSymbol.Aliases
+- uid: System.CommandLine.IdentifierSymbol.Name
+  commentId: P:System.CommandLine.IdentifierSymbol.Name
+  parent: System.CommandLine.IdentifierSymbol
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.identifiersymbol.name
+  name: Name
+  nameWithType: IdentifierSymbol.Name
+  fullName: System.CommandLine.IdentifierSymbol.Name
+- uid: System.CommandLine.Symbol.GetCompletions
+  commentId: M:System.CommandLine.Symbol.GetCompletions
+  parent: System.CommandLine.Symbol
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.symbol.getcompletions#system-commandline-symbol-getcompletions
+  name: GetCompletions()
+  nameWithType: Symbol.GetCompletions()
+  fullName: System.CommandLine.Symbol.GetCompletions()
+  spec.csharp:
+  - uid: System.CommandLine.Symbol.GetCompletions
+    name: GetCompletions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.symbol.getcompletions#system-commandline-symbol-getcompletions
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.CommandLine.Symbol.GetCompletions
+    name: GetCompletions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.symbol.getcompletions#system-commandline-symbol-getcompletions
+  - name: (
+  - name: )
+- uid: System.CommandLine.Symbol.ToString
+  commentId: M:System.CommandLine.Symbol.ToString
+  parent: System.CommandLine.Symbol
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.symbol.tostring
+  name: ToString()
+  nameWithType: Symbol.ToString()
+  fullName: System.CommandLine.Symbol.ToString()
+  spec.csharp:
+  - uid: System.CommandLine.Symbol.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.symbol.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.CommandLine.Symbol.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.symbol.tostring
+  - name: (
+  - name: )
+- uid: System.CommandLine.Symbol.Description
+  commentId: P:System.CommandLine.Symbol.Description
+  parent: System.CommandLine.Symbol
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.symbol.description
+  name: Description
+  nameWithType: Symbol.Description
+  fullName: System.CommandLine.Symbol.Description
+- uid: System.CommandLine.Symbol.IsHidden
+  commentId: P:System.CommandLine.Symbol.IsHidden
+  parent: System.CommandLine.Symbol
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.symbol.ishidden
+  name: IsHidden
+  nameWithType: Symbol.IsHidden
+  fullName: System.CommandLine.Symbol.IsHidden
+- uid: System.CommandLine.Symbol.Parents
+  commentId: P:System.CommandLine.Symbol.Parents
+  parent: System.CommandLine.Symbol
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.symbol.parents
+  name: Parents
+  nameWithType: Symbol.Parents
+  fullName: System.CommandLine.Symbol.Parents
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.CommandLine
+  commentId: N:System.CommandLine
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.CommandLine
+  nameWithType: System.CommandLine
+  fullName: System.CommandLine
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.CommandLine
+    name: CommandLine
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.CommandLine
+    name: CommandLine
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.CommandLine.Completions
+  commentId: N:System.CommandLine.Completions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.CommandLine.Completions
+  nameWithType: System.CommandLine.Completions
+  fullName: System.CommandLine.Completions
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.CommandLine
+    name: CommandLine
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline
+  - name: .
+  - uid: System.CommandLine.Completions
+    name: Completions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.completions
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.CommandLine
+    name: CommandLine
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline
+  - name: .
+  - uid: System.CommandLine.Completions
+    name: Completions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.completions
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: Heleonix.Testing.Reporting.Presentation.CliRootCommand
+  commentId: T:Heleonix.Testing.Reporting.Presentation.CliRootCommand
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Presentation.CliRootCommand.html
+  name: CliRootCommand
+  nameWithType: CliRootCommand
+  fullName: Heleonix.Testing.Reporting.Presentation.CliRootCommand
+- uid: Heleonix.Testing.Reporting.Presentation.CliRootCommand.#ctor*
+  commentId: Overload:Heleonix.Testing.Reporting.Presentation.CliRootCommand.#ctor
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Presentation.CliRootCommand.html#Heleonix_Testing_Reporting_Presentation_CliRootCommand__ctor
+  name: CliRootCommand
+  nameWithType: CliRootCommand.CliRootCommand
+  fullName: Heleonix.Testing.Reporting.Presentation.CliRootCommand.CliRootCommand
+  nameWithType.vb: CliRootCommand.New
+  fullName.vb: Heleonix.Testing.Reporting.Presentation.CliRootCommand.New
+  name.vb: New
+- uid: Heleonix.Testing.Reporting.Presentation.CliRootCommand.VerbosityOption*
+  commentId: Overload:Heleonix.Testing.Reporting.Presentation.CliRootCommand.VerbosityOption
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Presentation.CliRootCommand.html#Heleonix_Testing_Reporting_Presentation_CliRootCommand_VerbosityOption
+  name: VerbosityOption
+  nameWithType: CliRootCommand.VerbosityOption
+  fullName: Heleonix.Testing.Reporting.Presentation.CliRootCommand.VerbosityOption
+- uid: System.CommandLine.Option{Microsoft.Extensions.Logging.LogLevel}
+  commentId: T:System.CommandLine.Option{Microsoft.Extensions.Logging.LogLevel}
+  parent: System.CommandLine
+  definition: System.CommandLine.Option`1
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.option-1
+  name: Option<LogLevel>
+  nameWithType: Option<LogLevel>
+  fullName: System.CommandLine.Option<Microsoft.Extensions.Logging.LogLevel>
+  nameWithType.vb: Option(Of LogLevel)
+  fullName.vb: System.CommandLine.Option(Of Microsoft.Extensions.Logging.LogLevel)
+  name.vb: Option(Of LogLevel)
+  spec.csharp:
+  - uid: System.CommandLine.Option`1
+    name: Option
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.option-1
+  - name: <
+  - uid: Microsoft.Extensions.Logging.LogLevel
+    name: LogLevel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.loglevel
+  - name: '>'
+  spec.vb:
+  - uid: System.CommandLine.Option`1
+    name: Option
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.option-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Microsoft.Extensions.Logging.LogLevel
+    name: LogLevel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.loglevel
+  - name: )
+- uid: System.CommandLine.Option`1
+  commentId: T:System.CommandLine.Option`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.commandline.option-1
+  name: Option<T>
+  nameWithType: Option<T>
+  fullName: System.CommandLine.Option<T>
+  nameWithType.vb: Option(Of T)
+  fullName.vb: System.CommandLine.Option(Of T)
+  name.vb: Option(Of T)
+  spec.csharp:
+  - uid: System.CommandLine.Option`1
+    name: Option
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.option-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.CommandLine.Option`1
+    name: Option
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.commandline.option-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Heleonix.Testing.Reporting.Application.Parameters
+  commentId: T:Heleonix.Testing.Reporting.Application.Parameters
+  parent: Heleonix.Testing.Reporting.Application
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.Parameters.html
+  name: Parameters
+  nameWithType: Parameters
+  fullName: Heleonix.Testing.Reporting.Application.Parameters
+- uid: Heleonix.Testing.Reporting.Presentation.CliRootCommand.Invoker*
+  commentId: Overload:Heleonix.Testing.Reporting.Presentation.CliRootCommand.Invoker
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Presentation.CliRootCommand.html#Heleonix_Testing_Reporting_Presentation_CliRootCommand_Invoker
+  name: Invoker
+  nameWithType: CliRootCommand.Invoker
+  fullName: Heleonix.Testing.Reporting.Presentation.CliRootCommand.Invoker
+- uid: System.Action{Heleonix.Testing.Reporting.Application.Parameters}
+  commentId: T:System.Action{Heleonix.Testing.Reporting.Application.Parameters}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<Parameters>
+  nameWithType: Action<Parameters>
+  fullName: System.Action<Heleonix.Testing.Reporting.Application.Parameters>
+  nameWithType.vb: Action(Of Parameters)
+  fullName.vb: System.Action(Of Heleonix.Testing.Reporting.Application.Parameters)
+  name.vb: Action(Of Parameters)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: Heleonix.Testing.Reporting.Application.Parameters
+    name: Parameters
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.Parameters.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Heleonix.Testing.Reporting.Application.Parameters
+    name: Parameters
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.Parameters.html
+  - name: )
+- uid: Heleonix.Testing.Reporting.Application
+  commentId: N:Heleonix.Testing.Reporting.Application
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Testing.Reporting.Application
+  nameWithType: Heleonix.Testing.Reporting.Application
+  fullName: Heleonix.Testing.Reporting.Application
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application
+    name: Application
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application
+    name: Application
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.html
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

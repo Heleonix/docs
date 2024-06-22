@@ -1,0 +1,204 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.Reporting.Domain.Outcome
+  commentId: T:Heleonix.Testing.Reporting.Domain.Outcome
+  id: Outcome
+  parent: Heleonix.Testing.Reporting.Domain
+  children:
+  - Heleonix.Testing.Reporting.Domain.Outcome.Error
+  - Heleonix.Testing.Reporting.Domain.Outcome.Failed
+  - Heleonix.Testing.Reporting.Domain.Outcome.Other
+  - Heleonix.Testing.Reporting.Domain.Outcome.Passed
+  - Heleonix.Testing.Reporting.Domain.Outcome.Skipped
+  - Heleonix.Testing.Reporting.Domain.Outcome.Warning
+  langs:
+  - csharp
+  - vb
+  name: Outcome
+  nameWithType: Outcome
+  fullName: Heleonix.Testing.Reporting.Domain.Outcome
+  type: Enum
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Domain
+  summary: Defines possible test execution outcomes.
+  example: []
+  syntax:
+    content: public enum Outcome
+    content.vb: Public Enum Outcome
+- uid: Heleonix.Testing.Reporting.Domain.Outcome.Other
+  commentId: F:Heleonix.Testing.Reporting.Domain.Outcome.Other
+  id: Other
+  parent: Heleonix.Testing.Reporting.Domain.Outcome
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: Outcome.Other
+  fullName: Heleonix.Testing.Reporting.Domain.Outcome.Other
+  type: Field
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Domain
+  summary: Represents the test, which has an unknown or not yet supported status after test execution.
+  example: []
+  syntax:
+    content: Other = 0
+    return:
+      type: Heleonix.Testing.Reporting.Domain.Outcome
+- uid: Heleonix.Testing.Reporting.Domain.Outcome.Skipped
+  commentId: F:Heleonix.Testing.Reporting.Domain.Outcome.Skipped
+  id: Skipped
+  parent: Heleonix.Testing.Reporting.Domain.Outcome
+  langs:
+  - csharp
+  - vb
+  name: Skipped
+  nameWithType: Outcome.Skipped
+  fullName: Heleonix.Testing.Reporting.Domain.Outcome.Skipped
+  type: Field
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Domain
+  summary: Represents the test, which was skipped during test execution.
+  example: []
+  syntax:
+    content: Skipped = 1
+    return:
+      type: Heleonix.Testing.Reporting.Domain.Outcome
+- uid: Heleonix.Testing.Reporting.Domain.Outcome.Passed
+  commentId: F:Heleonix.Testing.Reporting.Domain.Outcome.Passed
+  id: Passed
+  parent: Heleonix.Testing.Reporting.Domain.Outcome
+  langs:
+  - csharp
+  - vb
+  name: Passed
+  nameWithType: Outcome.Passed
+  fullName: Heleonix.Testing.Reporting.Domain.Outcome.Passed
+  type: Field
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Domain
+  summary: Represents successfully passed test or test report.
+  example: []
+  syntax:
+    content: Passed = 2
+    return:
+      type: Heleonix.Testing.Reporting.Domain.Outcome
+- uid: Heleonix.Testing.Reporting.Domain.Outcome.Warning
+  commentId: F:Heleonix.Testing.Reporting.Domain.Outcome.Warning
+  id: Warning
+  parent: Heleonix.Testing.Reporting.Domain.Outcome
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: Outcome.Warning
+  fullName: Heleonix.Testing.Reporting.Domain.Outcome.Warning
+  type: Field
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Domain
+  summary: represents test outcome or the test report outcome with warnings.
+  example: []
+  syntax:
+    content: Warning = 3
+    return:
+      type: Heleonix.Testing.Reporting.Domain.Outcome
+- uid: Heleonix.Testing.Reporting.Domain.Outcome.Failed
+  commentId: F:Heleonix.Testing.Reporting.Domain.Outcome.Failed
+  id: Failed
+  parent: Heleonix.Testing.Reporting.Domain.Outcome
+  langs:
+  - csharp
+  - vb
+  name: Failed
+  nameWithType: Outcome.Failed
+  fullName: Heleonix.Testing.Reporting.Domain.Outcome.Failed
+  type: Field
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Domain
+  summary: Represents successfully executed, but failed test or the whole test report.
+  example: []
+  syntax:
+    content: Failed = 4
+    return:
+      type: Heleonix.Testing.Reporting.Domain.Outcome
+- uid: Heleonix.Testing.Reporting.Domain.Outcome.Error
+  commentId: F:Heleonix.Testing.Reporting.Domain.Outcome.Error
+  id: Error
+  parent: Heleonix.Testing.Reporting.Domain.Outcome
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: Outcome.Error
+  fullName: Heleonix.Testing.Reporting.Domain.Outcome.Error
+  type: Field
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Domain
+  summary: Represents an error in test execution or the whole test report execution.
+  example: []
+  syntax:
+    content: Error = 5
+    return:
+      type: Heleonix.Testing.Reporting.Domain.Outcome
+references:
+- uid: Heleonix.Testing.Reporting.Domain
+  commentId: N:Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Testing.Reporting.Domain
+  nameWithType: Heleonix.Testing.Reporting.Domain
+  fullName: Heleonix.Testing.Reporting.Domain
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Domain
+    name: Domain
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Domain.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Domain
+    name: Domain
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Domain.html
+- uid: Heleonix.Testing.Reporting.Domain.Outcome
+  commentId: T:Heleonix.Testing.Reporting.Domain.Outcome
+  parent: Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Domain.Outcome.html
+  name: Outcome
+  nameWithType: Outcome
+  fullName: Heleonix.Testing.Reporting.Domain.Outcome

@@ -1,0 +1,72 @@
+### YamlMime:TableOfContent
+items:
+- uid: Heleonix.Testing.Reporting.Application
+  name: Heleonix.Testing.Reporting.Application
+  items:
+  - uid: Heleonix.Testing.Reporting.Application.IReportGenerator
+    name: IReportGenerator
+  - uid: Heleonix.Testing.Reporting.Application.IReportTemplateProvider
+    name: IReportTemplateProvider
+  - uid: Heleonix.Testing.Reporting.Application.IStreamProvider
+    name: IStreamProvider
+  - uid: Heleonix.Testing.Reporting.Application.ITestResultMerger
+    name: ITestResultMerger
+  - uid: Heleonix.Testing.Reporting.Application.Parameters
+    name: Parameters
+  - uid: Heleonix.Testing.Reporting.Application.ReportGenerator
+    name: ReportGenerator
+  - uid: Heleonix.Testing.Reporting.Application.TestResultMerger
+    name: TestResultMerger
+- uid: Heleonix.Testing.Reporting.Application.Loaders
+  name: Heleonix.Testing.Reporting.Application.Loaders
+  items:
+  - uid: Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader
+    name: ITestResultLoader
+- uid: Heleonix.Testing.Reporting.Application.Loaders.Trx
+  name: Heleonix.Testing.Reporting.Application.Loaders.Trx
+  items:
+  - uid: Heleonix.Testing.Reporting.Application.Loaders.Trx.TrxTestResultLoader
+    name: TrxTestResultLoader
+- uid: Heleonix.Testing.Reporting.Application.Renderers
+  name: Heleonix.Testing.Reporting.Application.Renderers
+  items:
+  - uid: Heleonix.Testing.Reporting.Application.Renderers.HtmlReportRenderer
+    name: HtmlReportRenderer
+  - uid: Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer
+    name: IReportRenderer
+- uid: Heleonix.Testing.Reporting.Domain
+  name: Heleonix.Testing.Reporting.Domain
+  items:
+  - uid: Heleonix.Testing.Reporting.Domain.Footer
+    name: Footer
+  - uid: Heleonix.Testing.Reporting.Domain.Outcome
+    name: Outcome
+  - uid: Heleonix.Testing.Reporting.Domain.Report
+    name: Report
+  - uid: Heleonix.Testing.Reporting.Domain.ReportFormat
+    name: ReportFormat
+  - uid: Heleonix.Testing.Reporting.Domain.Summary
+    name: Summary
+  - uid: Heleonix.Testing.Reporting.Domain.TestCase
+    name: TestCase
+  - uid: Heleonix.Testing.Reporting.Domain.TestItem
+    name: TestItem
+  - uid: Heleonix.Testing.Reporting.Domain.TestResult
+    name: TestResult
+- uid: Heleonix.Testing.Reporting.Infrastructure
+  name: Heleonix.Testing.Reporting.Infrastructure
+  items:
+  - uid: Heleonix.Testing.Reporting.Infrastructure.ReportTemplateProvider
+    name: ReportTemplateProvider
+  - uid: Heleonix.Testing.Reporting.Infrastructure.StreamProvider
+    name: StreamProvider
+- uid: Heleonix.Testing.Reporting.Presentation
+  name: Heleonix.Testing.Reporting.Presentation
+  items:
+  - uid: Heleonix.Testing.Reporting.Presentation.CliLoggingFormatter
+    name: CliLoggingFormatter
+  - uid: Heleonix.Testing.Reporting.Presentation.CliRootCommand
+    name: CliRootCommand
+  - uid: Heleonix.Testing.Reporting.Presentation.ParametersBinder
+    name: ParametersBinder
+memberLayout: SamePage

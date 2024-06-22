@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.Reporting.Application
+  commentId: N:Heleonix.Testing.Reporting.Application
+  id: Heleonix.Testing.Reporting.Application
+  children:
+  - Heleonix.Testing.Reporting.Application.IReportGenerator
+  - Heleonix.Testing.Reporting.Application.IReportTemplateProvider
+  - Heleonix.Testing.Reporting.Application.IStreamProvider
+  - Heleonix.Testing.Reporting.Application.ITestResultMerger
+  - Heleonix.Testing.Reporting.Application.Parameters
+  - Heleonix.Testing.Reporting.Application.ReportGenerator
+  - Heleonix.Testing.Reporting.Application.TestResultMerger
+  langs:
+  - csharp
+  - vb
+  name: Heleonix.Testing.Reporting.Application
+  nameWithType: Heleonix.Testing.Reporting.Application
+  fullName: Heleonix.Testing.Reporting.Application
+  type: Namespace
+  assemblies:
+  - Heleonix.Testing.Reporting
+references:
+- uid: Heleonix.Testing.Reporting.Application.IReportGenerator
+  commentId: T:Heleonix.Testing.Reporting.Application.IReportGenerator
+  parent: Heleonix.Testing.Reporting.Application
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.IReportGenerator.html
+  name: IReportGenerator
+  nameWithType: IReportGenerator
+  fullName: Heleonix.Testing.Reporting.Application.IReportGenerator
+- uid: Heleonix.Testing.Reporting.Application.IReportTemplateProvider
+  commentId: T:Heleonix.Testing.Reporting.Application.IReportTemplateProvider
+  parent: Heleonix.Testing.Reporting.Application
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.IReportTemplateProvider.html
+  name: IReportTemplateProvider
+  nameWithType: IReportTemplateProvider
+  fullName: Heleonix.Testing.Reporting.Application.IReportTemplateProvider
+- uid: Heleonix.Testing.Reporting.Application.IStreamProvider
+  commentId: T:Heleonix.Testing.Reporting.Application.IStreamProvider
+  parent: Heleonix.Testing.Reporting.Application
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.IStreamProvider.html
+  name: IStreamProvider
+  nameWithType: IStreamProvider
+  fullName: Heleonix.Testing.Reporting.Application.IStreamProvider
+- uid: Heleonix.Testing.Reporting.Application.ITestResultMerger
+  commentId: T:Heleonix.Testing.Reporting.Application.ITestResultMerger
+  parent: Heleonix.Testing.Reporting.Application
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.ITestResultMerger.html
+  name: ITestResultMerger
+  nameWithType: ITestResultMerger
+  fullName: Heleonix.Testing.Reporting.Application.ITestResultMerger
+- uid: Heleonix.Testing.Reporting.Application.Parameters
+  commentId: T:Heleonix.Testing.Reporting.Application.Parameters
+  parent: Heleonix.Testing.Reporting.Application
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.Parameters.html
+  name: Parameters
+  nameWithType: Parameters
+  fullName: Heleonix.Testing.Reporting.Application.Parameters
+- uid: Heleonix.Testing.Reporting.Application.ReportGenerator
+  commentId: T:Heleonix.Testing.Reporting.Application.ReportGenerator
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.ReportGenerator.html
+  name: ReportGenerator
+  nameWithType: ReportGenerator
+  fullName: Heleonix.Testing.Reporting.Application.ReportGenerator
+- uid: Heleonix.Testing.Reporting.Application.TestResultMerger
+  commentId: T:Heleonix.Testing.Reporting.Application.TestResultMerger
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.TestResultMerger.html
+  name: TestResultMerger
+  nameWithType: TestResultMerger
+  fullName: Heleonix.Testing.Reporting.Application.TestResultMerger
+- uid: Heleonix.Testing.Reporting.Application
+  commentId: N:Heleonix.Testing.Reporting.Application
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Testing.Reporting.Application
+  nameWithType: Heleonix.Testing.Reporting.Application
+  fullName: Heleonix.Testing.Reporting.Application
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application
+    name: Application
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application
+    name: Application
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.html

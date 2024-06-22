@@ -1,0 +1,82 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.Reporting.Application.Loaders
+  commentId: N:Heleonix.Testing.Reporting.Application.Loaders
+  id: Heleonix.Testing.Reporting.Application.Loaders
+  children:
+  - Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader
+  langs:
+  - csharp
+  - vb
+  name: Heleonix.Testing.Reporting.Application.Loaders
+  nameWithType: Heleonix.Testing.Reporting.Application.Loaders
+  fullName: Heleonix.Testing.Reporting.Application.Loaders
+  type: Namespace
+  assemblies:
+  - Heleonix.Testing.Reporting
+references:
+- uid: Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader
+  commentId: T:Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader
+  parent: Heleonix.Testing.Reporting.Application.Loaders
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader.html
+  name: ITestResultLoader
+  nameWithType: ITestResultLoader
+  fullName: Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader
+- uid: Heleonix.Testing.Reporting.Application.Loaders
+  commentId: N:Heleonix.Testing.Reporting.Application.Loaders
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Testing.Reporting.Application.Loaders
+  nameWithType: Heleonix.Testing.Reporting.Application.Loaders
+  fullName: Heleonix.Testing.Reporting.Application.Loaders
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application
+    name: Application
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application.Loaders
+    name: Loaders
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.Loaders.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application
+    name: Application
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application.Loaders
+    name: Loaders
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.Loaders.html

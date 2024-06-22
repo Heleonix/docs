@@ -1,5 +1,5 @@
 {
-  "source_base_path": "D:/Dev/Projects/Heleonix/docs",
+  "source_base_path": "D:/a/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting/Hx_Artifacts/DocFX",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -845,6 +845,316 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.IReportGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.IReportGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.IReportTemplateProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.IReportTemplateProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.IStreamProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.IStreamProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.ITestResultMerger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.ITestResultMerger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Loaders.Trx.TrxTestResultLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Loaders.Trx.TrxTestResultLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Loaders.Trx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Loaders.Trx.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Loaders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Loaders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Parameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Parameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Renderers.HtmlReportRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Renderers.HtmlReportRenderer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Renderers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Renderers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.ReportGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.ReportGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.TestResultMerger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.TestResultMerger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.Footer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.Footer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.Outcome.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.Outcome.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.Report.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.Report.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.ReportFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.ReportFormat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.Summary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.Summary.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.TestCase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.TestCase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.TestItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.TestItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.TestResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.TestResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Infrastructure.ReportTemplateProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Infrastructure.ReportTemplateProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Infrastructure.StreamProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Infrastructure.StreamProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Infrastructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Infrastructure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Presentation.CliLoggingFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Presentation.CliLoggingFormatter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Presentation.CliRootCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Presentation.CliRootCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Presentation.ParametersBinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Presentation.ParametersBinder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Presentation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Presentation.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Resource",
       "source_relative_path": "Testing/Heleonix.Testing.Reporting/images/DefaultTemplateReport.png",
       "output": {
@@ -870,6 +1180,19 @@
       "output": {
         ".html": {
           "relative_path": "Testing/Heleonix.Testing.Reporting/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Testing/Heleonix.Testing.Reporting/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/toc.html"
+        },
+        ".json": {
+          "relative_path": "Testing/Heleonix.Testing.Reporting/toc.json"
         }
       },
       "version": ""

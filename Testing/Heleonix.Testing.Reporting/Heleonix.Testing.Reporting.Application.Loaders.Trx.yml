@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.Reporting.Application.Loaders.Trx
+  commentId: N:Heleonix.Testing.Reporting.Application.Loaders.Trx
+  id: Heleonix.Testing.Reporting.Application.Loaders.Trx
+  children:
+  - Heleonix.Testing.Reporting.Application.Loaders.Trx.TrxTestResultLoader
+  langs:
+  - csharp
+  - vb
+  name: Heleonix.Testing.Reporting.Application.Loaders.Trx
+  nameWithType: Heleonix.Testing.Reporting.Application.Loaders.Trx
+  fullName: Heleonix.Testing.Reporting.Application.Loaders.Trx
+  type: Namespace
+  assemblies:
+  - Heleonix.Testing.Reporting
+references:
+- uid: Heleonix.Testing.Reporting.Application.Loaders.Trx.TrxTestResultLoader
+  commentId: T:Heleonix.Testing.Reporting.Application.Loaders.Trx.TrxTestResultLoader
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.Loaders.Trx.TrxTestResultLoader.html
+  name: TrxTestResultLoader
+  nameWithType: TrxTestResultLoader
+  fullName: Heleonix.Testing.Reporting.Application.Loaders.Trx.TrxTestResultLoader

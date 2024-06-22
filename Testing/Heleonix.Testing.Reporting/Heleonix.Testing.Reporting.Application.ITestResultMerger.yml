@@ -1,0 +1,263 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.Reporting.Application.ITestResultMerger
+  commentId: T:Heleonix.Testing.Reporting.Application.ITestResultMerger
+  id: ITestResultMerger
+  parent: Heleonix.Testing.Reporting.Application
+  children:
+  - Heleonix.Testing.Reporting.Application.ITestResultMerger.Merge(System.Collections.Generic.IEnumerable{Heleonix.Testing.Reporting.Domain.TestResult})
+  langs:
+  - csharp
+  - vb
+  name: ITestResultMerger
+  nameWithType: ITestResultMerger
+  fullName: Heleonix.Testing.Reporting.Application.ITestResultMerger
+  type: Interface
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Application
+  summary: A merger to merge multiple test results loaded by loaders into a single test result.
+  example: []
+  syntax:
+    content: public interface ITestResultMerger
+    content.vb: Public Interface ITestResultMerger
+- uid: Heleonix.Testing.Reporting.Application.ITestResultMerger.Merge(System.Collections.Generic.IEnumerable{Heleonix.Testing.Reporting.Domain.TestResult})
+  commentId: M:Heleonix.Testing.Reporting.Application.ITestResultMerger.Merge(System.Collections.Generic.IEnumerable{Heleonix.Testing.Reporting.Domain.TestResult})
+  id: Merge(System.Collections.Generic.IEnumerable{Heleonix.Testing.Reporting.Domain.TestResult})
+  parent: Heleonix.Testing.Reporting.Application.ITestResultMerger
+  langs:
+  - csharp
+  - vb
+  name: Merge(IEnumerable<TestResult>)
+  nameWithType: ITestResultMerger.Merge(IEnumerable<TestResult>)
+  fullName: Heleonix.Testing.Reporting.Application.ITestResultMerger.Merge(System.Collections.Generic.IEnumerable<Heleonix.Testing.Reporting.Domain.TestResult>)
+  type: Method
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Application
+  summary: Merges multiple test results loaded by loaders into the a single test result.
+  example: []
+  syntax:
+    content: TestResult Merge(IEnumerable<TestResult> results)
+    parameters:
+    - id: results
+      type: System.Collections.Generic.IEnumerable{Heleonix.Testing.Reporting.Domain.TestResult}
+      description: The results loaded by loaders to merge.
+    return:
+      type: Heleonix.Testing.Reporting.Domain.TestResult
+      description: The merged test result.
+    content.vb: Function Merge(results As IEnumerable(Of TestResult)) As TestResult
+  overload: Heleonix.Testing.Reporting.Application.ITestResultMerger.Merge*
+  nameWithType.vb: ITestResultMerger.Merge(IEnumerable(Of TestResult))
+  fullName.vb: Heleonix.Testing.Reporting.Application.ITestResultMerger.Merge(System.Collections.Generic.IEnumerable(Of Heleonix.Testing.Reporting.Domain.TestResult))
+  name.vb: Merge(IEnumerable(Of TestResult))
+references:
+- uid: Heleonix.Testing.Reporting.Application
+  commentId: N:Heleonix.Testing.Reporting.Application
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Testing.Reporting.Application
+  nameWithType: Heleonix.Testing.Reporting.Application
+  fullName: Heleonix.Testing.Reporting.Application
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application
+    name: Application
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application
+    name: Application
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.html
+- uid: Heleonix.Testing.Reporting.Application.ITestResultMerger.Merge*
+  commentId: Overload:Heleonix.Testing.Reporting.Application.ITestResultMerger.Merge
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.ITestResultMerger.html#Heleonix_Testing_Reporting_Application_ITestResultMerger_Merge_System_Collections_Generic_IEnumerable_Heleonix_Testing_Reporting_Domain_TestResult__
+  name: Merge
+  nameWithType: ITestResultMerger.Merge
+  fullName: Heleonix.Testing.Reporting.Application.ITestResultMerger.Merge
+- uid: System.Collections.Generic.IEnumerable{Heleonix.Testing.Reporting.Domain.TestResult}
+  commentId: T:System.Collections.Generic.IEnumerable{Heleonix.Testing.Reporting.Domain.TestResult}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<TestResult>
+  nameWithType: IEnumerable<TestResult>
+  fullName: System.Collections.Generic.IEnumerable<Heleonix.Testing.Reporting.Domain.TestResult>
+  nameWithType.vb: IEnumerable(Of TestResult)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Heleonix.Testing.Reporting.Domain.TestResult)
+  name.vb: IEnumerable(Of TestResult)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Heleonix.Testing.Reporting.Domain.TestResult
+    name: TestResult
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Domain.TestResult.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Heleonix.Testing.Reporting.Domain.TestResult
+    name: TestResult
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Domain.TestResult.html
+  - name: )
+- uid: Heleonix.Testing.Reporting.Domain.TestResult
+  commentId: T:Heleonix.Testing.Reporting.Domain.TestResult
+  parent: Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Domain.TestResult.html
+  name: TestResult
+  nameWithType: TestResult
+  fullName: Heleonix.Testing.Reporting.Domain.TestResult
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Heleonix.Testing.Reporting.Domain
+  commentId: N:Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Testing.Reporting.Domain
+  nameWithType: Heleonix.Testing.Reporting.Domain
+  fullName: Heleonix.Testing.Reporting.Domain
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Domain
+    name: Domain
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Domain.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Domain
+    name: Domain
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Domain.html

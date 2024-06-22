@@ -1,0 +1,194 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader
+  commentId: T:Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader
+  id: ITestResultLoader
+  parent: Heleonix.Testing.Reporting.Application.Loaders
+  children:
+  - Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader.Load(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ITestResultLoader
+  nameWithType: ITestResultLoader
+  fullName: Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader
+  type: Interface
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Application.Loaders
+  summary: The common interface for concrete loaders to load test results in different formats, like 'trx', 'nunit' etc.
+  example: []
+  syntax:
+    content: public interface ITestResultLoader
+    content.vb: Public Interface ITestResultLoader
+- uid: Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader.Load(System.String)
+  commentId: M:Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader.Load(System.String)
+  id: Load(System.String)
+  parent: Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader
+  langs:
+  - csharp
+  - vb
+  name: Load(string)
+  nameWithType: ITestResultLoader.Load(string)
+  fullName: Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader.Load(string)
+  type: Method
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Application.Loaders
+  summary: >-
+    When implemented by a concrete loader, reads test results from <code class="paramref">filePath</code> and  converts
+
+    into the common unified <xref href="Heleonix.Testing.Reporting.Domain.TestResult" data-throw-if-not-resolved="false"></xref> for further generation of human-friendly reports.
+  example: []
+  syntax:
+    content: TestResult Load(string filePath)
+    parameters:
+    - id: filePath
+      type: System.String
+      description: The path to the file to read test results from.
+    return:
+      type: Heleonix.Testing.Reporting.Domain.TestResult
+      description: The unified <xref href="Heleonix.Testing.Reporting.Domain.TestResult" data-throw-if-not-resolved="false"></xref> for further generation of human-friendly reports.
+    content.vb: Function Load(filePath As String) As TestResult
+  overload: Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader.Load*
+  nameWithType.vb: ITestResultLoader.Load(String)
+  fullName.vb: Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader.Load(String)
+  name.vb: Load(String)
+references:
+- uid: Heleonix.Testing.Reporting.Application.Loaders
+  commentId: N:Heleonix.Testing.Reporting.Application.Loaders
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Testing.Reporting.Application.Loaders
+  nameWithType: Heleonix.Testing.Reporting.Application.Loaders
+  fullName: Heleonix.Testing.Reporting.Application.Loaders
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application
+    name: Application
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application.Loaders
+    name: Loaders
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.Loaders.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application
+    name: Application
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application.Loaders
+    name: Loaders
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.Loaders.html
+- uid: Heleonix.Testing.Reporting.Domain.TestResult
+  commentId: T:Heleonix.Testing.Reporting.Domain.TestResult
+  parent: Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Domain.TestResult.html
+  name: TestResult
+  nameWithType: TestResult
+  fullName: Heleonix.Testing.Reporting.Domain.TestResult
+- uid: Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader.Load*
+  commentId: Overload:Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader.Load
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader.html#Heleonix_Testing_Reporting_Application_Loaders_ITestResultLoader_Load_System_String_
+  name: Load
+  nameWithType: ITestResultLoader.Load
+  fullName: Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader.Load
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Heleonix.Testing.Reporting.Domain
+  commentId: N:Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Testing.Reporting.Domain
+  nameWithType: Heleonix.Testing.Reporting.Domain
+  fullName: Heleonix.Testing.Reporting.Domain
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Domain
+    name: Domain
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Domain.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Domain
+    name: Domain
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Domain.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

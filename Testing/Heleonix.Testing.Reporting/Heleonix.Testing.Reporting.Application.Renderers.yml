@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.Reporting.Application.Renderers
+  commentId: N:Heleonix.Testing.Reporting.Application.Renderers
+  id: Heleonix.Testing.Reporting.Application.Renderers
+  children:
+  - Heleonix.Testing.Reporting.Application.Renderers.HtmlReportRenderer
+  - Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer
+  langs:
+  - csharp
+  - vb
+  name: Heleonix.Testing.Reporting.Application.Renderers
+  nameWithType: Heleonix.Testing.Reporting.Application.Renderers
+  fullName: Heleonix.Testing.Reporting.Application.Renderers
+  type: Namespace
+  assemblies:
+  - Heleonix.Testing.Reporting
+references:
+- uid: Heleonix.Testing.Reporting.Application.Renderers.HtmlReportRenderer
+  commentId: T:Heleonix.Testing.Reporting.Application.Renderers.HtmlReportRenderer
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.Renderers.HtmlReportRenderer.html
+  name: HtmlReportRenderer
+  nameWithType: HtmlReportRenderer
+  fullName: Heleonix.Testing.Reporting.Application.Renderers.HtmlReportRenderer
+- uid: Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer
+  commentId: T:Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer
+  parent: Heleonix.Testing.Reporting.Application.Renderers
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.html
+  name: IReportRenderer
+  nameWithType: IReportRenderer
+  fullName: Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer
+- uid: Heleonix.Testing.Reporting.Application.Renderers
+  commentId: N:Heleonix.Testing.Reporting.Application.Renderers
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Testing.Reporting.Application.Renderers
+  nameWithType: Heleonix.Testing.Reporting.Application.Renderers
+  fullName: Heleonix.Testing.Reporting.Application.Renderers
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application
+    name: Application
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application.Renderers
+    name: Renderers
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.Renderers.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application
+    name: Application
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application.Renderers
+    name: Renderers
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.Renderers.html

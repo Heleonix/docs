@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.Reporting.Domain.ReportFormat
+  commentId: T:Heleonix.Testing.Reporting.Domain.ReportFormat
+  id: ReportFormat
+  parent: Heleonix.Testing.Reporting.Domain
+  children:
+  - Heleonix.Testing.Reporting.Domain.ReportFormat.Html
+  langs:
+  - csharp
+  - vb
+  name: ReportFormat
+  nameWithType: ReportFormat
+  fullName: Heleonix.Testing.Reporting.Domain.ReportFormat
+  type: Enum
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Domain
+  summary: Represents supported output formats.
+  example: []
+  syntax:
+    content: public enum ReportFormat
+    content.vb: Public Enum ReportFormat
+- uid: Heleonix.Testing.Reporting.Domain.ReportFormat.Html
+  commentId: F:Heleonix.Testing.Reporting.Domain.ReportFormat.Html
+  id: Html
+  parent: Heleonix.Testing.Reporting.Domain.ReportFormat
+  langs:
+  - csharp
+  - vb
+  name: Html
+  nameWithType: ReportFormat.Html
+  fullName: Heleonix.Testing.Reporting.Domain.ReportFormat.Html
+  type: Field
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Domain
+  summary: The HTML format of the output report represented with a standalone .html file.
+  example: []
+  syntax:
+    content: Html = 0
+    return:
+      type: Heleonix.Testing.Reporting.Domain.ReportFormat
+references:
+- uid: Heleonix.Testing.Reporting.Domain
+  commentId: N:Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Testing.Reporting.Domain
+  nameWithType: Heleonix.Testing.Reporting.Domain
+  fullName: Heleonix.Testing.Reporting.Domain
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Domain
+    name: Domain
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Domain.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Domain
+    name: Domain
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Domain.html
+- uid: Heleonix.Testing.Reporting.Domain.ReportFormat
+  commentId: T:Heleonix.Testing.Reporting.Domain.ReportFormat
+  parent: Heleonix.Testing.Reporting.Domain
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Domain.ReportFormat.html
+  name: ReportFormat
+  nameWithType: ReportFormat
+  fullName: Heleonix.Testing.Reporting.Domain.ReportFormat

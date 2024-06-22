@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: Heleonix.Testing.Reporting.Application.IReportGenerator
+  commentId: T:Heleonix.Testing.Reporting.Application.IReportGenerator
+  id: IReportGenerator
+  parent: Heleonix.Testing.Reporting.Application
+  children:
+  - Heleonix.Testing.Reporting.Application.IReportGenerator.GenerateReport(Heleonix.Testing.Reporting.Application.Parameters)
+  langs:
+  - csharp
+  - vb
+  name: IReportGenerator
+  nameWithType: IReportGenerator
+  fullName: Heleonix.Testing.Reporting.Application.IReportGenerator
+  type: Interface
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Application
+  summary: The entry point into report generation process using the provided parameters.
+  example: []
+  syntax:
+    content: public interface IReportGenerator
+    content.vb: Public Interface IReportGenerator
+- uid: Heleonix.Testing.Reporting.Application.IReportGenerator.GenerateReport(Heleonix.Testing.Reporting.Application.Parameters)
+  commentId: M:Heleonix.Testing.Reporting.Application.IReportGenerator.GenerateReport(Heleonix.Testing.Reporting.Application.Parameters)
+  id: GenerateReport(Heleonix.Testing.Reporting.Application.Parameters)
+  parent: Heleonix.Testing.Reporting.Application.IReportGenerator
+  langs:
+  - csharp
+  - vb
+  name: GenerateReport(Parameters)
+  nameWithType: IReportGenerator.GenerateReport(Parameters)
+  fullName: Heleonix.Testing.Reporting.Application.IReportGenerator.GenerateReport(Heleonix.Testing.Reporting.Application.Parameters)
+  type: Method
+  assemblies:
+  - Heleonix.Testing.Reporting
+  namespace: Heleonix.Testing.Reporting.Application
+  summary: Launches the process of report generation.
+  example: []
+  syntax:
+    content: void GenerateReport(Parameters parameters)
+    parameters:
+    - id: parameters
+      type: Heleonix.Testing.Reporting.Application.Parameters
+      description: The list of parameters to be used for report generation.
+    content.vb: Sub GenerateReport(parameters As Parameters)
+  overload: Heleonix.Testing.Reporting.Application.IReportGenerator.GenerateReport*
+references:
+- uid: Heleonix.Testing.Reporting.Application
+  commentId: N:Heleonix.Testing.Reporting.Application
+  isExternal: true
+  href: Heleonix.html
+  name: Heleonix.Testing.Reporting.Application
+  nameWithType: Heleonix.Testing.Reporting.Application
+  fullName: Heleonix.Testing.Reporting.Application
+  spec.csharp:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application
+    name: Application
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.html
+  spec.vb:
+  - uid: Heleonix
+    name: Heleonix
+    isExternal: true
+    href: Heleonix.html
+  - name: .
+  - uid: Heleonix.Testing
+    name: Testing
+    isExternal: true
+    href: Heleonix.Testing.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting
+    name: Reporting
+    isExternal: true
+    href: Heleonix.Testing.Reporting.html
+  - name: .
+  - uid: Heleonix.Testing.Reporting.Application
+    name: Application
+    isExternal: true
+    href: Heleonix.Testing.Reporting.Application.html
+- uid: Heleonix.Testing.Reporting.Application.IReportGenerator.GenerateReport*
+  commentId: Overload:Heleonix.Testing.Reporting.Application.IReportGenerator.GenerateReport
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.IReportGenerator.html#Heleonix_Testing_Reporting_Application_IReportGenerator_GenerateReport_Heleonix_Testing_Reporting_Application_Parameters_
+  name: GenerateReport
+  nameWithType: IReportGenerator.GenerateReport
+  fullName: Heleonix.Testing.Reporting.Application.IReportGenerator.GenerateReport
+- uid: Heleonix.Testing.Reporting.Application.Parameters
+  commentId: T:Heleonix.Testing.Reporting.Application.Parameters
+  parent: Heleonix.Testing.Reporting.Application
+  isExternal: true
+  href: Heleonix.Testing.Reporting.Application.Parameters.html
+  name: Parameters
+  nameWithType: Parameters
+  fullName: Heleonix.Testing.Reporting.Application.Parameters
