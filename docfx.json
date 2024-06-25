@@ -105,7 +105,10 @@
       "hx.xmldoc.template": {
         "**/Heleonix.Build.xsd": "./Heleonix.Build/TargetsToMD.cshtml",
         "**/Targets/*.xsd": "./Heleonix.Build/TargetsToMD.cshtml",
-        "**/Tasks/*.xsd": "./Heleonix.Build/TasksToMD.xslt"
+        "**/Tasks/*.xsd": "./Heleonix.Build/TasksToMD.xslt",
+        "../NetBuild/src/Heleonix.Build/bin/Release/net6.0/Schemas/*.xsd": "./Heleonix.Build/TargetsToMD.cshtml",
+        "../NetBuild/src/Heleonix.Build/bin/Release/net6.0/Schemas/Targets/**.xsd": "./Heleonix.Build/TargetsToMD.cshtml",
+        "../NetBuild/src/Heleonix.Build/bin/Release/net6.0/Schemas/Tasks/**.xsd": "./Heleonix.Build/TasksToMD.xslt"
       },
       "hx.xmldoc.store": {
         "../NetBuild/src/Heleonix.Build/bin/Release/net6.0/Schemas/*.xsd": "Heleonix.Build/api",
@@ -118,6 +121,14 @@
           "key": "~/Heleonix.Build/api/Targets/index.md"
         },
         "Heleonix.Build/api/Tasks/*.xsd": {
+          "action": "AppendChild",
+          "key": "~/Heleonix.Build/api/Tasks/index.md"
+        },
+        "../NetBuild/src/Heleonix.Build/bin/Release/net6.0/Schemas/Targets/**.xsd": {
+          "action": "AppendChild",
+          "key": "~/Heleonix.Build/api/Targets/index.md"
+        },
+        "../NetBuild/src/Heleonix.Build/bin/Release/net6.0/Schemas/Tasks/**.xsd": {
           "action": "AppendChild",
           "key": "~/Heleonix.Build/api/Tasks/index.md"
         }
