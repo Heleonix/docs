@@ -64,7 +64,7 @@ Example custom property that allows string content only
       <xs:documentation>
         A url of the repository. Depends on the VCS. For example: https://github.com/Heleonix/Heleonix.Build.git.
         Default tries to get it from:
-        $GO_MATERIAL_URL, $GIT_URL, $CI_REPOSITORY_URL, '$GITHUB_SERVER_URL/$GITHUB_REPOSITORY.git'.
+        $GO_MATERIAL_URL, $GIT_URL, $CI_REPOSITORY_URL, '$(GITHUB_SERVER_URL)/$(GITHUB_REPOSITORY).git'.
       </xs:documentation>
     </xs:annotation>
   </xs:element>

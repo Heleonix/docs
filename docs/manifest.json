@@ -1,5 +1,5 @@
 {
-  "source_base_path": "D:/a/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting/Hx_Artifacts/DocFX",
+  "source_base_path": "D:/a/Heleonix.Build/Heleonix.Build/Hx_Artifacts/DocFX",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -66,6 +66,16 @@
       "output": {
         ".html": {
           "relative_path": "Heleonix.Build/api/Targets/Hx_ExtentReport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Heleonix.Build/api/Targets/Hx_HxReport.xsd",
+      "output": {
+        ".html": {
+          "relative_path": "Heleonix.Build/api/Targets/Hx_HxReport.html"
         }
       },
       "version": ""

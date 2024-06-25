@@ -3323,6 +3323,9 @@ references:
 - uid: Hx_GitParseRepoUrl
   name: Hx_GitParseRepoUrl
   href: Heleonix.Build/api/Tasks/Hx_GitParseRepoUrl.html
+- uid: Hx_HxReport
+  name: Hx_HxReport
+  href: Heleonix.Build/api/Targets/Hx_HxReport.html
 - uid: Hx_MetadataToCmdArgs
   name: Hx_MetadataToCmdArgs
   href: Heleonix.Build/api/Tasks/Hx_MetadataToCmdArgs.html
