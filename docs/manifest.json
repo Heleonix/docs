@@ -1,5 +1,5 @@
 {
-  "source_base_path": "D:/a/Heleonix.Build/Heleonix.Build/Hx_Artifacts/DocFX",
+  "source_base_path": "D:/Dev/Projects/Heleonix/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -1226,6 +1226,16 @@
         },
         ".json": {
           "relative_path": "Testing/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "googled079dcefeacd98be.html",
+      "output": {
+        "resource": {
+          "relative_path": "googled079dcefeacd98be.html"
         }
       },
       "version": ""

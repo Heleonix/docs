@@ -96,7 +96,8 @@
           "images/**",
           "Heleonix.*/images/**",
           "Plugins/images/**",
-          "Testing/*/images/**"
+          "Testing/*/images/**",
+          "googled079dcefeacd98be.html"
         ]
       }
     ],
