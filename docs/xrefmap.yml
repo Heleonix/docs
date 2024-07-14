@@ -2153,6 +2153,9 @@ references:
   commentId: Overload:Heleonix.Testing.NUnit.TestAttribute.BuildFrom
   fullName: Heleonix.Testing.NUnit.TestAttribute.BuildFrom
   nameWithType: TestAttribute.BuildFrom
+- uid: Heleonix.Testing.Reporting
+  name: Heleonix.Testing.Reporting
+  href: Testing/Heleonix.Testing.Reporting/index.html
 - uid: Heleonix.Testing.Reporting.Application
   name: Heleonix.Testing.Reporting.Application
   href: Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.html

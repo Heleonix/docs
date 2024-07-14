@@ -1,5 +1,22 @@
 {
-  "source_base_path": "D:/a/Heleonix.Testing/Heleonix.Testing/Hx_Artifacts/DocFX",
+  "sitemap": {
+    "fileOptions": {
+      "**.md": {
+        "baseUrl": "https://heleonix.github.io/docs/",
+        "changefreq": "monthly",
+        "priority": 0.5
+      },
+      "**/index.md": {
+        "baseUrl": "https://heleonix.github.io/docs/",
+        "changefreq": "monthly",
+        "priority": 0.8
+      }
+    },
+    "baseUrl": "https://heleonix.github.io/docs/",
+    "changefreq": "yearly",
+    "priority": 0.1
+  },
+  "source_base_path": "D:/Dev/Projects/Heleonix/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {

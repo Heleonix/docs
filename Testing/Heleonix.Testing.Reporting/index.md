@@ -1,3 +1,7 @@
+---
+uid: Heleonix.Testing.Reporting
+---
+
 # Heleonix.Testing.Reporting
 
 [![Release: .NET / NuGet](https://github.com/Heleonix/Heleonix.Testing.Reporting/actions/workflows/release-net-nuget.yml/badge.svg)](https://github.com/Heleonix/Heleonix.Testing.Reporting/actions/workflows/release-net-nuget.yml)
