@@ -1249,6 +1249,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "googled079dcefeacd98be.html",
+      "output": {
+        "resource": {
+          "relative_path": "googled079dcefeacd98be.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/heleonix-logos/Heleonix-2048x2048.jpg",
       "output": {
         "resource": {
