@@ -1,3 +1,7 @@
+---
+uid: Heleonix.Reflection.Index
+---
+
 # Heleonix.Reflection
 
 [![Release: .NET / NuGet](https://github.com/Heleonix/Heleonix.Reflection/actions/workflows/release-net-nuget.yml/badge.svg)](https://github.com/Heleonix/Heleonix.Reflection/actions/workflows/release-net-nuget.yml)

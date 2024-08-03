@@ -1,3 +1,7 @@
+---
+uid: Heleonix.Execution.Index
+---
+
 # Heleonix.Execution
 
 [![Release: .NET / NuGet](https://github.com/Heleonix/Heleonix.Execution/actions/workflows/release-net-nuget.yml/badge.svg)](https://github.com/Heleonix/Heleonix.Execution/actions/workflows/release-net-nuget.yml)

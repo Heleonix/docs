@@ -1,5 +1,5 @@
 ---
-uid: Heleonix.Docfx.Plugins.XmlDoc
+uid: Heleonix.Docfx.Plugins.XmlDoc.Index
 ---
 
 # Heleonix.Docfx.Plugins.XmlDoc

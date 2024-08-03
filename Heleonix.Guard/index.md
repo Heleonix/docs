@@ -1,8 +1,12 @@
+---
+uid: Heleonix.Guard.Index
+---
+
 # Heleonix.Guard
 
 [![Release: .NET / NuGet](https://github.com/Heleonix/Heleonix.Guard/actions/workflows/release-net-nuget.yml/badge.svg)](https://github.com/Heleonix/Heleonix.Guard/actions/workflows/release-net-nuget.yml)
 
-Provides performant guard functionality for methods to throw exceptions
+Provides performant guard functionality for methods to throw exceptions.
 
 ## Install
 
