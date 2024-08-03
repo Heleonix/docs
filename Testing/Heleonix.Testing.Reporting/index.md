@@ -1,5 +1,5 @@
 ---
-uid: Heleonix.Testing.Reporting
+uid: Heleonix.Testing.Reporting.Index
 ---
 
 # Heleonix.Testing.Reporting

@@ -2,613 +2,613 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Heleonix.Build.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Targets/Hx_ChangeLog.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Targets/Hx_ChangeLog_GitHubCommit.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Targets/Hx_DocFX.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Targets/Hx_DocFX_Git.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Targets/Hx_ExtentReport.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Targets/Hx_HxReport.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Targets/Hx_NetBuild.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Targets/Hx_NetNugetPush.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Targets/Hx_NetTest.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Targets/Hx_NetValidate.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Targets/Hx_Release_GitHub.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Targets/Hx_ReportGenerator.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Targets/Hx_TrxReport.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Targets/index.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Tasks/Hx_DirectoryClean.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Tasks/Hx_FileCopy.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Tasks/Hx_FileRazorGenerate.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Tasks/Hx_FileRead.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Tasks/Hx_FileSystemSearch.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Tasks/Hx_FileUpdate.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Tasks/Hx_FileValidate.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Tasks/Hx_GitHubCommitChangeLog.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Tasks/Hx_GitHubRelease.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Tasks/Hx_GitParseRepoUrl.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Tasks/Hx_MetadataToCmdArgs.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Tasks/Hx_NetFindProjects.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Tasks/Hx_NetFindSln.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Tasks/Hx_NetSetupTool.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/api/Tasks/index.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/extensibility.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/index.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Build/usage.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Execution/Heleonix.Execution.ArgsBuilder.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Execution/Heleonix.Execution.ExeHelper.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Execution/Heleonix.Execution.ExeResult.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Execution/Heleonix.Execution.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Execution/index.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Extensions/Heleonix.Extensions.ComparableExtensions.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Extensions/Heleonix.Extensions.EnumerableExtensions.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Extensions/Heleonix.Extensions.ObjectExtensions.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Extensions/Heleonix.Extensions.StringExtensions.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Extensions/Heleonix.Extensions.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Extensions/index.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Guard/Heleonix.Guard.ExceptionRaiser.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Guard/Heleonix.Guard.Host.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Guard/Heleonix.Guard.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Guard/index.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Reflection/Heleonix.Reflection.Reflector.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Reflection/Heleonix.Reflection.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Reflection/index.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Heleonix.Validation/index.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Plugins/Heleonix.Docfx.Plugins.XmlDoc.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Plugins/index.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.AaaSpec.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.ComponentTestAttribute.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.MemberTestAttribute.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Aaa.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.BaseAttribute.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.BddSpec.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.FeatureAttribute.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.ScenarioAttribute.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.StoryAttribute.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.Bdd.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.FixtureAttribute.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.TestAttribute.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.NUnit/Heleonix.Testing.NUnit.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.NUnit/index.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.IReportGenerator.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.IReportTemplateProvider.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.IStreamProvider.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.ITestResultMerger.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Loaders.ITestResultLoader.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Loaders.Trx.TrxTestResultLoader.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Loaders.Trx.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Loaders.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Parameters.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Renderers.HtmlReportRenderer.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Renderers.IReportRenderer.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.Renderers.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.ReportGenerator.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.TestResultMerger.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Application.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.Footer.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.Outcome.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.Report.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.ReportFormat.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.Summary.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.TestCase.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.TestItem.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.TestResult.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Domain.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Infrastructure.ReportTemplateProvider.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Infrastructure.StreamProvider.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Infrastructure.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Presentation.CliLoggingFormatter.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Presentation.CliRootCommand.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Presentation.ParametersBinder.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/Heleonix.Testing.Reporting.Presentation.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/Heleonix.Testing.Reporting/index.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/Testing/index.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://heleonix.github.io/docs/index.html</loc>
-    <lastmod>2024-07-28T02:12:41+03:00</lastmod>
+    <lastmod>2024-08-03T11:29:40+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

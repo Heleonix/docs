@@ -2,5 +2,5 @@
 
 Useful libraries and tools for testing.
 
-- <xref:Heleonix.Testing.NUnit>
-- <xref:Heleonix.Testing.Reporting>
+- <xref:Heleonix.Testing.NUnit.Index>
+- <xref:Heleonix.Testing.Reporting.Index>
